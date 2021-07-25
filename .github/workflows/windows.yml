@@ -103,11 +103,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Update versions repo
-        if: env.SHOULD_BUILD == 'yes' && env.SHOULD_DEPLOY == 'yes'
-        run: ./update_version.sh
-        shell: bash
-        env:
-          GITHUB_TOKEN: ${{ secrets.STRONGER_GITHUB_TOKEN }}
-          GITHUB_USERNAME: ${{ github.repository_owner }}
+#     - name: Update versions repo
+#       if: env.SHOULD_BUILD == 'yes' && env.SHOULD_DEPLOY == 'yes'
+#       run: ./update_version.sh
+#       shell: bash
+#       env:
+#         GITHUB_TOKEN: ${{ secrets.STRONGER_GITHUB_TOKEN }}
+#         GITHUB_USERNAME: ${{ github.repository_owner }}
 
