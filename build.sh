@@ -22,12 +22,10 @@ if [[ "$SHOULD_BUILD" == "yes" ]]; then
   yarn gulp minify-vscode
 
   curl https://www.python.org/ftp/python/3.8.10/python-3.8.10-embed-amd64.zip -Lo Python.zip
-  ls
-  echo $(ls)
-  tree
-  cp Python.zip VSCode-win32-${VSCODE_ARCH}/
-  mkdir -p VSCode-win32-${VSCODE_ARCH}/Python
-  unzip Python.zip -d VSCode-win32-${VSCODE_ARCH}/Python
+  ls *
+  cp Python.zip out-vscode-min/
+  mkdir -p out-vscode-min/Python
+  unzip Python.zip -d out-vscode-min/Python
 
   if [[ "$OS_NAME" == "osx" ]]; then
     yarn gulp "vscode-darwin-${VSCODE_ARCH}-min-ci"
