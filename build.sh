@@ -35,6 +35,9 @@ if [[ "$SHOULD_BUILD" == "yes" ]]; then
   echo '-----parent after---'
   ls ..
 
+  echo '-----.build---'
+  ls .build
+
   # ompressing: D:\a\vscodium\vscodium\VSCode-win32-x64\resources\app\extensions\ms-vscode.js-debug\resources\readme\webview2.png
   curl https://www.python.org/ftp/python/3.8.10/python-3.8.10-embed-amd64.zip -Lo Python.zip
   cp Python.zip ../VSCode-win32-${VSCODE_ARCH}
