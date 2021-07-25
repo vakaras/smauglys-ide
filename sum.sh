@@ -14,9 +14,9 @@ if [[ "$SHOULD_BUILD" == "yes" ]]; then
     sum_file VSCodium-darwin-*.zip
     sum_file VSCodium*.dmg
   elif [[ "$OS_NAME" == "windows" ]]; then
-    sum_file VSCodiumSetup-*.exe
-    sum_file VSCodiumUserSetup-*.exe
-    sum_file VSCodium-win32-*.zip
+    sum_file SmauglysSetup-*.exe
+    sum_file SmauglysUserSetup-*.exe
+    sum_file Smauglys-win32-*.zip
   else # linux
     cp out/*.AppImage* .
     cp vscode/.build/linux/deb/*/deb/*.deb .
