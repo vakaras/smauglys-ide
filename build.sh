@@ -11,13 +11,6 @@ if [[ "$SHOULD_BUILD" == "yes" ]]; then
 
   cd vscode || exit
 
-  pwd
-  echo '-----current---'
-  ls
-
-  echo '-----parent---'
-  ls ..
-
   git clone https://github.com/microsoft/vscode-python.git extensions/vscode-python
 
   yarn monaco-compile-check
@@ -34,19 +27,8 @@ if [[ "$SHOULD_BUILD" == "yes" ]]; then
     cp LICENSE.txt LICENSE.rtf # windows build expects rtf license
     yarn gulp "vscode-win32-${VSCODE_ARCH}-min-ci"
 
-    pwd
-    echo '-----current after---'
-    ls
- 
-    echo '-----parent after---'
-    ls ..
- 
-    echo '-----.build---'
-    ls .build
- 
-    # ompressing: D:\a\vscodium\vscodium\VSCode-win32-x64\resources\app\extensions\ms-vscode.js-debug\resources\readme\webview2.png
+    # Copy Python
     curl https://www.python.org/ftp/python/3.8.10/python-3.8.10-embed-amd64.zip -Lo Python.zip
-    cp Python.zip ../VSCode-win32-${VSCODE_ARCH}
     mkdir -p ../VSCode-win32-${VSCODE_ARCH}/Python
     unzip Python.zip -d ../VSCode-win32-${VSCODE_ARCH}/Python
 
