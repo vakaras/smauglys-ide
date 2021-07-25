@@ -130,4 +130,6 @@ if [ "$GITHUB_TOKEN" != "" ]; then
   fi
 fi
 
+# Always build:
+export SHOULD_BUILD="yes"
 echo "SHOULD_BUILD=$SHOULD_BUILD" >> $GITHUB_ENV
