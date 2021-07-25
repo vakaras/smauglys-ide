@@ -17,7 +17,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        vscode_arch: [x64, ia32, arm64]
+        vscode_arch: [x64]
 
     steps:
       - uses: actions/checkout@v2
