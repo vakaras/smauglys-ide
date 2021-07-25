@@ -11,6 +11,8 @@ if [[ "$SHOULD_BUILD" == "yes" ]]; then
 
   cd vscode || exit
 
+  git clone https://github.com/microsoft/vscode-python.git extensions/vscode-python
+
   yarn monaco-compile-check
   yarn valid-layers-check
 
