@@ -11,6 +11,12 @@ if [[ "$SHOULD_BUILD" == "yes" ]]; then
 
   cd vscode || exit
 
+  pwd
+  ls
+  ls *
+
+  exit 1
+
   git clone https://github.com/microsoft/vscode-python.git extensions/vscode-python
 
   yarn monaco-compile-check
@@ -21,8 +27,8 @@ if [[ "$SHOULD_BUILD" == "yes" ]]; then
   yarn gulp compile-extensions-build
   yarn gulp minify-vscode
 
+  # ompressing: D:\a\vscodium\vscodium\VSCode-win32-x64\resources\app\extensions\ms-vscode.js-debug\resources\readme\webview2.png
   curl https://www.python.org/ftp/python/3.8.10/python-3.8.10-embed-amd64.zip -Lo Python.zip
-  ls *
   cp Python.zip out-vscode-min/
   mkdir -p out-vscode-min/Python
   unzip Python.zip -d out-vscode-min/Python
