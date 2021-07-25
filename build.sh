@@ -28,27 +28,28 @@ if [[ "$SHOULD_BUILD" == "yes" ]]; then
   yarn gulp compile-extensions-build
   yarn gulp minify-vscode
 
-  pwd
-  echo '-----current after---'
-  ls
-
-  echo '-----parent after---'
-  ls ..
-
-  echo '-----.build---'
-  ls .build
-
-  # ompressing: D:\a\vscodium\vscodium\VSCode-win32-x64\resources\app\extensions\ms-vscode.js-debug\resources\readme\webview2.png
-  curl https://www.python.org/ftp/python/3.8.10/python-3.8.10-embed-amd64.zip -Lo Python.zip
-  cp Python.zip ../VSCode-win32-${VSCODE_ARCH}
-  mkdir -p ../VSCode-win32-${VSCODE_ARCH}/Python
-  unzip Python.zip -d ../VSCode-win32-${VSCODE_ARCH}/Python
-
   if [[ "$OS_NAME" == "osx" ]]; then
     yarn gulp "vscode-darwin-${VSCODE_ARCH}-min-ci"
   elif [[ "$OS_NAME" == "windows" ]]; then
     cp LICENSE.txt LICENSE.rtf # windows build expects rtf license
     yarn gulp "vscode-win32-${VSCODE_ARCH}-min-ci"
+
+    pwd
+    echo '-----current after---'
+    ls
+ 
+    echo '-----parent after---'
+    ls ..
+ 
+    echo '-----.build---'
+    ls .build
+ 
+    # ompressing: D:\a\vscodium\vscodium\VSCode-win32-x64\resources\app\extensions\ms-vscode.js-debug\resources\readme\webview2.png
+    curl https://www.python.org/ftp/python/3.8.10/python-3.8.10-embed-amd64.zip -Lo Python.zip
+    cp Python.zip ../VSCode-win32-${VSCODE_ARCH}
+    mkdir -p ../VSCode-win32-${VSCODE_ARCH}/Python
+    unzip Python.zip -d ../VSCode-win32-${VSCODE_ARCH}/Python
+
     yarn gulp "vscode-win32-${VSCODE_ARCH}-code-helper"
     yarn gulp "vscode-win32-${VSCODE_ARCH}-inno-updater"
     yarn gulp "vscode-win32-${VSCODE_ARCH}-archive"
