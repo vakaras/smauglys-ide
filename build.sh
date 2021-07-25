@@ -11,8 +11,6 @@ if [[ "$SHOULD_BUILD" == "yes" ]]; then
 
   cd vscode || exit
 
-  git clone https://github.com/microsoft/vscode-python.git extensions/vscode-python
-
   yarn monaco-compile-check
   yarn valid-layers-check
 
@@ -31,6 +29,11 @@ if [[ "$SHOULD_BUILD" == "yes" ]]; then
     curl https://www.python.org/ftp/python/3.8.10/python-3.8.10-embed-amd64.zip -Lo Python.zip
     mkdir -p ../VSCode-win32-${VSCODE_ARCH}/Python
     unzip Python.zip -d ../VSCode-win32-${VSCODE_ARCH}/Python
+
+    # Download extensions.
+    curl https://github.com/microsoft/vscode-python/releases/download/2021.7.1060902895/ms-python-release.vsix -Lo ms-python.zip
+    mkdir -p ../VSCode-win32-${VSCODE_ARCH}/resources/app/extensions/ms-python
+    unzip ms-python.zip -d ../VSCode-win32-${VSCODE_ARCH}/resources/app/extensions/ms-python
 
     yarn gulp "vscode-win32-${VSCODE_ARCH}-code-helper"
     yarn gulp "vscode-win32-${VSCODE_ARCH}-inno-updater"
