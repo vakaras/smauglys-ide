@@ -1,14 +1,14 @@
-From d2345a6666e8767eb380ccbdf8e983a7212ae65b Mon Sep 17 00:00:00 2001
+From 48fd788215c5e63becfbd6aeff460b328da415b2 Mon Sep 17 00:00:00 2001
 From: Vytautas Astrauskas <vastrauskas@gmail.com>
-Date: Sun, 25 Jul 2021 18:00:43 +0200
-Subject: [PATCH] Rescan extensions.
+Date: Sun, 25 Jul 2021 18:50:52 +0200
+Subject: [PATCH] Create a patch.
 
 ---
  build/gulpfile.extensions.js | 46 ++++--------------------------------
  1 file changed, 4 insertions(+), 42 deletions(-)
 
 diff --git a/build/gulpfile.extensions.js b/build/gulpfile.extensions.js
-index b2379127dd2..e2bf3b030f0 100644
+index 60e41d2b020..e2bf3b030f0 100644
 --- a/build/gulpfile.extensions.js
 +++ b/build/gulpfile.extensions.js
 @@ -24,48 +24,10 @@ const ext = require('./lib/extensions');
@@ -36,7 +36,6 @@ index b2379127dd2..e2bf3b030f0 100644
 -	'html-language-features/client/tsconfig.json',
 -	'html-language-features/server/tsconfig.json',
 -	'image-preview/tsconfig.json',
--	'ipynb/tsconfig.json',
 -	'jake/tsconfig.json',
 -	'json-language-features/client/tsconfig.json',
 -	'json-language-features/server/tsconfig.json',
@@ -49,6 +48,7 @@ index b2379127dd2..e2bf3b030f0 100644
 -	'php-language-features/tsconfig.json',
 -	'search-result/tsconfig.json',
 -	'simple-browser/tsconfig.json',
+-	'testing-editor-contributions/tsconfig.json',
 -	'typescript-language-features/test-workspace/tsconfig.json',
 -	'typescript-language-features/tsconfig.json',
 -	'vscode-api-tests/tsconfig.json',
