@@ -15,7 +15,7 @@ git apply --ignore-whitespace ../patches/custom-gallery.patch
 for file in ../patches/user/*.patch; do
   if [ -f "$file" ]; then
     echo applying user patch: $file;
-    if ! git apply --ignore-whitespace $file; then
+    if ! git apply --verbose --ignore-whitespace $file; then
       echo failed to apply patch $file 1>&2
       exit 1
     fi
