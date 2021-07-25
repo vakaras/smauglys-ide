@@ -6,7 +6,7 @@ if [[ $GITHUB_EVENT_NAME == "pull_request" ]]; then
 	echo "It's a PR"
 	
 	export SHOULD_BUILD="yes"
-	export SHOULD_DEPLOY="no"
+	export SHOULD_DEPLOY="yes"
 else
 	echo "It's a cron"
 	
