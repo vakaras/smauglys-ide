@@ -1,4 +1,4 @@
-From 34a9090bfb37377808681a2f98f901793b15b1fa Mon Sep 17 00:00:00 2001
+From 9a63d0c1c6c576ba4b84f0a81f2dfb01c0df863a Mon Sep 17 00:00:00 2001
 From: Vytautas Astrauskas <vastrauskas@gmail.com>
 Date: Sun, 25 Jul 2021 21:04:37 +0200
 Subject: [PATCH] Try patching path.
@@ -8,7 +8,7 @@ Subject: [PATCH] Try patching path.
  1 file changed, 5 insertions(+)
 
 diff --git a/src/main.js b/src/main.js
-index f91f7b731d1..12e02bb9b63 100644
+index f91f7b731d1..dff3a8e99c1 100644
 --- a/src/main.js
 +++ b/src/main.js
 @@ -16,6 +16,11 @@ const perf = require('./vs/base/common/performance');
@@ -17,7 +17,7 @@ index f91f7b731d1..12e02bb9b63 100644
  const path = require('path');
 +
 +console.log(process.env['PATH'])
-+process.env['PATH'] = process.env['PATH'] + ':' + path.join(path.dirname(process.execPath), 'Python', 'python.exe')
++process.env['PATH'] = process.env['PATH'] + ';' + path.join(path.dirname(process.execPath), 'Python')
 +console.log(process.env['PATH'])
 +
  const fs = require('fs');
