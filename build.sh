@@ -36,9 +36,16 @@ if [[ "$SHOULD_BUILD" == "yes" ]]; then
 
     ls ../VSCode-win32-${VSCODE_ARCH}/Python/
 
-    $PYTHON -m venv env
+    $PYTHON -c 'import sys; print(sys.path)'
+
+    export PYTHONPATH=../VSCode-win32-${VSCODE_ARCH}/Python/Lib
+
+    $PYTHON -c 'import sys; print(sys.path)'
 
     $PIP install pylint
+
+    $PYTHON -m venv env
+
 
     # Download extensions.
     curl https://github.com/microsoft/vscode-python/releases/download/2021.7.1060902895/ms-python-release.vsix -Lo ms-python.zip
