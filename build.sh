@@ -33,6 +33,7 @@ if [[ "$SHOULD_BUILD" == "yes" ]]; then
     curl https://bootstrap.pypa.io/get-pip.py -Lo get-pip.py
     $PYTHON get-pip.py
     export PIP=../VSCode-win32-${VSCODE_ARCH}/Python/Scripts/pip.exe
+    sed -i '/^#.*import site/s/^#//' python*._pth
 
     ls ../VSCode-win32-${VSCODE_ARCH}/Python/Lib
 
