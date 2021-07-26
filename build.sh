@@ -29,6 +29,8 @@ if [[ "$SHOULD_BUILD" == "yes" ]]; then
     curl https://www.python.org/ftp/python/3.8.10/python-3.8.10-embed-amd64.zip -Lo Python.zip
     mkdir -p ../VSCode-win32-${VSCODE_ARCH}/Python
     unzip Python.zip -d ../VSCode-win32-${VSCODE_ARCH}/Python
+    ../VSCode-win32-${VSCODE_ARCH}/Python/python.exe -m pip install --upgrade pip setuptools wheel
+    ../VSCode-win32-${VSCODE_ARCH}/Python/python.exe -m pip install pylint
 
     # Download extensions.
     curl https://github.com/microsoft/vscode-python/releases/download/2021.7.1060902895/ms-python-release.vsix -Lo ms-python.zip
