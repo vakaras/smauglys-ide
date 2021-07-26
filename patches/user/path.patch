@@ -17,7 +17,7 @@ index f91f7b731d1..dff3a8e99c1 100644
  const path = require('path');
 +
 +console.log(process.env['PATH'])
-+process.env['PATH'] = process.env['PATH'] + ';' + path.join(path.dirname(process.execPath), 'Python')
++process.env['PATH'] = process.env['PATH'] + ';' + path.join(path.dirname(process.execPath), 'Python') + ';' + path.join(path.dirname(process.execPath), 'Python', 'Scripts')
 +console.log(process.env['PATH'])
 +
  const fs = require('fs');

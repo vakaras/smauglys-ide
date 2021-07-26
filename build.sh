@@ -32,7 +32,8 @@ if [[ "$SHOULD_BUILD" == "yes" ]]; then
     export PYTHON=../VSCode-win32-${VSCODE_ARCH}/Python/python.exe
     curl https://bootstrap.pypa.io/get-pip.py -Lo get-pip.py
     $PYTHON get-pip.py
-    $PYTHON -m pip install pylint
+    export PIP=../VSCode-win32-${VSCODE_ARCH}/Python/Scripts/pip.exe
+    $PIP install pylint
 
     # Download extensions.
     curl https://github.com/microsoft/vscode-python/releases/download/2021.7.1060902895/ms-python-release.vsix -Lo ms-python.zip
