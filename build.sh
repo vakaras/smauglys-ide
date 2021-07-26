@@ -40,6 +40,8 @@ if [[ "$SHOULD_BUILD" == "yes" ]]; then
 
     export PYTHONPATH=../VSCode-win32-${VSCODE_ARCH}/Python/Lib
 
+    $PYTHON --help
+
     $PYTHON -c 'import sys; print(sys.path)'
 
     $PIP install pylint
