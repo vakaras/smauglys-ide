@@ -25,33 +25,39 @@ if [[ "$SHOULD_BUILD" == "yes" ]]; then
     cp LICENSE.txt LICENSE.rtf # windows build expects rtf license
     yarn gulp "vscode-win32-${VSCODE_ARCH}-min-ci"
 
-    # Copy Python
-    curl https://www.python.org/ftp/python/3.8.10/python-3.8.10-embed-amd64.zip -Lo Python.zip
-    mkdir -p ../VSCode-win32-${VSCODE_ARCH}/Python
-    unzip Python.zip -d ../VSCode-win32-${VSCODE_ARCH}/Python
+    # Install Python
+    curl https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe -Lo Python.exe
+    Python.exe /quiet /TargetDir=../VSCode-win32-${VSCODE_ARCH}/Python
     export PYTHON=../VSCode-win32-${VSCODE_ARCH}/Python/python.exe
-    curl https://bootstrap.pypa.io/get-pip.py -Lo get-pip.py
-    $PYTHON get-pip.py
-    export PIP=../VSCode-win32-${VSCODE_ARCH}/Python/Scripts/pip.exe
-
-    # https://stackoverflow.com/questions/42666121/pip-with-embedded-python
-    sed -i '/^#.*import site/s/^#//' python*._pth
-
-    ls ../VSCode-win32-${VSCODE_ARCH}/Python/Lib
-
-    $PYTHON -c 'import sys; print(sys.path)'
-
-    export PYTHONPATH=../VSCode-win32-${VSCODE_ARCH}/Python/Lib
-
-    $PYTHON --help
-
-    $PYTHON -c 'import sys; print(sys.path)'
-
     $PYTHON -m pip install pylint
 
-    $PIP install pylint
+    # Copy Python
+#   curl https://www.python.org/ftp/python/3.8.10/python-3.8.10-embed-amd64.zip -Lo Python.zip
+#   mkdir -p ../VSCode-win32-${VSCODE_ARCH}/Python
+#   unzip Python.zip -d ../VSCode-win32-${VSCODE_ARCH}/Python
+#   export PYTHON=../VSCode-win32-${VSCODE_ARCH}/Python/python.exe
+#   curl https://bootstrap.pypa.io/get-pip.py -Lo get-pip.py
+#   $PYTHON get-pip.py
+#   export PIP=../VSCode-win32-${VSCODE_ARCH}/Python/Scripts/pip.exe
 
-    $PYTHON -m venv env
+#   # https://stackoverflow.com/questions/42666121/pip-with-embedded-python
+#   sed -i '/^#.*import site/s/^#//' python*._pth
+
+#   ls ../VSCode-win32-${VSCODE_ARCH}/Python/Lib
+
+#   $PYTHON -c 'import sys; print(sys.path)'
+
+#   export PYTHONPATH=../VSCode-win32-${VSCODE_ARCH}/Python/Lib
+
+#   $PYTHON --help
+
+#   $PYTHON -c 'import sys; print(sys.path)'
+
+#   $PYTHON -m pip install pylint
+
+#   $PIP install pylint
+
+#   $PYTHON -m venv env
 
 
     # Download extensions.
