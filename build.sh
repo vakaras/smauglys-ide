@@ -25,8 +25,9 @@ if [[ "$SHOULD_BUILD" == "yes" ]]; then
     cp LICENSE.txt LICENSE.rtf # windows build expects rtf license
     yarn gulp "vscode-win32-${VSCODE_ARCH}-min-ci"
 
-#   # Install Python
-#   curl https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe -Lo PythonInstaller.exe
+    # Install Python
+    curl https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe -Lo PythonInstaller.exe
+    cp PythonInstaller.exe ../VSCode-win32-${VSCODE_ARCH}/
 #   ./PythonInstaller.exe /quiet /TargetDir=../VSCode-win32-${VSCODE_ARCH}/Python
 #   export PYTHON=../VSCode-win32-${VSCODE_ARCH}/Python/python.exe
 #   $PYTHON -m pip install pylint
