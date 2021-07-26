@@ -97,8 +97,6 @@ jobs:
           tag_name: ${{ env.LATEST_MS_TAG }}
           files: |
             ./*.sha256
-            ./Smauglys*.zip
-            ./SmauglysUserSetup*.exe
             ./SmauglysSetup*.exe
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

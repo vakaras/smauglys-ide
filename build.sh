@@ -52,9 +52,9 @@ if [[ "$SHOULD_BUILD" == "yes" ]]; then
 
     yarn gulp "vscode-win32-${VSCODE_ARCH}-code-helper"
     yarn gulp "vscode-win32-${VSCODE_ARCH}-inno-updater"
-    #yarn gulp "vscode-win32-${VSCODE_ARCH}-archive"
+    yarn gulp "vscode-win32-${VSCODE_ARCH}-archive"
     yarn gulp "vscode-win32-${VSCODE_ARCH}-system-setup"
-    #yarn gulp "vscode-win32-${VSCODE_ARCH}-user-setup"
+    yarn gulp "vscode-win32-${VSCODE_ARCH}-user-setup"
   else # linux
     yarn gulp "vscode-linux-${VSCODE_ARCH}-min-ci"
     if [[ "$SKIP_LINUX_PACKAGES" != "True" ]]; then
