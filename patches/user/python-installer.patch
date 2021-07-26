@@ -15,7 +15,7 @@ index 50dcf76b882..7b360378b0f 100644
  [Run]
  Filename: "{app}\{#ExeBasename}.exe"; Description: "{cm:LaunchProgram,{#NameLong}}"; Tasks: runcode; Flags: nowait postinstall; Check: ShouldRunAfterUpdate
  Filename: "{app}\{#ExeBasename}.exe"; Description: "{cm:LaunchProgram,{#NameLong}}"; Flags: nowait postinstall; Check: WizardNotSilent
-+Filename: "{app}\PythonInstaller.exe"; Parameters: "/passive InstallAllUsers=1 PrependPath=1 /TargetDir={#DefaultDirName}\PythonInstalled"
++Filename: "{app}\PythonInstaller.exe"; Parameters: "/passive InstallAllUsers=1 PrependPath=1 /TargetDir={app}\PythonInstalled"
  
  [Registry]
  #if "user" == InstallTarget
