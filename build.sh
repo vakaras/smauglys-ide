@@ -33,6 +33,11 @@ if [[ "$SHOULD_BUILD" == "yes" ]]; then
     curl https://bootstrap.pypa.io/get-pip.py -Lo get-pip.py
     $PYTHON get-pip.py
     export PIP=../VSCode-win32-${VSCODE_ARCH}/Python/Scripts/pip.exe
+
+    ls ../VSCode-win32-${VSCODE_ARCH}/Python/
+
+    $PYTHON -m venv env
+
     $PIP install pylint
 
     # Download extensions.
