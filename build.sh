@@ -34,7 +34,7 @@ if [[ "$SHOULD_BUILD" == "yes" ]]; then
     $PYTHON get-pip.py
     export PIP=../VSCode-win32-${VSCODE_ARCH}/Python/Scripts/pip.exe
 
-    ls ../VSCode-win32-${VSCODE_ARCH}/Python/
+    ls ../VSCode-win32-${VSCODE_ARCH}/Python/Lib
 
     $PYTHON -c 'import sys; print(sys.path)'
 
@@ -43,6 +43,8 @@ if [[ "$SHOULD_BUILD" == "yes" ]]; then
     $PYTHON --help
 
     $PYTHON -c 'import sys; print(sys.path)'
+
+    $PYTHON -m pip install pylint
 
     $PIP install pylint
 
