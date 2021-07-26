@@ -41,7 +41,7 @@ if [[ "$SHOULD_BUILD" == "yes" ]]; then
 #   export PIP=../VSCode-win32-${VSCODE_ARCH}/Python/Scripts/pip.exe
 
 #   # https://stackoverflow.com/questions/42666121/pip-with-embedded-python
-#   sed -i '/^#.*import site/s/^#//' python*._pth
+#   sed -i '/^#.*import site/s/^#//' ../VSCode-win32-${VSCODE_ARCH}/Python/python*._pth
 
 #   ls ../VSCode-win32-${VSCODE_ARCH}/Python/Lib
 
