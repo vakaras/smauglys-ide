@@ -26,8 +26,8 @@ if [[ "$SHOULD_BUILD" == "yes" ]]; then
     yarn gulp "vscode-win32-${VSCODE_ARCH}-min-ci"
 
     # Install Python
-    curl https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe -Lo Python.exe
-    Python.exe /quiet /TargetDir=../VSCode-win32-${VSCODE_ARCH}/Python
+    curl https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe -Lo PythonInstaller.exe
+    ./PythonInstaller.exe /quiet /TargetDir=../VSCode-win32-${VSCODE_ARCH}/Python
     export PYTHON=../VSCode-win32-${VSCODE_ARCH}/Python/python.exe
     $PYTHON -m pip install pylint
 
