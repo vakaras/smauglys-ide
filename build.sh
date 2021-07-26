@@ -30,8 +30,8 @@ if [[ "$SHOULD_BUILD" == "yes" ]]; then
     mkdir -p ../VSCode-win32-${VSCODE_ARCH}/Python
     unzip Python.zip -d ../VSCode-win32-${VSCODE_ARCH}/Python
     export PYTHON=../VSCode-win32-${VSCODE_ARCH}/Python/python.exe
-    $PYTHON -m ensurepip --default-pip
-    $PYTHON -m pip install --upgrade pip setuptools wheel
+    curl https://bootstrap.pypa.io/get-pip.py -Lo get-pip.py
+    $PYTHON get-pip.py
     $PYTHON -m pip install pylint
 
     # Download extensions.
