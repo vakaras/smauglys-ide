@@ -1,25 +1,46 @@
-From bbb918cba649551cb62088fa09b5f82ce7823f3a Mon Sep 17 00:00:00 2001
+From 77158c9de8a7ddfb150d8134f5d03c2bd5be01f1 Mon Sep 17 00:00:00 2001
 From: Vytautas Astrauskas <vastrauskas@gmail.com>
-Date: Tue, 27 Jul 2021 10:08:24 +0200
+Date: Tue, 27 Jul 2021 17:52:59 +0200
 Subject: [PATCH] Python installer.
 
 ---
- build/win32/code.iss | 2 ++
- 1 file changed, 2 insertions(+)
+ build/win32/code.iss | 16 ++++++++++++++++
+ 1 file changed, 16 insertions(+)
 
 diff --git a/build/win32/code.iss b/build/win32/code.iss
-index 50dcf76b882..09639f565b7 100644
+index 50dcf76b882..44b350cdabf 100644
 --- a/build/win32/code.iss
 +++ b/build/win32/code.iss
 @@ -95,6 +95,8 @@ Name: "{userappdata}\Microsoft\Internet Explorer\Quick Launch\{#NameLong}"; File
  [Run]
  Filename: "{app}\{#ExeBasename}.exe"; Description: "{cm:LaunchProgram,{#NameLong}}"; Tasks: runcode; Flags: nowait postinstall; Check: ShouldRunAfterUpdate
  Filename: "{app}\{#ExeBasename}.exe"; Description: "{cm:LaunchProgram,{#NameLong}}"; Flags: nowait postinstall; Check: WizardNotSilent
-+Filename: "{app}\PythonInstaller.exe"; Parameters: "/passive InstallAllUsers=1 PrependPath=1"
-+Filename: "{pf}\Python38\python.exe"; Parameters: "-m pip install pylint"
++Filename: "{app}\PythonInstaller.exe"; Parameters: "/passive InstallAllUsers=1 PrependPath=1"; Check: python_is_not_installed
++Filename: "{pf}\Python38\python.exe"; Parameters: "-m pip install pylint"; Check: python_is_not_installed
  
  [Registry]
  #if "user" == InstallTarget
+@@ -1333,6 +1335,20 @@ begin
+   RegWriteExpandStringValue({#EnvironmentRootKey}, '{#EnvironmentKey}', 'Path', NewPath);
+ end;
+ 
++
++// Based on https://stackoverflow.com/a/65792825
++function python_is_not_installed() : Boolean;
++var
++  Key : string;
++begin
++   Key := 'Software\Python\PythonCore\3.8-32';
++   Result :=
++     (not RegKeyExists(HKLM32, Key)) and
++     (not RegKeyExists(HKCU32, Key)) and
++     (not RegKeyExists(HKLM64, Key)) and
++     (not RegKeyExists(HKCU64, Key));
++end;
++
+ #ifdef Debug
+   #expr SaveToFile(AddBackslash(SourcePath) + "code-processed.iss")
+ #endif
 -- 
 2.25.1
 
