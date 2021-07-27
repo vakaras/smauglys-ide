@@ -1,17 +1,17 @@
-From 6f359c17d7b9ea58d290d95a5505e1349e5f5c41 Mon Sep 17 00:00:00 2001
+From bbb918cba649551cb62088fa09b5f82ce7823f3a Mon Sep 17 00:00:00 2001
 From: Vytautas Astrauskas <vastrauskas@gmail.com>
-Date: Mon, 26 Jul 2021 21:12:49 +0200
-Subject: [PATCH] Try to execute the Python installer.
+Date: Tue, 27 Jul 2021 10:08:24 +0200
+Subject: [PATCH] Python installer.
 
 ---
- build/win32/code.iss | 1 +
- 1 file changed, 1 insertion(+)
+ build/win32/code.iss | 2 ++
+ 1 file changed, 2 insertions(+)
 
 diff --git a/build/win32/code.iss b/build/win32/code.iss
-index 50dcf76b882..7b360378b0f 100644
+index 50dcf76b882..09639f565b7 100644
 --- a/build/win32/code.iss
 +++ b/build/win32/code.iss
-@@ -95,6 +95,7 @@ Name: "{userappdata}\Microsoft\Internet Explorer\Quick Launch\{#NameLong}"; File
+@@ -95,6 +95,8 @@ Name: "{userappdata}\Microsoft\Internet Explorer\Quick Launch\{#NameLong}"; File
  [Run]
  Filename: "{app}\{#ExeBasename}.exe"; Description: "{cm:LaunchProgram,{#NameLong}}"; Tasks: runcode; Flags: nowait postinstall; Check: ShouldRunAfterUpdate
  Filename: "{app}\{#ExeBasename}.exe"; Description: "{cm:LaunchProgram,{#NameLong}}"; Flags: nowait postinstall; Check: WizardNotSilent
