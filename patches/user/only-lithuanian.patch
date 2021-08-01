@@ -1,0 +1,40 @@
+From ec44fd3fb50f503ea4a64efc9081cb37bd533fda Mon Sep 17 00:00:00 2001
+From: Vytautas Astrauskas <vastrauskas@gmail.com>
+Date: Sun, 1 Aug 2021 20:44:06 +0200
+Subject: [PATCH] Leave only Lithuanian.
+
+---
+ build/lib/i18n.ts | 13 +------------
+ 1 file changed, 1 insertion(+), 12 deletions(-)
+
+diff --git a/build/lib/i18n.ts b/build/lib/i18n.ts
+index 5e00e9d6c6e..2ca6d4845ed 100644
+--- a/build/lib/i18n.ts
++++ b/build/lib/i18n.ts
+@@ -33,22 +33,11 @@ export interface InnoSetup {
+ }
+ 
+ export const defaultLanguages: Language[] = [
+-	{ id: 'zh-tw', folderName: 'cht', translationId: 'zh-hant' },
+-	{ id: 'zh-cn', folderName: 'chs', translationId: 'zh-hans' },
+-	{ id: 'ja', folderName: 'jpn' },
+-	{ id: 'ko', folderName: 'kor' },
+-	{ id: 'de', folderName: 'deu' },
+-	{ id: 'fr', folderName: 'fra' },
+-	{ id: 'es', folderName: 'esn' },
+-	{ id: 'ru', folderName: 'rus' },
+-	{ id: 'it', folderName: 'ita' }
++	{ id: 'lt-LT', folderName: 'lt-LT' },
+ ];
+ 
+ // languages requested by the community to non-stable builds
+ export const extraLanguages: Language[] = [
+-	{ id: 'pt-br', folderName: 'ptb' },
+-	{ id: 'hu', folderName: 'hun' },
+-	{ id: 'tr', folderName: 'trk' }
+ ];
+ 
+ // non built-in extensions also that are transifex and need to be part of the language packs
+-- 
+2.25.1
+

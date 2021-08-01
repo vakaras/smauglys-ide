@@ -22,7 +22,8 @@ if [[ "$SHOULD_BUILD" == "yes" ]]; then
   yarn gulp vscode-translations-export
   tar -czvf ../basic-i18n-strings.tar.gz ../vscode-translations-export
 
-  cp -r ../translations vscode-translations-import
+  mkdir ../vscode-translations-import
+  cp -r ../translations ../vscode-translations-import/lt-LT
   yarn gulp vscode-translations-import
 
   git clone https://github.com/microsoft/vscode-loc.git ../vscode-loc
