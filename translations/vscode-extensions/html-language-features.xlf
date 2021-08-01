@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="extensions/html-language-features/client\dist\node/htmlClient" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="configureButton">
+      <source xml:lang="en">Configure</source>
+    </trans-unit>
+    <trans-unit id="folding.end">
+      <source xml:lang="en">Folding Region End</source>
+    </trans-unit>
+    <trans-unit id="folding.html">
+      <source xml:lang="en">Simple HTML5 starting point</source>
+    </trans-unit>
+    <trans-unit id="folding.start">
+      <source xml:lang="en">Folding Region Start</source>
+    </trans-unit>
+    <trans-unit id="htmlserver.name">
+      <source xml:lang="en">HTML Language Server</source>
+    </trans-unit>
+    <trans-unit id="linkedEditingQuestion">
+      <source xml:lang="en">VS Code now has built-in support for auto-renaming tags. Do you want to enable it?</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/html-language-features/package" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="description">
+      <source xml:lang="en">Provides rich language support for HTML and Handlebar files</source>
+    </trans-unit>
+    <trans-unit id="displayName">
+      <source xml:lang="en">HTML Language Features</source>
+    </trans-unit>
+    <trans-unit id="html.autoClosingTags">
+      <source xml:lang="en">Enable/disable autoclosing of HTML tags.</source>
+    </trans-unit>
+    <trans-unit id="html.customData.desc">
+      <source xml:lang="en">A list of relative file paths pointing to JSON files following the [custom data format](https://github.com/microsoft/vscode-html-languageservice/blob/master/docs/customData.md).
+
+VS Code loads custom data on startup to enhance its HTML support for the custom HTML tags, attributes and attribute values you specify in the JSON files.
+
+The file paths are relative to workspace and only workspace folder settings are considered.</source>
+    </trans-unit>
+    <trans-unit id="html.format.contentUnformatted.desc">
+      <source xml:lang="en">List of tags, comma separated, where the content shouldn't be reformatted. `null` defaults to the `pre` tag.</source>
+    </trans-unit>
+    <trans-unit id="html.format.enable.desc">
+      <source xml:lang="en">Enable/disable default HTML formatter.</source>
+    </trans-unit>
+    <trans-unit id="html.format.endWithNewline.desc">
+      <source xml:lang="en">End with a newline.</source>
+    </trans-unit>
+    <trans-unit id="html.format.extraLiners.desc">
+      <source xml:lang="en">List of tags, comma separated, that should have an extra newline before them. `null` defaults to `"head, body, /html"`.</source>
+    </trans-unit>
+    <trans-unit id="html.format.indentHandlebars.desc">
+      <source xml:lang="en">Format and indent `{{#foo}}` and `{{/foo}}`.</source>
+    </trans-unit>
+    <trans-unit id="html.format.indentInnerHtml.desc">
+      <source xml:lang="en">Indent `&lt;head&gt;` and `&lt;body&gt;` sections.</source>
+    </trans-unit>
+    <trans-unit id="html.format.maxPreserveNewLines.desc">
+      <source xml:lang="en">Maximum number of line breaks to be preserved in one chunk. Use `null` for unlimited.</source>
+    </trans-unit>
+    <trans-unit id="html.format.preserveNewLines.desc">
+      <source xml:lang="en">Controls whether existing line breaks before elements should be preserved. Only works before elements, not inside tags or for text.</source>
+    </trans-unit>
+    <trans-unit id="html.format.templating.desc">
+      <source xml:lang="en">Honor django, erb, handlebars and php templating language tags.</source>
+    </trans-unit>
+    <trans-unit id="html.format.unformatted.desc">
+      <source xml:lang="en">List of tags, comma separated, that shouldn't be reformatted. `null` defaults to all tags listed at https://www.w3.org/TR/html5/dom.html#phrasing-content.</source>
+    </trans-unit>
+    <trans-unit id="html.format.unformattedContentDelimiter.desc">
+      <source xml:lang="en">Keep text content together between this string.</source>
+    </trans-unit>
+    <trans-unit id="html.format.wrapAttributes.alignedmultiple">
+      <source xml:lang="en">Wrap when line length is exceeded, align attributes vertically.</source>
+    </trans-unit>
+    <trans-unit id="html.format.wrapAttributes.auto">
+      <source xml:lang="en">Wrap attributes only when line length is exceeded.</source>
+    </trans-unit>
+    <trans-unit id="html.format.wrapAttributes.desc">
+      <source xml:lang="en">Wrap attributes.</source>
+    </trans-unit>
+    <trans-unit id="html.format.wrapAttributes.force">
+      <source xml:lang="en">Wrap each attribute except first.</source>
+    </trans-unit>
+    <trans-unit id="html.format.wrapAttributes.forcealign">
+      <source xml:lang="en">Wrap each attribute except first and keep aligned.</source>
+    </trans-unit>
+    <trans-unit id="html.format.wrapAttributes.forcemultiline">
+      <source xml:lang="en">Wrap each attribute.</source>
+    </trans-unit>
+    <trans-unit id="html.format.wrapAttributes.preserve">
+      <source xml:lang="en">Preserve wrapping of attributes.</source>
+    </trans-unit>
+    <trans-unit id="html.format.wrapAttributes.preservealigned">
+      <source xml:lang="en">Preserve wrapping of attributes but align.</source>
+    </trans-unit>
+    <trans-unit id="html.format.wrapAttributesIndentSize.desc">
+      <source xml:lang="en">Alignment size when using 'force aligned' and 'aligned multiple' in `#html.format.wrapAttributes#` or `null` to use the default indent size.</source>
+    </trans-unit>
+    <trans-unit id="html.format.wrapLineLength.desc">
+      <source xml:lang="en">Maximum amount of characters per line (0 = disable).</source>
+    </trans-unit>
+    <trans-unit id="html.hover.documentation">
+      <source xml:lang="en">Show tag and attribute documentation in hover.</source>
+    </trans-unit>
+    <trans-unit id="html.hover.references">
+      <source xml:lang="en">Show references to MDN in hover.</source>
+    </trans-unit>
+    <trans-unit id="html.mirrorCursorOnMatchingTag">
+      <source xml:lang="en">Enable/disable mirroring cursor on matching HTML tag.</source>
+    </trans-unit>
+    <trans-unit id="html.mirrorCursorOnMatchingTagDeprecationMessage">
+      <source xml:lang="en">Deprecated in favor of `editor.linkedEditing`</source>
+    </trans-unit>
+    <trans-unit id="html.suggest.html5.desc">
+      <source xml:lang="en">Controls whether the built-in HTML language support suggests HTML5 tags, properties and values.</source>
+    </trans-unit>
+    <trans-unit id="html.trace.server.desc">
+      <source xml:lang="en">Traces the communication between VS Code and the HTML language server.</source>
+    </trans-unit>
+    <trans-unit id="html.validate.scripts">
+      <source xml:lang="en">Controls whether the built-in HTML language support validates embedded scripts.</source>
+    </trans-unit>
+    <trans-unit id="html.validate.styles">
+      <source xml:lang="en">Controls whether the built-in HTML language support validates embedded styles.</source>
+    </trans-unit>
+</body></file>
+</xliff>

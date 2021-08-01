@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/contrib/output/browser/logViewer" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="logViewerAriaLabel">
+      <source xml:lang="en">Log viewer</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/output/browser/output.contribution" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="clearOutput.label">
+      <source xml:lang="en">Clear Output</source>
+    </trans-unit>
+    <trans-unit id="logViewer">
+      <source xml:lang="en">Log Viewer</source>
+    </trans-unit>
+    <trans-unit id="miToggleOutput">
+      <source xml:lang="en">&amp;&amp;Output</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="openActiveLogOutputFile">
+      <source xml:lang="en">Open Log Output File</source>
+    </trans-unit>
+    <trans-unit id="openLogFile">
+      <source xml:lang="en">Open Log File...</source>
+    </trans-unit>
+    <trans-unit id="output">
+      <source xml:lang="en">Output</source>
+    </trans-unit>
+    <trans-unit id="output.smartScroll.enabled">
+      <source xml:lang="en">Enable/disable the ability of smart scrolling in the output view. Smart scrolling allows you to lock scrolling automatically when you click in the output view and unlocks when you click in the last line.</source>
+    </trans-unit>
+    <trans-unit id="outputCleared">
+      <source xml:lang="en">Output was cleared</source>
+    </trans-unit>
+    <trans-unit id="outputScrollOff">
+      <source xml:lang="en">Turn Auto Scrolling Off</source>
+    </trans-unit>
+    <trans-unit id="outputScrollOn">
+      <source xml:lang="en">Turn Auto Scrolling On</source>
+    </trans-unit>
+    <trans-unit id="outputViewIcon">
+      <source xml:lang="en">View icon of the output view.</source>
+    </trans-unit>
+    <trans-unit id="selectlog">
+      <source xml:lang="en">Select Log</source>
+    </trans-unit>
+    <trans-unit id="selectlogFile">
+      <source xml:lang="en">Select Log file</source>
+    </trans-unit>
+    <trans-unit id="showLogs">
+      <source xml:lang="en">Show Logs...</source>
+    </trans-unit>
+    <trans-unit id="switchToOutput.label">
+      <source xml:lang="en">Switch to Output</source>
+    </trans-unit>
+    <trans-unit id="toggleAutoScroll">
+      <source xml:lang="en">Toggle Auto Scrolling</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/output/browser/outputView" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="channel">
+      <source xml:lang="en">Output channel for '{0}'</source>
+    </trans-unit>
+    <trans-unit id="logChannel">
+      <source xml:lang="en">Log ({0})</source>
+    </trans-unit>
+    <trans-unit id="output">
+      <source xml:lang="en">Output</source>
+    </trans-unit>
+    <trans-unit id="output model title">
+      <source xml:lang="en">{0} - Output</source>
+    </trans-unit>
+    <trans-unit id="outputChannels">
+      <source xml:lang="en">Output Channels.</source>
+    </trans-unit>
+    <trans-unit id="outputViewAriaLabel">
+      <source xml:lang="en">Output panel</source>
+    </trans-unit>
+    <trans-unit id="outputViewWithInputAriaLabel">
+      <source xml:lang="en">{0}, Output panel</source>
+    </trans-unit>
+</body></file>
+</xliff>

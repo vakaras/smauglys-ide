@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/contrib/url/browser/trustedDomains" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="trustedDomain.manageTrustedDomain">
+      <source xml:lang="en">Manage Trusted Domains</source>
+    </trans-unit>
+    <trans-unit id="trustedDomain.manageTrustedDomains">
+      <source xml:lang="en">Manage Trusted Domains</source>
+    </trans-unit>
+    <trans-unit id="trustedDomain.trustAllDomains">
+      <source xml:lang="en">Trust all domains (disables link protection)</source>
+    </trans-unit>
+    <trans-unit id="trustedDomain.trustAllPorts">
+      <source xml:lang="en">Trust {0} on all ports</source>
+    </trans-unit>
+    <trans-unit id="trustedDomain.trustDomain">
+      <source xml:lang="en">Trust {0}</source>
+    </trans-unit>
+    <trans-unit id="trustedDomain.trustSubDomain">
+      <source xml:lang="en">Trust {0} and all its subdomains</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/url/browser/trustedDomainsValidator" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="cancel">
+      <source xml:lang="en">Cancel</source>
+    </trans-unit>
+    <trans-unit id="configureTrustedDomains">
+      <source xml:lang="en">Configure Trusted Domains</source>
+    </trans-unit>
+    <trans-unit id="copy">
+      <source xml:lang="en">Copy</source>
+    </trans-unit>
+    <trans-unit id="open">
+      <source xml:lang="en">Open</source>
+    </trans-unit>
+    <trans-unit id="openExternalLinkAt">
+      <source xml:lang="en">Do you want {0} to open the external website?</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/url/browser/url.contribution" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="openUrl">
+      <source xml:lang="en">Open URL</source>
+    </trans-unit>
+    <trans-unit id="urlToOpen">
+      <source xml:lang="en">URL to open</source>
+    </trans-unit>
+    <trans-unit id="workbench.trustedDomains.promptInTrustedWorkspace">
+      <source xml:lang="en">When enabled, trusted domain prompts will appear when opening links in trusted workspaces.</source>
+    </trans-unit>
+</body></file>
+</xliff>

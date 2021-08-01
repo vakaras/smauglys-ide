@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/services/extensionManagement/browser/extensionBisect" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="bisect">
+      <source xml:lang="en">Extension Bisect is active and has disabled {0} extensions. Check if you can still reproduce the problem and proceed by selecting from these options.</source>
+    </trans-unit>
+    <trans-unit id="detail.start">
+      <source xml:lang="en">Extension Bisect will use binary search to find an extension that causes a problem. During the process the window reloads repeatedly (~{0} times). Each time you must confirm if you are still seeing problems.</source>
+    </trans-unit>
+    <trans-unit id="done">
+      <source xml:lang="en">Continue</source>
+    </trans-unit>
+    <trans-unit id="done.detail">
+      <source xml:lang="en">Extension Bisect is done and has identified {0} as the extension causing the problem.</source>
+    </trans-unit>
+    <trans-unit id="done.detail2">
+      <source xml:lang="en">Extension Bisect is done but no extension has been identified. This might be a problem with {0}.</source>
+    </trans-unit>
+    <trans-unit id="done.disbale">
+      <source xml:lang="en">Keep this extension disabled</source>
+    </trans-unit>
+    <trans-unit id="done.msg">
+      <source xml:lang="en">Extension Bisect</source>
+    </trans-unit>
+    <trans-unit id="help">
+      <source xml:lang="en">Help</source>
+    </trans-unit>
+    <trans-unit id="msg.next">
+      <source xml:lang="en">Extension Bisect</source>
+    </trans-unit>
+    <trans-unit id="msg.start">
+      <source xml:lang="en">Extension Bisect</source>
+    </trans-unit>
+    <trans-unit id="msg2">
+      <source xml:lang="en">Start Extension Bisect</source>
+    </trans-unit>
+    <trans-unit id="next.bad">
+      <source xml:lang="en">This is bad</source>
+    </trans-unit>
+    <trans-unit id="next.cancel">
+      <source xml:lang="en">Cancel</source>
+    </trans-unit>
+    <trans-unit id="next.good">
+      <source xml:lang="en">Good now</source>
+    </trans-unit>
+    <trans-unit id="next.stop">
+      <source xml:lang="en">Stop Bisect</source>
+    </trans-unit>
+    <trans-unit id="report">
+      <source xml:lang="en">Report Issue &amp; Continue</source>
+    </trans-unit>
+    <trans-unit id="title.isBad">
+      <source xml:lang="en">Continue Extension Bisect</source>
+    </trans-unit>
+    <trans-unit id="title.start">
+      <source xml:lang="en">Start Extension Bisect</source>
+    </trans-unit>
+    <trans-unit id="title.stop">
+      <source xml:lang="en">Stop Extension Bisect</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/extensionManagement/browser/extensionEnablementService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="Reload">
+      <source xml:lang="en">Reload and Enable Extensions</source>
+    </trans-unit>
+    <trans-unit id="cannot disable auth extension">
+      <source xml:lang="en">Cannot change enablement {0} extension because Settings Sync depends on it.</source>
+    </trans-unit>
+    <trans-unit id="cannot disable auth extension in workspace">
+      <source xml:lang="en">Cannot change enablement of {0} extension in workspace because it contributes authentication providers</source>
+    </trans-unit>
+    <trans-unit id="cannot disable language pack extension">
+      <source xml:lang="en">Cannot change enablement of {0} extension because it contributes language packs.</source>
+    </trans-unit>
+    <trans-unit id="extensionsDisabled">
+      <source xml:lang="en">All installed extensions are temporarily disabled.</source>
+    </trans-unit>
+    <trans-unit id="noWorkspace">
+      <source xml:lang="en">No workspace.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/extensionManagement/common/extensionManagementService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="Manifest is not found">
+      <source xml:lang="en">Installing Extension {0} failed: Manifest is not found.</source>
+    </trans-unit>
+    <trans-unit id="cancel">
+      <source xml:lang="en">Cancel</source>
+    </trans-unit>
+    <trans-unit id="cannot be installed">
+      <source xml:lang="en">Cannot install the '{0}' extension because it is not available in this setup.</source>
+    </trans-unit>
+    <trans-unit id="extensionInstallWorkspaceTrustButton">
+      <source xml:lang="en">Trust Workspace &amp; Install</source>
+    </trans-unit>
+    <trans-unit id="extensionInstallWorkspaceTrustContinueButton">
+      <source xml:lang="en">Install</source>
+    </trans-unit>
+    <trans-unit id="extensionInstallWorkspaceTrustManageButton">
+      <source xml:lang="en">Learn More</source>
+    </trans-unit>
+    <trans-unit id="extensionInstallWorkspaceTrustMessage">
+      <source xml:lang="en">Enabling this extension requires a trusted workspace.</source>
+    </trans-unit>
+    <trans-unit id="install">
+      <source xml:lang="en">Install</source>
+    </trans-unit>
+    <trans-unit id="install and do no sync">
+      <source xml:lang="en">Install (Do not sync)</source>
+    </trans-unit>
+    <trans-unit id="install extension">
+      <source xml:lang="en">Install Extension</source>
+    </trans-unit>
+    <trans-unit id="install extensions">
+      <source xml:lang="en">Install Extensions</source>
+    </trans-unit>
+    <trans-unit id="install multiple extensions">
+      <source xml:lang="en">Would you like to install and synchronize extensions across your devices?</source>
+    </trans-unit>
+    <trans-unit id="install single extension">
+      <source xml:lang="en">Would you like to install and synchronize '{0}' extension across your devices?</source>
+    </trans-unit>
+    <trans-unit id="multipleDependentsError">
+      <source xml:lang="en">Cannot uninstall extension '{0}'. Extensions '{1}', '{2}' and others depend on this.</source>
+    </trans-unit>
+    <trans-unit id="singleDependentError">
+      <source xml:lang="en">Cannot uninstall extension '{0}'. Extension '{1}' depends on this.</source>
+    </trans-unit>
+    <trans-unit id="twoDependentsError">
+      <source xml:lang="en">Cannot uninstall extension '{0}'. Extensions '{1}' and '{2}' depend on this.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/extensionManagement/common/webExtensionsScannerService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="not a web extension">
+      <source xml:lang="en">Cannot add '{0}' because this extension is not a web extension.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/extensionManagement/electron-sandbox/extensionManagementServerService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="local">
+      <source xml:lang="en">Local</source>
+    </trans-unit>
+    <trans-unit id="remote">
+      <source xml:lang="en">Remote</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/extensionManagement/electron-sandbox/remoteExtensionManagementService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="incompatible">
+      <source xml:lang="en">Unable to install extension '{0}' as it is not compatible with VS Code '{1}'.</source>
+    </trans-unit>
+</body></file>
+</xliff>

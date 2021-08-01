@@ -1,0 +1,1268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="extensions/ms-vscode.js-debug//src/adapter/breakpoints/userDefinedBreakpoint" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="breakpoint.provisionalBreakpoint">
+      <source xml:lang="en">Unbound breakpoint</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/adapter/console/queryObjectsMessage" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="queryObject.couldNotQuery">
+      <source xml:lang="en">Could not query the provided object</source>
+    </trans-unit>
+    <trans-unit id="queryObject.errorPreview">
+      <source xml:lang="en">Could generate preview: {0}</source>
+    </trans-unit>
+    <trans-unit id="queryObject.invalidObject">
+      <source xml:lang="en">Only objects can be queried</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/adapter/console/textualMessage" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="console.assert">
+      <source xml:lang="en">Assertion failed</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/adapter/customBreakpoints" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="breakpoint.animationFrameFired">
+      <source xml:lang="en">Animation Frame Fired</source>
+    </trans-unit>
+    <trans-unit id="breakpoint.cancelAnimationFrame">
+      <source xml:lang="en">Cancel Animation Frame</source>
+    </trans-unit>
+    <trans-unit id="breakpoint.closeAudioContext">
+      <source xml:lang="en">Close AudioContext</source>
+    </trans-unit>
+    <trans-unit id="breakpoint.createAudioContext">
+      <source xml:lang="en">Create AudioContext</source>
+    </trans-unit>
+    <trans-unit id="breakpoint.createCanvasContext">
+      <source xml:lang="en">Create canvas context</source>
+    </trans-unit>
+    <trans-unit id="breakpoint.cspViolation">
+      <source xml:lang="en">Script Blocked by Content Security Policy</source>
+    </trans-unit>
+    <trans-unit id="breakpoint.cspViolationNamed">
+      <source xml:lang="en">CSP violation "{0}"</source>
+    </trans-unit>
+    <trans-unit id="breakpoint.cspViolationNamedDetails">
+      <source xml:lang="en">Paused on Content Security Policy violation instrumentation breakpoint, directive "{0}"</source>
+    </trans-unit>
+    <trans-unit id="breakpoint.eventListenerNamed">
+      <source xml:lang="en">Paused on event listener breakpoint "{0}", triggered on "{1}"</source>
+    </trans-unit>
+    <trans-unit id="breakpoint.instrumentationNamed">
+      <source xml:lang="en">Paused on instrumentation breakpoint "{0}"</source>
+    </trans-unit>
+    <trans-unit id="breakpoint.requestAnimationFrame">
+      <source xml:lang="en">Request Animation Frame</source>
+    </trans-unit>
+    <trans-unit id="breakpoint.resumeAudioContext">
+      <source xml:lang="en">Resume AudioContext</source>
+    </trans-unit>
+    <trans-unit id="breakpoint.scriptFirstStatement">
+      <source xml:lang="en">Script First Statement</source>
+    </trans-unit>
+    <trans-unit id="breakpoint.setInnerHtml">
+      <source xml:lang="en">Set innerHTML</source>
+    </trans-unit>
+    <trans-unit id="breakpoint.setIntervalFired">
+      <source xml:lang="en">setInterval fired</source>
+    </trans-unit>
+    <trans-unit id="breakpoint.setTimeoutFired">
+      <source xml:lang="en">setTimeout fired</source>
+    </trans-unit>
+    <trans-unit id="breakpoint.suspendAudioContext">
+      <source xml:lang="en">Suspend AudioContext</source>
+    </trans-unit>
+    <trans-unit id="breakpoint.webglErrorFired">
+      <source xml:lang="en">WebGL Error Fired</source>
+    </trans-unit>
+    <trans-unit id="breakpoint.webglErrorNamed">
+      <source xml:lang="en">WebGL Error "{0}"</source>
+    </trans-unit>
+    <trans-unit id="breakpoint.webglErrorNamedDetails">
+      <source xml:lang="en">Paused on WebGL Error instrumentation breakpoint, error "{0}"</source>
+    </trans-unit>
+    <trans-unit id="breakpoint.webglWarningFired">
+      <source xml:lang="en">WebGL Warning Fired</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/adapter/debugAdapter" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="breakpoint.caughtExceptions">
+      <source xml:lang="en">Caught Exceptions</source>
+    </trans-unit>
+    <trans-unit id="breakpoint.caughtExceptions.description">
+      <source xml:lang="en">Breaks on all throw errors, even if they're caught later.</source>
+    </trans-unit>
+    <trans-unit id="breakpoint.uncaughtExceptions">
+      <source xml:lang="en">Uncaught Exceptions</source>
+    </trans-unit>
+    <trans-unit id="error.cannotPrettyPrint">
+      <source xml:lang="en">Unable to pretty print</source>
+    </trans-unit>
+    <trans-unit id="error.sourceContentDidFail">
+      <source xml:lang="en">Unable to retrieve source content</source>
+    </trans-unit>
+    <trans-unit id="error.sourceNotFound">
+      <source xml:lang="en">Source not found</source>
+    </trans-unit>
+    <trans-unit id="error.threadNotFound">
+      <source xml:lang="en">Thread not found</source>
+    </trans-unit>
+    <trans-unit id="error.variableNotFound">
+      <source xml:lang="en">Variable not found</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/adapter/profiling/basicCpuProfiler" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="profile.cpu.description">
+      <source xml:lang="en">Generates a .cpuprofile file you can open in the Chrome devtools</source>
+    </trans-unit>
+    <trans-unit id="profile.cpu.label">
+      <source xml:lang="en">CPU Profile</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/adapter/profiling/heapDumpProfiler" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="profile.heap.description">
+      <source xml:lang="en">Generates a .heapsnapshot file you can open in the Chrome devtools</source>
+    </trans-unit>
+    <trans-unit id="profile.heap.label">
+      <source xml:lang="en">Heap Snapshot</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/adapter/sources" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="source.skipFiles">
+      <source xml:lang="en">Skipped by skipFiles</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/adapter/stackTrace" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="scope.block">
+      <source xml:lang="en">Block</source>
+    </trans-unit>
+    <trans-unit id="scope.catch">
+      <source xml:lang="en">Catch Block</source>
+    </trans-unit>
+    <trans-unit id="scope.closure">
+      <source xml:lang="en">Closure</source>
+    </trans-unit>
+    <trans-unit id="scope.closureNamed">
+      <source xml:lang="en">Closure ({0})</source>
+    </trans-unit>
+    <trans-unit id="scope.eval">
+      <source xml:lang="en">Eval</source>
+    </trans-unit>
+    <trans-unit id="scope.global">
+      <source xml:lang="en">Global</source>
+    </trans-unit>
+    <trans-unit id="scope.local">
+      <source xml:lang="en">Local</source>
+    </trans-unit>
+    <trans-unit id="scope.module">
+      <source xml:lang="en">Module</source>
+    </trans-unit>
+    <trans-unit id="scope.returnValue">
+      <source xml:lang="en">Return value</source>
+    </trans-unit>
+    <trans-unit id="scope.script">
+      <source xml:lang="en">Script</source>
+    </trans-unit>
+    <trans-unit id="scope.with">
+      <source xml:lang="en">With Block</source>
+    </trans-unit>
+    <trans-unit id="smartStepSkipLabel">
+      <source xml:lang="en">Skipped by smartStep</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/adapter/threads" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="error.evaluateDidFail">
+      <source xml:lang="en">Unable to evaluate</source>
+    </trans-unit>
+    <trans-unit id="error.evaluateOnAsyncStackFrame">
+      <source xml:lang="en">Unable to evaluate on async stack frame</source>
+    </trans-unit>
+    <trans-unit id="error.pauseDidFail">
+      <source xml:lang="en">Unable to pause</source>
+    </trans-unit>
+    <trans-unit id="error.restartFrameAsync">
+      <source xml:lang="en">Cannot restart asynchronous frame</source>
+    </trans-unit>
+    <trans-unit id="error.resumeDidFail">
+      <source xml:lang="en">Unable to resume</source>
+    </trans-unit>
+    <trans-unit id="error.stackFrameNotFound">
+      <source xml:lang="en">Stack frame not found</source>
+    </trans-unit>
+    <trans-unit id="error.stepInDidFail">
+      <source xml:lang="en">Unable to step in</source>
+    </trans-unit>
+    <trans-unit id="error.stepOutDidFail">
+      <source xml:lang="en">Unable to step out</source>
+    </trans-unit>
+    <trans-unit id="error.stepOverDidFail">
+      <source xml:lang="en">Unable to step next</source>
+    </trans-unit>
+    <trans-unit id="error.threadNotPaused">
+      <source xml:lang="en">Thread is not paused</source>
+    </trans-unit>
+    <trans-unit id="error.threadNotPausedOnException">
+      <source xml:lang="en">Thread is not paused on exception</source>
+    </trans-unit>
+    <trans-unit id="pause.DomBreakpoint">
+      <source xml:lang="en">Paused on DOM breakpoint</source>
+    </trans-unit>
+    <trans-unit id="pause.assert">
+      <source xml:lang="en">Paused on assert</source>
+    </trans-unit>
+    <trans-unit id="pause.breakpoint">
+      <source xml:lang="en">Paused on breakpoint</source>
+    </trans-unit>
+    <trans-unit id="pause.debugCommand">
+      <source xml:lang="en">Paused on debug() call</source>
+    </trans-unit>
+    <trans-unit id="pause.default">
+      <source xml:lang="en">Paused</source>
+    </trans-unit>
+    <trans-unit id="pause.eventListener">
+      <source xml:lang="en">Paused on event listener</source>
+    </trans-unit>
+    <trans-unit id="pause.exception">
+      <source xml:lang="en">Paused on exception</source>
+    </trans-unit>
+    <trans-unit id="pause.instrumentation">
+      <source xml:lang="en">Paused on instrumentation breakpoint</source>
+    </trans-unit>
+    <trans-unit id="pause.oom">
+      <source xml:lang="en">Paused before Out Of Memory exception</source>
+    </trans-unit>
+    <trans-unit id="pause.promiseRejection">
+      <source xml:lang="en">Paused on promise rejection</source>
+    </trans-unit>
+    <trans-unit id="pause.xhr">
+      <source xml:lang="en">Paused on XMLHttpRequest or fetch</source>
+    </trans-unit>
+    <trans-unit id="reason.description.restart">
+      <source xml:lang="en">Paused on frame entry</source>
+    </trans-unit>
+    <trans-unit id="warnings.handleSourceMapPause.didNotWait">
+      <source xml:lang="en">WARNING: Processing source-maps of {0} took longer than {1} ms so we continued execution without waiting for all the breakpoints for the script to be set.</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/adapter/variables" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="error.customValueDescriptionGeneratorFailed">
+      <source xml:lang="en">{0} (couldn't describe: {1})</source>
+    </trans-unit>
+    <trans-unit id="error.emptyExpression">
+      <source xml:lang="en">Cannot set an empty value</source>
+    </trans-unit>
+    <trans-unit id="error.failedToCustomizeObjectProperties">
+      <source xml:lang="en">Failed properties customization</source>
+    </trans-unit>
+    <trans-unit id="error.invalidExpression">
+      <source xml:lang="en">Invalid expression</source>
+    </trans-unit>
+    <trans-unit id="error.setVariableDidFail">
+      <source xml:lang="en">Unable to set variable value</source>
+    </trans-unit>
+    <trans-unit id="error.unknown">
+      <source xml:lang="en">Unknown error</source>
+    </trans-unit>
+    <trans-unit id="error.variableNotFound">
+      <source xml:lang="en">Variable not found</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/binder" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="breakpoint.provisionalBreakpoint">
+      <source xml:lang="en">Unbound breakpoint</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/dap/errors" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="NVM_HOME.not.found.message">
+      <source xml:lang="en">Attribute 'runtimeVersion' requires Node.js version manager 'nvm-windows' or 'nvs'.</source>
+    </trans-unit>
+    <trans-unit id="NVS_HOME.not.found.message">
+      <source xml:lang="en">Attribute 'runtimeVersion' requires Node.js version manager 'nvs' or 'nvm' to be installed.</source>
+    </trans-unit>
+    <trans-unit id="VSND2011">
+      <source xml:lang="en">Cannot launch debug target in terminal ({0}).</source>
+    </trans-unit>
+    <trans-unit id="VSND2029">
+      <source xml:lang="en">Can't load environment variables from file ({0}).</source>
+    </trans-unit>
+    <trans-unit id="asyncScopesNotAvailable">
+      <source xml:lang="en">Variables not available in async stacks</source>
+    </trans-unit>
+    <trans-unit id="breakpointSyntaxError">
+      <source xml:lang="en">Syntax error setting breakpoint with condition {0} on line {1}: {2}</source>
+    </trans-unit>
+    <trans-unit id="browserVersionNotFound">
+      <source xml:lang="en">Unable to find {0} version {1}. Available auto-discovered versions are: {2}. You can set the "runtimeExecutable" in your launch.json to one of these, or provide an absolute path to the browser executable.</source>
+    </trans-unit>
+    <trans-unit id="error.browserAttachError">
+      <source xml:lang="en">Unable to attach to browser</source>
+    </trans-unit>
+    <trans-unit id="error.browserLaunchError">
+      <source xml:lang="en">Unable to launch browser: "{0}"</source>
+    </trans-unit>
+    <trans-unit id="error.threadNotFound">
+      <source xml:lang="en">Target page not found. You may need to update your "urlFilter" to match the page you want to debug.</source>
+    </trans-unit>
+    <trans-unit id="invalidHitCondition">
+      <source xml:lang="en">Invalid hit condition "{0}". Expected an expression like "&gt; 42" or "== 2".</source>
+    </trans-unit>
+    <trans-unit id="noBrowserInstallFound">
+      <source xml:lang="en">Unable to find a {0} installation on your system. Try installing it, or providing an absolute path to the browser in the "runtimeExecutable" in your launch.json.</source>
+    </trans-unit>
+    <trans-unit id="profile.error.concurrent">
+      <source xml:lang="en">Please stop the running profile before starting a new one.</source>
+    </trans-unit>
+    <trans-unit id="profile.error.generic">
+      <source xml:lang="en">An error occurred taking a profile from the target.</source>
+    </trans-unit>
+    <trans-unit id="runtime.node.notfound">
+      <source xml:lang="en">Can't find Node.js binary "{0}": {1}. Make sure Node.js is installed and in your PATH, or set the "runtimeExecutable" in your launch.json</source>
+    </trans-unit>
+    <trans-unit id="runtime.node.outdated">
+      <source xml:lang="en">The Node version in "{0}" is outdated (version {1}), we require at least Node 8.x.</source>
+    </trans-unit>
+    <trans-unit id="runtime.version.not.found.message">
+      <source xml:lang="en">Node.js version '{0}' not installed using version manager {1}.</source>
+    </trans-unit>
+    <trans-unit id="sourcemapParseError">
+      <source xml:lang="en">Could not read source map for {0}: {1}</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/debugServer" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="breakpoint.provisionalBreakpoint">
+      <source xml:lang="en">Unbound breakpoint</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/targets/browser/browserAttacher" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="attach.cannotConnect">
+      <source xml:lang="en">Cannot connect to the target at {0}: {1}</source>
+    </trans-unit>
+    <trans-unit id="chrome.targets.placeholder">
+      <source xml:lang="en">Select a tab</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/targets/node/nodeAttacher" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="node.attach.restart.message">
+      <source xml:lang="en">Lost connection to debugee, reconnecting in {0}ms
+</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/targets/node/nodeBinaryProvider" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="outOfDate">
+      <source xml:lang="en">{0} Would you like to try debugging anyway?</source>
+    </trans-unit>
+    <trans-unit id="runtime.node.notfound.enoent">
+      <source xml:lang="en">path does not exist</source>
+    </trans-unit>
+    <trans-unit id="runtime.node.notfound.spawnErr">
+      <source xml:lang="en">error getting version: {0}</source>
+    </trans-unit>
+    <trans-unit id="warning.16bpIssue">
+      <source xml:lang="en">Some breakpoints might not work in your version of Node.js. We recommend upgrading for the latest bug, performance, and security fixes. Details: https://aka.ms/AAcsvqm</source>
+    </trans-unit>
+    <trans-unit id="warning.8outdated">
+      <source xml:lang="en">You're running an outdated version of Node.js. We recommend upgrading for the latest bug, performance, and security fixes.</source>
+    </trans-unit>
+    <trans-unit id="yes">
+      <source xml:lang="en">Yes</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/ui/autoAttach" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="details">
+      <source xml:lang="en">Details</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/ui/companionBrowserLaunch" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="cannotDebugInBrowser">
+      <source xml:lang="en">We can't launch a browser in debug mode from here. Open this workspace in VS Code on your desktop to enable debugging.</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/ui/configuration/chromiumDebugConfigurationProvider" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="cancel">
+      <source xml:lang="en">Cancel</source>
+    </trans-unit>
+    <trans-unit id="chrome.launch.name">
+      <source xml:lang="en">Launch Chrome against localhost</source>
+    </trans-unit>
+    <trans-unit id="existingBrowser.alert">
+      <source xml:lang="en">It looks like a browser is already running from {0}. Please close it before trying to debug, otherwise VS Code may not be able to connect to it.</source>
+    </trans-unit>
+    <trans-unit id="existingBrowser.debugAnyway">
+      <source xml:lang="en">Debug Anyway</source>
+    </trans-unit>
+    <trans-unit id="existingBrowser.location.default">
+      <source xml:lang="en">an old debug session</source>
+    </trans-unit>
+    <trans-unit id="existingBrowser.location.userDataDir">
+      <source xml:lang="en">the configured userDataDir</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/ui/configuration/edgeDebugConfigurationProvider" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="chrome.launch.name">
+      <source xml:lang="en">Launch Edge against localhost</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/ui/configuration/nodeDebugConfigurationProvider" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="debug.terminal.label">
+      <source xml:lang="en">JavaScript Debug Terminal</source>
+    </trans-unit>
+    <trans-unit id="node.launch.currentFile">
+      <source xml:lang="en">Run Current File</source>
+    </trans-unit>
+    <trans-unit id="node.launch.script">
+      <source xml:lang="en">Run Script: {0}</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/ui/configuration/nodeDebugConfigurationResolver" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="mern.starter.explanation">
+      <source xml:lang="en">Launch configuration for '{0}' project created.</source>
+    </trans-unit>
+    <trans-unit id="node.launch.config.name">
+      <source xml:lang="en">Launch Program</source>
+    </trans-unit>
+    <trans-unit id="outFiles.explanation">
+      <source xml:lang="en">Adjust glob pattern(s) in the 'outFiles' attribute so that they cover the generated JavaScript.</source>
+    </trans-unit>
+    <trans-unit id="program.guessed.from.package.json.explanation">
+      <source xml:lang="en">Launch configuration created based on 'package.json'.</source>
+    </trans-unit>
+    <trans-unit id="program.not.found.message">
+      <source xml:lang="en">Cannot find a program to debug</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/ui/debugLinkUI" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="debugLink.invalidUrl">
+      <source xml:lang="en">The URL provided is invalid</source>
+    </trans-unit>
+    <trans-unit id="debugLink.savePrompt">
+      <source xml:lang="en">Would you like to save a configuration in your launch.json for easy access later?</source>
+    </trans-unit>
+    <trans-unit id="never">
+      <source xml:lang="en">Never</source>
+    </trans-unit>
+    <trans-unit id="no">
+      <source xml:lang="en">No</source>
+    </trans-unit>
+    <trans-unit id="yes">
+      <source xml:lang="en">Yes</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/ui/debugNpmScript" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="debug.npm.noScripts">
+      <source xml:lang="en">No npm scripts found in your package.json</source>
+    </trans-unit>
+    <trans-unit id="debug.npm.noWorkspaceFolder">
+      <source xml:lang="en">You need to open a workspace folder to debug npm scripts.</source>
+    </trans-unit>
+    <trans-unit id="debug.npm.notFound.open">
+      <source xml:lang="en">Edit package.json</source>
+    </trans-unit>
+    <trans-unit id="debug.npm.parseError">
+      <source xml:lang="en">Could not read {0}: {1}</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/ui/debugTerminalUI" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="terminal.cwdpick">
+      <source xml:lang="en">Select current working directory for new terminal</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/ui/diagnosticsUI" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="inspectSessionEnded">
+      <source xml:lang="en">It looks like your debug session has already ended. Try debugging again, then run the "Debug: Diagnose Breakpoint Problems" command.</source>
+    </trans-unit>
+    <trans-unit id="never">
+      <source xml:lang="en">Never</source>
+    </trans-unit>
+    <trans-unit id="notNow">
+      <source xml:lang="en">Not Now</source>
+    </trans-unit>
+    <trans-unit id="selectInspectSession">
+      <source xml:lang="en">Select the session you want to inspect:</source>
+    </trans-unit>
+    <trans-unit id="yes">
+      <source xml:lang="en">Yes</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/ui/disableSourceMapUI" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="always">
+      <source xml:lang="en">Always</source>
+    </trans-unit>
+    <trans-unit id="disableSourceMapUi.msg">
+      <source xml:lang="en">This is a missing file path referenced by a sourcemap. Would you like to debug the compiled version instead?</source>
+    </trans-unit>
+    <trans-unit id="no">
+      <source xml:lang="en">No</source>
+    </trans-unit>
+    <trans-unit id="yes">
+      <source xml:lang="en">Yes</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/ui/edgeDevToolOpener" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="selectEdgeToolSession">
+      <source xml:lang="en">Select the page where you want to open the devtools</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/ui/linkedBreakpointLocationUI" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="ignore">
+      <source xml:lang="en">Ignore</source>
+    </trans-unit>
+    <trans-unit id="readMore">
+      <source xml:lang="en">Read More</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/ui/longPredictionUI" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="longPredictionWarning.disable">
+      <source xml:lang="en">Don't show again</source>
+    </trans-unit>
+    <trans-unit id="longPredictionWarning.message">
+      <source xml:lang="en">It's taking a while to configure your breakpoints. You can speed this up by updating the 'outFiles' in your launch.json.</source>
+    </trans-unit>
+    <trans-unit id="longPredictionWarning.noFolder">
+      <source xml:lang="en">No workspace folder open.</source>
+    </trans-unit>
+    <trans-unit id="longPredictionWarning.open">
+      <source xml:lang="en">Open launch.json</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/ui/prettyPrint" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="never">
+      <source xml:lang="en">Never</source>
+    </trans-unit>
+    <trans-unit id="no">
+      <source xml:lang="en">No</source>
+    </trans-unit>
+    <trans-unit id="yes">
+      <source xml:lang="en">Yes</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/ui/processPicker" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="cannot.enable.debug.mode.error">
+      <source xml:lang="en">Attach to process: cannot enable debug mode for process '{0}' ({1}).</source>
+    </trans-unit>
+    <trans-unit id="pickNodeProcess">
+      <source xml:lang="en">Pick the node.js process to attach to</source>
+    </trans-unit>
+    <trans-unit id="process.id.error">
+      <source xml:lang="en">Attach to process: '{0}' doesn't look like a process id.</source>
+    </trans-unit>
+    <trans-unit id="process.id.port.signal">
+      <source xml:lang="en">process id: {0}, debug port: {1} ({2})</source>
+    </trans-unit>
+    <trans-unit id="process.id.signal">
+      <source xml:lang="en">process id: {0} ({1})</source>
+    </trans-unit>
+    <trans-unit id="process.picker.error">
+      <source xml:lang="en">Process picker failed ({0})</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/ui/profiling/breakpointTerminationCondition" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="breakpointTerminationWarnConfirm">
+      <source xml:lang="en">Got it!</source>
+    </trans-unit>
+    <trans-unit id="breakpointTerminationWarnSlow">
+      <source xml:lang="en">Profiling with breakpoints enabled can change the performance of your code. It can be useful to validate your findings with the "duration" or "manual" termination conditions.</source>
+    </trans-unit>
+    <trans-unit id="profile.termination.breakpoint.description">
+      <source xml:lang="en">Run until a specific breakpoint is hit</source>
+    </trans-unit>
+    <trans-unit id="profile.termination.breakpoint.label">
+      <source xml:lang="en">Pick Breakpoint</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/ui/profiling/durationTerminationCondition" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="profile.termination.duration.description">
+      <source xml:lang="en">Run for a specific amount of time</source>
+    </trans-unit>
+    <trans-unit id="profile.termination.duration.inputTitle">
+      <source xml:lang="en">Duration of Profile</source>
+    </trans-unit>
+    <trans-unit id="profile.termination.duration.invalidFormat">
+      <source xml:lang="en">Please enter a number</source>
+    </trans-unit>
+    <trans-unit id="profile.termination.duration.invalidLength">
+      <source xml:lang="en">Please enter a number greater than 1</source>
+    </trans-unit>
+    <trans-unit id="profile.termination.duration.label">
+      <source xml:lang="en">Duration</source>
+    </trans-unit>
+    <trans-unit id="profile.termination.duration.placeholder">
+      <source xml:lang="en">Profile duration in seconds, e.g "5"</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/ui/profiling/manualTerminationCondition" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="profile.termination.duration.description">
+      <source xml:lang="en">Run until manually stopped</source>
+    </trans-unit>
+    <trans-unit id="profile.termination.duration.label">
+      <source xml:lang="en">Manual</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/ui/profiling/uiProfileManager" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="no">
+      <source xml:lang="en">No</source>
+    </trans-unit>
+    <trans-unit id="profile.alreadyRunning">
+      <source xml:lang="en">A profiling session is already running, would you like to stop it and start a new session?</source>
+    </trans-unit>
+    <trans-unit id="profile.sessionState">
+      <source xml:lang="en">Profiling</source>
+    </trans-unit>
+    <trans-unit id="profile.status.default">
+      <source xml:lang="en">$(loading) Click to Stop Profiling</source>
+    </trans-unit>
+    <trans-unit id="profile.status.multiSession">
+      <source xml:lang="en">$(loading) Click to Stop Profiling ({0} sessions)</source>
+    </trans-unit>
+    <trans-unit id="profile.status.single">
+      <source xml:lang="en">$(loading) Click to Stop Profiling ({0})</source>
+    </trans-unit>
+    <trans-unit id="profile.termination.title">
+      <source xml:lang="en">How long to run the profile:</source>
+    </trans-unit>
+    <trans-unit id="profile.type.title">
+      <source xml:lang="en">Type of profile:</source>
+    </trans-unit>
+    <trans-unit id="yes">
+      <source xml:lang="en">Yes</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/ui/profiling/uiProfileSession" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="profile.saving">
+      <source xml:lang="en">Saving</source>
+    </trans-unit>
+    <trans-unit id="progress.profile.start">
+      <source xml:lang="en">Starting profile...</source>
+    </trans-unit>
+    <trans-unit id="progress.profile.stop">
+      <source xml:lang="en">Stopping profile...</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/ui/terminalLinkHandler" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="cantOpenChromeOnWeb">
+      <source xml:lang="en">We can't launch a browser in debug mode from here. If you want to debug this webpage, open this workspace from VS Code on your desktop.</source>
+    </trans-unit>
+    <trans-unit id="terminalLinkHover.debug">
+      <source xml:lang="en">Debug URL</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug//src/vsDebugServer" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="session.rootSessionName">
+      <source xml:lang="en">JavaScript debug adapter</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.js-debug/package" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="add.browser.breakpoint">
+      <source xml:lang="en">Add Browser Breakpoint</source>
+    </trans-unit>
+    <trans-unit id="attach.node.process">
+      <source xml:lang="en">Attach to Node Process</source>
+    </trans-unit>
+    <trans-unit id="base.cascadeTerminateToConfigurations.label">
+      <source xml:lang="en">A list of debug sessions which, when this debug session is terminated, will also be stopped.</source>
+    </trans-unit>
+    <trans-unit id="browser.address.description">
+      <source xml:lang="en">IP address or hostname the debugged browser is listening on.</source>
+    </trans-unit>
+    <trans-unit id="browser.attach.port.description">
+      <source xml:lang="en">Port to use to remote debugging the browser, given as `--remote-debugging-port` when launching the browser.</source>
+    </trans-unit>
+    <trans-unit id="browser.baseUrl.description">
+      <source xml:lang="en">Base URL to resolve paths baseUrl. baseURL is trimmed when mapping URLs to the files on disk. Defaults to the launch URL domain.</source>
+    </trans-unit>
+    <trans-unit id="browser.browserAttachLocation.description">
+      <source xml:lang="en">Forces the browser to attach in one location. In a remote workspace (through ssh or WSL, for example) this can be used to attach to a browser on the remote machine rather than locally.</source>
+    </trans-unit>
+    <trans-unit id="browser.browserLaunchLocation.description">
+      <source xml:lang="en">Forces the browser to be launched in one location. In a remote workspace (through ssh or WSL, for example) this can be used to open the browser on the remote machine rather than locally.</source>
+    </trans-unit>
+    <trans-unit id="browser.cleanUp.description">
+      <source xml:lang="en">What clean-up to do after the debugging session finishes. Close only the tab being debug, vs. close the whole browser.</source>
+    </trans-unit>
+    <trans-unit id="browser.cwd.description">
+      <source xml:lang="en">Optional working directory for the runtime executable.</source>
+    </trans-unit>
+    <trans-unit id="browser.disableNetworkCache.description">
+      <source xml:lang="en">Controls whether to skip the network cache for each request</source>
+    </trans-unit>
+    <trans-unit id="browser.env.description">
+      <source xml:lang="en">Optional dictionary of environment key/value pairs for the browser.</source>
+    </trans-unit>
+    <trans-unit id="browser.file.description">
+      <source xml:lang="en">A local html file to open in the browser</source>
+    </trans-unit>
+    <trans-unit id="browser.includeDefaultArgs.description">
+      <source xml:lang="en">Whether default browser launch arguments (to disable features that may make debugging harder) will be included in the launch.</source>
+    </trans-unit>
+    <trans-unit id="browser.inspectUri.description">
+      <source xml:lang="en">Format to use to rewrite the inspectUri: It's a template string that interpolates keys in `{curlyBraces}`. Available keys are:
+ - `url.*` is the parsed address of the running application. For instance, `{url.port}`, `{url.hostname}`
+ - `port` is the debug port that Chrome is listening on.
+ - `browserInspectUri` is the inspector URI on the launched browser
+ - `browserInspectUriPath` is the path part of the inspector URI on the launched browser (e.g.: "/devtools/browser/e9ec0098-306e-472a-8133-5e42488929c2").
+ - `wsProtocol` is the hinted websocket protocol. This is set to `wss` if the original URL is `https`, or `ws` otherwise.
+</source>
+    </trans-unit>
+    <trans-unit id="browser.launch.port.description">
+      <source xml:lang="en">Port for the browser to listen on. Defaults to "0", which will cause the browser to be debugged via pipes, which is generally more secure and should be chosen unless you need to attach to the browser from another tool.</source>
+    </trans-unit>
+    <trans-unit id="browser.pathMapping.description">
+      <source xml:lang="en">A mapping of URLs/paths to local folders, to resolve scripts in the Browser to scripts on disk</source>
+    </trans-unit>
+    <trans-unit id="browser.perScriptSourcemaps.description">
+      <source xml:lang="en">Whether scripts are loaded individually with unique sourcemaps containing the basename of the source file. This can be set to optimize sourcemap handling when dealing with lots of small scripts. If set to "auto", we'll detect known cases where this is appropriate.</source>
+    </trans-unit>
+    <trans-unit id="browser.profileStartup.description">
+      <source xml:lang="en">If true, will start profiling soon as the process launches</source>
+    </trans-unit>
+    <trans-unit id="browser.restart">
+      <source xml:lang="en">Whether to reconnect if the browser connection is closed</source>
+    </trans-unit>
+    <trans-unit id="browser.revealPage">
+      <source xml:lang="en">Focus Tab</source>
+    </trans-unit>
+    <trans-unit id="browser.runtimeArgs.description">
+      <source xml:lang="en">Optional arguments passed to the runtime executable.</source>
+    </trans-unit>
+    <trans-unit id="browser.runtimeExecutable.description">
+      <source xml:lang="en">Either 'canary', 'stable', 'custom' or path to the browser executable. Custom means a custom wrapper, custom build or CHROME_PATH environment variable.</source>
+    </trans-unit>
+    <trans-unit id="browser.runtimeExecutable.edge.description">
+      <source xml:lang="en">Either 'canary', 'stable', 'dev', 'custom' or path to the browser executable. Custom means a custom wrapper, custom build or EDGE_PATH environment variable.</source>
+    </trans-unit>
+    <trans-unit id="browser.server.description">
+      <source xml:lang="en">Configures a web server to start up. Takes the same configuration as the 'node' launch task.</source>
+    </trans-unit>
+    <trans-unit id="browser.skipFiles.description">
+      <source xml:lang="en">An array of file or folder names, or path globs, to skip when debugging.</source>
+    </trans-unit>
+    <trans-unit id="browser.smartStep.description">
+      <source xml:lang="en">Automatically step through unmapped lines in sourcemapped files. For example, code that TypeScript produces automatically when downcompiling async/await or other features.</source>
+    </trans-unit>
+    <trans-unit id="browser.sourceMapPathOverrides.description">
+      <source xml:lang="en">A set of mappings for rewriting the locations of source files from what the sourcemap says, to their locations on disk. See README for details.</source>
+    </trans-unit>
+    <trans-unit id="browser.sourceMapRenames.description">
+      <source xml:lang="en">Whether to use the "names" mapping in sourcemaps. This requires requesting source content, which can be slow with certain debuggers.</source>
+    </trans-unit>
+    <trans-unit id="browser.sourceMaps.description">
+      <source xml:lang="en">Use JavaScript source maps (if they exist).</source>
+    </trans-unit>
+    <trans-unit id="browser.targetSelection">
+      <source xml:lang="en">Whether to attach to all targets that match the URL filter ("automatic") or ask to pick one ("pick").</source>
+    </trans-unit>
+    <trans-unit id="browser.timeout.description">
+      <source xml:lang="en">Retry for this number of milliseconds to connect to the browser. Default is 10000 ms.</source>
+    </trans-unit>
+    <trans-unit id="browser.url.description">
+      <source xml:lang="en">Will search for a tab with this exact url and attach to it, if found</source>
+    </trans-unit>
+    <trans-unit id="browser.urlFilter.description">
+      <source xml:lang="en">Will search for a page with this url and attach to it, if found. Can have * wildcards.</source>
+    </trans-unit>
+    <trans-unit id="browser.userDataDir.description">
+      <source xml:lang="en">By default, the browser is launched with a separate user profile in a temp folder. Use this option to override it. Set to false to launch with your default user profile.</source>
+    </trans-unit>
+    <trans-unit id="browser.vueComponentPaths">
+      <source xml:lang="en">A list of file glob patterns to find `*.vue` components. By default, searches the entire workspace. This needs to be specified due to extra lookups that Vue's sourcemaps require in Vue CLI 4. You can disable this special handling by setting this to an empty array.</source>
+    </trans-unit>
+    <trans-unit id="browser.webRoot.description">
+      <source xml:lang="en">This specifies the workspace absolute path to the webserver root. Used to resolve paths like `/app.js` to files on disk. Shorthand for a pathMapping for "/"</source>
+    </trans-unit>
+    <trans-unit id="chrome.attach.description">
+      <source xml:lang="en">Attach to an instance of Chrome already in debug mode</source>
+    </trans-unit>
+    <trans-unit id="chrome.attach.label">
+      <source xml:lang="en">Chrome: Attach</source>
+    </trans-unit>
+    <trans-unit id="chrome.label">
+      <source xml:lang="en">Chrome</source>
+    </trans-unit>
+    <trans-unit id="chrome.launch.description">
+      <source xml:lang="en">Launch Chrome to debug a URL</source>
+    </trans-unit>
+    <trans-unit id="chrome.launch.label">
+      <source xml:lang="en">Chrome: Launch</source>
+    </trans-unit>
+    <trans-unit id="configuration.autoAttachMode">
+      <source xml:lang="en">Configures which processes to automatically attach and debug when `#debug.node.autoAttach#` is on. A Node process launched with the `--inspect` flag will always be attached to, regardless of this setting.</source>
+    </trans-unit>
+    <trans-unit id="configuration.autoAttachMode.always">
+      <source xml:lang="en">Auto attach to every Node.js process launched in the terminal.</source>
+    </trans-unit>
+    <trans-unit id="configuration.autoAttachMode.disabled">
+      <source xml:lang="en">Auto attach is disabled and not shown in status bar.</source>
+    </trans-unit>
+    <trans-unit id="configuration.autoAttachMode.explicit">
+      <source xml:lang="en">Only auto attach when the `--inspect` is given.</source>
+    </trans-unit>
+    <trans-unit id="configuration.autoAttachMode.smart">
+      <source xml:lang="en">Auto attach when running scripts that aren't in a node_modules folder.</source>
+    </trans-unit>
+    <trans-unit id="configuration.autoAttachSmartPatterns">
+      <source xml:lang="en">Configures glob patterns for determining when to attach in "smart" `#debug.javascript.autoAttachFilter#` mode. `$KNOWN_TOOLS$` is replaced with a list of names of common test and code runners. [Read more on the VS Code docs](https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_auto-attach-smart-patterns).</source>
+    </trans-unit>
+    <trans-unit id="configuration.autoExpandGetters">
+      <source xml:lang="en">Configures whether property getters will be expanded automatically. If this is false, the getter will appear as `get propertyName` and will only be evaluated when you click on it.</source>
+    </trans-unit>
+    <trans-unit id="configuration.automaticallyTunnelRemoteServer">
+      <source xml:lang="en">When debugging a remote web app, configures whether to automatically tunnel the remote server to your local machine.</source>
+    </trans-unit>
+    <trans-unit id="configuration.breakOnConditionalError">
+      <source xml:lang="en">Whether to stop when conditional breakpoints throw an error. Note: your launch.json `type` must be prefixed with `pwa-` to use this, such as `pwa-node`.</source>
+    </trans-unit>
+    <trans-unit id="configuration.debugByLinkOptions">
+      <source xml:lang="en">Options used when debugging open links clicked from inside the JavaScript Debug Terminal. Can be set to "off" to disable this behavior, or "always" to enable debugging in all terminals.</source>
+    </trans-unit>
+    <trans-unit id="configuration.defaultRuntimeExecutables">
+      <source xml:lang="en">The default `runtimeExecutable` used for launch configurations, if unspecified. This can be used to config custom paths to Node.js or browser installations.</source>
+    </trans-unit>
+    <trans-unit id="configuration.npmScriptLensLocation">
+      <source xml:lang="en">Where a "Run" and "Debug" code lens should be shown in your npm scripts. It may be on "all", scripts, on "top" of the script section, or "never".</source>
+    </trans-unit>
+    <trans-unit id="configuration.pickAndAttachOptions">
+      <source xml:lang="en">Default options used when debugging a process through the `Debug: Attach to Node.js Process` command</source>
+    </trans-unit>
+    <trans-unit id="configuration.resourceRequestOptions">
+      <source xml:lang="en">Request options to use when loading resources, such as source maps, in the debugger. You may need to configure this if your sourcemaps require authentication or use a self-signed certificate, for instance. Options are used to create a request using the [`got`](https://github.com/sindresorhus/got) library.
+
+A common case to disable certificate verification can be done by passing `{ "https": { "rejectUnauthorized": false } }`.</source>
+    </trans-unit>
+    <trans-unit id="configuration.suggestPrettyPrinting">
+      <source xml:lang="en">Whether to suggest pretty printing JavaScript code that looks minified when you step into it.</source>
+    </trans-unit>
+    <trans-unit id="configuration.terminalOptions">
+      <source xml:lang="en">Default launch options for the JavaScript debug terminal and npm scripts.</source>
+    </trans-unit>
+    <trans-unit id="configuration.unmapMissingSources">
+      <source xml:lang="en">Configures whether sourcemapped file where the original file can't be read will automatically be unmapped. If this is false (default), a prompt is shown.</source>
+    </trans-unit>
+    <trans-unit id="configuration.usePreview">
+      <source xml:lang="en">Use the new in-preview JavaScript debugger for Node.js and Chrome.</source>
+    </trans-unit>
+    <trans-unit id="createDiagnostics.label">
+      <source xml:lang="en">Diagnose Breakpoint Problems</source>
+    </trans-unit>
+    <trans-unit id="customDescriptionGenerator.description">
+      <source xml:lang="en">Customize the textual description the debugger shows for objects (local variables, etc...). Samples:
+      1. this.toString() // will call toString to print all objects
+      2. this.customDescription ? this.customDescription() : defaultValue // Use customDescription method if available, if not return defaultValue
+      3. function (def) { return this.customDescription ? this.customDescription() : def } // Use customDescription method if available, if not return defaultValue
+      </source>
+    </trans-unit>
+    <trans-unit id="customPropertiesGenerator.description">
+      <source xml:lang="en">Customize the properties shown for an object in the debugger (local variables, etc...). Samples:
+    1. { ...this, extraProperty: '12345' } // Add an extraProperty 12345 to all objects
+    2. this.customProperties ? this.customProperties() : this // Use customProperties method if available, if not use the properties in this (the default properties)
+    3. function () { return this.customProperties ? this.customProperties() : this } // Use customDescription method if available, if not return the default properties
+
+    Deprecated: This is a temporary implementation of this feature until we have time to implement it in the way described here: https://github.com/microsoft/vscode/issues/102181</source>
+    </trans-unit>
+    <trans-unit id="debug.npm.edit">
+      <source xml:lang="en">Edit package.json</source>
+    </trans-unit>
+    <trans-unit id="debug.npm.noScripts">
+      <source xml:lang="en">No npm scripts found in your package.json</source>
+    </trans-unit>
+    <trans-unit id="debug.npm.noWorkspaceFolder">
+      <source xml:lang="en">You need to open a workspace folder to debug npm scripts.</source>
+    </trans-unit>
+    <trans-unit id="debug.npm.parseError">
+      <source xml:lang="en">Could not read {0}: {1}</source>
+    </trans-unit>
+    <trans-unit id="debug.npm.script">
+      <source xml:lang="en">Debug npm Script</source>
+    </trans-unit>
+    <trans-unit id="debug.terminal.attach">
+      <source xml:lang="en">Attach to Node.js Terminal Process</source>
+    </trans-unit>
+    <trans-unit id="debug.terminal.label">
+      <source xml:lang="en">JavaScript Debug Terminal</source>
+    </trans-unit>
+    <trans-unit id="debug.terminal.program.description">
+      <source xml:lang="en">Command to run in the launched terminal. If not provided, the terminal will open without launching a program.</source>
+    </trans-unit>
+    <trans-unit id="debug.terminal.snippet.label">
+      <source xml:lang="en">Run "npm start" in a debug terminal</source>
+    </trans-unit>
+    <trans-unit id="debug.terminal.toggleAuto">
+      <source xml:lang="en">Toggle Terminal Node.js Auto Attach</source>
+    </trans-unit>
+    <trans-unit id="debug.terminal.welcome">
+      <source xml:lang="en">[JavaScript Debug Terminal](command:extension.js-debug.createDebuggerTerminal)
+
+You can use the JavaScript Debug Terminal to debug Node.js processes run on the command line.</source>
+    </trans-unit>
+    <trans-unit id="debug.terminal.welcomeWithLink">
+      <source xml:lang="en">[JavaScript Debug Terminal](command:extension.js-debug.createDebuggerTerminal)
+
+You can use the JavaScript Debug Terminal to debug Node.js processes run on the command line.
+
+[Debug URL](command:extension.js-debug.debugLink)</source>
+    </trans-unit>
+    <trans-unit id="debugLink.label">
+      <source xml:lang="en">Open Link</source>
+    </trans-unit>
+    <trans-unit id="edge.address.description">
+      <source xml:lang="en">When debugging webviews, the IP address or hostname the webview is listening on. Will be automatically discovered if not set.</source>
+    </trans-unit>
+    <trans-unit id="edge.attach.description">
+      <source xml:lang="en">Attach to an instance of Edge already in debug mode</source>
+    </trans-unit>
+    <trans-unit id="edge.attach.label">
+      <source xml:lang="en">Edge: Attach</source>
+    </trans-unit>
+    <trans-unit id="edge.label">
+      <source xml:lang="en">Edge</source>
+    </trans-unit>
+    <trans-unit id="edge.launch.description">
+      <source xml:lang="en">Launch Edge to debug a URL</source>
+    </trans-unit>
+    <trans-unit id="edge.launch.label">
+      <source xml:lang="en">Edge: Launch</source>
+    </trans-unit>
+    <trans-unit id="edge.port.description">
+      <source xml:lang="en">When debugging webviews, the port the webview debugger is listening on. Will be automatically discovered if not set.</source>
+    </trans-unit>
+    <trans-unit id="edge.useWebView.description">
+      <source xml:lang="en">(Edge (Chromium) only) When 'true', the debugger will treat the runtime executable as a host application that contains a WebView allowing you to debug the WebView script content.</source>
+    </trans-unit>
+    <trans-unit id="enableContentValidation.description">
+      <source xml:lang="en">Toggles whether we verify the contents of files on disk match the ones loaded in the runtime. This is useful in a variety of scenarios and required in some, but can cause issues if you have server-side transformation of scripts, for example.</source>
+    </trans-unit>
+    <trans-unit id="errors.timeout">
+      <source xml:lang="en">{0}: timeout after {1}ms</source>
+    </trans-unit>
+    <trans-unit id="extension.description">
+      <source xml:lang="en">An extension for debugging Node.js programs and Chrome.</source>
+    </trans-unit>
+    <trans-unit id="extensionHost.label">
+      <source xml:lang="en">VS Code Extension Development</source>
+    </trans-unit>
+    <trans-unit id="extensionHost.launch.config.name">
+      <source xml:lang="en">Launch Extension</source>
+    </trans-unit>
+    <trans-unit id="extensionHost.launch.debugWebWorkerHost">
+      <source xml:lang="en">Configures whether we should try to attach to the web worker extension host.</source>
+    </trans-unit>
+    <trans-unit id="extensionHost.launch.debugWebviews">
+      <source xml:lang="en">Configures whether we should try to attach to webviews in the launched VS Code instance. **Note:** at the moment this requires the setting `"webview.experimental.useIframes": true` to work properly, and will only work in desktop VS Code.</source>
+    </trans-unit>
+    <trans-unit id="extensionHost.launch.env.description">
+      <source xml:lang="en">Environment variables passed to the extension host.</source>
+    </trans-unit>
+    <trans-unit id="extensionHost.launch.rendererDebugOptions">
+      <source xml:lang="en">Chrome launch options used when attaching to the renderer process, with `debugWebviews` or `debugWebWorkerHost`.</source>
+    </trans-unit>
+    <trans-unit id="extensionHost.launch.runtimeExecutable.description">
+      <source xml:lang="en">Absolute path to VS Code.</source>
+    </trans-unit>
+    <trans-unit id="extensionHost.launch.stopOnEntry.description">
+      <source xml:lang="en">Automatically stop the extension host after launch.</source>
+    </trans-unit>
+    <trans-unit id="extensionHost.snippet.launch.description">
+      <source xml:lang="en">Launch a VS Code extension in debug mode</source>
+    </trans-unit>
+    <trans-unit id="extensionHost.snippet.launch.label">
+      <source xml:lang="en">VS Code Extension Development</source>
+    </trans-unit>
+    <trans-unit id="longPredictionWarning.disable">
+      <source xml:lang="en">Don't show again</source>
+    </trans-unit>
+    <trans-unit id="longPredictionWarning.message">
+      <source xml:lang="en">It's taking a while to configure your breakpoints. You can speed this up by updating the 'outFiles' in your launch.json.</source>
+    </trans-unit>
+    <trans-unit id="longPredictionWarning.noFolder">
+      <source xml:lang="en">No workspace folder open.</source>
+    </trans-unit>
+    <trans-unit id="longPredictionWarning.open">
+      <source xml:lang="en">Open launch.json</source>
+    </trans-unit>
+    <trans-unit id="node.address.description">
+      <source xml:lang="en">TCP/IP address of process to be debugged. Default is 'localhost'.</source>
+    </trans-unit>
+    <trans-unit id="node.attach.attachExistingChildren.description">
+      <source xml:lang="en">Whether to attempt to attach to already-spawned child processes.</source>
+    </trans-unit>
+    <trans-unit id="node.attach.attachSpawnedProcesses.description">
+      <source xml:lang="en">Whether to set environment variables in the attached process to track spawned children.</source>
+    </trans-unit>
+    <trans-unit id="node.attach.config.name">
+      <source xml:lang="en">Attach</source>
+    </trans-unit>
+    <trans-unit id="node.attach.continueOnAttach">
+      <source xml:lang="en">If true, we'll automatically resume programs launched and waiting on `--inspect-brk`</source>
+    </trans-unit>
+    <trans-unit id="node.attach.processId.description">
+      <source xml:lang="en">ID of process to attach to.</source>
+    </trans-unit>
+    <trans-unit id="node.attach.restart.description">
+      <source xml:lang="en">Try to reconnect to the program if we lose connection. If set to `true`, we'll try once a second, forever. You can customize the interval and maximum number of attempts by specifying the `delay` and `maxAttempts` in an object instead.</source>
+    </trans-unit>
+    <trans-unit id="node.attachSimplePort.description">
+      <source xml:lang="en">If set, attaches to the process via the given port. This is generally no longer necessary for Node.js programs and loses the ability to debug child processes, but can be useful in more esoteric scenarios such as with Deno and Docker launches. If set to 0, a random port will be chosen and --inspect-brk added to the launch arguments automatically.</source>
+    </trans-unit>
+    <trans-unit id="node.console.title">
+      <source xml:lang="en">Node Debug Console</source>
+    </trans-unit>
+    <trans-unit id="node.disableOptimisticBPs.description">
+      <source xml:lang="en">Don't set breakpoints in any file until a sourcemap has been loaded for that file.</source>
+    </trans-unit>
+    <trans-unit id="node.killBehavior.description">
+      <source xml:lang="en">Configures how debug processes are killed when stopping the session. Can be:
+
+- forceful (default): forcefully tears down the process tree. Sends SIGKILL on posix, or `taskkill.exe /F` on Windows.
+- polite: gracefully tears down the process tree. It's possible that misbehaving processes continue to run after shutdown in this way. Sends SIGTERM on posix, or `taskkill.exe` with no `/F` (force) flag on Windows.
+- none: no termination will happen.</source>
+    </trans-unit>
+    <trans-unit id="node.label">
+      <source xml:lang="en">Node.js</source>
+    </trans-unit>
+    <trans-unit id="node.launch.args.description">
+      <source xml:lang="en">Command line arguments passed to the program.</source>
+    </trans-unit>
+    <trans-unit id="node.launch.autoAttachChildProcesses.description">
+      <source xml:lang="en">Attach debugger to new child processes automatically.</source>
+    </trans-unit>
+    <trans-unit id="node.launch.config.name">
+      <source xml:lang="en">Launch</source>
+    </trans-unit>
+    <trans-unit id="node.launch.console.description">
+      <source xml:lang="en">Where to launch the debug target.</source>
+    </trans-unit>
+    <trans-unit id="node.launch.console.externalTerminal.description">
+      <source xml:lang="en">External terminal that can be configured via user settings</source>
+    </trans-unit>
+    <trans-unit id="node.launch.console.integratedTerminal.description">
+      <source xml:lang="en">VS Code's integrated terminal</source>
+    </trans-unit>
+    <trans-unit id="node.launch.console.internalConsole.description">
+      <source xml:lang="en">VS Code Debug Console (which doesn't support to read input from a program)</source>
+    </trans-unit>
+    <trans-unit id="node.launch.cwd.description">
+      <source xml:lang="en">Absolute path to the working directory of the program being debugged. If you've set localRoot then cwd will match that value otherwise it falls back to your workspaceFolder</source>
+    </trans-unit>
+    <trans-unit id="node.launch.env.description">
+      <source xml:lang="en">Environment variables passed to the program. The value `null` removes the variable from the environment.</source>
+    </trans-unit>
+    <trans-unit id="node.launch.envFile.description">
+      <source xml:lang="en">Absolute path to a file containing environment variable definitions.</source>
+    </trans-unit>
+    <trans-unit id="node.launch.logging">
+      <source xml:lang="en">Logging configuration</source>
+    </trans-unit>
+    <trans-unit id="node.launch.logging.cdp">
+      <source xml:lang="en">Path to the log file for Chrome DevTools Protocol messages</source>
+    </trans-unit>
+    <trans-unit id="node.launch.logging.dap">
+      <source xml:lang="en">Path to the log file for Debug Adapter Protocol messages</source>
+    </trans-unit>
+    <trans-unit id="node.launch.outputCapture.description">
+      <source xml:lang="en">From where to capture output messages: the default debug API if set to `console`, or stdout/stderr streams if set to `std`.</source>
+    </trans-unit>
+    <trans-unit id="node.launch.program.description">
+      <source xml:lang="en">Absolute path to the program. Generated value is guessed by looking at package.json and opened files. Edit this attribute.</source>
+    </trans-unit>
+    <trans-unit id="node.launch.restart.description">
+      <source xml:lang="en">Try to restart the program if it exits with a non-zero exit code.</source>
+    </trans-unit>
+    <trans-unit id="node.launch.runtimeArgs.description">
+      <source xml:lang="en">Optional arguments passed to the runtime executable.</source>
+    </trans-unit>
+    <trans-unit id="node.launch.runtimeExecutable.description">
+      <source xml:lang="en">Runtime to use. Either an absolute path or the name of a runtime available on the PATH. If omitted `node` is assumed.</source>
+    </trans-unit>
+    <trans-unit id="node.launch.runtimeSourcemapPausePatterns">
+      <source xml:lang="en">A list of patterns at which to manually insert entrypoint breakpoints. This can be useful to give the debugger an opportunity to set breakpoints when using sourcemaps that don't exist or can't be detected before launch, such as [with the Serverless framework](https://github.com/microsoft/vscode-js-debug/issues/492).</source>
+    </trans-unit>
+    <trans-unit id="node.launch.runtimeVersion.description">
+      <source xml:lang="en">Version of `node` runtime to use. Requires `nvm`.</source>
+    </trans-unit>
+    <trans-unit id="node.launch.useWSL.deprecation">
+      <source xml:lang="en">'useWSL' is deprecated and support for it will be dropped. Use the 'Remote - WSL' extension instead.</source>
+    </trans-unit>
+    <trans-unit id="node.launch.useWSL.description">
+      <source xml:lang="en">Use Windows Subsystem for Linux.</source>
+    </trans-unit>
+    <trans-unit id="node.localRoot.description">
+      <source xml:lang="en">Path to the local directory containing the program.</source>
+    </trans-unit>
+    <trans-unit id="node.pauseForSourceMap.description">
+      <source xml:lang="en">Whether to wait for source maps to load for each incoming script. This has a performance overhead, and might be safely disabled when running off of disk, so long as `rootPath` is not disabled.</source>
+    </trans-unit>
+    <trans-unit id="node.port.description">
+      <source xml:lang="en">Debug port to attach to. Default is 9229.</source>
+    </trans-unit>
+    <trans-unit id="node.processattach.config.name">
+      <source xml:lang="en">Attach to Process</source>
+    </trans-unit>
+    <trans-unit id="node.profileStartup.description">
+      <source xml:lang="en">If true, will start profiling as soon as the process launches</source>
+    </trans-unit>
+    <trans-unit id="node.remoteRoot.description">
+      <source xml:lang="en">Absolute path to the remote directory containing the program.</source>
+    </trans-unit>
+    <trans-unit id="node.resolveSourceMapLocations.description">
+      <source xml:lang="en">A list of minimatch patterns for locations (folders and URLs) in which source maps can be used to resolve local files. This can be used to avoid incorrectly breaking in external source mapped code. Patterns can be prefixed with "!" to exclude them. May be set to an empty array or null to avoid restriction.</source>
+    </trans-unit>
+    <trans-unit id="node.showAsyncStacks.description">
+      <source xml:lang="en">Show the async calls that led to the current call stack.</source>
+    </trans-unit>
+    <trans-unit id="node.snippet.attach.description">
+      <source xml:lang="en">Attach to a running node program</source>
+    </trans-unit>
+    <trans-unit id="node.snippet.attach.label">
+      <source xml:lang="en">Node.js: Attach</source>
+    </trans-unit>
+    <trans-unit id="node.snippet.attachProcess.description">
+      <source xml:lang="en">Open process picker to select node process to attach to</source>
+    </trans-unit>
+    <trans-unit id="node.snippet.attachProcess.label">
+      <source xml:lang="en">Node.js: Attach to Process</source>
+    </trans-unit>
+    <trans-unit id="node.snippet.electron.description">
+      <source xml:lang="en">Debug the Electron main process</source>
+    </trans-unit>
+    <trans-unit id="node.snippet.electron.label">
+      <source xml:lang="en">Node.js: Electron Main</source>
+    </trans-unit>
+    <trans-unit id="node.snippet.gulp.description">
+      <source xml:lang="en">Debug gulp task (make sure to have a local gulp installed in your project)</source>
+    </trans-unit>
+    <trans-unit id="node.snippet.gulp.label">
+      <source xml:lang="en">Node.js: Gulp task</source>
+    </trans-unit>
+    <trans-unit id="node.snippet.launch.description">
+      <source xml:lang="en">Launch a node program in debug mode</source>
+    </trans-unit>
+    <trans-unit id="node.snippet.launch.label">
+      <source xml:lang="en">Node.js: Launch Program</source>
+    </trans-unit>
+    <trans-unit id="node.snippet.mocha.description">
+      <source xml:lang="en">Debug mocha tests</source>
+    </trans-unit>
+    <trans-unit id="node.snippet.mocha.label">
+      <source xml:lang="en">Node.js: Mocha Tests</source>
+    </trans-unit>
+    <trans-unit id="node.snippet.nodemon.description">
+      <source xml:lang="en">Use nodemon to relaunch a debug session on source changes</source>
+    </trans-unit>
+    <trans-unit id="node.snippet.nodemon.label">
+      <source xml:lang="en">Node.js: Nodemon Setup</source>
+    </trans-unit>
+    <trans-unit id="node.snippet.npm.description">
+      <source xml:lang="en">Launch a node program through an npm `debug` script</source>
+    </trans-unit>
+    <trans-unit id="node.snippet.npm.label">
+      <source xml:lang="en">Node.js: Launch via npm</source>
+    </trans-unit>
+    <trans-unit id="node.snippet.remoteattach.description">
+      <source xml:lang="en">Attach to the debug port of a remote node program</source>
+    </trans-unit>
+    <trans-unit id="node.snippet.remoteattach.label">
+      <source xml:lang="en">Node.js: Attach to Remote Program</source>
+    </trans-unit>
+    <trans-unit id="node.snippet.yo.description">
+      <source xml:lang="en">Debug yeoman generator (install by running `npm link` in project folder)</source>
+    </trans-unit>
+    <trans-unit id="node.snippet.yo.label">
+      <source xml:lang="en">Node.js: Yeoman generator</source>
+    </trans-unit>
+    <trans-unit id="node.sourceMapPathOverrides.description">
+      <source xml:lang="en">A set of mappings for rewriting the locations of source files from what the sourcemap says, to their locations on disk.</source>
+    </trans-unit>
+    <trans-unit id="node.sourceMaps.description">
+      <source xml:lang="en">Use JavaScript source maps (if they exist).</source>
+    </trans-unit>
+    <trans-unit id="node.stopOnEntry.description">
+      <source xml:lang="en">Automatically stop program after launch.</source>
+    </trans-unit>
+    <trans-unit id="node.timeout.description">
+      <source xml:lang="en">Retry for this number of milliseconds to connect to Node.js. Default is 10000 ms.</source>
+    </trans-unit>
+    <trans-unit id="node.versionHint.description">
+      <source xml:lang="en">Allows you to explicitly specify the Node version that's running, which can be used to disable or enable certain behaviors in cases where the automatic version detection does not work.</source>
+    </trans-unit>
+    <trans-unit id="node.websocket.address.description">
+      <source xml:lang="en">Exact websocket address to attach to. If unspecified, it will be discovered from the address and port.</source>
+    </trans-unit>
+    <trans-unit id="openEdgeDevTools.label">
+      <source xml:lang="en">Open Browser Devtools</source>
+    </trans-unit>
+    <trans-unit id="outFiles.description">
+      <source xml:lang="en">If source maps are enabled, these glob patterns specify the generated JavaScript files. If a pattern starts with `!` the files are excluded. If not specified, the generated code is expected in the same directory as its source.</source>
+    </trans-unit>
+    <trans-unit id="pretty.print.script">
+      <source xml:lang="en">Pretty print for debugging</source>
+    </trans-unit>
+    <trans-unit id="profile.start">
+      <source xml:lang="en">Take Performance Profile</source>
+    </trans-unit>
+    <trans-unit id="profile.stop">
+      <source xml:lang="en">Stop Performance Profile</source>
+    </trans-unit>
+    <trans-unit id="remove.browser.breakpoint">
+      <source xml:lang="en">Remove Browser Breakpoint</source>
+    </trans-unit>
+    <trans-unit id="remove.browser.breakpoint.all">
+      <source xml:lang="en">Remove All Browser Breakpoints</source>
+    </trans-unit>
+    <trans-unit id="requestCDPProxy.label">
+      <source xml:lang="en">Request CDP Proxy for Debug Session</source>
+    </trans-unit>
+    <trans-unit id="skipFiles.description">
+      <source xml:lang="en">An array of glob patterns for files to skip when debugging. The pattern `&lt;node_internals&gt;/**` matches all internal Node.js modules.</source>
+    </trans-unit>
+    <trans-unit id="smartStep.description">
+      <source xml:lang="en">Automatically step through generated code that cannot be mapped back to the original source.</source>
+    </trans-unit>
+    <trans-unit id="start.with.stop.on.entry">
+      <source xml:lang="en">Start Debugging and Stop on Entry</source>
+    </trans-unit>
+    <trans-unit id="startWithStopOnEntry.label">
+      <source xml:lang="en">Start Debugging and Stop on Entry</source>
+    </trans-unit>
+    <trans-unit id="timeouts.generalDescription">
+      <source xml:lang="en">Timeouts for several debugger operations.</source>
+    </trans-unit>
+    <trans-unit id="timeouts.generalDescription.markdown">
+      <source xml:lang="en">Timeouts for several debugger operations.</source>
+    </trans-unit>
+    <trans-unit id="timeouts.sourceMaps.description">
+      <source xml:lang="en">Timeouts related to source maps operations.</source>
+    </trans-unit>
+    <trans-unit id="timeouts.sourceMaps.sourceMapCumulativePause.description">
+      <source xml:lang="en">Extra time in milliseconds allowed per session to be spent waiting for source-maps to be processed, after the minimum time (sourceMapMinPause) has been exhausted</source>
+    </trans-unit>
+    <trans-unit id="timeouts.sourceMaps.sourceMapMinPause.description">
+      <source xml:lang="en">Minimum time in milliseconds spent waiting for each source-map to be processed when a script is being parsed</source>
+    </trans-unit>
+    <trans-unit id="toggle.skipping.this.file">
+      <source xml:lang="en">Toggle Skipping this File</source>
+    </trans-unit>
+    <trans-unit id="trace.boolean.description">
+      <source xml:lang="en">Trace may be set to 'true' to write diagnostic logs to the disk.</source>
+    </trans-unit>
+    <trans-unit id="trace.console.description">
+      <source xml:lang="en">Configures whether logs are also returned to the debug console.</source>
+    </trans-unit>
+    <trans-unit id="trace.description">
+      <source xml:lang="en">Configures what diagnostic output is produced.</source>
+    </trans-unit>
+    <trans-unit id="trace.level.description">
+      <source xml:lang="en">Configures the level of logs recorded.</source>
+    </trans-unit>
+    <trans-unit id="trace.logFile.description">
+      <source xml:lang="en">Configures where on disk logs are written.</source>
+    </trans-unit>
+    <trans-unit id="trace.stdio.description">
+      <source xml:lang="en">Whether to return trace data from the launched application or browser.</source>
+    </trans-unit>
+    <trans-unit id="trace.tags.description">
+      <source xml:lang="en">Configures what types of logs are recorded.</source>
+    </trans-unit>
+    <trans-unit id="workspaceTrust.description">
+      <source xml:lang="en">Trust is required to debug code in this workspace.</source>
+    </trans-unit>
+</body></file>
+</xliff>

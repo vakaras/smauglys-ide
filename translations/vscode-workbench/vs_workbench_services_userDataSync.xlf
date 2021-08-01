@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/services/userDataSync/browser/userDataSyncWorkbenchService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="cancel">
+      <source xml:lang="en">Cancel</source>
+    </trans-unit>
+    <trans-unit id="choose account placeholder">
+      <source xml:lang="en">Select an account to sign in</source>
+    </trans-unit>
+    <trans-unit id="conflicts detected">
+      <source xml:lang="en">Conflicts Detected</source>
+    </trans-unit>
+    <trans-unit id="first time sync detail">
+      <source xml:lang="en">It looks like you last synced from another machine.
+Would you like to merge or replace with your data in the cloud?</source>
+    </trans-unit>
+    <trans-unit id="last used">
+      <source xml:lang="en">Last Used with Sync</source>
+    </trans-unit>
+    <trans-unit id="merge">
+      <source xml:lang="en">Merge</source>
+    </trans-unit>
+    <trans-unit id="merge Manually">
+      <source xml:lang="en">Merge Manually...</source>
+    </trans-unit>
+    <trans-unit id="merge or replace">
+      <source xml:lang="en">Merge or Replace</source>
+    </trans-unit>
+    <trans-unit id="no">
+      <source xml:lang="en">&amp;&amp;No</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="no account">
+      <source xml:lang="en">No account available</source>
+    </trans-unit>
+    <trans-unit id="no authentication providers">
+      <source xml:lang="en">Settings sync cannot be turned on because there are no authentication providers available.</source>
+    </trans-unit>
+    <trans-unit id="others">
+      <source xml:lang="en">Others</source>
+    </trans-unit>
+    <trans-unit id="replace local">
+      <source xml:lang="en">Replace Local</source>
+    </trans-unit>
+    <trans-unit id="reset">
+      <source xml:lang="en">This will clear your data in the cloud and stop sync on all your devices.</source>
+    </trans-unit>
+    <trans-unit id="reset title">
+      <source xml:lang="en">Clear</source>
+    </trans-unit>
+    <trans-unit id="resetButton">
+      <source xml:lang="en">&amp;&amp;Reset</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="resolve">
+      <source xml:lang="en">Unable to merge due to conflicts. Please merge manually to continue...</source>
+    </trans-unit>
+    <trans-unit id="settings sync">
+      <source xml:lang="en">Settings Sync</source>
+    </trans-unit>
+    <trans-unit id="show log">
+      <source xml:lang="en">show log</source>
+    </trans-unit>
+    <trans-unit id="sign in">
+      <source xml:lang="en">Sign in</source>
+    </trans-unit>
+    <trans-unit id="sign in using account">
+      <source xml:lang="en">Sign in with {0}</source>
+    </trans-unit>
+    <trans-unit id="signed in">
+      <source xml:lang="en">Signed in</source>
+    </trans-unit>
+    <trans-unit id="successive auth failures">
+      <source xml:lang="en">Settings sync is suspended because of successive authorization failures. Please sign in again to continue synchronizing</source>
+    </trans-unit>
+    <trans-unit id="sync in progress">
+      <source xml:lang="en">Settings Sync is being turned on. Would you like to cancel it?</source>
+    </trans-unit>
+    <trans-unit id="sync turned on">
+      <source xml:lang="en">{0} is turned on</source>
+    </trans-unit>
+    <trans-unit id="syncing resource">
+      <source xml:lang="en">Syncing {0}...</source>
+    </trans-unit>
+    <trans-unit id="turning on">
+      <source xml:lang="en">Turning on...</source>
+    </trans-unit>
+    <trans-unit id="yes">
+      <source xml:lang="en">&amp;&amp;Yes</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/userDataSync/common/userDataSync" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="extensions">
+      <source xml:lang="en">Extensions</source>
+    </trans-unit>
+    <trans-unit id="keybindings">
+      <source xml:lang="en">Keyboard Shortcuts</source>
+    </trans-unit>
+    <trans-unit id="settings">
+      <source xml:lang="en">Settings</source>
+    </trans-unit>
+    <trans-unit id="snippets">
+      <source xml:lang="en">User Snippets</source>
+    </trans-unit>
+    <trans-unit id="sync category">
+      <source xml:lang="en">Settings Sync</source>
+    </trans-unit>
+    <trans-unit id="syncViewIcon">
+      <source xml:lang="en">View icon of the Settings Sync view.</source>
+    </trans-unit>
+    <trans-unit id="ui state label">
+      <source xml:lang="en">UI State</source>
+    </trans-unit>
+</body></file>
+</xliff>

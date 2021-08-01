@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/contrib/files/browser/editors/binaryFileEditor" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="binaryFileEditor">
+      <source xml:lang="en">Binary File Viewer</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/files/browser/editors/textFileEditor" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="createFile">
+      <source xml:lang="en">Create File</source>
+    </trans-unit>
+    <trans-unit id="openFolderError">
+      <source xml:lang="en">File is a directory</source>
+    </trans-unit>
+    <trans-unit id="textFileEditor">
+      <source xml:lang="en">Text File Editor</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/files/browser/editors/textFileSaveErrorHandler" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="compareChanges">
+      <source xml:lang="en">Compare</source>
+    </trans-unit>
+    <trans-unit id="configure">
+      <source xml:lang="en">Configure</source>
+    </trans-unit>
+    <trans-unit id="discard">
+      <source xml:lang="en">Discard</source>
+    </trans-unit>
+    <trans-unit id="dontShowAgain">
+      <source xml:lang="en">Don't Show Again</source>
+    </trans-unit>
+    <trans-unit id="genericSaveError">
+      <source xml:lang="en">Failed to save '{0}': {1}</source>
+      <note>{0} is the resource that failed to save and {1} the error message</note>
+    </trans-unit>
+    <trans-unit id="learnMore">
+      <source xml:lang="en">Learn More</source>
+    </trans-unit>
+    <trans-unit id="overwrite">
+      <source xml:lang="en">Overwrite</source>
+    </trans-unit>
+    <trans-unit id="overwriteElevated">
+      <source xml:lang="en">Overwrite as Admin...</source>
+    </trans-unit>
+    <trans-unit id="overwriteElevatedSudo">
+      <source xml:lang="en">Overwrite as Sudo...</source>
+    </trans-unit>
+    <trans-unit id="permissionDeniedSaveError">
+      <source xml:lang="en">Failed to save '{0}': Insufficient permissions. Select 'Retry as Admin' to retry as administrator.</source>
+    </trans-unit>
+    <trans-unit id="permissionDeniedSaveErrorSudo">
+      <source xml:lang="en">Failed to save '{0}': Insufficient permissions. Select 'Retry as Sudo' to retry as superuser.</source>
+    </trans-unit>
+    <trans-unit id="readonlySaveError">
+      <source xml:lang="en">Failed to save '{0}': File is read-only. Select 'Overwrite' to attempt to make it writeable.</source>
+    </trans-unit>
+    <trans-unit id="readonlySaveErrorAdmin">
+      <source xml:lang="en">Failed to save '{0}': File is read-only. Select 'Overwrite as Admin' to retry as administrator.</source>
+    </trans-unit>
+    <trans-unit id="readonlySaveErrorSudo">
+      <source xml:lang="en">Failed to save '{0}': File is read-only. Select 'Overwrite as Sudo' to retry as superuser.</source>
+    </trans-unit>
+    <trans-unit id="retry">
+      <source xml:lang="en">Retry</source>
+    </trans-unit>
+    <trans-unit id="saveConflictDiffLabel">
+      <source xml:lang="en">{0} (in file) ↔ {1} (in {2}) - Resolve save conflict</source>
+    </trans-unit>
+    <trans-unit id="saveElevated">
+      <source xml:lang="en">Retry as Admin...</source>
+    </trans-unit>
+    <trans-unit id="saveElevatedSudo">
+      <source xml:lang="en">Retry as Sudo...</source>
+    </trans-unit>
+    <trans-unit id="staleSaveError">
+      <source xml:lang="en">Failed to save '{0}': The content of the file is newer. Please compare your version with the file contents or overwrite the content of the file with your changes.</source>
+    </trans-unit>
+    <trans-unit id="userGuide">
+      <source xml:lang="en">Use the actions in the editor tool bar to either undo your changes or overwrite the content of the file with your changes.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/files/browser/explorerViewlet" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="explore">
+      <source xml:lang="en">Explorer</source>
+    </trans-unit>
+    <trans-unit id="explorerViewIcon">
+      <source xml:lang="en">View icon of the explorer view.</source>
+    </trans-unit>
+    <trans-unit id="folders">
+      <source xml:lang="en">Folders</source>
+    </trans-unit>
+    <trans-unit id="miViewExplorer">
+      <source xml:lang="en">&amp;&amp;Explorer</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="noFolderHelp">
+      <source xml:lang="en">You have not yet opened a folder.
+[Open Folder](command:{0})</source>
+      <note>Please do not translate the word "commmand", it is part of our internal syntax which must not change</note>
+    </trans-unit>
+    <trans-unit id="noWorkspaceHelp">
+      <source xml:lang="en">You have not yet added a folder to the workspace.
+[Add Folder](command:{0})</source>
+      <note>Please do not translate the word "commmand", it is part of our internal syntax which must not change</note>
+    </trans-unit>
+    <trans-unit id="openEditorsIcon">
+      <source xml:lang="en">View icon of the open editors view.</source>
+    </trans-unit>
+    <trans-unit id="remoteNoFolderHelp">
+      <source xml:lang="en">Connected to remote.
+[Open Folder](command:{0})</source>
+      <note>Please do not translate the word "commmand", it is part of our internal syntax which must not change</note>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/files/browser/fileActions" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="binFailed">
+      <source xml:lang="en">Failed to delete using the Recycle Bin. Do you want to permanently delete instead?</source>
+    </trans-unit>
+    <trans-unit id="clipboardComparisonLabel">
+      <source xml:lang="en">Clipboard ↔ {0}</source>
+    </trans-unit>
+    <trans-unit id="closeGroup">
+      <source xml:lang="en">Close Group</source>
+    </trans-unit>
+    <trans-unit id="compareWithClipboard">
+      <source xml:lang="en">Compare Active File with Clipboard</source>
+    </trans-unit>
+    <trans-unit id="confirmDeleteMessageFile">
+      <source xml:lang="en">Are you sure you want to permanently delete '{0}'?</source>
+    </trans-unit>
+    <trans-unit id="confirmDeleteMessageFilesAndDirectories">
+      <source xml:lang="en">Are you sure you want to permanently delete the following {0} files/directories and their contents?</source>
+    </trans-unit>
+    <trans-unit id="confirmDeleteMessageFolder">
+      <source xml:lang="en">Are you sure you want to permanently delete '{0}' and its contents?</source>
+    </trans-unit>
+    <trans-unit id="confirmDeleteMessageMultiple">
+      <source xml:lang="en">Are you sure you want to permanently delete the following {0} files?</source>
+    </trans-unit>
+    <trans-unit id="confirmDeleteMessageMultipleDirectories">
+      <source xml:lang="en">Are you sure you want to permanently delete the following {0} directories and their contents?</source>
+    </trans-unit>
+    <trans-unit id="confirmMoveTrashMessageFile">
+      <source xml:lang="en">Are you sure you want to delete '{0}'?</source>
+    </trans-unit>
+    <trans-unit id="confirmMoveTrashMessageFilesAndDirectories">
+      <source xml:lang="en">Are you sure you want to delete the following {0} files/directories and their contents?</source>
+    </trans-unit>
+    <trans-unit id="confirmMoveTrashMessageFolder">
+      <source xml:lang="en">Are you sure you want to delete '{0}' and its contents?</source>
+    </trans-unit>
+    <trans-unit id="confirmMoveTrashMessageMultiple">
+      <source xml:lang="en">Are you sure you want to delete the following {0} files?</source>
+    </trans-unit>
+    <trans-unit id="confirmMoveTrashMessageMultipleDirectories">
+      <source xml:lang="en">Are you sure you want to delete the following {0} directories and their contents?</source>
+    </trans-unit>
+    <trans-unit id="copyBulkEdit">
+      <source xml:lang="en">Copy {0} files</source>
+      <note>Placeholder will be replaced by the number of files being copied</note>
+    </trans-unit>
+    <trans-unit id="copyFile">
+      <source xml:lang="en">Copy</source>
+    </trans-unit>
+    <trans-unit id="copyFileBulkEdit">
+      <source xml:lang="en">Copy {0}</source>
+      <note>Placeholder will be replaced by the name of the file copied.</note>
+    </trans-unit>
+    <trans-unit id="copyingBulkEdit">
+      <source xml:lang="en">Copying {0} files</source>
+      <note>Placeholder will be replaced by the number of files being copied</note>
+    </trans-unit>
+    <trans-unit id="copyingFileBulkEdit">
+      <source xml:lang="en">Copying {0}</source>
+      <note>Placeholder will be replaced by the name of the file copied.</note>
+    </trans-unit>
+    <trans-unit id="createBulkEdit">
+      <source xml:lang="en">Create {0}</source>
+    </trans-unit>
+    <trans-unit id="creatingBulkEdit">
+      <source xml:lang="en">Creating {0}</source>
+    </trans-unit>
+    <trans-unit id="delete">
+      <source xml:lang="en">Delete</source>
+    </trans-unit>
+    <trans-unit id="deleteBulkEdit">
+      <source xml:lang="en">Delete {0} files</source>
+      <note>Placeholder will be replaced by the number of files deleted</note>
+    </trans-unit>
+    <trans-unit id="deleteButtonLabel">
+      <source xml:lang="en">&amp;&amp;Delete</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="deleteButtonLabelRecycleBin">
+      <source xml:lang="en">&amp;&amp;Move to Recycle Bin</source>
+    </trans-unit>
+    <trans-unit id="deleteButtonLabelTrash">
+      <source xml:lang="en">&amp;&amp;Move to Trash</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="deleteFileBulkEdit">
+      <source xml:lang="en">Delete {0}</source>
+      <note>Placeholder will be replaced by the name of the file deleted</note>
+    </trans-unit>
+    <trans-unit id="deletePermanentlyButtonLabel">
+      <source xml:lang="en">&amp;&amp;Delete Permanently</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="deletingBulkEdit">
+      <source xml:lang="en">Deleting {0} files</source>
+      <note>Placeholder will be replaced by the number of files deleted</note>
+    </trans-unit>
+    <trans-unit id="deletingFileBulkEdit">
+      <source xml:lang="en">Deleting {0}</source>
+      <note>Placeholder will be replaced by the name of the file deleted</note>
+    </trans-unit>
+    <trans-unit id="dirtyMessageFileDelete">
+      <source xml:lang="en">You are deleting {0} with unsaved changes. Do you want to continue?</source>
+    </trans-unit>
+    <trans-unit id="dirtyMessageFilesDelete">
+      <source xml:lang="en">You are deleting files with unsaved changes. Do you want to continue?</source>
+    </trans-unit>
+    <trans-unit id="dirtyMessageFolderDelete">
+      <source xml:lang="en">You are deleting a folder {0} with unsaved changes in {1} files. Do you want to continue?</source>
+    </trans-unit>
+    <trans-unit id="dirtyMessageFolderOneDelete">
+      <source xml:lang="en">You are deleting a folder {0} with unsaved changes in 1 file. Do you want to continue?</source>
+    </trans-unit>
+    <trans-unit id="dirtyWarning">
+      <source xml:lang="en">Your changes will be lost if you don't save them.</source>
+    </trans-unit>
+    <trans-unit id="doNotAskAgain">
+      <source xml:lang="en">Do not ask me again</source>
+    </trans-unit>
+    <trans-unit id="download">
+      <source xml:lang="en">Download...</source>
+    </trans-unit>
+    <trans-unit id="emptyFileNameError">
+      <source xml:lang="en">A file or folder name must be provided.</source>
+    </trans-unit>
+    <trans-unit id="fileDeleted">
+      <source xml:lang="en">The file(s) to paste have been deleted or moved since you copied them. {0}</source>
+    </trans-unit>
+    <trans-unit id="fileIsAncestor">
+      <source xml:lang="en">File to paste is an ancestor of the destination folder</source>
+    </trans-unit>
+    <trans-unit id="fileNameExistsError">
+      <source xml:lang="en">A file or folder **{0}** already exists at this location. Please choose a different name.</source>
+    </trans-unit>
+    <trans-unit id="fileNameStartsWithSlashError">
+      <source xml:lang="en">A file or folder name cannot start with a slash.</source>
+    </trans-unit>
+    <trans-unit id="fileNameWhitespaceWarning">
+      <source xml:lang="en">Leading or trailing whitespace detected in file or folder name.</source>
+    </trans-unit>
+    <trans-unit id="focusFilesExplorer">
+      <source xml:lang="en">Focus on Files Explorer</source>
+    </trans-unit>
+    <trans-unit id="globalCompareFile">
+      <source xml:lang="en">Compare Active File With...</source>
+    </trans-unit>
+    <trans-unit id="invalidFileNameError">
+      <source xml:lang="en">The name **{0}** is not valid as a file or folder name. Please choose a different name.</source>
+    </trans-unit>
+    <trans-unit id="irreversible">
+      <source xml:lang="en">This action is irreversible!</source>
+    </trans-unit>
+    <trans-unit id="moveBulkEdit">
+      <source xml:lang="en">Move {0} files</source>
+      <note>Placeholder will be replaced by the number of files being moved</note>
+    </trans-unit>
+    <trans-unit id="moveFileBulkEdit">
+      <source xml:lang="en">Move {0}</source>
+      <note>Placeholder will be replaced by the name of the file moved.</note>
+    </trans-unit>
+    <trans-unit id="movingBulkEdit">
+      <source xml:lang="en">Moving {0} files</source>
+      <note>Placeholder will be replaced by the number of files being moved</note>
+    </trans-unit>
+    <trans-unit id="movingFileBulkEdit">
+      <source xml:lang="en">Moving {0}</source>
+      <note>Placeholder will be replaced by the name of the file moved.</note>
+    </trans-unit>
+    <trans-unit id="newFile">
+      <source xml:lang="en">New File</source>
+    </trans-unit>
+    <trans-unit id="newFolder">
+      <source xml:lang="en">New Folder</source>
+    </trans-unit>
+    <trans-unit id="openFileInNewWindow">
+      <source xml:lang="en">Open Active File in New Window</source>
+    </trans-unit>
+    <trans-unit id="openFileToShowInNewWindow.unsupportedschema">
+      <source xml:lang="en">The active editor must contain an openable resource.</source>
+    </trans-unit>
+    <trans-unit id="pasteFile">
+      <source xml:lang="en">Paste</source>
+    </trans-unit>
+    <trans-unit id="rename">
+      <source xml:lang="en">Rename</source>
+    </trans-unit>
+    <trans-unit id="renameBulkEdit">
+      <source xml:lang="en">Rename {0} to {1}</source>
+    </trans-unit>
+    <trans-unit id="renamingBulkEdit">
+      <source xml:lang="en">Renaming {0} to {1}</source>
+    </trans-unit>
+    <trans-unit id="restore">
+      <source xml:lang="en">You can restore this file using the Undo command</source>
+    </trans-unit>
+    <trans-unit id="restorePlural">
+      <source xml:lang="en">You can restore these files using the Undo command</source>
+    </trans-unit>
+    <trans-unit id="retry">
+      <source xml:lang="en">Retry</source>
+    </trans-unit>
+    <trans-unit id="retryButtonLabel">
+      <source xml:lang="en">&amp;&amp;Retry</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="saveAllInGroup">
+      <source xml:lang="en">Save All in Group</source>
+    </trans-unit>
+    <trans-unit id="showInExplorer">
+      <source xml:lang="en">Reveal Active File in Side Bar</source>
+    </trans-unit>
+    <trans-unit id="toggleAutoSave">
+      <source xml:lang="en">Toggle Auto Save</source>
+    </trans-unit>
+    <trans-unit id="trashFailed">
+      <source xml:lang="en">Failed to delete using the Trash. Do you want to permanently delete instead?</source>
+    </trans-unit>
+    <trans-unit id="undoBin">
+      <source xml:lang="en">You can restore this file from the Recycle Bin.</source>
+    </trans-unit>
+    <trans-unit id="undoBinFiles">
+      <source xml:lang="en">You can restore these files from the Recycle Bin.</source>
+    </trans-unit>
+    <trans-unit id="undoTrash">
+      <source xml:lang="en">You can restore this file from the Trash.</source>
+    </trans-unit>
+    <trans-unit id="undoTrashFiles">
+      <source xml:lang="en">You can restore these files from the Trash.</source>
+    </trans-unit>
+    <trans-unit id="upload">
+      <source xml:lang="en">Upload...</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/files/browser/fileActions.contribution" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="acceptLocalChanges">
+      <source xml:lang="en">Use your changes and overwrite file contents</source>
+    </trans-unit>
+    <trans-unit id="close">
+      <source xml:lang="en">Close</source>
+    </trans-unit>
+    <trans-unit id="closeAll">
+      <source xml:lang="en">Close All</source>
+    </trans-unit>
+    <trans-unit id="closeOthers">
+      <source xml:lang="en">Close Others</source>
+    </trans-unit>
+    <trans-unit id="closeSaved">
+      <source xml:lang="en">Close Saved</source>
+    </trans-unit>
+    <trans-unit id="compareActiveWithSaved">
+      <source xml:lang="en">Compare Active File with Saved</source>
+    </trans-unit>
+    <trans-unit id="compareSelected">
+      <source xml:lang="en">Compare Selected</source>
+    </trans-unit>
+    <trans-unit id="compareSource">
+      <source xml:lang="en">Select for Compare</source>
+    </trans-unit>
+    <trans-unit id="compareWithSaved">
+      <source xml:lang="en">Compare with Saved</source>
+    </trans-unit>
+    <trans-unit id="compareWithSelected">
+      <source xml:lang="en">Compare with Selected</source>
+    </trans-unit>
+    <trans-unit id="copyPath">
+      <source xml:lang="en">Copy Path</source>
+    </trans-unit>
+    <trans-unit id="copyPathOfActive">
+      <source xml:lang="en">Copy Path of Active File</source>
+    </trans-unit>
+    <trans-unit id="copyRelativePath">
+      <source xml:lang="en">Copy Relative Path</source>
+    </trans-unit>
+    <trans-unit id="copyRelativePathOfActive">
+      <source xml:lang="en">Copy Relative Path of Active File</source>
+    </trans-unit>
+    <trans-unit id="cut">
+      <source xml:lang="en">Cut</source>
+    </trans-unit>
+    <trans-unit id="deleteFile">
+      <source xml:lang="en">Delete Permanently</source>
+    </trans-unit>
+    <trans-unit id="explorerOpenWith">
+      <source xml:lang="en">Open With...</source>
+    </trans-unit>
+    <trans-unit id="file">
+      <source xml:lang="en">File</source>
+    </trans-unit>
+    <trans-unit id="filesCategory">
+      <source xml:lang="en">File</source>
+    </trans-unit>
+    <trans-unit id="miAutoSave">
+      <source xml:lang="en">A&amp;&amp;uto Save</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="miCloseEditor">
+      <source xml:lang="en">&amp;&amp;Close Editor</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="miGotoFile">
+      <source xml:lang="en">Go to &amp;&amp;File...</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="miNewFile">
+      <source xml:lang="en">&amp;&amp;New File</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="miOpen">
+      <source xml:lang="en">&amp;&amp;Open...</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="miOpenFile">
+      <source xml:lang="en">&amp;&amp;Open File...</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="miOpenFolder">
+      <source xml:lang="en">Open &amp;&amp;Folder...</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="miOpenWorkspace">
+      <source xml:lang="en">Open Wor&amp;&amp;kspace...</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="miRevert">
+      <source xml:lang="en">Re&amp;&amp;vert File</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="miSave">
+      <source xml:lang="en">&amp;&amp;Save</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="miSaveAll">
+      <source xml:lang="en">Save A&amp;&amp;ll</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="miSaveAs">
+      <source xml:lang="en">Save &amp;&amp;As...</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="newFile">
+      <source xml:lang="en">New File</source>
+    </trans-unit>
+    <trans-unit id="openFile">
+      <source xml:lang="en">Open File...</source>
+    </trans-unit>
+    <trans-unit id="openToSide">
+      <source xml:lang="en">Open to the Side</source>
+    </trans-unit>
+    <trans-unit id="revealInSideBar">
+      <source xml:lang="en">Reveal in Side Bar</source>
+    </trans-unit>
+    <trans-unit id="revert">
+      <source xml:lang="en">Revert File</source>
+    </trans-unit>
+    <trans-unit id="revertLocalChanges">
+      <source xml:lang="en">Discard your changes and revert to file contents</source>
+    </trans-unit>
+    <trans-unit id="saveAll">
+      <source xml:lang="en">Save All</source>
+    </trans-unit>
+    <trans-unit id="saveAllInGroup">
+      <source xml:lang="en">Save All in Group</source>
+    </trans-unit>
+    <trans-unit id="saveFiles">
+      <source xml:lang="en">Save All Files</source>
+    </trans-unit>
+    <trans-unit id="workspaces">
+      <source xml:lang="en">Workspaces</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/files/browser/fileCommands" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="discard">
+      <source xml:lang="en">Discard</source>
+    </trans-unit>
+    <trans-unit id="genericRevertError">
+      <source xml:lang="en">Failed to revert '{0}': {1}</source>
+    </trans-unit>
+    <trans-unit id="genericSaveError">
+      <source xml:lang="en">Failed to save '{0}': {1}</source>
+      <note>{0} is the resource that failed to save and {1} the error message</note>
+    </trans-unit>
+    <trans-unit id="modifiedLabel">
+      <source xml:lang="en">{0} (in file) ↔ {1}</source>
+    </trans-unit>
+    <trans-unit id="newUntitledFile">
+      <source xml:lang="en">New Untitled File</source>
+    </trans-unit>
+    <trans-unit id="removeFolderFromWorkspace">
+      <source xml:lang="en">Remove Folder from Workspace</source>
+    </trans-unit>
+    <trans-unit id="retry">
+      <source xml:lang="en">Retry</source>
+    </trans-unit>
+    <trans-unit id="save">
+      <source xml:lang="en">Save</source>
+    </trans-unit>
+    <trans-unit id="saveAll">
+      <source xml:lang="en">Save All</source>
+    </trans-unit>
+    <trans-unit id="saveAs">
+      <source xml:lang="en">Save As...</source>
+    </trans-unit>
+    <trans-unit id="saveWithoutFormatting">
+      <source xml:lang="en">Save without Formatting</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/files/browser/fileImportExport" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="addFolder">
+      <source xml:lang="en">&amp;&amp;Add Folder to Workspace</source>
+    </trans-unit>
+    <trans-unit id="addFolders">
+      <source xml:lang="en">&amp;&amp;Add Folders to Workspace</source>
+    </trans-unit>
+    <trans-unit id="cancel">
+      <source xml:lang="en">Cancel</source>
+    </trans-unit>
+    <trans-unit id="chooseWhereToDownload">
+      <source xml:lang="en">Choose Where to Download</source>
+    </trans-unit>
+    <trans-unit id="confirmManyOverwrites">
+      <source xml:lang="en">The following {0} files and/or folders already exist in the destination folder. Do you want to replace them?</source>
+    </trans-unit>
+    <trans-unit id="confirmOverwrite">
+      <source xml:lang="en">A file or folder with the name '{0}' already exists in the destination folder. Do you want to replace it?</source>
+    </trans-unit>
+    <trans-unit id="copyFile">
+      <source xml:lang="en">Copy {0}</source>
+    </trans-unit>
+    <trans-unit id="copyFolder">
+      <source xml:lang="en">&amp;&amp;Copy Folder</source>
+    </trans-unit>
+    <trans-unit id="copyFolders">
+      <source xml:lang="en">&amp;&amp;Copy Folders</source>
+    </trans-unit>
+    <trans-unit id="copyfolder">
+      <source xml:lang="en">Are you sure to want to copy '{0}'?</source>
+    </trans-unit>
+    <trans-unit id="copyfolders">
+      <source xml:lang="en">Are you sure to want to copy folders?</source>
+    </trans-unit>
+    <trans-unit id="copyingFile">
+      <source xml:lang="en">Copying {0}</source>
+    </trans-unit>
+    <trans-unit id="copyingFiles">
+      <source xml:lang="en">Copying...</source>
+    </trans-unit>
+    <trans-unit id="copyingnFile">
+      <source xml:lang="en">Copying {0} resources</source>
+    </trans-unit>
+    <trans-unit id="copynFile">
+      <source xml:lang="en">Copy {0} resources</source>
+    </trans-unit>
+    <trans-unit id="downloadBulkEdit">
+      <source xml:lang="en">Download {0}</source>
+    </trans-unit>
+    <trans-unit id="downloadButton">
+      <source xml:lang="en">Download</source>
+    </trans-unit>
+    <trans-unit id="downloadProgressLarge">
+      <source xml:lang="en">{0} ({1} of {2}, {3}/s)</source>
+    </trans-unit>
+    <trans-unit id="downloadProgressSmallMany">
+      <source xml:lang="en">{0} of {1} files ({2}/s)</source>
+    </trans-unit>
+    <trans-unit id="downloadingBulkEdit">
+      <source xml:lang="en">Downloading {0}</source>
+    </trans-unit>
+    <trans-unit id="downloadingFiles">
+      <source xml:lang="en">Downloading</source>
+    </trans-unit>
+    <trans-unit id="dropFolder">
+      <source xml:lang="en">Do you want to copy '{0}' or add '{0}' as a folder to the workspace?</source>
+    </trans-unit>
+    <trans-unit id="dropFolders">
+      <source xml:lang="en">Do you want to copy the folders or add the folders to the workspace?</source>
+    </trans-unit>
+    <trans-unit id="irreversible">
+      <source xml:lang="en">This action is irreversible!</source>
+    </trans-unit>
+    <trans-unit id="overwrite">
+      <source xml:lang="en">Overwrite {0}</source>
+    </trans-unit>
+    <trans-unit id="overwriting">
+      <source xml:lang="en">Overwriting {0}</source>
+    </trans-unit>
+    <trans-unit id="replaceButtonLabel">
+      <source xml:lang="en">&amp;&amp;Replace</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="uploadProgressLarge">
+      <source xml:lang="en">{0} ({1} of {2}, {3}/s)</source>
+    </trans-unit>
+    <trans-unit id="uploadProgressSmallMany">
+      <source xml:lang="en">{0} of {1} files ({2}/s)</source>
+    </trans-unit>
+    <trans-unit id="uploadingFiles">
+      <source xml:lang="en">Uploading</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/files/browser/files.contribution" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="askUser">
+      <source xml:lang="en">Will refuse to save and ask for resolving the save conflict manually.</source>
+    </trans-unit>
+    <trans-unit id="associations">
+      <source xml:lang="en">Configure file associations to languages (e.g. `"*.extension": "html"`). These have precedence over the default associations of the languages installed.</source>
+    </trans-unit>
+    <trans-unit id="autoGuessEncoding">
+      <source xml:lang="en">When enabled, the editor will attempt to guess the character set encoding when opening files. This setting can also be configured per language. Note, this setting is not respected by text search. Only `#files.encoding#` is respected.</source>
+    </trans-unit>
+    <trans-unit id="autoReveal">
+      <source xml:lang="en">Controls whether the explorer should automatically reveal and select files when opening them.</source>
+    </trans-unit>
+    <trans-unit id="autoReveal.focusNoScroll">
+      <source xml:lang="en">Files will not be scrolled into view, but will still be focused.</source>
+    </trans-unit>
+    <trans-unit id="autoReveal.off">
+      <source xml:lang="en">Files will not be revealed and selected.</source>
+    </trans-unit>
+    <trans-unit id="autoReveal.on">
+      <source xml:lang="en">Files will be revealed and selected.</source>
+    </trans-unit>
+    <trans-unit id="autoSave">
+      <source xml:lang="en">Controls auto save of dirty editors. Read more about autosave [here](https://code.visualstudio.com/docs/editor/codebasics#_save-auto-save).</source>
+      <note>This is the description for a setting. Values surrounded by single quotes are not to be translated.</note>
+    </trans-unit>
+    <trans-unit id="autoSaveDelay">
+      <source xml:lang="en">Controls the delay in ms after which a dirty editor is saved automatically. Only applies when `#files.autoSave#` is set to `{0}`.</source>
+      <note>This is the description for a setting. Values surrounded by single quotes are not to be translated.</note>
+    </trans-unit>
+    <trans-unit id="binaryFileEditor">
+      <source xml:lang="en">Binary File Editor</source>
+    </trans-unit>
+    <trans-unit id="compressSingleChildFolders">
+      <source xml:lang="en">Controls whether the explorer should render folders in a compact form. In such a form, single child folders will be compressed in a combined tree element. Useful for Java package structures, for example.</source>
+    </trans-unit>
+    <trans-unit id="confirmDelete">
+      <source xml:lang="en">Controls whether the explorer should ask for confirmation when deleting a file via the trash.</source>
+    </trans-unit>
+    <trans-unit id="confirmDragAndDrop">
+      <source xml:lang="en">Controls whether the explorer should ask for confirmation to move files and folders via drag and drop.</source>
+    </trans-unit>
+    <trans-unit id="defaultLanguage">
+      <source xml:lang="en">The default language mode that is assigned to new files. If configured to `${activeEditorLanguage}`, will use the language mode of the currently active text editor if any.</source>
+    </trans-unit>
+    <trans-unit id="enableDragAndDrop">
+      <source xml:lang="en">Controls whether the explorer should allow to move files and folders via drag and drop. This setting only effects drag and drop from inside the explorer.</source>
+    </trans-unit>
+    <trans-unit id="encoding">
+      <source xml:lang="en">The default character set encoding to use when reading and writing files. This setting can also be configured per language.</source>
+    </trans-unit>
+    <trans-unit id="eol">
+      <source xml:lang="en">The default end of line character.</source>
+    </trans-unit>
+    <trans-unit id="eol.CRLF">
+      <source xml:lang="en">CRLF</source>
+    </trans-unit>
+    <trans-unit id="eol.LF">
+      <source xml:lang="en">LF</source>
+    </trans-unit>
+    <trans-unit id="eol.auto">
+      <source xml:lang="en">Uses operating system specific end of line character.</source>
+    </trans-unit>
+    <trans-unit id="everything">
+      <source xml:lang="en">Format the whole file.</source>
+      <note>This is the description of an option</note>
+    </trans-unit>
+    <trans-unit id="exclude">
+      <source xml:lang="en">Configure glob patterns for excluding files and folders. For example, the file Explorer decides which files and folders to show or hide based on this setting. Refer to the `#search.exclude#` setting to define search specific excludes. Read more about glob patterns [here](https://code.visualstudio.com/docs/editor/codebasics#_advanced-search-options).</source>
+    </trans-unit>
+    <trans-unit id="explorer.decorations.badges">
+      <source xml:lang="en">Controls whether file decorations should use badges.</source>
+    </trans-unit>
+    <trans-unit id="explorer.decorations.colors">
+      <source xml:lang="en">Controls whether file decorations should use colors.</source>
+    </trans-unit>
+    <trans-unit id="explorer.incrementalNaming">
+      <source xml:lang="en">Controls what naming strategy to use when a giving a new name to a duplicated explorer item on paste.</source>
+    </trans-unit>
+    <trans-unit id="explorerConfigurationTitle">
+      <source xml:lang="en">File Explorer</source>
+    </trans-unit>
+    <trans-unit id="files.autoSave.afterDelay">
+      <source xml:lang="en">A dirty editor is automatically saved after the configured `#files.autoSaveDelay#`.</source>
+      <note>This is the description for a setting. Values surrounded by single quotes are not to be translated.</note>
+    </trans-unit>
+    <trans-unit id="files.autoSave.off">
+      <source xml:lang="en">A dirty editor is never automatically saved.</source>
+      <note>This is the description for a setting. Values surrounded by single quotes are not to be translated.</note>
+    </trans-unit>
+    <trans-unit id="files.autoSave.onFocusChange">
+      <source xml:lang="en">A dirty editor is automatically saved when the editor loses focus.</source>
+      <note>This is the description for a setting. Values surrounded by single quotes are not to be translated.</note>
+    </trans-unit>
+    <trans-unit id="files.autoSave.onWindowChange">
+      <source xml:lang="en">A dirty editor is automatically saved when the window loses focus.</source>
+      <note>This is the description for a setting. Values surrounded by single quotes are not to be translated.</note>
+    </trans-unit>
+    <trans-unit id="files.exclude.boolean">
+      <source xml:lang="en">The glob pattern to match file paths against. Set to true or false to enable or disable the pattern.</source>
+    </trans-unit>
+    <trans-unit id="files.exclude.when">
+      <source xml:lang="en">Additional check on the siblings of a matching file. Use $(basename) as variable for the matching file name.</source>
+    </trans-unit>
+    <trans-unit id="files.restoreUndoStack">
+      <source xml:lang="en">Restore the undo stack when a file is reopened.</source>
+    </trans-unit>
+    <trans-unit id="files.saveConflictResolution">
+      <source xml:lang="en">A save conflict can occur when a file is saved to disk that was changed by another program in the meantime. To prevent data loss, the user is asked to compare the changes in the editor with the version on disk. This setting should only be changed if you frequently encounter save conflict errors and may result in data loss if used without caution.</source>
+    </trans-unit>
+    <trans-unit id="files.simpleDialog.enable">
+      <source xml:lang="en">Enables the simple file dialog. The simple file dialog replaces the system file dialog when enabled.</source>
+    </trans-unit>
+    <trans-unit id="filesConfigurationTitle">
+      <source xml:lang="en">Files</source>
+    </trans-unit>
+    <trans-unit id="formatOnSave">
+      <source xml:lang="en">Format a file on save. A formatter must be available, the file must not be saved after delay, and the editor must not be shutting down.</source>
+    </trans-unit>
+    <trans-unit id="formatOnSaveMode">
+      <source xml:lang="en">Controls if format on save formats the whole file or only modifications. Only applies when `#editor.formatOnSave#` is enabled.</source>
+    </trans-unit>
+    <trans-unit id="hotExit">
+      <source xml:lang="en">Controls whether unsaved files are remembered between sessions, allowing the save prompt when exiting the editor to be skipped.</source>
+    </trans-unit>
+    <trans-unit id="hotExit.off">
+      <source xml:lang="en">Disable hot exit. A prompt will show when attempting to close a window with dirty files.</source>
+    </trans-unit>
+    <trans-unit id="hotExit.onExit">
+      <source xml:lang="en">Hot exit will be triggered when the last window is closed on Windows/Linux or when the `workbench.action.quit` command is triggered (command palette, keybinding, menu). All windows without folders opened will be restored upon next launch. A list of previously opened windows with unsaved files can be accessed via `File &gt; Open Recent &gt; More...`</source>
+    </trans-unit>
+    <trans-unit id="hotExit.onExitAndWindowClose">
+      <source xml:lang="en">Hot exit will be triggered when the last window is closed on Windows/Linux or when the `workbench.action.quit` command is triggered (command palette, keybinding, menu), and also for any window with a folder opened regardless of whether it's the last window. All windows without folders opened will be restored upon next launch. A list of previously opened windows with unsaved files can be accessed via `File &gt; Open Recent &gt; More...`</source>
+    </trans-unit>
+    <trans-unit id="hotExit.onExitAndWindowCloseBrowser">
+      <source xml:lang="en">Hot exit will be triggered when the browser quits or the window or tab is closed.</source>
+    </trans-unit>
+    <trans-unit id="insertFinalNewline">
+      <source xml:lang="en">When enabled, insert a final new line at the end of the file when saving it.</source>
+    </trans-unit>
+    <trans-unit id="maxMemoryForLargeFilesMB">
+      <source xml:lang="en">Controls the memory available to VS Code after restart when trying to open large files. Same effect as specifying `--max-memory=NEWSIZE` on the command line.</source>
+    </trans-unit>
+    <trans-unit id="modification">
+      <source xml:lang="en">Format modifications (requires source control).</source>
+      <note>This is the description of an option</note>
+    </trans-unit>
+    <trans-unit id="openEditorsSortOrder">
+      <source xml:lang="en">Controls the sorting order of editors in the Open Editors pane.</source>
+      <note>Open is an adjective</note>
+    </trans-unit>
+    <trans-unit id="openEditorsVisible">
+      <source xml:lang="en">Number of editors shown in the Open Editors pane. Setting this to 0 hides the Open Editors pane.</source>
+      <note>Open is an adjective</note>
+    </trans-unit>
+    <trans-unit id="overwriteFileOnDisk">
+      <source xml:lang="en">Will resolve the save conflict by overwriting the file on disk with the changes in the editor.</source>
+    </trans-unit>
+    <trans-unit id="simple">
+      <source xml:lang="en">Appends the word "copy" at the end of the duplicated name potentially followed by a number</source>
+    </trans-unit>
+    <trans-unit id="smart">
+      <source xml:lang="en">Adds a number at the end of the duplicated name. If some number is already part of the name, tries to increase that number</source>
+    </trans-unit>
+    <trans-unit id="sortOrder">
+      <source xml:lang="en">Controls the property-based sorting of files and folders in the explorer.</source>
+    </trans-unit>
+    <trans-unit id="sortOrder.alphabetical">
+      <source xml:lang="en">Editors are ordered in alphabetical order inside each editor group.</source>
+    </trans-unit>
+    <trans-unit id="sortOrder.default">
+      <source xml:lang="en">Files and folders are sorted by their names. Folders are displayed before files.</source>
+    </trans-unit>
+    <trans-unit id="sortOrder.editorOrder">
+      <source xml:lang="en">Editors are ordered in the same order editor tabs are shown.</source>
+    </trans-unit>
+    <trans-unit id="sortOrder.filesFirst">
+      <source xml:lang="en">Files and folders are sorted by their names. Files are displayed before folders.</source>
+    </trans-unit>
+    <trans-unit id="sortOrder.mixed">
+      <source xml:lang="en">Files and folders are sorted by their names. Files are interwoven with folders.</source>
+    </trans-unit>
+    <trans-unit id="sortOrder.modified">
+      <source xml:lang="en">Files and folders are sorted by last modified date in descending order. Folders are displayed before files.</source>
+    </trans-unit>
+    <trans-unit id="sortOrder.type">
+      <source xml:lang="en">Files and folders are grouped by extension type then sorted by their names. Folders are displayed before files.</source>
+    </trans-unit>
+    <trans-unit id="sortOrderLexicographicOptions">
+      <source xml:lang="en">Controls the lexicographic sorting of file and folder names in the explorer.</source>
+    </trans-unit>
+    <trans-unit id="sortOrderLexicographicOptions.default">
+      <source xml:lang="en">Uppercase and lowercase names are mixed together.</source>
+    </trans-unit>
+    <trans-unit id="sortOrderLexicographicOptions.lower">
+      <source xml:lang="en">Lowercase names are grouped together before uppercase names.</source>
+    </trans-unit>
+    <trans-unit id="sortOrderLexicographicOptions.unicode">
+      <source xml:lang="en">Names are sorted in unicode order.</source>
+    </trans-unit>
+    <trans-unit id="sortOrderLexicographicOptions.upper">
+      <source xml:lang="en">Uppercase names are grouped together before lowercase names.</source>
+    </trans-unit>
+    <trans-unit id="trimFinalNewlines">
+      <source xml:lang="en">When enabled, will trim all new lines after the final new line at the end of the file when saving it.</source>
+    </trans-unit>
+    <trans-unit id="trimTrailingWhitespace">
+      <source xml:lang="en">When enabled, will trim trailing whitespace when saving a file.</source>
+    </trans-unit>
+    <trans-unit id="useTrash">
+      <source xml:lang="en">Moves files/folders to the OS trash (recycle bin on Windows) when deleting. Disabling this will delete files/folders permanently.</source>
+    </trans-unit>
+    <trans-unit id="watcherExclude">
+      <source xml:lang="en">Configure glob patterns of file paths to exclude from file watching. Patterns must match on absolute paths, i.e. prefix with `**/` or the full path to match properly and suffix with `/**` to match files within a path (for example `**/build/output/**` or `/Users/name/workspaces/project/build/output/**`). Changing this setting requires a restart. When you experience Code consuming lots of CPU time on startup, you can exclude large folders to reduce the initial load.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/files/browser/views/emptyView" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="noWorkspace">
+      <source xml:lang="en">No Folder Opened</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/files/browser/views/explorerDecorationsProvider" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="canNotResolve">
+      <source xml:lang="en">Unable to resolve workspace folder</source>
+    </trans-unit>
+    <trans-unit id="label">
+      <source xml:lang="en">Explorer</source>
+    </trans-unit>
+    <trans-unit id="symbolicLlink">
+      <source xml:lang="en">Symbolic Link</source>
+    </trans-unit>
+    <trans-unit id="unknown">
+      <source xml:lang="en">Unknown File Type</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/files/browser/views/explorerView" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="collapseExplorerFolders">
+      <source xml:lang="en">Collapse Folders in Explorer</source>
+    </trans-unit>
+    <trans-unit id="createNewFile">
+      <source xml:lang="en">New File</source>
+    </trans-unit>
+    <trans-unit id="createNewFolder">
+      <source xml:lang="en">New Folder</source>
+    </trans-unit>
+    <trans-unit id="explorerSection">
+      <source xml:lang="en">Explorer Section: {0}</source>
+    </trans-unit>
+    <trans-unit id="refreshExplorer">
+      <source xml:lang="en">Refresh Explorer</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/files/browser/views/explorerViewer" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="confirmMove">
+      <source xml:lang="en">Are you sure you want to move '{0}' into '{1}'?</source>
+    </trans-unit>
+    <trans-unit id="confirmMultiMove">
+      <source xml:lang="en">Are you sure you want to move the following {0} files into '{1}'?</source>
+    </trans-unit>
+    <trans-unit id="confirmRootMove">
+      <source xml:lang="en">Are you sure you want to change the order of root folder '{0}' in your workspace?</source>
+    </trans-unit>
+    <trans-unit id="confirmRootsMove">
+      <source xml:lang="en">Are you sure you want to change the order of multiple root folders in your workspace?</source>
+    </trans-unit>
+    <trans-unit id="copy">
+      <source xml:lang="en">Copy {0}</source>
+    </trans-unit>
+    <trans-unit id="copying">
+      <source xml:lang="en">Copying {0}</source>
+    </trans-unit>
+    <trans-unit id="doNotAskAgain">
+      <source xml:lang="en">Do not ask me again</source>
+    </trans-unit>
+    <trans-unit id="fileInputAriaLabel">
+      <source xml:lang="en">Type file name. Press Enter to confirm or Escape to cancel.</source>
+    </trans-unit>
+    <trans-unit id="move">
+      <source xml:lang="en">Move {0}</source>
+    </trans-unit>
+    <trans-unit id="moveButtonLabel">
+      <source xml:lang="en">&amp;&amp;Move</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="moving">
+      <source xml:lang="en">Moving {0}</source>
+    </trans-unit>
+    <trans-unit id="treeAriaLabel">
+      <source xml:lang="en">Files Explorer</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/files/browser/views/openEditorsView" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="dirtyCounter">
+      <source xml:lang="en">{0} unsaved</source>
+    </trans-unit>
+    <trans-unit id="flipLayout">
+      <source xml:lang="en">Toggle Vertical/Horizontal Editor Layout</source>
+    </trans-unit>
+    <trans-unit id="miToggleEditorLayout">
+      <source xml:lang="en">Flip &amp;&amp;Layout</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="newUntitledFile">
+      <source xml:lang="en">New Untitled File</source>
+    </trans-unit>
+    <trans-unit id="openEditors">
+      <source xml:lang="en">Open Editors</source>
+      <note>Open is an adjective</note>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/files/common/dirtyFilesIndicator" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="dirtyFile">
+      <source xml:lang="en">1 unsaved file</source>
+    </trans-unit>
+    <trans-unit id="dirtyFiles">
+      <source xml:lang="en">{0} unsaved files</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/files/common/files" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="explorerResourceCut">
+      <source xml:lang="en">True when an item in the EXPLORER has been cut for cut and paste.</source>
+    </trans-unit>
+    <trans-unit id="explorerResourceIsFolder">
+      <source xml:lang="en">True when the focused item in the EXPLORER is a folder.</source>
+    </trans-unit>
+    <trans-unit id="explorerResourceIsRoot">
+      <source xml:lang="en">True when the focused item in the EXPLORER is a root folder.</source>
+    </trans-unit>
+    <trans-unit id="explorerResourceMoveableToTrash">
+      <source xml:lang="en">True when the focused item in the EXPLORER can be moved to trash.</source>
+    </trans-unit>
+    <trans-unit id="explorerResourceReadonly">
+      <source xml:lang="en">True when the focused item in the EXPLORER is readonly.</source>
+    </trans-unit>
+    <trans-unit id="explorerViewletCompressedFirstFocus">
+      <source xml:lang="en">True when the focus is inside a compact item's first part in the EXPLORER view.</source>
+    </trans-unit>
+    <trans-unit id="explorerViewletCompressedFocus">
+      <source xml:lang="en">True when the focused item in the EXPLORER view is a compact item.</source>
+    </trans-unit>
+    <trans-unit id="explorerViewletCompressedLastFocus">
+      <source xml:lang="en">True when the focus is inside a compact item's last part in the EXPLORER view.</source>
+    </trans-unit>
+    <trans-unit id="explorerViewletFocus">
+      <source xml:lang="en">True when the focus is inside the EXPLORER viewlet.</source>
+    </trans-unit>
+    <trans-unit id="explorerViewletVisible">
+      <source xml:lang="en">True when the EXPLORER viewlet is visible.</source>
+    </trans-unit>
+    <trans-unit id="filesExplorerFocus">
+      <source xml:lang="en">True when the focus is inside the EXPLORER view.</source>
+    </trans-unit>
+    <trans-unit id="openEditorsFocus">
+      <source xml:lang="en">True when the focus is inside the OPEN EDITORS view.</source>
+    </trans-unit>
+    <trans-unit id="openEditorsVisible">
+      <source xml:lang="en">True when the OPEN EDITORS view is visible.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/files/common/workspaceWatcher" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="enospcError">
+      <source xml:lang="en">Unable to watch for file changes in this large workspace folder. Please follow the instructions link to resolve this issue.</source>
+    </trans-unit>
+    <trans-unit id="installNet">
+      <source xml:lang="en">Download .NET Framework 4.5</source>
+    </trans-unit>
+    <trans-unit id="learnMore">
+      <source xml:lang="en">Instructions</source>
+    </trans-unit>
+    <trans-unit id="netVersionError">
+      <source xml:lang="en">The Microsoft .NET Framework 4.5 is required. Please follow the link to install it.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/files/electron-sandbox/fileActions.contribution" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="filesCategory">
+      <source xml:lang="en">File</source>
+    </trans-unit>
+    <trans-unit id="openContainer">
+      <source xml:lang="en">Open Containing Folder</source>
+    </trans-unit>
+    <trans-unit id="revealInMac">
+      <source xml:lang="en">Reveal in Finder</source>
+    </trans-unit>
+    <trans-unit id="revealInWindows">
+      <source xml:lang="en">Reveal in File Explorer</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/files/electron-sandbox/files.contribution" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="textFileEditor">
+      <source xml:lang="en">Text File Editor</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/files/electron-sandbox/textFileEditor" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="configureMemoryLimit">
+      <source xml:lang="en">Configure Memory Limit</source>
+    </trans-unit>
+    <trans-unit id="fileTooLargeForHeapError">
+      <source xml:lang="en">To open a file of this size, you need to restart and allow {0} to use more memory</source>
+    </trans-unit>
+    <trans-unit id="relaunchWithIncreasedMemoryLimit">
+      <source xml:lang="en">Restart with {0} MB</source>
+    </trans-unit>
+</body></file>
+</xliff>

@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/contrib/testing/browser/icons" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="autoRunIcon">
+      <source xml:lang="en">Icon for the 'Autorun' toggle in the testing view.</source>
+    </trans-unit>
+    <trans-unit id="filterIcon">
+      <source xml:lang="en">Icon for the 'Filter' action in the testing view.</source>
+    </trans-unit>
+    <trans-unit id="hiddenIcon">
+      <source xml:lang="en">Icon shown beside hidden tests, when they've been shown.</source>
+    </trans-unit>
+    <trans-unit id="testViewIcon">
+      <source xml:lang="en">View icon of the test view.</source>
+    </trans-unit>
+    <trans-unit id="testingCancelIcon">
+      <source xml:lang="en">Icon to cancel ongoing test runs.</source>
+    </trans-unit>
+    <trans-unit id="testingDebugIcon">
+      <source xml:lang="en">Icon of the "debug test" action.</source>
+    </trans-unit>
+    <trans-unit id="testingErrorIcon">
+      <source xml:lang="en">Icon shown for tests that have an error.</source>
+    </trans-unit>
+    <trans-unit id="testingFailedIcon">
+      <source xml:lang="en">Icon shown for tests that failed.</source>
+    </trans-unit>
+    <trans-unit id="testingPassedIcon">
+      <source xml:lang="en">Icon shown for tests that passed.</source>
+    </trans-unit>
+    <trans-unit id="testingQueuedIcon">
+      <source xml:lang="en">Icon shown for tests that are queued.</source>
+    </trans-unit>
+    <trans-unit id="testingRunAllIcon">
+      <source xml:lang="en">Icon of the "run all tests" action.</source>
+    </trans-unit>
+    <trans-unit id="testingRunIcon">
+      <source xml:lang="en">Icon of the "run test" action.</source>
+    </trans-unit>
+    <trans-unit id="testingShowAsList">
+      <source xml:lang="en">Icon shown when the test explorer is disabled as a tree.</source>
+    </trans-unit>
+    <trans-unit id="testingShowAsTree">
+      <source xml:lang="en">Icon shown when the test explorer is disabled as a list.</source>
+    </trans-unit>
+    <trans-unit id="testingSkippedIcon">
+      <source xml:lang="en">Icon shown for tests that are skipped.</source>
+    </trans-unit>
+    <trans-unit id="testingUnsetIcon">
+      <source xml:lang="en">Icon shown for tests that are in an unset state.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/testing/browser/testExplorerActions" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="debug test">
+      <source xml:lang="en">Debug Test</source>
+    </trans-unit>
+    <trans-unit id="debugAllTests">
+      <source xml:lang="en">Debug All Tests</source>
+    </trans-unit>
+    <trans-unit id="debugSelectedTests">
+      <source xml:lang="en">Debug Selected Tests</source>
+    </trans-unit>
+    <trans-unit id="discoveringTests">
+      <source xml:lang="en">Discovering Tests</source>
+    </trans-unit>
+    <trans-unit id="hideTest">
+      <source xml:lang="en">Hide Test</source>
+    </trans-unit>
+    <trans-unit id="noDebugTestProvider">
+      <source xml:lang="en">No debuggable tests found in this workspace. You may need to install a test provider extension</source>
+    </trans-unit>
+    <trans-unit id="noTestProvider">
+      <source xml:lang="en">No tests found in this workspace. You may need to install a test provider extension</source>
+    </trans-unit>
+    <trans-unit id="run test">
+      <source xml:lang="en">Run Test</source>
+    </trans-unit>
+    <trans-unit id="runAllTests">
+      <source xml:lang="en">Run All Tests</source>
+    </trans-unit>
+    <trans-unit id="runSelectedTests">
+      <source xml:lang="en">Run Selected Tests</source>
+    </trans-unit>
+    <trans-unit id="testing.cancelRun">
+      <source xml:lang="en">Cancel Test Run</source>
+    </trans-unit>
+    <trans-unit id="testing.category">
+      <source xml:lang="en">Test</source>
+    </trans-unit>
+    <trans-unit id="testing.clearResults">
+      <source xml:lang="en">Clear All Results</source>
+    </trans-unit>
+    <trans-unit id="testing.collapseAll">
+      <source xml:lang="en">Collapse All Tests</source>
+    </trans-unit>
+    <trans-unit id="testing.debugAtCursor">
+      <source xml:lang="en">Debug Test at Cursor</source>
+    </trans-unit>
+    <trans-unit id="testing.debugCurrentFile">
+      <source xml:lang="en">Debug Tests in Current File</source>
+    </trans-unit>
+    <trans-unit id="testing.debugFailTests">
+      <source xml:lang="en">Debug Failed Tests</source>
+    </trans-unit>
+    <trans-unit id="testing.debugLastRun">
+      <source xml:lang="en">Debug Last Run</source>
+    </trans-unit>
+    <trans-unit id="testing.editFocusedTest">
+      <source xml:lang="en">Go to Test</source>
+    </trans-unit>
+    <trans-unit id="testing.openOutputPeek">
+      <source xml:lang="en">Peek Output</source>
+    </trans-unit>
+    <trans-unit id="testing.reRunFailTests">
+      <source xml:lang="en">Rerun Failed Tests</source>
+    </trans-unit>
+    <trans-unit id="testing.reRunLastRun">
+      <source xml:lang="en">Rerun Last Run</source>
+    </trans-unit>
+    <trans-unit id="testing.refresh">
+      <source xml:lang="en">Refresh Tests</source>
+    </trans-unit>
+    <trans-unit id="testing.runAtCursor">
+      <source xml:lang="en">Run Test at Cursor</source>
+    </trans-unit>
+    <trans-unit id="testing.runCurrentFile">
+      <source xml:lang="en">Run Tests in Current File</source>
+    </trans-unit>
+    <trans-unit id="testing.searchForTestExtension">
+      <source xml:lang="en">Search for Test Extension</source>
+    </trans-unit>
+    <trans-unit id="testing.showMostRecentOutput">
+      <source xml:lang="en">Show Output</source>
+    </trans-unit>
+    <trans-unit id="testing.sortByLocation">
+      <source xml:lang="en">Sort by Location</source>
+    </trans-unit>
+    <trans-unit id="testing.sortByName">
+      <source xml:lang="en">Sort by Name</source>
+    </trans-unit>
+    <trans-unit id="testing.turnOffAutoRun">
+      <source xml:lang="en">Turn Off Auto Run</source>
+    </trans-unit>
+    <trans-unit id="testing.turnOnAutoRun">
+      <source xml:lang="en">Turn On Auto Run</source>
+    </trans-unit>
+    <trans-unit id="testing.viewAsList">
+      <source xml:lang="en">View as List</source>
+    </trans-unit>
+    <trans-unit id="testing.viewAsTree">
+      <source xml:lang="en">View as Tree</source>
+    </trans-unit>
+    <trans-unit id="unhideTest">
+      <source xml:lang="en">Unhide Test</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/testing/browser/testing.contribution" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="miViewTesting">
+      <source xml:lang="en">T&amp;&amp;esting</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="noTestProvidersRegistered">
+      <source xml:lang="en">No tests have been found in this workspace yet.</source>
+    </trans-unit>
+    <trans-unit id="searchMarketplaceForTestExtensions">
+      <source xml:lang="en">[Find Test Extensions](command:{0})</source>
+      <note>Please do not translate the word "commmand", it is part of our internal syntax which must not change</note>
+    </trans-unit>
+    <trans-unit id="test">
+      <source xml:lang="en">Testing</source>
+    </trans-unit>
+    <trans-unit id="testExplorer">
+      <source xml:lang="en">Test Explorer</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/testing/browser/testingDecorations" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="debug all test">
+      <source xml:lang="en">Debug All Tests</source>
+    </trans-unit>
+    <trans-unit id="debug test">
+      <source xml:lang="en">Debug Test</source>
+    </trans-unit>
+    <trans-unit id="peekTestOutout">
+      <source xml:lang="en">Peek Test Output</source>
+    </trans-unit>
+    <trans-unit id="reveal test">
+      <source xml:lang="en">Reveal in Test Explorer</source>
+    </trans-unit>
+    <trans-unit id="run all test">
+      <source xml:lang="en">Run All Tests</source>
+    </trans-unit>
+    <trans-unit id="run test">
+      <source xml:lang="en">Run Test</source>
+    </trans-unit>
+    <trans-unit id="testing.gutterMsg.contextMenu">
+      <source xml:lang="en">Click for test options</source>
+    </trans-unit>
+    <trans-unit id="testing.gutterMsg.debug">
+      <source xml:lang="en">Click to debug tests, right click for more options</source>
+    </trans-unit>
+    <trans-unit id="testing.gutterMsg.run">
+      <source xml:lang="en">Click to run tests, right click for more options</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/testing/browser/testingExplorerFilter" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="filter">
+      <source xml:lang="en">Filter</source>
+    </trans-unit>
+    <trans-unit id="testExplorerFilter">
+      <source xml:lang="en">Filter (e.g. text, !exclude)</source>
+    </trans-unit>
+    <trans-unit id="testing.filters.currentFile">
+      <source xml:lang="en">Show in Active File Only</source>
+    </trans-unit>
+    <trans-unit id="testing.filters.menu">
+      <source xml:lang="en">More Filters...</source>
+    </trans-unit>
+    <trans-unit id="testing.filters.removeTestExclusions">
+      <source xml:lang="en">Unhide All Tests</source>
+    </trans-unit>
+    <trans-unit id="testing.filters.showAll">
+      <source xml:lang="en">Show All Tests</source>
+    </trans-unit>
+    <trans-unit id="testing.filters.showExcludedTests">
+      <source xml:lang="en">Show Hidden Tests</source>
+    </trans-unit>
+    <trans-unit id="testing.filters.showOnlyExecuted">
+      <source xml:lang="en">Show Only Executed Tests</source>
+    </trans-unit>
+    <trans-unit id="testing.filters.showOnlyFailed">
+      <source xml:lang="en">Show Only Failed Tests</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/testing/browser/testingExplorerView" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="testExplorer">
+      <source xml:lang="en">Test Explorer</source>
+    </trans-unit>
+    <trans-unit id="testing.treeElementLabelDuration">
+      <source xml:lang="en">{0}, in {1}</source>
+      <note>{0} is the original label in testing.treeElementLabel, {1} is a duration</note>
+    </trans-unit>
+    <trans-unit id="testing.treeElementLabelOutdated">
+      <source xml:lang="en">{0}, outdated result</source>
+      <note>{0} is the original label in testing.treeElementLabel</note>
+    </trans-unit>
+    <trans-unit id="testingFindExtension">
+      <source xml:lang="en">Show Workspace Tests</source>
+    </trans-unit>
+    <trans-unit id="testingNoTest">
+      <source xml:lang="en">No tests were found in this file.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/testing/browser/testingOutputPeek" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="close">
+      <source xml:lang="en">Close</source>
+    </trans-unit>
+    <trans-unit id="debug test">
+      <source xml:lang="en">Debug Test</source>
+    </trans-unit>
+    <trans-unit id="run test">
+      <source xml:lang="en">Run Test</source>
+    </trans-unit>
+    <trans-unit id="testUnnamedTask">
+      <source xml:lang="en">Unnamed Task</source>
+    </trans-unit>
+    <trans-unit id="testing.debugLastRun">
+      <source xml:lang="en">Debug Test Run</source>
+    </trans-unit>
+    <trans-unit id="testing.reRunLastRun">
+      <source xml:lang="en">Rerun Test Run</source>
+    </trans-unit>
+    <trans-unit id="testing.revealInExplorer">
+      <source xml:lang="en">Reveal in Test Explorer</source>
+    </trans-unit>
+    <trans-unit id="testing.showResultOutput">
+      <source xml:lang="en">Show Result Output</source>
+    </trans-unit>
+    <trans-unit id="testingOutputActual">
+      <source xml:lang="en">Actual result</source>
+    </trans-unit>
+    <trans-unit id="testingOutputExpected">
+      <source xml:lang="en">Expected result</source>
+    </trans-unit>
+    <trans-unit id="testingPeekLabel">
+      <source xml:lang="en">Test Result Messages</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/testing/browser/testingOutputTerminalService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="runFinished">
+      <source xml:lang="en">Test run finished at {0}</source>
+    </trans-unit>
+    <trans-unit id="runNoOutout">
+      <source xml:lang="en">The test run did not record any output.</source>
+    </trans-unit>
+    <trans-unit id="testNoRunYet">
+      <source xml:lang="en">
+No tests have been run, yet.
+</source>
+    </trans-unit>
+    <trans-unit id="testOutputTerminalTitle">
+      <source xml:lang="en">Test Output</source>
+    </trans-unit>
+    <trans-unit id="testOutputTerminalTitleWithDate">
+      <source xml:lang="en">Test Output at {0}</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/testing/browser/testingProgressUiService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="testProgress.completed">
+      <source xml:lang="en">{0}/{1} tests passed ({2}%)</source>
+    </trans-unit>
+    <trans-unit id="testProgress.running">
+      <source xml:lang="en">Running tests, {0}/{1} passed ({2}%)</source>
+    </trans-unit>
+    <trans-unit id="testProgress.runningInitial">
+      <source xml:lang="en">Running tests...</source>
+    </trans-unit>
+    <trans-unit id="testProgressWithSkip.completed">
+      <source xml:lang="en">{0}/{1} tests passed ({2}%, {3} skipped)</source>
+    </trans-unit>
+    <trans-unit id="testProgressWithSkip.running">
+      <source xml:lang="en">Running tests, {0}/{1} tests passed ({2}%, {3} skipped)</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/testing/browser/testingViewPaneContainer" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="testing">
+      <source xml:lang="en">Testing</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/testing/browser/theme" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="testing.iconErrored">
+      <source xml:lang="en">Color for the 'Errored' icon in the test explorer.</source>
+    </trans-unit>
+    <trans-unit id="testing.iconFailed">
+      <source xml:lang="en">Color for the 'failed' icon in the test explorer.</source>
+    </trans-unit>
+    <trans-unit id="testing.iconPassed">
+      <source xml:lang="en">Color for the 'passed' icon in the test explorer.</source>
+    </trans-unit>
+    <trans-unit id="testing.iconQueued">
+      <source xml:lang="en">Color for the 'Queued' icon in the test explorer.</source>
+    </trans-unit>
+    <trans-unit id="testing.iconSkipped">
+      <source xml:lang="en">Color for the 'Skipped' icon in the test explorer.</source>
+    </trans-unit>
+    <trans-unit id="testing.iconUnset">
+      <source xml:lang="en">Color for the 'Unset' icon in the test explorer.</source>
+    </trans-unit>
+    <trans-unit id="testing.message.error.decorationForeground">
+      <source xml:lang="en">Text color of test error messages shown inline in the editor.</source>
+    </trans-unit>
+    <trans-unit id="testing.message.error.marginBackground">
+      <source xml:lang="en">Margin color beside error messages shown inline in the editor.</source>
+    </trans-unit>
+    <trans-unit id="testing.message.hint.decorationForeground">
+      <source xml:lang="en">Text color of test hint messages shown inline in the editor.</source>
+    </trans-unit>
+    <trans-unit id="testing.message.hint.marginBackground">
+      <source xml:lang="en">Margin color beside hint messages shown inline in the editor.</source>
+    </trans-unit>
+    <trans-unit id="testing.message.info.decorationForeground">
+      <source xml:lang="en">Text color of test info messages shown inline in the editor.</source>
+    </trans-unit>
+    <trans-unit id="testing.message.info.marginBackground">
+      <source xml:lang="en">Margin color beside info messages shown inline in the editor.</source>
+    </trans-unit>
+    <trans-unit id="testing.message.warning.decorationForeground">
+      <source xml:lang="en">Text color of test warning messages shown inline in the editor.</source>
+    </trans-unit>
+    <trans-unit id="testing.message.warning.marginBackground">
+      <source xml:lang="en">Margin color beside warning messages shown inline in the editor.</source>
+    </trans-unit>
+    <trans-unit id="testing.peekBorder">
+      <source xml:lang="en">Color of the peek view borders and arrow.</source>
+    </trans-unit>
+    <trans-unit id="testing.runAction">
+      <source xml:lang="en">Color for 'run' icons in the editor.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/testing/common/configuration" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="testConfigurationTitle">
+      <source xml:lang="en">Testing</source>
+    </trans-unit>
+    <trans-unit id="testing.autoRun.delay">
+      <source xml:lang="en">How long to wait, in milliseconds, after a test is marked as outdated and starting a new run.</source>
+    </trans-unit>
+    <trans-unit id="testing.autoRun.mode">
+      <source xml:lang="en">Controls which tests are automatically run.</source>
+    </trans-unit>
+    <trans-unit id="testing.autoRun.mode.allInWorkspace">
+      <source xml:lang="en">Automatically runs all discovered test when auto-run is toggled. Reruns individual tests when they are changed.</source>
+    </trans-unit>
+    <trans-unit id="testing.autoRun.mode.onlyPreviouslyRun">
+      <source xml:lang="en">Reruns individual tests when they are changed. Will not automatically run any tests that have not been already executed.</source>
+    </trans-unit>
+    <trans-unit id="testing.automaticallyOpenPeekView">
+      <source xml:lang="en">Configures when the error peek view is automatically opened.</source>
+    </trans-unit>
+    <trans-unit id="testing.automaticallyOpenPeekView.failureAnywhere">
+      <source xml:lang="en">Open automatically no matter where the failure is.</source>
+    </trans-unit>
+    <trans-unit id="testing.automaticallyOpenPeekView.failureInVisibleDocument">
+      <source xml:lang="en">Open automatically when a test fails in a visible document.</source>
+    </trans-unit>
+    <trans-unit id="testing.automaticallyOpenPeekViewDuringAutoRun">
+      <source xml:lang="en">Controls whether to automatically open the peek view during auto-run mode.</source>
+    </trans-unit>
+    <trans-unit id="testing.defaultGutterClickAction">
+      <source xml:lang="en">Controls the action to take when left-clicking on a test decoration in the gutter.</source>
+    </trans-unit>
+    <trans-unit id="testing.defaultGutterClickAction.contextMenu">
+      <source xml:lang="en">Open the context menu for more options.</source>
+    </trans-unit>
+    <trans-unit id="testing.defaultGutterClickAction.debug">
+      <source xml:lang="en">Debug the test.</source>
+    </trans-unit>
+    <trans-unit id="testing.defaultGutterClickAction.run">
+      <source xml:lang="en">Run the test.</source>
+    </trans-unit>
+    <trans-unit id="testing.followRunningTest">
+      <source xml:lang="en">Controls whether the running test should be followed in the test explorer view</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/testing/common/constants" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="testState.errored">
+      <source xml:lang="en">Errored</source>
+    </trans-unit>
+    <trans-unit id="testState.failed">
+      <source xml:lang="en">Failed</source>
+    </trans-unit>
+    <trans-unit id="testState.passed">
+      <source xml:lang="en">Passed</source>
+    </trans-unit>
+    <trans-unit id="testState.queued">
+      <source xml:lang="en">Queued</source>
+    </trans-unit>
+    <trans-unit id="testState.running">
+      <source xml:lang="en">Running</source>
+    </trans-unit>
+    <trans-unit id="testState.skipped">
+      <source xml:lang="en">Skipped</source>
+    </trans-unit>
+    <trans-unit id="testState.unset">
+      <source xml:lang="en">Not yet run</source>
+    </trans-unit>
+    <trans-unit id="testing.treeElementLabel">
+      <source xml:lang="en">{0} ({1})</source>
+      <note>label then the unit tests state, for example "Addition Tests (Running)"</note>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/testing/common/testResult" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="runFinished">
+      <source xml:lang="en">Test run at {0}</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/testing/common/testServiceImpl" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="testError">
+      <source xml:lang="en">An error occurred attempting to run tests: {0}</source>
+    </trans-unit>
+    <trans-unit id="testTrust">
+      <source xml:lang="en">Running tests may execute code in your workspace.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/testing/common/testingContextKeys" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="testing.peekItemType">
+      <source xml:lang="en">Type of the item in the output peek view. Either a "test", "message", "task", or "result".</source>
+    </trans-unit>
+    <trans-unit id="testing.testId">
+      <source xml:lang="en">ID of the current test item, set when creating or opening menus on test items</source>
+    </trans-unit>
+    <trans-unit id="testing.testItemHasUri">
+      <source xml:lang="en">Boolean indicating whether the test item has a URI defined</source>
+    </trans-unit>
+    <trans-unit id="testing.testItemIsHidden">
+      <source xml:lang="en">Boolean indicating whether the test item is hidden</source>
+    </trans-unit>
+</body></file>
+</xliff>

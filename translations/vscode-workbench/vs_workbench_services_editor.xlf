@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/services/editor/browser/editorOverrideService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="editorOverride.configureDefault">
+      <source xml:lang="en">Configure Default</source>
+    </trans-unit>
+    <trans-unit id="editorOverride.conflictingDefaults">
+      <source xml:lang="en">There are multiple default editors available for the resource.</source>
+    </trans-unit>
+    <trans-unit id="editorOverride.keepDefault">
+      <source xml:lang="en">Keep {0}</source>
+    </trans-unit>
+    <trans-unit id="prompOpenWith.updateDefaultPlaceHolder">
+      <source xml:lang="en">Select new default editor for '{0}'</source>
+    </trans-unit>
+    <trans-unit id="promptOpenWith.configureDefault">
+      <source xml:lang="en">Configure default editor for '{0}'...</source>
+    </trans-unit>
+    <trans-unit id="promptOpenWith.currentDefault">
+      <source xml:lang="en">Default</source>
+    </trans-unit>
+    <trans-unit id="promptOpenWith.currentDefaultAndActive">
+      <source xml:lang="en">Active and Default</source>
+    </trans-unit>
+    <trans-unit id="promptOpenWith.currentlyActive">
+      <source xml:lang="en">Active</source>
+    </trans-unit>
+    <trans-unit id="promptOpenWith.placeHolder">
+      <source xml:lang="en">Select editor for '{0}'</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/editor/common/editorOverrideService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="editor.editorAssociations">
+      <source xml:lang="en">Configure glob patterns to editors (e.g. `"*.hex": "hexEditor.hexEdit"`). These have precedence over the default behavior.</source>
+    </trans-unit>
+</body></file>
+</xliff>

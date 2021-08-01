@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/code/electron-main/app" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="cancel">
+      <source xml:lang="en">&amp;&amp;No</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="confirmOpenDetail">
+      <source xml:lang="en">If you did not initiate this request, it may represent an attempted attack on your system. Unless you took an explicit action to initiate this request, you should press 'No'</source>
+    </trans-unit>
+    <trans-unit id="confirmOpenMessage">
+      <source xml:lang="en">An external application wants to open '{0}' in {1}. Do you want to open this file or folder?</source>
+    </trans-unit>
+    <trans-unit id="open">
+      <source xml:lang="en">&amp;&amp;Yes</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="trace.detail">
+      <source xml:lang="en">Please create an issue and manually attach the following file:
+{0}</source>
+    </trans-unit>
+    <trans-unit id="trace.message">
+      <source xml:lang="en">Successfully created trace.</source>
+    </trans-unit>
+    <trans-unit id="trace.ok">
+      <source xml:lang="en">&amp;&amp;OK</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/code/electron-main/main" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="close">
+      <source xml:lang="en">&amp;&amp;Close</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="secondInstanceAdmin">
+      <source xml:lang="en">A second instance of {0} is already running as administrator.</source>
+    </trans-unit>
+    <trans-unit id="secondInstanceAdminDetail">
+      <source xml:lang="en">Please close the other instance and try again.</source>
+    </trans-unit>
+    <trans-unit id="secondInstanceNoResponse">
+      <source xml:lang="en">Another instance of {0} is running but not responding</source>
+    </trans-unit>
+    <trans-unit id="secondInstanceNoResponseDetail">
+      <source xml:lang="en">Please close all other instances and try again.</source>
+    </trans-unit>
+    <trans-unit id="startupDataDirError">
+      <source xml:lang="en">Unable to write program user data.</source>
+    </trans-unit>
+    <trans-unit id="startupUserDataAndExtensionsDirErrorDetail">
+      <source xml:lang="en">{0}
+
+Please make sure the following directories are writeable:
+
+{1}</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/code/electron-sandbox/issue/issueReporterMain" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="bugDescription">
+      <source xml:lang="en">Share the steps needed to reliably reproduce the problem. Please include actual and expected results. We support GitHub-flavored Markdown. You will be able to edit your issue and add screenshots when we preview it on GitHub.</source>
+    </trans-unit>
+    <trans-unit id="bugReporter">
+      <source xml:lang="en">Bug Report</source>
+    </trans-unit>
+    <trans-unit id="closed">
+      <source xml:lang="en">Closed</source>
+    </trans-unit>
+    <trans-unit id="createOnGitHub">
+      <source xml:lang="en">Create on GitHub</source>
+    </trans-unit>
+    <trans-unit id="description">
+      <source xml:lang="en">Description</source>
+    </trans-unit>
+    <trans-unit id="disabledExtensions">
+      <source xml:lang="en">Extensions are disabled</source>
+    </trans-unit>
+    <trans-unit id="extension">
+      <source xml:lang="en">An extension</source>
+    </trans-unit>
+    <trans-unit id="featureRequest">
+      <source xml:lang="en">Feature Request</source>
+    </trans-unit>
+    <trans-unit id="featureRequestDescription">
+      <source xml:lang="en">Please describe the feature you would like to see. We support GitHub-flavored Markdown. You will be able to edit your issue and add screenshots when we preview it on GitHub.</source>
+    </trans-unit>
+    <trans-unit id="hide">
+      <source xml:lang="en">hide</source>
+    </trans-unit>
+    <trans-unit id="loadingData">
+      <source xml:lang="en">Loading data...</source>
+    </trans-unit>
+    <trans-unit id="marketplace">
+      <source xml:lang="en">Extensions marketplace</source>
+    </trans-unit>
+    <trans-unit id="noCurrentExperiments">
+      <source xml:lang="en">No current experiments.</source>
+    </trans-unit>
+    <trans-unit id="noSimilarIssues">
+      <source xml:lang="en">No similar issues found</source>
+    </trans-unit>
+    <trans-unit id="open">
+      <source xml:lang="en">Open</source>
+    </trans-unit>
+    <trans-unit id="pasteData">
+      <source xml:lang="en">We have written the needed data into your clipboard because it was too large to send. Please paste.</source>
+    </trans-unit>
+    <trans-unit id="performanceIssue">
+      <source xml:lang="en">Performance Issue</source>
+    </trans-unit>
+    <trans-unit id="performanceIssueDesciption">
+      <source xml:lang="en">When did this performance issue happen? Does it occur on startup or after a specific series of actions? We support GitHub-flavored Markdown. You will be able to edit your issue and add screenshots when we preview it on GitHub.</source>
+    </trans-unit>
+    <trans-unit id="previewOnGitHub">
+      <source xml:lang="en">Preview on GitHub</source>
+    </trans-unit>
+    <trans-unit id="rateLimited">
+      <source xml:lang="en">GitHub query limit exceeded. Please wait.</source>
+    </trans-unit>
+    <trans-unit id="selectSource">
+      <source xml:lang="en">Select source</source>
+    </trans-unit>
+    <trans-unit id="show">
+      <source xml:lang="en">show</source>
+    </trans-unit>
+    <trans-unit id="similarIssues">
+      <source xml:lang="en">Similar issues</source>
+    </trans-unit>
+    <trans-unit id="stepsToReproduce">
+      <source xml:lang="en">Steps to Reproduce</source>
+    </trans-unit>
+    <trans-unit id="unknown">
+      <source xml:lang="en">Don't know</source>
+    </trans-unit>
+    <trans-unit id="vscode">
+      <source xml:lang="en">Visual Studio Code</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/code/electron-sandbox/issue/issueReporterPage" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="chooseExtension">
+      <source xml:lang="en">Extension</source>
+    </trans-unit>
+    <trans-unit id="completeInEnglish">
+      <source xml:lang="en">Please complete the form in English.</source>
+    </trans-unit>
+    <trans-unit id="descriptionEmptyValidation">
+      <source xml:lang="en">A description is required.</source>
+    </trans-unit>
+    <trans-unit id="details">
+      <source xml:lang="en">Please enter details.</source>
+    </trans-unit>
+    <trans-unit id="disableExtensions">
+      <source xml:lang="en">disabling all extensions and reloading the window</source>
+    </trans-unit>
+    <trans-unit id="disableExtensionsLabelText">
+      <source xml:lang="en">Try to reproduce the problem after {0}. If the problem only reproduces when extensions are active, it is likely an issue with an extension.</source>
+    </trans-unit>
+    <trans-unit id="extensionWithNoBugsUrl">
+      <source xml:lang="en">The issue reporter is unable to create issues for this extension, as it does not specify a URL for reporting issues. Please check the marketplace page of this extension to see if other instructions are available.</source>
+    </trans-unit>
+    <trans-unit id="extensionWithNonstandardBugsUrl">
+      <source xml:lang="en">The issue reporter is unable to create issues for this extension. Please visit {0} to report an issue.</source>
+    </trans-unit>
+    <trans-unit id="issueSourceEmptyValidation">
+      <source xml:lang="en">An issue source is required.</source>
+    </trans-unit>
+    <trans-unit id="issueSourceLabel">
+      <source xml:lang="en">File on</source>
+    </trans-unit>
+    <trans-unit id="issueTitleLabel">
+      <source xml:lang="en">Title</source>
+    </trans-unit>
+    <trans-unit id="issueTitleRequired">
+      <source xml:lang="en">Please enter a title.</source>
+    </trans-unit>
+    <trans-unit id="issueTypeLabel">
+      <source xml:lang="en">This is a</source>
+    </trans-unit>
+    <trans-unit id="sendExperiments">
+      <source xml:lang="en">Include A/B experiment info ({0})</source>
+      <note>{0} is either "show" or "hide" and is a button to toggle the visibility of the current experiment information</note>
+    </trans-unit>
+    <trans-unit id="sendExtensions">
+      <source xml:lang="en">Include my enabled extensions ({0})</source>
+      <note>{0} is either "show" or "hide" and is a button to toggle the visibility of the enabled extensions list</note>
+    </trans-unit>
+    <trans-unit id="sendProcessInfo">
+      <source xml:lang="en">Include my currently running processes ({0})</source>
+      <note>{0} is either "show" or "hide" and is a button to toggle the visibility of the process info</note>
+    </trans-unit>
+    <trans-unit id="sendSystemInfo">
+      <source xml:lang="en">Include my system information ({0})</source>
+      <note>{0} is either "show" or "hide" and is a button to toggle the visibility of the system information</note>
+    </trans-unit>
+    <trans-unit id="sendWorkspaceInfo">
+      <source xml:lang="en">Include my workspace metadata ({0})</source>
+      <note>{0} is either "show" or "hide" and is a button to toggle the visibility of the workspace information</note>
+    </trans-unit>
+    <trans-unit id="show">
+      <source xml:lang="en">show</source>
+    </trans-unit>
+    <trans-unit id="titleEmptyValidation">
+      <source xml:lang="en">A title is required.</source>
+    </trans-unit>
+    <trans-unit id="titleLengthValidation">
+      <source xml:lang="en">The title is too long.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/code/electron-sandbox/processExplorer/processExplorerMain" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="copy">
+      <source xml:lang="en">Copy</source>
+    </trans-unit>
+    <trans-unit id="copyAll">
+      <source xml:lang="en">Copy All</source>
+    </trans-unit>
+    <trans-unit id="cpu">
+      <source xml:lang="en">CPU %</source>
+    </trans-unit>
+    <trans-unit id="debug">
+      <source xml:lang="en">Debug</source>
+    </trans-unit>
+    <trans-unit id="forceKillProcess">
+      <source xml:lang="en">Force Kill Process</source>
+    </trans-unit>
+    <trans-unit id="killProcess">
+      <source xml:lang="en">Kill Process</source>
+    </trans-unit>
+    <trans-unit id="memory">
+      <source xml:lang="en">Memory (MB)</source>
+    </trans-unit>
+    <trans-unit id="name">
+      <source xml:lang="en">Process Name</source>
+    </trans-unit>
+    <trans-unit id="pid">
+      <source xml:lang="en">PID</source>
+    </trans-unit>
+</body></file>
+</xliff>

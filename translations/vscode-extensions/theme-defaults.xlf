@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="extensions/theme-defaults/package" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="darkColorThemeLabel">
+      <source xml:lang="en">Dark (Visual Studio)</source>
+    </trans-unit>
+    <trans-unit id="darkPlusColorThemeLabel">
+      <source xml:lang="en">Dark+ (default dark)</source>
+    </trans-unit>
+    <trans-unit id="description">
+      <source xml:lang="en">The default Visual Studio light and dark themes</source>
+    </trans-unit>
+    <trans-unit id="displayName">
+      <source xml:lang="en">Default Themes</source>
+    </trans-unit>
+    <trans-unit id="hcColorThemeLabel">
+      <source xml:lang="en">High Contrast</source>
+    </trans-unit>
+    <trans-unit id="lightColorThemeLabel">
+      <source xml:lang="en">Light (Visual Studio)</source>
+    </trans-unit>
+    <trans-unit id="lightPlusColorThemeLabel">
+      <source xml:lang="en">Light+ (default light)</source>
+    </trans-unit>
+    <trans-unit id="minimalIconThemeLabel">
+      <source xml:lang="en">Minimal (Visual Studio Code)</source>
+    </trans-unit>
+</body></file>
+</xliff>

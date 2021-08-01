@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="extensions/ms-vscode.node-debug2/node_modules\vscode-chrome-debug-core\out/src/chrome/breakpoints" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="bp.fail.noscript">
+      <source xml:lang="en">Can't find script for breakpoint request</source>
+    </trans-unit>
+    <trans-unit id="bp.fail.unbound">
+      <source xml:lang="en">Breakpoint set but not yet bound</source>
+    </trans-unit>
+    <trans-unit id="invalidHitCondition">
+      <source xml:lang="en">Invalid hit condition: {0}</source>
+    </trans-unit>
+    <trans-unit id="setBPTimedOut">
+      <source xml:lang="en">Set breakpoints request timed out</source>
+    </trans-unit>
+    <trans-unit id="validateBP.notFound">
+      <source xml:lang="en">Breakpoint ignored because target path not found</source>
+    </trans-unit>
+    <trans-unit id="validateBP.sourcemapFail">
+      <source xml:lang="en">Breakpoint ignored because generated code not found (source map problem?).</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.node-debug2/node_modules\vscode-chrome-debug-core\out/src/chrome/chromeDebugAdapter" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="exceptions.all">
+      <source xml:lang="en">All Exceptions</source>
+    </trans-unit>
+    <trans-unit id="exceptions.promise_rejects">
+      <source xml:lang="en">Promise Rejects</source>
+    </trans-unit>
+    <trans-unit id="exceptions.uncaught">
+      <source xml:lang="en">Uncaught Exceptions</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.node-debug2/node_modules\vscode-chrome-debug-core\out/src/chrome/chromeTargetDiscoveryStrategy" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="attach.cannotConnect">
+      <source xml:lang="en">Cannot connect to the target: {0}</source>
+    </trans-unit>
+    <trans-unit id="attach.devToolsAttached">
+      <source xml:lang="en">Can't attach to this target that may have Chrome DevTools attached: {0}</source>
+    </trans-unit>
+    <trans-unit id="attach.invalidResponse">
+      <source xml:lang="en">Response from the target seems invalid. Error: {0}. Response: {1}</source>
+    </trans-unit>
+    <trans-unit id="attach.invalidResponseArray">
+      <source xml:lang="en">Response from the target seems invalid: {0}</source>
+    </trans-unit>
+    <trans-unit id="attach.noMatchingTarget">
+      <source xml:lang="en">Can't find a valid target that matches: {0}. Available pages: {1}</source>
+    </trans-unit>
+    <trans-unit id="attach.responseButNoTargets">
+      <source xml:lang="en">Got a response from the target app, but no target pages found</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.node-debug2/node_modules\vscode-chrome-debug-core\out/src/chrome/stackFrames" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="scope.exception">
+      <source xml:lang="en">Exception</source>
+    </trans-unit>
+    <trans-unit id="skipReason">
+      <source xml:lang="en">(skipped by '{0}')</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.node-debug2/node_modules\vscode-chrome-debug-core\out/src/chrome/stoppedEvent" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="reason.description.breakpoint">
+      <source xml:lang="en">Paused on breakpoint</source>
+    </trans-unit>
+    <trans-unit id="reason.description.caughtException">
+      <source xml:lang="en">Paused on caught exception</source>
+    </trans-unit>
+    <trans-unit id="reason.description.debugger_statement">
+      <source xml:lang="en">Paused on debugger statement</source>
+    </trans-unit>
+    <trans-unit id="reason.description.entry">
+      <source xml:lang="en">Paused on entry</source>
+    </trans-unit>
+    <trans-unit id="reason.description.exception">
+      <source xml:lang="en">Paused on exception</source>
+    </trans-unit>
+    <trans-unit id="reason.description.promiseRejection">
+      <source xml:lang="en">Paused on promise rejection</source>
+    </trans-unit>
+    <trans-unit id="reason.description.restart">
+      <source xml:lang="en">Paused on frame entry</source>
+    </trans-unit>
+    <trans-unit id="reason.description.step">
+      <source xml:lang="en">Paused on step</source>
+    </trans-unit>
+    <trans-unit id="reason.description.uncaughtException">
+      <source xml:lang="en">Paused on uncaught exception</source>
+    </trans-unit>
+    <trans-unit id="reason.description.user_request">
+      <source xml:lang="en">Paused on user request</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.node-debug2/node_modules\vscode-chrome-debug-core\out/src/errors" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="VSND2010">
+      <source xml:lang="en">Cannot connect to runtime process, timeout after {0} ms - (reason: {1}).</source>
+    </trans-unit>
+    <trans-unit id="VSND2023">
+      <source xml:lang="en">No call stack available.</source>
+    </trans-unit>
+    <trans-unit id="attribute.path.not.absolute">
+      <source xml:lang="en">Attribute '{0}' is not absolute ('{1}'); consider adding '{2}' as a prefix to make it absolute.</source>
+    </trans-unit>
+    <trans-unit id="attribute.path.not.exist">
+      <source xml:lang="en">Attribute '{0}' does not exist ('{1}').</source>
+    </trans-unit>
+    <trans-unit id="eval.not.available">
+      <source xml:lang="en">not available</source>
+    </trans-unit>
+    <trans-unit id="failed.to.read.port">
+      <source xml:lang="en">Failed to read file {dataDirPath}, {error}</source>
+    </trans-unit>
+    <trans-unit id="more.information">
+      <source xml:lang="en">More Information</source>
+    </trans-unit>
+    <trans-unit id="not.connected">
+      <source xml:lang="en">not connected to runtime</source>
+    </trans-unit>
+    <trans-unit id="port.file.contents.invalid">
+      <source xml:lang="en">File at location: "{dataDirPath}" did not contain valid port data, contents were: {dataDirContents}</source>
+    </trans-unit>
+    <trans-unit id="restartFrame.cannot">
+      <source xml:lang="en">Can't restart frame</source>
+    </trans-unit>
+    <trans-unit id="setVariable.error">
+      <source xml:lang="en">Setting value not supported</source>
+    </trans-unit>
+    <trans-unit id="source.not.found">
+      <source xml:lang="en">Could not retrieve content.</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.node-debug2/node_modules\vscode-chrome-debug-core\out/src/transformers/baseSourceMapTransformer" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="origin.inlined.source.map">
+      <source xml:lang="en">read-only inlined content from source map</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.node-debug2/node_modules\vscode-chrome-debug-core\out/src/transformers/remotePathTransformer" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="localRootAndRemoteRoot">
+      <source xml:lang="en">Both localRoot and remoteRoot must be specified.</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.node-debug2/out/src/errors" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="VSND2001">
+      <source xml:lang="en">Cannot find runtime '{0}' on PATH. Is '{0}' installed?</source>
+    </trans-unit>
+    <trans-unit id="VSND2002">
+      <source xml:lang="en">Cannot launch program '{0}'; configuring source maps might help.</source>
+    </trans-unit>
+    <trans-unit id="VSND2003">
+      <source xml:lang="en">Cannot launch program '{0}'; setting the '{1}' attribute might help.</source>
+    </trans-unit>
+    <trans-unit id="VSND2009">
+      <source xml:lang="en">Cannot launch program '{0}' because corresponding JavaScript cannot be found.</source>
+    </trans-unit>
+    <trans-unit id="VSND2011">
+      <source xml:lang="en">Cannot launch debug target in terminal ({0}).</source>
+    </trans-unit>
+    <trans-unit id="VSND2017">
+      <source xml:lang="en">Cannot launch debug target ({0}).</source>
+    </trans-unit>
+    <trans-unit id="VSND2028">
+      <source xml:lang="en">Unknown console type '{0}'.</source>
+    </trans-unit>
+    <trans-unit id="VSND2029">
+      <source xml:lang="en">Can't load environment variables from file ({0}).</source>
+    </trans-unit>
+    <trans-unit id="VSND2035">
+      <source xml:lang="en">Cannot debug extension ({0}).</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.node-debug2/out/src/nodeDebugAdapter" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="VSND2001">
+      <source xml:lang="en">Cannot find runtime '{0}' on PATH. Make sure to have '{0}' installed.</source>
+    </trans-unit>
+    <trans-unit id="attribute.path.not.absolute">
+      <source xml:lang="en">Attribute '{0}' is not absolute ('{1}'); consider adding '{2}' as a prefix to make it absolute.</source>
+    </trans-unit>
+    <trans-unit id="attribute.path.not.exist">
+      <source xml:lang="en">Attribute '{0}' does not exist ('{1}').</source>
+    </trans-unit>
+    <trans-unit id="attribute.wsl.not.exist">
+      <source xml:lang="en">Cannot find Windows Subsystem for Linux installation.</source>
+    </trans-unit>
+    <trans-unit id="more.information">
+      <source xml:lang="en">More Information</source>
+    </trans-unit>
+    <trans-unit id="node.console.title">
+      <source xml:lang="en">Node Debug Console</source>
+    </trans-unit>
+    <trans-unit id="origin.core.module">
+      <source xml:lang="en">read-only core module</source>
+    </trans-unit>
+    <trans-unit id="origin.from.node">
+      <source xml:lang="en">read-only content from Node.js</source>
+    </trans-unit>
+    <trans-unit id="program.path.case.mismatch.warning">
+      <source xml:lang="en">Program path uses differently cased character as file on disk; this might result in breakpoints not being hit.</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/ms-vscode.node-debug2/package" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="extension.description">
+      <source xml:lang="en">Node.js debugging support</source>
+    </trans-unit>
+    <trans-unit id="extensionHost.label">
+      <source xml:lang="en">VS Code Extension Development</source>
+    </trans-unit>
+    <trans-unit id="extensionHost.launch.config.name">
+      <source xml:lang="en">Launch Extension</source>
+    </trans-unit>
+    <trans-unit id="extensionHost.launch.env.description">
+      <source xml:lang="en">Environment variables passed to the extension host.</source>
+    </trans-unit>
+    <trans-unit id="extensionHost.launch.runtimeExecutable.description">
+      <source xml:lang="en">Absolute path to VS Code.</source>
+    </trans-unit>
+    <trans-unit id="extensionHost.launch.stopOnEntry.description">
+      <source xml:lang="en">Automatically stop the extension host after launch.</source>
+    </trans-unit>
+    <trans-unit id="extensionHost.snippet.launch.description">
+      <source xml:lang="en">Launch a VS Code extension in debug mode</source>
+    </trans-unit>
+    <trans-unit id="extensionHost.snippet.launch.label">
+      <source xml:lang="en">VS Code Extension Development</source>
+    </trans-unit>
+    <trans-unit id="node.address.description">
+      <source xml:lang="en">TCP/IP address of debug port. Default is 'localhost'.</source>
+    </trans-unit>
+    <trans-unit id="node.attach.config.name">
+      <source xml:lang="en">Attach</source>
+    </trans-unit>
+    <trans-unit id="node.attach.localRoot.description">
+      <source xml:lang="en">The local source root that corresponds to the 'remoteRoot'.</source>
+    </trans-unit>
+    <trans-unit id="node.attach.processId.description">
+      <source xml:lang="en">ID of process to attach to.</source>
+    </trans-unit>
+    <trans-unit id="node.attach.remoteRoot.description">
+      <source xml:lang="en">The source root of the remote host.</source>
+    </trans-unit>
+    <trans-unit id="node.diagnosticLogging.deprecationMessage">
+      <source xml:lang="en">'diagnosticLogging' is deprecated. Use 'trace' instead.</source>
+    </trans-unit>
+    <trans-unit id="node.diagnosticLogging.description">
+      <source xml:lang="en">When true, the adapter logs its own diagnostic info to the console</source>
+    </trans-unit>
+    <trans-unit id="node.disableOptimisticBPs.description">
+      <source xml:lang="en">Don't set breakpoints in any file until a sourcemap has been loaded for that file.</source>
+    </trans-unit>
+    <trans-unit id="node.enableSourceMapCaching.description">
+      <source xml:lang="en">When sourcemaps are downloaded from a URL, cache them to disk.</source>
+    </trans-unit>
+    <trans-unit id="node.label">
+      <source xml:lang="en">Node.js v6.3+ via Inspector Protocol</source>
+    </trans-unit>
+    <trans-unit id="node.launch.args.description">
+      <source xml:lang="en">Command line arguments passed to the program.</source>
+    </trans-unit>
+    <trans-unit id="node.launch.config.name">
+      <source xml:lang="en">Launch</source>
+    </trans-unit>
+    <trans-unit id="node.launch.console.description">
+      <source xml:lang="en">Where to launch the debug target: internal console, integrated terminal, or external terminal.</source>
+    </trans-unit>
+    <trans-unit id="node.launch.cwd.description">
+      <source xml:lang="en">Absolute path to the working directory of the program being debugged.</source>
+    </trans-unit>
+    <trans-unit id="node.launch.env.description">
+      <source xml:lang="en">Environment variables passed to the program. The value `null` removes the variable from the environment.</source>
+    </trans-unit>
+    <trans-unit id="node.launch.envFile.description">
+      <source xml:lang="en">Absolute path to a file containing environment variable definitions.</source>
+    </trans-unit>
+    <trans-unit id="node.launch.outputCapture.description">
+      <source xml:lang="en">From where to capture output messages: The debug API, or stdout/stderr streams.</source>
+    </trans-unit>
+    <trans-unit id="node.launch.program.description">
+      <source xml:lang="en">Absolute path to the program.</source>
+    </trans-unit>
+    <trans-unit id="node.launch.runtimeArgs.description">
+      <source xml:lang="en">Optional arguments passed to the runtime executable.</source>
+    </trans-unit>
+    <trans-unit id="node.launch.runtimeExecutable.description">
+      <source xml:lang="en">Runtime to use. Either an absolute path or the name of a runtime available on the PATH. If ommitted `node` is assumed.</source>
+    </trans-unit>
+    <trans-unit id="node.outFiles.description">
+      <source xml:lang="en">If source maps are enabled, these glob patterns specify the generated JavaScript files. If a pattern starts with `!` the files are excluded. If not specified, the generated code is expected in the same directory as its source.</source>
+    </trans-unit>
+    <trans-unit id="node.port.description">
+      <source xml:lang="en">Debug port to attach to. Default is 9229.</source>
+    </trans-unit>
+    <trans-unit id="node.processattach.config.name">
+      <source xml:lang="en">Attach to Process</source>
+    </trans-unit>
+    <trans-unit id="node.restart.description">
+      <source xml:lang="en">Restart session after Node.js has terminated.</source>
+    </trans-unit>
+    <trans-unit id="node.showAsyncStacks.description">
+      <source xml:lang="en">Show the async calls that led to the current call stack.</source>
+    </trans-unit>
+    <trans-unit id="node.skipFiles.description">
+      <source xml:lang="en">An array of file or folder names, or glob patterns, to skip when debugging.</source>
+    </trans-unit>
+    <trans-unit id="node.smartStep.description">
+      <source xml:lang="en">Automatically step through generated code that cannot be mapped back to the original source.</source>
+    </trans-unit>
+    <trans-unit id="node.sourceMapPathOverrides.description">
+      <source xml:lang="en">A set of mappings for rewriting the locations of source files from what the sourcemap says, to their locations on disk. See README for details.</source>
+    </trans-unit>
+    <trans-unit id="node.sourceMaps.description">
+      <source xml:lang="en">Use JavaScript source maps (if they exist).</source>
+    </trans-unit>
+    <trans-unit id="node.stopOnEntry.description">
+      <source xml:lang="en">Automatically stop program after launch.</source>
+    </trans-unit>
+    <trans-unit id="node.timeout.description">
+      <source xml:lang="en">Retry for this number of milliseconds to connect to Node.js. Default is 10000 ms.</source>
+    </trans-unit>
+    <trans-unit id="node.trace.description">
+      <source xml:lang="en">When 'true', the debugger will log tracing info to a file. When 'verbose', it will also show logs in the console.</source>
+    </trans-unit>
+    <trans-unit id="node.verboseDiagnosticLogging.deprecationMessage">
+      <source xml:lang="en">'verboseDiagnosticLogging' is deprecated. Use 'trace' instead.</source>
+    </trans-unit>
+    <trans-unit id="node.verboseDiagnosticLogging.description">
+      <source xml:lang="en">When true, the adapter logs all traffic with the client and target (as well as the info logged by 'diagnosticLogging')</source>
+    </trans-unit>
+    <trans-unit id="outDir.deprecationMessage">
+      <source xml:lang="en">Attribute 'outDir' is deprecated, use 'outFiles' instead.</source>
+    </trans-unit>
+    <trans-unit id="toggle.skipping.this.file">
+      <source xml:lang="en">Toggle Skipping this File</source>
+    </trans-unit>
+    <trans-unit id="workspaceTrust">
+      <source xml:lang="en">Trust is required to debug code in this workspace.</source>
+    </trans-unit>
+</body></file>
+</xliff>

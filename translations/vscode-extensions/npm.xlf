@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="extensions/npm/dist/commands" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="noScriptFound">
+      <source xml:lang="en">Could not find a valid npm script at the selection.</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/npm/dist/features/bowerJSONContribution" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="json.bower.default">
+      <source xml:lang="en">Default bower.json</source>
+    </trans-unit>
+    <trans-unit id="json.bower.error.repoaccess">
+      <source xml:lang="en">Request to the bower repository failed: {0}</source>
+    </trans-unit>
+    <trans-unit id="json.bower.latest.version">
+      <source xml:lang="en">latest</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/npm/dist/features/packageJSONContribution" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="json.npm.error.repoaccess">
+      <source xml:lang="en">Request to the NPM repository failed: {0}</source>
+    </trans-unit>
+    <trans-unit id="json.npm.latestversion">
+      <source xml:lang="en">The currently latest version of the package</source>
+    </trans-unit>
+    <trans-unit id="json.npm.majorversion">
+      <source xml:lang="en">Matches the most recent major version (1.x.x)</source>
+    </trans-unit>
+    <trans-unit id="json.npm.minorversion">
+      <source xml:lang="en">Matches the most recent minor version (1.2.x)</source>
+    </trans-unit>
+    <trans-unit id="json.npm.version.hover">
+      <source xml:lang="en">Latest version: {0}</source>
+    </trans-unit>
+    <trans-unit id="json.package.default">
+      <source xml:lang="en">Default package.json</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/npm/dist/npmScriptLens" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="codelens.debug">
+      <source xml:lang="en">{0} Debug</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/npm/dist/npmView" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="autoDetectIsOff">
+      <source xml:lang="en">The setting "npm.autoDetect" is "off".</source>
+    </trans-unit>
+    <trans-unit id="noScripts">
+      <source xml:lang="en">No scripts found.</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/npm/dist/scriptHover" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="debugScript">
+      <source xml:lang="en">Debug Script</source>
+    </trans-unit>
+    <trans-unit id="debugScript.tooltip">
+      <source xml:lang="en">Runs the script under the debugger</source>
+    </trans-unit>
+    <trans-unit id="runScript">
+      <source xml:lang="en">Run Script</source>
+    </trans-unit>
+    <trans-unit id="runScript.tooltip">
+      <source xml:lang="en">Run the script as a task</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/npm/dist/tasks" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="npm.multiplePMWarning">
+      <source xml:lang="en">Using {0} as the preferred package manager. Found multiple lockfiles for {1}.</source>
+    </trans-unit>
+    <trans-unit id="npm.multiplePMWarning.doNotShow">
+      <source xml:lang="en">Do not show again</source>
+    </trans-unit>
+    <trans-unit id="npm.multiplePMWarning.learnMore">
+      <source xml:lang="en">Learn more</source>
+    </trans-unit>
+    <trans-unit id="npm.parseError">
+      <source xml:lang="en">Npm task detection: failed to parse the file {0}</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/npm/package" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="command.debug">
+      <source xml:lang="en">Debug</source>
+    </trans-unit>
+    <trans-unit id="command.openScript">
+      <source xml:lang="en">Open</source>
+    </trans-unit>
+    <trans-unit id="command.packageManager">
+      <source xml:lang="en">Get Configured Package Manager</source>
+    </trans-unit>
+    <trans-unit id="command.refresh">
+      <source xml:lang="en">Refresh</source>
+    </trans-unit>
+    <trans-unit id="command.run">
+      <source xml:lang="en">Run</source>
+    </trans-unit>
+    <trans-unit id="command.runInstall">
+      <source xml:lang="en">Run Install</source>
+    </trans-unit>
+    <trans-unit id="command.runScriptFromFolder">
+      <source xml:lang="en">Run NPM Script in Folder...</source>
+    </trans-unit>
+    <trans-unit id="command.runSelectedScript">
+      <source xml:lang="en">Run Script</source>
+    </trans-unit>
+    <trans-unit id="config.npm.autoDetect">
+      <source xml:lang="en">Controls whether npm scripts should be automatically detected.</source>
+    </trans-unit>
+    <trans-unit id="config.npm.enableRunFromFolder">
+      <source xml:lang="en">Enable running npm scripts contained in a folder from the Explorer context menu.</source>
+    </trans-unit>
+    <trans-unit id="config.npm.enableScriptExplorer">
+      <source xml:lang="en">Enable an explorer view for npm scripts when there is no top-level 'package.json' file.</source>
+    </trans-unit>
+    <trans-unit id="config.npm.exclude">
+      <source xml:lang="en">Configure glob patterns for folders that should be excluded from automatic script detection.</source>
+    </trans-unit>
+    <trans-unit id="config.npm.fetchOnlinePackageInfo">
+      <source xml:lang="en">Fetch data from https://registry.npmjs.org and https://registry.bower.io to provide auto-completion and information on hover features on npm dependencies.</source>
+    </trans-unit>
+    <trans-unit id="config.npm.packageManager">
+      <source xml:lang="en">The package manager used to run scripts.</source>
+    </trans-unit>
+    <trans-unit id="config.npm.packageManager.auto">
+      <source xml:lang="en">Auto-detect which package manager to use for running scripts based on lock files and installed package managers.</source>
+    </trans-unit>
+    <trans-unit id="config.npm.packageManager.npm">
+      <source xml:lang="en">Use npm as the package manager for running scripts.</source>
+    </trans-unit>
+    <trans-unit id="config.npm.packageManager.pnpm">
+      <source xml:lang="en">Use pnpm as the package manager for running scripts.</source>
+    </trans-unit>
+    <trans-unit id="config.npm.packageManager.yarn">
+      <source xml:lang="en">Use yarn as the package manager for running scripts.</source>
+    </trans-unit>
+    <trans-unit id="config.npm.runSilent">
+      <source xml:lang="en">Run npm commands with the `--silent` option.</source>
+    </trans-unit>
+    <trans-unit id="config.npm.scriptExplorerAction">
+      <source xml:lang="en">The default click action used in the npm scripts explorer: `open` or `run`, the default is `open`.</source>
+    </trans-unit>
+    <trans-unit id="description">
+      <source xml:lang="en">Extension to add task support for npm scripts.</source>
+    </trans-unit>
+    <trans-unit id="displayName">
+      <source xml:lang="en">NPM support for VS Code</source>
+    </trans-unit>
+    <trans-unit id="npm.parseError">
+      <source xml:lang="en">Npm task detection: failed to parse the file {0}</source>
+    </trans-unit>
+    <trans-unit id="taskdef.path">
+      <source xml:lang="en">The path to the folder of the package.json file that provides the script. Can be omitted.</source>
+    </trans-unit>
+    <trans-unit id="taskdef.script">
+      <source xml:lang="en">The npm script to customize.</source>
+    </trans-unit>
+    <trans-unit id="view.name">
+      <source xml:lang="en">NPM Scripts</source>
+    </trans-unit>
+    <trans-unit id="workspaceTrust">
+      <source xml:lang="en">This extension executes tasks, which require trust to run.</source>
+    </trans-unit>
+</body></file>
+</xliff>

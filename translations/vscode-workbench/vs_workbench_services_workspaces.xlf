@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/services/workspaces/browser/abstractWorkspaceEditingService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="errorInvalidTaskConfiguration">
+      <source xml:lang="en">Unable to write into workspace configuration file. Please open the file to correct errors/warnings in it and try again.</source>
+    </trans-unit>
+    <trans-unit id="errorWorkspaceConfigurationFileDirty">
+      <source xml:lang="en">Unable to write into workspace configuration file because the file is dirty. Please save it and try again.</source>
+    </trans-unit>
+    <trans-unit id="openWorkspaceConfigurationFile">
+      <source xml:lang="en">Open Workspace Configuration</source>
+    </trans-unit>
+    <trans-unit id="save">
+      <source xml:lang="en">Save</source>
+    </trans-unit>
+    <trans-unit id="saveWorkspace">
+      <source xml:lang="en">Save Workspace</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/workspaces/browser/workspaceTrustEditorInput" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="workspaceTrustEditorInputName">
+      <source xml:lang="en">Workspace Trust</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/workspaces/common/workspaceTrust" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="workspaceTrustEnabledCtx">
+      <source xml:lang="en">Whether the workspace trust feature is enabled.</source>
+    </trans-unit>
+    <trans-unit id="workspaceTrustedCtx">
+      <source xml:lang="en">Whether the current workspace has been trusted by the user.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/workspaces/electron-sandbox/workspaceEditingService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="cancel">
+      <source xml:lang="en">Cancel</source>
+    </trans-unit>
+    <trans-unit id="doNotSave">
+      <source xml:lang="en">Don't Save</source>
+    </trans-unit>
+    <trans-unit id="save">
+      <source xml:lang="en">Save</source>
+    </trans-unit>
+    <trans-unit id="saveWorkspaceDetail">
+      <source xml:lang="en">Save your workspace if you plan to open it again.</source>
+    </trans-unit>
+    <trans-unit id="saveWorkspaceMessage">
+      <source xml:lang="en">Do you want to save your workspace configuration as a file?</source>
+    </trans-unit>
+    <trans-unit id="workspaceOpenedDetail">
+      <source xml:lang="en">The workspace is already opened in another window. Please close that window first and then try again.</source>
+    </trans-unit>
+    <trans-unit id="workspaceOpenedMessage">
+      <source xml:lang="en">Unable to save workspace '{0}'</source>
+    </trans-unit>
+</body></file>
+</xliff>

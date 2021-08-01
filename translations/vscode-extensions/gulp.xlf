@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="extensions/gulp/dist/main" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="execFailed">
+      <source xml:lang="en">Auto detecting gulp for folder {0} failed with error: {1}</source>
+    </trans-unit>
+    <trans-unit id="gulpShowOutput">
+      <source xml:lang="en">Go to output</source>
+    </trans-unit>
+    <trans-unit id="gulpTaskDetectError">
+      <source xml:lang="en">Problem finding gulp tasks. See the output for more information.</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/gulp/package" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="config.gulp.autoDetect">
+      <source xml:lang="en">Controls enablement of Gulp task detection. Gulp task detection can cause files in any open workspace to be executed.</source>
+    </trans-unit>
+    <trans-unit id="description">
+      <source xml:lang="en">Extension to add Gulp capabilities to VSCode.</source>
+    </trans-unit>
+    <trans-unit id="displayName">
+      <source xml:lang="en">Gulp support for VSCode</source>
+    </trans-unit>
+    <trans-unit id="gulp.taskDefinition.file.description">
+      <source xml:lang="en">The Gulp file that provides the task. Can be omitted.</source>
+    </trans-unit>
+    <trans-unit id="gulp.taskDefinition.type.description">
+      <source xml:lang="en">The Gulp task to customize.</source>
+    </trans-unit>
+</body></file>
+</xliff>

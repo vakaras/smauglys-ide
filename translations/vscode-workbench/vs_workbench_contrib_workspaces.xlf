@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/contrib/workspaces/browser/workspaces.contribution" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="openWorkspace">
+      <source xml:lang="en">Open Workspace</source>
+    </trans-unit>
+    <trans-unit id="selectToOpen">
+      <source xml:lang="en">Select a workspace to open</source>
+    </trans-unit>
+    <trans-unit id="selectWorkspace">
+      <source xml:lang="en">Select Workspace</source>
+    </trans-unit>
+    <trans-unit id="workspaceFound">
+      <source xml:lang="en">This folder contains a workspace file '{0}'. Do you want to open it? [Learn more]({1}) about workspace files.</source>
+    </trans-unit>
+    <trans-unit id="workspacesFound">
+      <source xml:lang="en">This folder contains multiple workspace files. Do you want to open one? [Learn more]({0}) about workspace files.</source>
+    </trans-unit>
+</body></file>
+</xliff>

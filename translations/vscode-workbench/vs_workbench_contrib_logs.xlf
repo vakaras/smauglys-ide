@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/contrib/logs/common/logs.contribution" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="mainLog">
+      <source xml:lang="en">Main</source>
+    </trans-unit>
+    <trans-unit id="rendererLog">
+      <source xml:lang="en">Window</source>
+    </trans-unit>
+    <trans-unit id="sharedLog">
+      <source xml:lang="en">Shared</source>
+    </trans-unit>
+    <trans-unit id="show window log">
+      <source xml:lang="en">Show Window Log</source>
+    </trans-unit>
+    <trans-unit id="telemetryLog">
+      <source xml:lang="en">Telemetry</source>
+    </trans-unit>
+    <trans-unit id="userDataSyncLog">
+      <source xml:lang="en">Settings Sync</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/logs/common/logsActions" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="critical">
+      <source xml:lang="en">Critical</source>
+    </trans-unit>
+    <trans-unit id="current">
+      <source xml:lang="en">Current</source>
+    </trans-unit>
+    <trans-unit id="debug">
+      <source xml:lang="en">Debug</source>
+    </trans-unit>
+    <trans-unit id="default">
+      <source xml:lang="en">Default</source>
+    </trans-unit>
+    <trans-unit id="default and current">
+      <source xml:lang="en">Default &amp; Current</source>
+    </trans-unit>
+    <trans-unit id="err">
+      <source xml:lang="en">Error</source>
+    </trans-unit>
+    <trans-unit id="info">
+      <source xml:lang="en">Info</source>
+    </trans-unit>
+    <trans-unit id="log placeholder">
+      <source xml:lang="en">Select Log file</source>
+    </trans-unit>
+    <trans-unit id="off">
+      <source xml:lang="en">Off</source>
+    </trans-unit>
+    <trans-unit id="openSessionLogFile">
+      <source xml:lang="en">Open Window Log File (Session)...</source>
+    </trans-unit>
+    <trans-unit id="selectLogLevel">
+      <source xml:lang="en">Select log level</source>
+    </trans-unit>
+    <trans-unit id="sessions placeholder">
+      <source xml:lang="en">Select Session</source>
+    </trans-unit>
+    <trans-unit id="setLogLevel">
+      <source xml:lang="en">Set Log Level...</source>
+    </trans-unit>
+    <trans-unit id="trace">
+      <source xml:lang="en">Trace</source>
+    </trans-unit>
+    <trans-unit id="warn">
+      <source xml:lang="en">Warning</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/logs/electron-sandbox/logsActions" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="openExtensionLogsFolder">
+      <source xml:lang="en">Open Extension Logs Folder</source>
+    </trans-unit>
+    <trans-unit id="openLogsFolder">
+      <source xml:lang="en">Open Logs Folder</source>
+    </trans-unit>
+</body></file>
+</xliff>

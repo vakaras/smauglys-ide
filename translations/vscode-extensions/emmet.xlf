@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="extensions/emmet/dist\node/abbreviationActions" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="wrapWithAbbreviationPrompt">
+      <source xml:lang="en">Enter Abbreviation</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/emmet/package" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="command.balanceIn">
+      <source xml:lang="en">Balance (inward)</source>
+    </trans-unit>
+    <trans-unit id="command.balanceOut">
+      <source xml:lang="en">Balance (outward)</source>
+    </trans-unit>
+    <trans-unit id="command.decrementNumberByOne">
+      <source xml:lang="en">Decrement by 1</source>
+    </trans-unit>
+    <trans-unit id="command.decrementNumberByOneTenth">
+      <source xml:lang="en">Decrement by 0.1</source>
+    </trans-unit>
+    <trans-unit id="command.decrementNumberByTen">
+      <source xml:lang="en">Decrement by 10</source>
+    </trans-unit>
+    <trans-unit id="command.evaluateMathExpression">
+      <source xml:lang="en">Evaluate Math Expression</source>
+    </trans-unit>
+    <trans-unit id="command.incrementNumberByOne">
+      <source xml:lang="en">Increment by 1</source>
+    </trans-unit>
+    <trans-unit id="command.incrementNumberByOneTenth">
+      <source xml:lang="en">Increment by 0.1</source>
+    </trans-unit>
+    <trans-unit id="command.incrementNumberByTen">
+      <source xml:lang="en">Increment by 10</source>
+    </trans-unit>
+    <trans-unit id="command.matchTag">
+      <source xml:lang="en">Go to Matching Pair</source>
+    </trans-unit>
+    <trans-unit id="command.mergeLines">
+      <source xml:lang="en">Merge Lines</source>
+    </trans-unit>
+    <trans-unit id="command.nextEditPoint">
+      <source xml:lang="en">Go to Next Edit Point</source>
+    </trans-unit>
+    <trans-unit id="command.prevEditPoint">
+      <source xml:lang="en">Go to Previous Edit Point</source>
+    </trans-unit>
+    <trans-unit id="command.reflectCSSValue">
+      <source xml:lang="en">Reflect CSS Value</source>
+    </trans-unit>
+    <trans-unit id="command.removeTag">
+      <source xml:lang="en">Remove Tag</source>
+    </trans-unit>
+    <trans-unit id="command.selectNextItem">
+      <source xml:lang="en">Select Next Item</source>
+    </trans-unit>
+    <trans-unit id="command.selectPrevItem">
+      <source xml:lang="en">Select Previous Item</source>
+    </trans-unit>
+    <trans-unit id="command.showEmmetCommands">
+      <source xml:lang="en">Show Emmet Commands</source>
+    </trans-unit>
+    <trans-unit id="command.splitJoinTag">
+      <source xml:lang="en">Split/Join Tag</source>
+    </trans-unit>
+    <trans-unit id="command.toggleComment">
+      <source xml:lang="en">Toggle Comment</source>
+    </trans-unit>
+    <trans-unit id="command.updateImageSize">
+      <source xml:lang="en">Update Image Size</source>
+    </trans-unit>
+    <trans-unit id="command.updateTag">
+      <source xml:lang="en">Update Tag</source>
+    </trans-unit>
+    <trans-unit id="command.wrapWithAbbreviation">
+      <source xml:lang="en">Wrap with Abbreviation</source>
+    </trans-unit>
+    <trans-unit id="description">
+      <source xml:lang="en">Emmet support for VS Code</source>
+    </trans-unit>
+    <trans-unit id="emmetExclude">
+      <source xml:lang="en">An array of languages where Emmet abbreviations should not be expanded.</source>
+    </trans-unit>
+    <trans-unit id="emmetExtensionsPath">
+      <source xml:lang="en">An array of paths, where each path can contain Emmet syntaxProfiles and/or snippet files.
+In case of conflicts, the profiles/snippets of later paths will override those of earlier paths.
+See https://code.visualstudio.com/docs/editor/emmet for more information and an example snippet file.</source>
+    </trans-unit>
+    <trans-unit id="emmetExtensionsPathItem">
+      <source xml:lang="en">A path containing Emmet syntaxProfiles and/or snippets.</source>
+    </trans-unit>
+    <trans-unit id="emmetIncludeLanguages">
+      <source xml:lang="en">Enable Emmet abbreviations in languages that are not supported by default. Add a mapping here between the language and Emmet supported language.
+ For example: `{"vue-html": "html", "javascript": "javascriptreact"}`</source>
+    </trans-unit>
+    <trans-unit id="emmetOptimizeStylesheetParsing">
+      <source xml:lang="en">When set to `false`, the whole file is parsed to determine if current position is valid for expanding Emmet abbreviations. When set to `true`, only the content around the current position in CSS/SCSS/Less files is parsed.</source>
+    </trans-unit>
+    <trans-unit id="emmetPreferences">
+      <source xml:lang="en">Preferences used to modify behavior of some actions and resolvers of Emmet.</source>
+    </trans-unit>
+    <trans-unit id="emmetPreferencesAllowCompactBoolean">
+      <source xml:lang="en">If `true`, compact notation of boolean attributes are produced.</source>
+    </trans-unit>
+    <trans-unit id="emmetPreferencesBemElementSeparator">
+      <source xml:lang="en">Element separator used for classes when using the BEM filter.</source>
+    </trans-unit>
+    <trans-unit id="emmetPreferencesBemModifierSeparator">
+      <source xml:lang="en">Modifier separator used for classes when using the BEM filter.</source>
+    </trans-unit>
+    <trans-unit id="emmetPreferencesCssAfter">
+      <source xml:lang="en">Symbol to be placed at the end of CSS property when expanding CSS abbreviations.</source>
+    </trans-unit>
+    <trans-unit id="emmetPreferencesCssBetween">
+      <source xml:lang="en">Symbol to be placed at the between CSS property and value when expanding CSS abbreviations.</source>
+    </trans-unit>
+    <trans-unit id="emmetPreferencesCssColorShort">
+      <source xml:lang="en">If `true`, color values like `#f` will be expanded to `#fff` instead of `#ffffff`.</source>
+    </trans-unit>
+    <trans-unit id="emmetPreferencesCssFuzzySearchMinScore">
+      <source xml:lang="en">The minimum score (from 0 to 1) that fuzzy-matched abbreviation should achieve. Lower values may produce many false-positive matches, higher values may reduce possible matches.</source>
+    </trans-unit>
+    <trans-unit id="emmetPreferencesCssMozProperties">
+      <source xml:lang="en">Comma separated CSS properties that get the 'moz' vendor prefix when used in Emmet abbreviation that starts with `-`. Set to empty string to always avoid the 'moz' prefix.</source>
+    </trans-unit>
+    <trans-unit id="emmetPreferencesCssMsProperties">
+      <source xml:lang="en">Comma separated CSS properties that get the 'ms' vendor prefix when used in Emmet abbreviation that starts with `-`. Set to empty string to always avoid the 'ms' prefix.</source>
+    </trans-unit>
+    <trans-unit id="emmetPreferencesCssOProperties">
+      <source xml:lang="en">Comma separated CSS properties that get the 'o' vendor prefix when used in Emmet abbreviation that starts with `-`. Set to empty string to always avoid the 'o' prefix.</source>
+    </trans-unit>
+    <trans-unit id="emmetPreferencesCssWebkitProperties">
+      <source xml:lang="en">Comma separated CSS properties that get the 'webkit' vendor prefix when used in Emmet abbreviation that starts with `-`. Set to empty string to always avoid the 'webkit' prefix.</source>
+    </trans-unit>
+    <trans-unit id="emmetPreferencesFilterCommentAfter">
+      <source xml:lang="en">A definition of comment that should be placed after matched element when comment filter is applied.</source>
+    </trans-unit>
+    <trans-unit id="emmetPreferencesFilterCommentBefore">
+      <source xml:lang="en">A definition of comment that should be placed before matched element when comment filter is applied.</source>
+    </trans-unit>
+    <trans-unit id="emmetPreferencesFilterCommentTrigger">
+      <source xml:lang="en">A comma-separated list of attribute names that should exist in the abbreviation for the comment filter to be applied.</source>
+    </trans-unit>
+    <trans-unit id="emmetPreferencesFloatUnit">
+      <source xml:lang="en">Default unit for float values.</source>
+    </trans-unit>
+    <trans-unit id="emmetPreferencesFormatForceIndentTags">
+      <source xml:lang="en">An array of tag names that should always get inner indentation.</source>
+    </trans-unit>
+    <trans-unit id="emmetPreferencesFormatNoIndentTags">
+      <source xml:lang="en">An array of tag names that should never get inner indentation.</source>
+    </trans-unit>
+    <trans-unit id="emmetPreferencesIntUnit">
+      <source xml:lang="en">Default unit for integer values.</source>
+    </trans-unit>
+    <trans-unit id="emmetPreferencesOutputInlineBreak">
+      <source xml:lang="en">The number of sibling inline elements needed for line breaks to be placed between those elements. If `0`, inline elements are always expanded onto a single line.</source>
+    </trans-unit>
+    <trans-unit id="emmetPreferencesOutputReverseAttributes">
+      <source xml:lang="en">If `true`, reverses attribute merging directions when resolving snippets.</source>
+    </trans-unit>
+    <trans-unit id="emmetPreferencesOutputSelfClosingStyle">
+      <source xml:lang="en">Style of self-closing tags: html (`&lt;br&gt;`), xml (`&lt;br/&gt;`) or xhtml (`&lt;br /&gt;`).</source>
+    </trans-unit>
+    <trans-unit id="emmetPreferencesSassAfter">
+      <source xml:lang="en">Symbol to be placed at the end of CSS property when expanding CSS abbreviations in Sass files.</source>
+    </trans-unit>
+    <trans-unit id="emmetPreferencesSassBetween">
+      <source xml:lang="en">Symbol to be placed at the between CSS property and value when expanding CSS abbreviations in Sass files.</source>
+    </trans-unit>
+    <trans-unit id="emmetPreferencesStylusAfter">
+      <source xml:lang="en">Symbol to be placed at the end of CSS property when expanding CSS abbreviations in Stylus files.</source>
+    </trans-unit>
+    <trans-unit id="emmetPreferencesStylusBetween">
+      <source xml:lang="en">Symbol to be placed at the between CSS property and value when expanding CSS abbreviations in Stylus files.</source>
+    </trans-unit>
+    <trans-unit id="emmetShowAbbreviationSuggestions">
+      <source xml:lang="en">Shows possible Emmet abbreviations as suggestions. Not applicable in stylesheets or when emmet.showExpandedAbbreviation is set to `"never"`.</source>
+    </trans-unit>
+    <trans-unit id="emmetShowExpandedAbbreviation">
+      <source xml:lang="en">Shows expanded Emmet abbreviations as suggestions.
+The option `"inMarkupAndStylesheetFilesOnly"` applies to html, haml, jade, slim, xml, xsl, css, scss, sass, less and stylus.
+The option `"always"` applies to all parts of the file regardless of markup/css.</source>
+    </trans-unit>
+    <trans-unit id="emmetShowSuggestionsAsSnippets">
+      <source xml:lang="en">If `true`, then Emmet suggestions will show up as snippets allowing you to order them as per `#editor.snippetSuggestions#` setting.</source>
+    </trans-unit>
+    <trans-unit id="emmetSyntaxProfiles">
+      <source xml:lang="en">Define profile for specified syntax or use your own profile with specific rules.</source>
+    </trans-unit>
+    <trans-unit id="emmetTriggerExpansionOnTab">
+      <source xml:lang="en">When enabled, Emmet abbreviations are expanded when pressing TAB.</source>
+    </trans-unit>
+    <trans-unit id="emmetVariables">
+      <source xml:lang="en">Variables to be used in Emmet snippets.</source>
+    </trans-unit>
+</body></file>
+</xliff>

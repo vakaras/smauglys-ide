@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/services/keybinding/browser/keybindingService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="dispatch">
+      <source xml:lang="en">Controls the dispatching logic for key presses to use either `code` (recommended) or `keyCode`.</source>
+    </trans-unit>
+    <trans-unit id="invalid.keybindings">
+      <source xml:lang="en">Invalid `contributes.{0}`: {1}</source>
+    </trans-unit>
+    <trans-unit id="keybindings.json.args">
+      <source xml:lang="en">Arguments to pass to the command to execute.</source>
+    </trans-unit>
+    <trans-unit id="keybindings.json.command">
+      <source xml:lang="en">Name of the command to execute</source>
+    </trans-unit>
+    <trans-unit id="keybindings.json.key">
+      <source xml:lang="en">Key or key sequence (separated by space)</source>
+    </trans-unit>
+    <trans-unit id="keybindings.json.title">
+      <source xml:lang="en">Keybindings configuration</source>
+    </trans-unit>
+    <trans-unit id="keybindings.json.when">
+      <source xml:lang="en">Condition when the key is active.</source>
+    </trans-unit>
+    <trans-unit id="keyboardConfigurationTitle">
+      <source xml:lang="en">Keyboard</source>
+    </trans-unit>
+    <trans-unit id="nonempty">
+      <source xml:lang="en">expected non-empty value.</source>
+    </trans-unit>
+    <trans-unit id="optstring">
+      <source xml:lang="en">property `{0}` can be omitted or must be of type `string`</source>
+    </trans-unit>
+    <trans-unit id="requirestring">
+      <source xml:lang="en">property `{0}` is mandatory and must be of type `string`</source>
+    </trans-unit>
+    <trans-unit id="unboundCommands">
+      <source xml:lang="en">Here are other available commands: </source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.keybindings">
+      <source xml:lang="en">Contributes keybindings.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.keybindings.args">
+      <source xml:lang="en">Arguments to pass to the command to execute.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.keybindings.command">
+      <source xml:lang="en">Identifier of the command to run when keybinding is triggered.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.keybindings.key">
+      <source xml:lang="en">Key or key sequence (separate keys with plus-sign and sequences with space, e.g. Ctrl+O and Ctrl+L L for a chord).</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.keybindings.linux">
+      <source xml:lang="en">Linux specific key or key sequence.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.keybindings.mac">
+      <source xml:lang="en">Mac specific key or key sequence.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.keybindings.when">
+      <source xml:lang="en">Condition when the key is active.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.keybindings.win">
+      <source xml:lang="en">Windows specific key or key sequence.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/keybinding/common/keybindingEditing" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="emptyKeybindingsHeader">
+      <source xml:lang="en">Place your key bindings in this file to override the defaults</source>
+    </trans-unit>
+    <trans-unit id="errorInvalidConfiguration">
+      <source xml:lang="en">Unable to write to the keybindings configuration file. It has an object which is not of type Array. Please open the file to clean up and try again.</source>
+    </trans-unit>
+    <trans-unit id="errorKeybindingsFileDirty">
+      <source xml:lang="en">Unable to write because the keybindings configuration file is dirty. Please save it first and then try again.</source>
+    </trans-unit>
+    <trans-unit id="parseErrors">
+      <source xml:lang="en">Unable to write to the keybindings configuration file. Please open it to correct errors/warnings in the file and try again.</source>
+    </trans-unit>
+</body></file>
+</xliff>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/contrib/codeActions/common/codeActionsContribution" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="codeActionsOnSave">
+      <source xml:lang="en">Code action kinds to be run on save.</source>
+    </trans-unit>
+    <trans-unit id="codeActionsOnSave.fixAll">
+      <source xml:lang="en">Controls whether auto fix action should be run on file save.</source>
+    </trans-unit>
+    <trans-unit id="codeActionsOnSave.generic">
+      <source xml:lang="en">Controls whether '{0}' actions should be run on file save.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/codeActions/common/codeActionsExtensionPoint" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="contributes.codeActions">
+      <source xml:lang="en">Configure which editor to use for a resource.</source>
+    </trans-unit>
+    <trans-unit id="contributes.codeActions.description">
+      <source xml:lang="en">Description of what the code action does.</source>
+    </trans-unit>
+    <trans-unit id="contributes.codeActions.kind">
+      <source xml:lang="en">`CodeActionKind` of the contributed code action.</source>
+    </trans-unit>
+    <trans-unit id="contributes.codeActions.languages">
+      <source xml:lang="en">Language modes that the code actions are enabled for.</source>
+    </trans-unit>
+    <trans-unit id="contributes.codeActions.title">
+      <source xml:lang="en">Label for the code action used in the UI.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/codeActions/common/documentationExtensionPoint" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="contributes.documentation">
+      <source xml:lang="en">Contributed documentation.</source>
+    </trans-unit>
+    <trans-unit id="contributes.documentation.refactoring">
+      <source xml:lang="en">Contributed documentation for refactoring.</source>
+    </trans-unit>
+    <trans-unit id="contributes.documentation.refactoring.command">
+      <source xml:lang="en">Command executed.</source>
+    </trans-unit>
+    <trans-unit id="contributes.documentation.refactoring.title">
+      <source xml:lang="en">Label for the documentation used in the UI.</source>
+    </trans-unit>
+    <trans-unit id="contributes.documentation.refactoring.when">
+      <source xml:lang="en">When clause.</source>
+    </trans-unit>
+    <trans-unit id="contributes.documentation.refactorings">
+      <source xml:lang="en">Contributed documentation for refactorings.</source>
+    </trans-unit>
+</body></file>
+</xliff>

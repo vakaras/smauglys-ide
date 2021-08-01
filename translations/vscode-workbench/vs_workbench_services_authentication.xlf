@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/services/authentication/browser/authenticationService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="accessRequest">
+      <source xml:lang="en">Grant access to {0} for {1}... (1)</source>
+      <note>The placeholder {0} will be replaced with an authentication provider''s label. {1} will be replaced with an extension name. (1) is to indicate that this menu item contributes to a badge count</note>
+    </trans-unit>
+    <trans-unit id="allow">
+      <source xml:lang="en">Allow</source>
+    </trans-unit>
+    <trans-unit id="authentication.id">
+      <source xml:lang="en">The id of the authentication provider.</source>
+    </trans-unit>
+    <trans-unit id="authentication.idConflict">
+      <source xml:lang="en">This authentication id '{0}' has already been registered</source>
+    </trans-unit>
+    <trans-unit id="authentication.label">
+      <source xml:lang="en">The human readable name of the authentication provider.</source>
+    </trans-unit>
+    <trans-unit id="authentication.missingId">
+      <source xml:lang="en">An authentication contribution must specify an id.</source>
+    </trans-unit>
+    <trans-unit id="authentication.missingLabel">
+      <source xml:lang="en">An authentication contribution must specify a label.</source>
+    </trans-unit>
+    <trans-unit id="authenticationExtensionPoint">
+      <source xml:lang="en">Contributes authentication</source>
+      <note>'Contributes' means adds here</note>
+    </trans-unit>
+    <trans-unit id="cancel">
+      <source xml:lang="en">Cancel</source>
+    </trans-unit>
+    <trans-unit id="confirmAuthenticationAccess">
+      <source xml:lang="en">The extension '{0}' wants to access the {1} account '{2}'.</source>
+    </trans-unit>
+    <trans-unit id="deny">
+      <source xml:lang="en">Deny</source>
+    </trans-unit>
+    <trans-unit id="getSessionPlateholder">
+      <source xml:lang="en">Select an account for '{0}' to use or Esc to cancel</source>
+    </trans-unit>
+    <trans-unit id="loading">
+      <source xml:lang="en">Loading...</source>
+    </trans-unit>
+    <trans-unit id="selectAccount">
+      <source xml:lang="en">The extension '{0}' wants to access a {1} account</source>
+      <note>The placeholder {0} is the name of an extension. {1} is the name of the type of account, such as Microsoft or GitHub.</note>
+    </trans-unit>
+    <trans-unit id="sign in">
+      <source xml:lang="en">Sign in requested</source>
+    </trans-unit>
+    <trans-unit id="signInRequest">
+      <source xml:lang="en">Sign in with {0} to use {1} (1)</source>
+      <note>The placeholder {0} will be replaced with an authentication provider's label. {1} will be replaced with an extension name. (1) is to indicate that this menu item contributes to a badge count.</note>
+    </trans-unit>
+    <trans-unit id="useOtherAccount">
+      <source xml:lang="en">Sign in to another account</source>
+    </trans-unit>
+</body></file>
+</xliff>

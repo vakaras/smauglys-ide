@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="build/win32/i18n/messages" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="AddContextMenuFiles">
+      <source xml:lang="en">Add "Open with %1" action to Windows Explorer file context menu</source>
+    </trans-unit>
+    <trans-unit id="AddContextMenuFolders">
+      <source xml:lang="en">Add "Open with %1" action to Windows Explorer directory context menu</source>
+    </trans-unit>
+    <trans-unit id="AddToPath">
+      <source xml:lang="en">Add to PATH (requires shell restart)</source>
+    </trans-unit>
+    <trans-unit id="AdditionalIcons">
+      <source xml:lang="en">Additional icons:</source>
+    </trans-unit>
+    <trans-unit id="AssociateWithFiles">
+      <source xml:lang="en">Register %1 as an editor for supported file types</source>
+    </trans-unit>
+    <trans-unit id="ConfirmUninstall">
+      <source xml:lang="en">Are you sure you want to completely remove %1 and all of its components?</source>
+    </trans-unit>
+    <trans-unit id="CreateDesktopIcon">
+      <source xml:lang="en">Create a &amp;desktop icon</source>
+    </trans-unit>
+    <trans-unit id="CreateQuickLaunchIcon">
+      <source xml:lang="en">Create a &amp;Quick Launch icon</source>
+    </trans-unit>
+    <trans-unit id="FinishedLabel">
+      <source xml:lang="en">Setup has finished installing [name] on your computer. The application may be launched by selecting the installed shortcuts.</source>
+    </trans-unit>
+    <trans-unit id="OpenWithCodeContextMenu">
+      <source xml:lang="en">Open w&amp;ith %1</source>
+    </trans-unit>
+    <trans-unit id="Other">
+      <source xml:lang="en">Other:</source>
+    </trans-unit>
+    <trans-unit id="RunAfter">
+      <source xml:lang="en">Run %1 after installation</source>
+    </trans-unit>
+    <trans-unit id="SourceFile">
+      <source xml:lang="en">%1 Source File</source>
+    </trans-unit>
+</body></file>
+</xliff>

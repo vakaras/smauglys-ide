@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/contrib/customEditor/common/contributedCustomEditors" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="builtinProviderDisplayName">
+      <source xml:lang="en">Built-in</source>
+    </trans-unit>
+    <trans-unit id="promptOpenWith.defaultEditor.displayName">
+      <source xml:lang="en">Text Editor</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/customEditor/common/customEditor" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="context.customEditor">
+      <source xml:lang="en">The viewType of the currently active custom editor.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/customEditor/common/extensionPoint" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="contributes.customEditors">
+      <source xml:lang="en">Contributed custom editors.</source>
+    </trans-unit>
+    <trans-unit id="contributes.displayName">
+      <source xml:lang="en">Human readable name of the custom editor. This is displayed to users when selecting which editor to use.</source>
+    </trans-unit>
+    <trans-unit id="contributes.priority">
+      <source xml:lang="en">Controls if the custom editor is enabled automatically when the user opens a file. This may be overridden by users using the `workbench.editorAssociations` setting.</source>
+    </trans-unit>
+    <trans-unit id="contributes.priority.default">
+      <source xml:lang="en">The editor is automatically used when the user opens a resource, provided that no other default custom editors are registered for that resource.</source>
+    </trans-unit>
+    <trans-unit id="contributes.priority.option">
+      <source xml:lang="en">The editor is not automatically used when the user opens a resource, but a user can switch to the editor using the `Reopen With` command.</source>
+    </trans-unit>
+    <trans-unit id="contributes.selector">
+      <source xml:lang="en">Set of globs that the custom editor is enabled for.</source>
+    </trans-unit>
+    <trans-unit id="contributes.selector.filenamePattern">
+      <source xml:lang="en">Glob that the custom editor is enabled for.</source>
+    </trans-unit>
+    <trans-unit id="contributes.viewType">
+      <source xml:lang="en">Identifier for the custom editor. This must be unique across all custom editors, so we recommend including your extension id as part of `viewType`. The `viewType` is used when registering custom editors with `vscode.registerCustomEditorProvider` and in the `onCustomEditor:${id}` [activation event](https://code.visualstudio.com/api/references/activation-events).</source>
+    </trans-unit>
+</body></file>
+</xliff>

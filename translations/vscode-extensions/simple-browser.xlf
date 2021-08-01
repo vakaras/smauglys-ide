@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="extensions/simple-browser/dist/extension" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="openTitle">
+      <source xml:lang="en">Open in simple browser</source>
+    </trans-unit>
+    <trans-unit id="simpleBrowser.show.placeholder">
+      <source xml:lang="en">https://example.com</source>
+    </trans-unit>
+    <trans-unit id="simpleBrowser.show.prompt">
+      <source xml:lang="en">Enter url to visit</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/simple-browser/dist/simpleBrowserView" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="control.back.title">
+      <source xml:lang="en">Back</source>
+    </trans-unit>
+    <trans-unit id="control.forward.title">
+      <source xml:lang="en">Forward</source>
+    </trans-unit>
+    <trans-unit id="control.openExternal.title">
+      <source xml:lang="en">Open in browser</source>
+    </trans-unit>
+    <trans-unit id="control.reload.title">
+      <source xml:lang="en">Reload</source>
+    </trans-unit>
+    <trans-unit id="view.iframe-focused">
+      <source xml:lang="en">Focus Lock</source>
+    </trans-unit>
+    <trans-unit id="view.title">
+      <source xml:lang="en">Simple Browser</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/simple-browser/package" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="configuration.focusLockIndicator.enabled.description">
+      <source xml:lang="en">Enable/disable the floating indicator that shows when focused in the simple browser.</source>
+    </trans-unit>
+    <trans-unit id="description">
+      <source xml:lang="en">A very basic built-in webview for displaying web content.</source>
+    </trans-unit>
+    <trans-unit id="displayName">
+      <source xml:lang="en">Simple Browser</source>
+    </trans-unit>
+</body></file>
+</xliff>

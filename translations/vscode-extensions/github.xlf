@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="extensions/github/dist/publish" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="ignore">
+      <source xml:lang="en">Select which files should be included in the repository.</source>
+    </trans-unit>
+    <trans-unit id="openingithub">
+      <source xml:lang="en">Open on GitHub</source>
+    </trans-unit>
+    <trans-unit id="pick folder">
+      <source xml:lang="en">Pick a folder to publish to GitHub</source>
+    </trans-unit>
+    <trans-unit id="publishing_done">
+      <source xml:lang="en">Successfully published the '{0}' repository to GitHub.</source>
+    </trans-unit>
+    <trans-unit id="publishing_firstcommit">
+      <source xml:lang="en">Creating first commit</source>
+    </trans-unit>
+    <trans-unit id="publishing_private">
+      <source xml:lang="en">Publishing to a private GitHub repository</source>
+    </trans-unit>
+    <trans-unit id="publishing_public">
+      <source xml:lang="en">Publishing to a public GitHub repository</source>
+    </trans-unit>
+    <trans-unit id="publishing_uploading">
+      <source xml:lang="en">Uploading files</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/github/dist/pushErrorHandler" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="create a fork">
+      <source xml:lang="en">Create Fork</source>
+    </trans-unit>
+    <trans-unit id="create fork">
+      <source xml:lang="en">Create GitHub fork</source>
+    </trans-unit>
+    <trans-unit id="createghpr">
+      <source xml:lang="en">Creating GitHub Pull Request...</source>
+    </trans-unit>
+    <trans-unit id="createpr">
+      <source xml:lang="en">Create PR</source>
+    </trans-unit>
+    <trans-unit id="donepr">
+      <source xml:lang="en">The PR '{0}/{1}#{2}' was successfully created on GitHub.</source>
+    </trans-unit>
+    <trans-unit id="fork">
+      <source xml:lang="en">You don't have permissions to push to '{0}/{1}' on GitHub. Would you like to create a fork and push to it instead?</source>
+    </trans-unit>
+    <trans-unit id="forking">
+      <source xml:lang="en">Forking '{0}/{1}'...</source>
+    </trans-unit>
+    <trans-unit id="forking_done">
+      <source xml:lang="en">The fork '{0}' was successfully created on GitHub.</source>
+    </trans-unit>
+    <trans-unit id="forking_pushing">
+      <source xml:lang="en">Pushing changes...</source>
+    </trans-unit>
+    <trans-unit id="no">
+      <source xml:lang="en">No</source>
+    </trans-unit>
+    <trans-unit id="openingithub">
+      <source xml:lang="en">Open on GitHub</source>
+    </trans-unit>
+    <trans-unit id="openpr">
+      <source xml:lang="en">Open PR</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/github/package" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="config.gitAuthentication">
+      <source xml:lang="en">Controls whether to enable automatic GitHub authentication for git commands within VS Code.</source>
+    </trans-unit>
+    <trans-unit id="description">
+      <source xml:lang="en">GitHub features for VS Code</source>
+    </trans-unit>
+    <trans-unit id="displayName">
+      <source xml:lang="en">GitHub</source>
+    </trans-unit>
+    <trans-unit id="welcome.publishFolder">
+      <source xml:lang="en">You can also directly publish this folder to a GitHub repository. Once published, you'll have access to source control features powered by git and GitHub.
+[$(github) Publish to GitHub](command:github.publish)</source>
+    </trans-unit>
+    <trans-unit id="welcome.publishWorkspaceFolder">
+      <source xml:lang="en">You can also directly publish a workspace folder to a GitHub repository. Once published, you'll have access to source control features powered by git and GitHub.
+[$(github) Publish to GitHub](command:github.publish)</source>
+    </trans-unit>
+</body></file>
+</xliff>

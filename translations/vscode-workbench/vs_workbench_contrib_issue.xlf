@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/contrib/issue/electron-sandbox/issue.contribution" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="miOpenProcessExplorerer">
+      <source xml:lang="en">Open &amp;&amp;Process Explorer</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="miReportIssue">
+      <source xml:lang="en">Report &amp;&amp;Issue</source>
+      <note>&amp;&amp; denotes a mnemonic
+Translate this to "Report Issue in English" in all languages please!</note>
+    </trans-unit>
+    <trans-unit id="reportIssueInEnglish">
+      <source xml:lang="en">Report Issue...</source>
+      <note>Translate this to "Report Issue in English" in all languages please!</note>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/issue/electron-sandbox/issueActions" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="openProcessExplorer">
+      <source xml:lang="en">Open Process Explorer</source>
+    </trans-unit>
+    <trans-unit id="reportPerformanceIssue">
+      <source xml:lang="en">Report Performance Issue</source>
+      <note>Here, 'issue' means problem or bug</note>
+    </trans-unit>
+</body></file>
+</xliff>

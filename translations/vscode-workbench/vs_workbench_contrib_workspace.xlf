@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/contrib/workspace/browser/workspace.contribution" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="addWorkspaceFolderDetail">
+      <source xml:lang="en">You are adding files to a trusted workspace that are not currently trusted. Do you trust the authors of these new files?</source>
+    </trans-unit>
+    <trans-unit id="addWorkspaceFolderMessage">
+      <source xml:lang="en">Do you trust the authors of the files in this folder?</source>
+    </trans-unit>
+    <trans-unit id="cancel">
+      <source xml:lang="en">Cancel</source>
+    </trans-unit>
+    <trans-unit id="cancelWorkspaceTrustButton">
+      <source xml:lang="en">Cancel</source>
+    </trans-unit>
+    <trans-unit id="checkboxString">
+      <source xml:lang="en">Trust the authors of all files in the parent folder '{0}'</source>
+    </trans-unit>
+    <trans-unit id="configureWorkspaceTrust">
+      <source xml:lang="en">Configure Workspace Trust</source>
+    </trans-unit>
+    <trans-unit id="dontTrustFolderOptionDescription">
+      <source xml:lang="en">Browse folder in restricted mode</source>
+    </trans-unit>
+    <trans-unit id="dontTrustOption">
+      <source xml:lang="en">No, I don't trust the authors</source>
+    </trans-unit>
+    <trans-unit id="dontTrustWorkspaceOptionDescription">
+      <source xml:lang="en">Browse workspace in restricted mode</source>
+    </trans-unit>
+    <trans-unit id="folderStartupTrustDetails">
+      <source xml:lang="en">{0} provides features that may automatically execute files in this folder.</source>
+    </trans-unit>
+    <trans-unit id="folderTrust">
+      <source xml:lang="en">Do you trust the authors of the files in this folder?</source>
+    </trans-unit>
+    <trans-unit id="grantFolderTrustButton">
+      <source xml:lang="en">Trust Folder &amp; Continue</source>
+    </trans-unit>
+    <trans-unit id="grantWorkspaceTrustButton">
+      <source xml:lang="en">Trust Workspace &amp; Continue</source>
+    </trans-unit>
+    <trans-unit id="immediateTrustRequestLearnMore">
+      <source xml:lang="en">If you don't trust the authors of these files, we do not recommend continuing as the files may be malicious. See [our docs](https://aka.ms/vscode-workspace-trust) to learn more.</source>
+    </trans-unit>
+    <trans-unit id="immediateTrustRequestMessage">
+      <source xml:lang="en">A feature you are trying to use may be a security risk if you do not trust the source of the files or folders you currently have open.</source>
+    </trans-unit>
+    <trans-unit id="manageWorkspaceTrust">
+      <source xml:lang="en">Manage Workspace Trust</source>
+    </trans-unit>
+    <trans-unit id="manageWorkspaceTrustButton">
+      <source xml:lang="en">Manage</source>
+    </trans-unit>
+    <trans-unit id="newWindow">
+      <source xml:lang="en">Open in Restricted Mode</source>
+    </trans-unit>
+    <trans-unit id="no">
+      <source xml:lang="en">No</source>
+    </trans-unit>
+    <trans-unit id="open">
+      <source xml:lang="en">Open</source>
+    </trans-unit>
+    <trans-unit id="openLooseFileLearnMore">
+      <source xml:lang="en">If you don't trust the authors of these files, we recommend to open them in Restricted Mode in a new window as the files may be malicious. See [our docs](https://aka.ms/vscode-workspace-trust) to learn more.</source>
+    </trans-unit>
+    <trans-unit id="openLooseFileMesssage">
+      <source xml:lang="en">Do you trust the authors of these files?</source>
+    </trans-unit>
+    <trans-unit id="openLooseFileWindowDetails">
+      <source xml:lang="en">You are trying to open untrusted files in a window which is trusted.</source>
+    </trans-unit>
+    <trans-unit id="openLooseFileWorkspaceCheckbox">
+      <source xml:lang="en">Remember my decision for all workspaces</source>
+    </trans-unit>
+    <trans-unit id="openLooseFileWorkspaceDetails">
+      <source xml:lang="en">You are trying to open untrusted files in a workspace which is trusted.</source>
+    </trans-unit>
+    <trans-unit id="restrictedModeBannerAriaLabelFolder">
+      <source xml:lang="en">Restricted Mode is intended for safe code browsing. Trust this folder to enable all features. Use navigation keys to access banner actions.</source>
+    </trans-unit>
+    <trans-unit id="restrictedModeBannerAriaLabelWindow">
+      <source xml:lang="en">Restricted Mode is intended for safe code browsing. Trust this window to enable all features. Use navigation keys to access banner actions.</source>
+    </trans-unit>
+    <trans-unit id="restrictedModeBannerAriaLabelWorkspace">
+      <source xml:lang="en">Restricted Mode is intended for safe code browsing. Trust this workspace to enable all features. Use navigation keys to access banner actions.</source>
+    </trans-unit>
+    <trans-unit id="restrictedModeBannerLearnMore">
+      <source xml:lang="en">Learn More</source>
+    </trans-unit>
+    <trans-unit id="restrictedModeBannerManage">
+      <source xml:lang="en">Manage</source>
+    </trans-unit>
+    <trans-unit id="restrictedModeBannerMessageFolder">
+      <source xml:lang="en">Restricted Mode is intended for safe code browsing. Trust this folder to enable all features.</source>
+    </trans-unit>
+    <trans-unit id="restrictedModeBannerMessageWindow">
+      <source xml:lang="en">Restricted Mode is intended for safe code browsing. Trust this window to enable all features.</source>
+    </trans-unit>
+    <trans-unit id="restrictedModeBannerMessageWorkspace">
+      <source xml:lang="en">Restricted Mode is intended for safe code browsing. Trust this workspace to enable all features.</source>
+    </trans-unit>
+    <trans-unit id="securityConfigurationTitle">
+      <source xml:lang="en">Security</source>
+    </trans-unit>
+    <trans-unit id="startupTrustRequestLearnMore">
+      <source xml:lang="en">If you don't trust the authors of these files, we recommend to continue in restricted mode as the files may be malicious. See [our docs](https://aka.ms/vscode-workspace-trust) to learn more.</source>
+    </trans-unit>
+    <trans-unit id="status.WorkspaceTrust">
+      <source xml:lang="en">Workspace Trust</source>
+    </trans-unit>
+    <trans-unit id="status.ariaTrustedFolder">
+      <source xml:lang="en">This folder is trusted.</source>
+    </trans-unit>
+    <trans-unit id="status.ariaTrustedWindow">
+      <source xml:lang="en">This window is trusted.</source>
+    </trans-unit>
+    <trans-unit id="status.ariaTrustedWorkspace">
+      <source xml:lang="en">This workspace is trusted.</source>
+    </trans-unit>
+    <trans-unit id="status.ariaUntrustedFolder">
+      <source xml:lang="en">Restricted Mode: Some features are disabled because this folder is not trusted.</source>
+    </trans-unit>
+    <trans-unit id="status.ariaUntrustedWindow">
+      <source xml:lang="en">Restricted Mode: Some features are disabled because this window is not trusted.</source>
+    </trans-unit>
+    <trans-unit id="status.ariaUntrustedWorkspace">
+      <source xml:lang="en">Restricted Mode: Some features are disabled because this workspace is not trusted.</source>
+    </trans-unit>
+    <trans-unit id="status.tooltipUntrustedFolder2">
+      <source xml:lang="en">Running in Restricted Mode
+
+Some [features are disabled]({0}) because this [folder is not trusted]({1}).</source>
+      <note>[abc]({n}) are links.  Only translate `features are disabled` and `folder is not trusted`. Do not change brackets and parentheses or {n}</note>
+    </trans-unit>
+    <trans-unit id="status.tooltipUntrustedWindow2">
+      <source xml:lang="en">Running in Restricted Mode
+
+Some [features are disabled]({0}) because this [window is not trusted]({1}).</source>
+      <note>[abc]({n}) are links.  Only translate `features are disabled` and `window is not trusted`. Do not change brackets and parentheses or {n}</note>
+    </trans-unit>
+    <trans-unit id="status.tooltipUntrustedWorkspace2">
+      <source xml:lang="en">Running in Restricted Mode
+
+Some [features are disabled]({0}) because this [workspace is not trusted]({1}).</source>
+      <note>[abc]({n}) are links. Only translate `features are disabled` and `workspace is not trusted`. Do not change brackets and parentheses or {n}</note>
+    </trans-unit>
+    <trans-unit id="trustFolderOptionDescription">
+      <source xml:lang="en">Trust folder and enable all features</source>
+    </trans-unit>
+    <trans-unit id="trustOption">
+      <source xml:lang="en">Yes, I trust the authors</source>
+    </trans-unit>
+    <trans-unit id="trustWorkspaceOptionDescription">
+      <source xml:lang="en">Trust workspace and enable all features</source>
+    </trans-unit>
+    <trans-unit id="workspace.trust.banner.always">
+      <source xml:lang="en">Show the banner every time an untrusted workspace is open.</source>
+    </trans-unit>
+    <trans-unit id="workspace.trust.banner.description">
+      <source xml:lang="en">Controls when the restricted mode banner is shown.</source>
+    </trans-unit>
+    <trans-unit id="workspace.trust.banner.never">
+      <source xml:lang="en">Do not show the banner when an untrusted workspace is open.</source>
+    </trans-unit>
+    <trans-unit id="workspace.trust.banner.untilDismissed">
+      <source xml:lang="en">Show the banner when an untrusted workspace is opened until dismissed.</source>
+    </trans-unit>
+    <trans-unit id="workspace.trust.description">
+      <source xml:lang="en">Controls whether or not workspace trust is enabled within VS Code.</source>
+    </trans-unit>
+    <trans-unit id="workspace.trust.emptyWindow.description">
+      <source xml:lang="en">Controls whether or not the empty window is trusted by default within VS Code. When used with `#{0}#`, you can enable the full functionality of VS Code without prompting in an empty window.</source>
+    </trans-unit>
+    <trans-unit id="workspace.trust.startupPrompt.always">
+      <source xml:lang="en">Ask for trust every time an untrusted workspace is opened.</source>
+    </trans-unit>
+    <trans-unit id="workspace.trust.startupPrompt.description">
+      <source xml:lang="en">Controls when the startup prompt to trust a workspace is shown.</source>
+    </trans-unit>
+    <trans-unit id="workspace.trust.startupPrompt.never">
+      <source xml:lang="en">Do not ask for trust when an untrusted workspace is opened.</source>
+    </trans-unit>
+    <trans-unit id="workspace.trust.startupPrompt.once">
+      <source xml:lang="en">Ask for trust the first time an untrusted workspace is opened.</source>
+    </trans-unit>
+    <trans-unit id="workspace.trust.untrustedFiles.description">
+      <source xml:lang="en">Controls how to handle opening untrusted files in a trusted workspace. This setting also applies to opening files in an empty window which is trusted via `#{0}#`.</source>
+    </trans-unit>
+    <trans-unit id="workspace.trust.untrustedFiles.newWindow">
+      <source xml:lang="en">Always open untrusted files in a separate window in restricted mode without prompting.</source>
+    </trans-unit>
+    <trans-unit id="workspace.trust.untrustedFiles.open">
+      <source xml:lang="en">Always allow untrusted files to be introduced to a trusted workspace without prompting.</source>
+    </trans-unit>
+    <trans-unit id="workspace.trust.untrustedFiles.prompt">
+      <source xml:lang="en">Ask how to handle untrusted files for each workspace. Once untrusted files are introduced to a trusted workspace, you will not be prompted again.</source>
+    </trans-unit>
+    <trans-unit id="workspaceStartupTrustDetails">
+      <source xml:lang="en">{0} provides features that may automatically execute files in this workspace.</source>
+    </trans-unit>
+    <trans-unit id="workspaceTrust">
+      <source xml:lang="en">Do you trust the authors of the files in this workspace?</source>
+    </trans-unit>
+    <trans-unit id="workspaceTrustEditor">
+      <source xml:lang="en">Workspace Trust Editor</source>
+    </trans-unit>
+    <trans-unit id="workspacesCategory">
+      <source xml:lang="en">Workspaces</source>
+    </trans-unit>
+    <trans-unit id="yes">
+      <source xml:lang="en">Yes</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/workspace/browser/workspaceTrustEditor" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="addButton">
+      <source xml:lang="en">Add Folder</source>
+    </trans-unit>
+    <trans-unit id="addFolderAriaLabel">
+      <source xml:lang="en">Add a Trusted Folder</source>
+    </trans-unit>
+    <trans-unit id="deleteTrustedUri">
+      <source xml:lang="en">Delete Path</source>
+    </trans-unit>
+    <trans-unit id="dontTrustButton">
+      <source xml:lang="en">Don't Trust</source>
+    </trans-unit>
+    <trans-unit id="editTrustedUri">
+      <source xml:lang="en">Change Path</source>
+    </trans-unit>
+    <trans-unit id="hostColumnLabel">
+      <source xml:lang="en">Host</source>
+    </trans-unit>
+    <trans-unit id="localAuthority">
+      <source xml:lang="en">Local</source>
+    </trans-unit>
+    <trans-unit id="no untrustedSettings">
+      <source xml:lang="en">Workspace settings requiring trust are not applied</source>
+    </trans-unit>
+    <trans-unit id="pathColumnLabel">
+      <source xml:lang="en">Path</source>
+    </trans-unit>
+    <trans-unit id="root element label">
+      <source xml:lang="en">Manage Workspace Trust</source>
+    </trans-unit>
+    <trans-unit id="selectTrustedUri">
+      <source xml:lang="en">Select Folder To Trust</source>
+    </trans-unit>
+    <trans-unit id="trustButton">
+      <source xml:lang="en">Trust</source>
+    </trans-unit>
+    <trans-unit id="trustMessage">
+      <source xml:lang="en">Trust the authors of all files in the current folder or its parent '{0}'.</source>
+    </trans-unit>
+    <trans-unit id="trustParentButton">
+      <source xml:lang="en">Trust Parent</source>
+    </trans-unit>
+    <trans-unit id="trustUri">
+      <source xml:lang="en">Trust Folder</source>
+    </trans-unit>
+    <trans-unit id="trustedDebugging">
+      <source xml:lang="en">Debugging is enabled</source>
+    </trans-unit>
+    <trans-unit id="trustedDescription">
+      <source xml:lang="en">All features are enabled because trust has been granted to the workspace.</source>
+    </trans-unit>
+    <trans-unit id="trustedExtensions">
+      <source xml:lang="en">All extensions are enabled</source>
+    </trans-unit>
+    <trans-unit id="trustedFolder">
+      <source xml:lang="en">In a trusted folder</source>
+    </trans-unit>
+    <trans-unit id="trustedFolderAriaLabel">
+      <source xml:lang="en">{0}, trusted</source>
+    </trans-unit>
+    <trans-unit id="trustedFolderSubtitle">
+      <source xml:lang="en">You trust the authors of the files in the current folder. All features are enabled:</source>
+    </trans-unit>
+    <trans-unit id="trustedFolderWithHostAriaLabel">
+      <source xml:lang="en">{0} on {1}, trusted</source>
+    </trans-unit>
+    <trans-unit id="trustedFoldersAndWorkspaces">
+      <source xml:lang="en">Trusted Folders &amp; Workspaces</source>
+    </trans-unit>
+    <trans-unit id="trustedFoldersDescription">
+      <source xml:lang="en">You trust the following folders, their subfolders, and workspace files.</source>
+    </trans-unit>
+    <trans-unit id="trustedForcedReason">
+      <source xml:lang="en">This window is trusted by nature of the workspace that is opened.</source>
+    </trans-unit>
+    <trans-unit id="trustedHeaderFolder">
+      <source xml:lang="en">You trust this folder</source>
+    </trans-unit>
+    <trans-unit id="trustedHeaderWindow">
+      <source xml:lang="en">You trust this window</source>
+    </trans-unit>
+    <trans-unit id="trustedHeaderWorkspace">
+      <source xml:lang="en">You trust this workspace</source>
+    </trans-unit>
+    <trans-unit id="trustedSettings">
+      <source xml:lang="en">All workspace settings are applied</source>
+    </trans-unit>
+    <trans-unit id="trustedTasks">
+      <source xml:lang="en">Tasks are allowed to run</source>
+    </trans-unit>
+    <trans-unit id="trustedUnsettableWindow">
+      <source xml:lang="en">This window is trusted</source>
+    </trans-unit>
+    <trans-unit id="trustedWindow">
+      <source xml:lang="en">In a trusted window</source>
+    </trans-unit>
+    <trans-unit id="trustedWindowSubtitle">
+      <source xml:lang="en">You trust the authors of the files in the current window. All features are enabled:</source>
+    </trans-unit>
+    <trans-unit id="trustedWorkspace">
+      <source xml:lang="en">In a trusted workspace</source>
+    </trans-unit>
+    <trans-unit id="trustedWorkspaceSubtitle">
+      <source xml:lang="en">You trust the authors of the files in the current workspace. All features are enabled:</source>
+    </trans-unit>
+    <trans-unit id="untrustedDebugging">
+      <source xml:lang="en">Debugging is disabled</source>
+    </trans-unit>
+    <trans-unit id="untrustedDescription">
+      <source xml:lang="en">{0} is in a restricted mode intended for safe code browsing.</source>
+    </trans-unit>
+    <trans-unit id="untrustedExtensions">
+      <source xml:lang="en">[{0} extensions]({1}) are disabled or have limited functionality</source>
+      <note>Please ensure the markdown link syntax is not broken up with whitespace [text block](link block)</note>
+    </trans-unit>
+    <trans-unit id="untrustedFolderReason">
+      <source xml:lang="en">This folder is trusted via the bolded entries in the the trusted folders below.</source>
+    </trans-unit>
+    <trans-unit id="untrustedFolderSubtitle">
+      <source xml:lang="en">You do not trust the authors of the files in the current folder. The following features are disabled:</source>
+    </trans-unit>
+    <trans-unit id="untrustedHeader">
+      <source xml:lang="en">You are in Restricted Mode</source>
+    </trans-unit>
+    <trans-unit id="untrustedSettings">
+      <source xml:lang="en">[{0} workspace settings]({1}) are not applied</source>
+      <note>Please ensure the markdown link syntax is not broken up with whitespace [text block](link block)</note>
+    </trans-unit>
+    <trans-unit id="untrustedTasks">
+      <source xml:lang="en">Tasks are not allowed to run</source>
+    </trans-unit>
+    <trans-unit id="untrustedWindowSubtitle">
+      <source xml:lang="en">You do not trust the authors of the files in the current window. The following features are disabled:</source>
+    </trans-unit>
+    <trans-unit id="untrustedWorkspace">
+      <source xml:lang="en">In Restricted Mode</source>
+    </trans-unit>
+    <trans-unit id="untrustedWorkspaceReason">
+      <source xml:lang="en">This workspace is trusted via the bolded entries in the trusted folders below.</source>
+    </trans-unit>
+    <trans-unit id="untrustedWorkspaceSubtitle">
+      <source xml:lang="en">You do not trust the authors of the files in the current workspace. The following features are disabled:</source>
+    </trans-unit>
+    <trans-unit id="workspaceTrustEditorHeaderActions">
+      <source xml:lang="en">[Configure your settings]({0}) or [learn more](https://aka.ms/vscode-workspace-trust).</source>
+      <note>Please ensure the markdown link syntax is not broken up with whitespace [text block](link block)</note>
+    </trans-unit>
+</body></file>
+</xliff>

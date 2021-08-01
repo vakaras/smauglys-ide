@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/contrib/callHierarchy/browser/callHierarchy.contribution" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="callHierarchyDirection">
+      <source xml:lang="en">Whether call hierarchy shows incoming or outgoing calls</source>
+    </trans-unit>
+    <trans-unit id="callHierarchyVisible">
+      <source xml:lang="en">Whether call hierarchy peek is currently showing</source>
+    </trans-unit>
+    <trans-unit id="close">
+      <source xml:lang="en">Close</source>
+    </trans-unit>
+    <trans-unit id="editorHasCallHierarchyProvider">
+      <source xml:lang="en">Whether a call hierarchy provider is available</source>
+    </trans-unit>
+    <trans-unit id="error">
+      <source xml:lang="en">Failed to show call hierarchy</source>
+    </trans-unit>
+    <trans-unit id="no.item">
+      <source xml:lang="en">No results</source>
+    </trans-unit>
+    <trans-unit id="showIncomingCallsIcons">
+      <source xml:lang="en">Icon for incoming calls in the call hierarchy view.</source>
+    </trans-unit>
+    <trans-unit id="showOutgoingCallsIcon">
+      <source xml:lang="en">Icon for outgoing calls in the call hierarchy view.</source>
+    </trans-unit>
+    <trans-unit id="title">
+      <source xml:lang="en">Peek Call Hierarchy</source>
+    </trans-unit>
+    <trans-unit id="title.incoming">
+      <source xml:lang="en">Show Incoming Calls</source>
+    </trans-unit>
+    <trans-unit id="title.outgoing">
+      <source xml:lang="en">Show Outgoing Calls</source>
+    </trans-unit>
+    <trans-unit id="title.refocus">
+      <source xml:lang="en">Refocus Call Hierarchy</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/callHierarchy/browser/callHierarchyPeek" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="callFrom">
+      <source xml:lang="en">Calls from '{0}'</source>
+    </trans-unit>
+    <trans-unit id="callsTo">
+      <source xml:lang="en">Callers of '{0}'</source>
+    </trans-unit>
+    <trans-unit id="empt.callsFrom">
+      <source xml:lang="en">No calls from '{0}'</source>
+    </trans-unit>
+    <trans-unit id="empt.callsTo">
+      <source xml:lang="en">No callers of '{0}'</source>
+    </trans-unit>
+    <trans-unit id="title.loading">
+      <source xml:lang="en">Loading...</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/callHierarchy/browser/callHierarchyTree" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="from">
+      <source xml:lang="en">calls from {0}</source>
+    </trans-unit>
+    <trans-unit id="to">
+      <source xml:lang="en">callers of {0}</source>
+    </trans-unit>
+    <trans-unit id="tree.aria">
+      <source xml:lang="en">Call Hierarchy</source>
+    </trans-unit>
+</body></file>
+</xliff>

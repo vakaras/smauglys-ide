@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/contrib/feedback/browser/feedback" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="character left">
+      <source xml:lang="en">character left</source>
+    </trans-unit>
+    <trans-unit id="characters left">
+      <source xml:lang="en">characters left</source>
+    </trans-unit>
+    <trans-unit id="close">
+      <source xml:lang="en">Close</source>
+    </trans-unit>
+    <trans-unit id="feedbackTextInput">
+      <source xml:lang="en">Tell us your feedback</source>
+    </trans-unit>
+    <trans-unit id="frownCaption">
+      <source xml:lang="en">Sad Feedback Sentiment</source>
+    </trans-unit>
+    <trans-unit id="label.sendASmile">
+      <source xml:lang="en">Tweet us your feedback.</source>
+    </trans-unit>
+    <trans-unit id="other ways to contact us">
+      <source xml:lang="en">Other ways to contact us</source>
+    </trans-unit>
+    <trans-unit id="patchedVersion1">
+      <source xml:lang="en">Your installation is corrupt.</source>
+    </trans-unit>
+    <trans-unit id="patchedVersion2">
+      <source xml:lang="en">Please specify this if you submit a bug.</source>
+    </trans-unit>
+    <trans-unit id="request a missing feature">
+      <source xml:lang="en">Request a missing feature</source>
+    </trans-unit>
+    <trans-unit id="sendFeedback">
+      <source xml:lang="en">Tweet Feedback</source>
+    </trans-unit>
+    <trans-unit id="sentiment">
+      <source xml:lang="en">How was your experience?</source>
+    </trans-unit>
+    <trans-unit id="showFeedback">
+      <source xml:lang="en">Show Feedback Icon in Status Bar</source>
+    </trans-unit>
+    <trans-unit id="smileCaption">
+      <source xml:lang="en">Happy Feedback Sentiment</source>
+    </trans-unit>
+    <trans-unit id="submit a bug">
+      <source xml:lang="en">Submit a bug</source>
+    </trans-unit>
+    <trans-unit id="tell us why">
+      <source xml:lang="en">Tell us why?</source>
+    </trans-unit>
+    <trans-unit id="tweet">
+      <source xml:lang="en">Tweet</source>
+    </trans-unit>
+    <trans-unit id="tweetFeedback">
+      <source xml:lang="en">Tweet Feedback</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/feedback/browser/feedbackStatusbarItem" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="status.feedback">
+      <source xml:lang="en">Tweet Feedback</source>
+    </trans-unit>
+    <trans-unit id="status.feedback.name">
+      <source xml:lang="en">Feedback</source>
+    </trans-unit>
+</body></file>
+</xliff>

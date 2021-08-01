@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/contrib/snippets/browser/configureSnippets" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="bad_name1">
+      <source xml:lang="en">Invalid file name</source>
+    </trans-unit>
+    <trans-unit id="bad_name2">
+      <source xml:lang="en">'{0}' is not a valid file name</source>
+    </trans-unit>
+    <trans-unit id="bad_name3">
+      <source xml:lang="en">'{0}' already exists</source>
+    </trans-unit>
+    <trans-unit id="global.1">
+      <source xml:lang="en">({0})</source>
+    </trans-unit>
+    <trans-unit id="global.scope">
+      <source xml:lang="en">(global)</source>
+    </trans-unit>
+    <trans-unit id="group.global">
+      <source xml:lang="en">Existing Snippets</source>
+    </trans-unit>
+    <trans-unit id="miOpenSnippets">
+      <source xml:lang="en">User &amp;&amp;Snippets</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="name">
+      <source xml:lang="en">Type snippet file name</source>
+    </trans-unit>
+    <trans-unit id="new.folder">
+      <source xml:lang="en">New Snippets file for '{0}'...</source>
+    </trans-unit>
+    <trans-unit id="new.global">
+      <source xml:lang="en">New Global Snippets file...</source>
+    </trans-unit>
+    <trans-unit id="new.global.sep">
+      <source xml:lang="en">New Snippets</source>
+    </trans-unit>
+    <trans-unit id="new.global_scope">
+      <source xml:lang="en">global</source>
+    </trans-unit>
+    <trans-unit id="new.workspace_scope">
+      <source xml:lang="en">{0} workspace</source>
+    </trans-unit>
+    <trans-unit id="openSnippet.label">
+      <source xml:lang="en">Configure User Snippets</source>
+    </trans-unit>
+    <trans-unit id="openSnippet.pickLanguage">
+      <source xml:lang="en">Select Snippets File or Create Snippets</source>
+    </trans-unit>
+    <trans-unit id="preferences">
+      <source xml:lang="en">Preferences</source>
+    </trans-unit>
+    <trans-unit id="userSnippets">
+      <source xml:lang="en">User Snippets</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/snippets/browser/insertSnippet" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="disableSnippet">
+      <source xml:lang="en">Hide from IntelliSense</source>
+    </trans-unit>
+    <trans-unit id="enable.snippet">
+      <source xml:lang="en">Show in IntelliSense</source>
+    </trans-unit>
+    <trans-unit id="isDisabled">
+      <source xml:lang="en">(hidden from IntelliSense)</source>
+    </trans-unit>
+    <trans-unit id="pick.placeholder">
+      <source xml:lang="en">Select a snippet</source>
+    </trans-unit>
+    <trans-unit id="sep.extSnippet">
+      <source xml:lang="en">Extension Snippets</source>
+    </trans-unit>
+    <trans-unit id="sep.userSnippet">
+      <source xml:lang="en">User Snippets</source>
+    </trans-unit>
+    <trans-unit id="sep.workspaceSnippet">
+      <source xml:lang="en">Workspace Snippets</source>
+    </trans-unit>
+    <trans-unit id="snippet.suggestions.label">
+      <source xml:lang="en">Insert Snippet</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/snippets/browser/snippetCompletionProvider" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="detail.snippet">
+      <source xml:lang="en">{0} ({1})</source>
+    </trans-unit>
+    <trans-unit id="snippetSuggest.longLabel">
+      <source xml:lang="en">{0}, {1}</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/snippets/browser/snippets.contribution" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="snippetSchema.json">
+      <source xml:lang="en">User snippet configuration</source>
+    </trans-unit>
+    <trans-unit id="snippetSchema.json.body">
+      <source xml:lang="en">The snippet content. Use `$1`, `${1:defaultText}` to define cursor positions, use `$0` for the final cursor position. Insert variable values with `${varName}` and `${varName:defaultText}`, e.g. `This is file: $TM_FILENAME`.</source>
+    </trans-unit>
+    <trans-unit id="snippetSchema.json.default">
+      <source xml:lang="en">Empty snippet</source>
+    </trans-unit>
+    <trans-unit id="snippetSchema.json.description">
+      <source xml:lang="en">The snippet description.</source>
+    </trans-unit>
+    <trans-unit id="snippetSchema.json.prefix">
+      <source xml:lang="en">The prefix to use when selecting the snippet in intellisense</source>
+    </trans-unit>
+    <trans-unit id="snippetSchema.json.scope">
+      <source xml:lang="en">A list of language names to which this snippet applies, e.g. 'typescript,javascript'.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/snippets/browser/snippetsFile" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="source.userSnippet">
+      <source xml:lang="en">User Snippet</source>
+    </trans-unit>
+    <trans-unit id="source.userSnippetGlobal">
+      <source xml:lang="en">Global User Snippet</source>
+    </trans-unit>
+    <trans-unit id="source.workspaceSnippetGlobal">
+      <source xml:lang="en">Workspace Snippet</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/snippets/browser/snippetsService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="badFile">
+      <source xml:lang="en">The snippet file "{0}" could not be read.</source>
+    </trans-unit>
+    <trans-unit id="badVariableUse">
+      <source xml:lang="en">One or more snippets from the extension '{0}' very likely confuse snippet-variables and snippet-placeholders (see https://code.visualstudio.com/docs/editor/userdefinedsnippets#_snippet-syntax for more details)</source>
+    </trans-unit>
+    <trans-unit id="invalid.language">
+      <source xml:lang="en">Unknown language in `contributes.{0}.language`. Provided value: {1}</source>
+    </trans-unit>
+    <trans-unit id="invalid.language.0">
+      <source xml:lang="en">When omitting the language, the value of `contributes.{0}.path` must be a `.code-snippets`-file. Provided value: {1}</source>
+    </trans-unit>
+    <trans-unit id="invalid.path.0">
+      <source xml:lang="en">Expected string in `contributes.{0}.path`. Provided value: {1}</source>
+    </trans-unit>
+    <trans-unit id="invalid.path.1">
+      <source xml:lang="en">Expected `contributes.{0}.path` ({1}) to be included inside extension's folder ({2}). This might make the extension non-portable.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.snippets">
+      <source xml:lang="en">Contributes snippets.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.snippets-language">
+      <source xml:lang="en">Language identifier for which this snippet is contributed to.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.snippets-path">
+      <source xml:lang="en">Path of the snippets file. The path is relative to the extension folder and typically starts with './snippets/'.</source>
+    </trans-unit>
+</body></file>
+</xliff>

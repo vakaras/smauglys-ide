@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="extensions/configuration-editing/dist/configurationEditingMain" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="cwd">
+      <source xml:lang="en">The task runner's current working directory on startup</source>
+    </trans-unit>
+    <trans-unit id="defaultBuildTask">
+      <source xml:lang="en">The name of the default build task. If there is not a single default build task then a quick pick is shown to choose the build task.</source>
+    </trans-unit>
+    <trans-unit id="file">
+      <source xml:lang="en">The current opened file</source>
+    </trans-unit>
+    <trans-unit id="fileBasename">
+      <source xml:lang="en">The current opened file's basename</source>
+    </trans-unit>
+    <trans-unit id="fileBasenameNoExtension">
+      <source xml:lang="en">The current opened file's basename with no file extension</source>
+    </trans-unit>
+    <trans-unit id="fileDirname">
+      <source xml:lang="en">The current opened file's dirname</source>
+    </trans-unit>
+    <trans-unit id="fileExtname">
+      <source xml:lang="en">The current opened file's extension</source>
+    </trans-unit>
+    <trans-unit id="lineNumber">
+      <source xml:lang="en">The current selected line number in the active file</source>
+    </trans-unit>
+    <trans-unit id="relativeFile">
+      <source xml:lang="en">The current opened file relative to ${workspaceFolder}</source>
+    </trans-unit>
+    <trans-unit id="relativeFileDirname">
+      <source xml:lang="en">The current opened file's dirname relative to ${workspaceFolder}</source>
+    </trans-unit>
+    <trans-unit id="selectedText">
+      <source xml:lang="en">The current selected text in the active file</source>
+    </trans-unit>
+    <trans-unit id="workspaceFolder">
+      <source xml:lang="en">The path of the folder opened in VS Code</source>
+    </trans-unit>
+    <trans-unit id="workspaceFolderBasename">
+      <source xml:lang="en">The name of the folder opened in VS Code without any slashes (/)</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/configuration-editing/dist/extensionsProposals" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="exampleExtension">
+      <source xml:lang="en">Example</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/configuration-editing/dist/settingsDocumentHelper" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="activeEditor">
+      <source xml:lang="en">Use the language of the currently active text editor if any</source>
+    </trans-unit>
+    <trans-unit id="activeEditorLong">
+      <source xml:lang="en">the full path of the file (e.g. /Users/Development/myFolder/myFileFolder/myFile.txt)</source>
+    </trans-unit>
+    <trans-unit id="activeEditorMedium">
+      <source xml:lang="en">the path of the file relative to the workspace folder (e.g. myFolder/myFileFolder/myFile.txt)</source>
+    </trans-unit>
+    <trans-unit id="activeEditorShort">
+      <source xml:lang="en">the file name (e.g. myFile.txt)</source>
+    </trans-unit>
+    <trans-unit id="activeFolderLong">
+      <source xml:lang="en">the full path of the folder the file is contained in (e.g. /Users/Development/myFolder/myFileFolder)</source>
+    </trans-unit>
+    <trans-unit id="activeFolderMedium">
+      <source xml:lang="en">the path of the folder the file is contained in, relative to the workspace folder (e.g. myFolder/myFileFolder)</source>
+    </trans-unit>
+    <trans-unit id="activeFolderShort">
+      <source xml:lang="en">the name of the folder the file is contained in (e.g. myFileFolder)</source>
+    </trans-unit>
+    <trans-unit id="appName">
+      <source xml:lang="en">e.g. VS Code</source>
+    </trans-unit>
+    <trans-unit id="assocDescriptionFile">
+      <source xml:lang="en">Map all files matching the glob pattern in their filename to the language with the given identifier.</source>
+    </trans-unit>
+    <trans-unit id="assocDescriptionPath">
+      <source xml:lang="en">Map all files matching the absolute path glob pattern in their path to the language with the given identifier.</source>
+    </trans-unit>
+    <trans-unit id="assocLabelFile">
+      <source xml:lang="en">Files with Extension</source>
+    </trans-unit>
+    <trans-unit id="assocLabelPath">
+      <source xml:lang="en">Files with Path</source>
+    </trans-unit>
+    <trans-unit id="derivedDescription">
+      <source xml:lang="en">Match files that have siblings with the same name but a different extension.</source>
+    </trans-unit>
+    <trans-unit id="derivedLabel">
+      <source xml:lang="en">Files with Siblings by Name</source>
+    </trans-unit>
+    <trans-unit id="dirty">
+      <source xml:lang="en">a dirty indicator if the active editor is dirty</source>
+    </trans-unit>
+    <trans-unit id="falseDescription">
+      <source xml:lang="en">Disable the pattern.</source>
+    </trans-unit>
+    <trans-unit id="fileDescription">
+      <source xml:lang="en">Match all files of a specific file extension.</source>
+    </trans-unit>
+    <trans-unit id="fileLabel">
+      <source xml:lang="en">Files by Extension</source>
+    </trans-unit>
+    <trans-unit id="filesDescription">
+      <source xml:lang="en">Match all files with any of the file extensions.</source>
+    </trans-unit>
+    <trans-unit id="filesLabel">
+      <source xml:lang="en">Files with Multiple Extensions</source>
+    </trans-unit>
+    <trans-unit id="folderDescription">
+      <source xml:lang="en">Match a folder with a specific name in any location.</source>
+    </trans-unit>
+    <trans-unit id="folderLabel">
+      <source xml:lang="en">Folder by Name (Any Location)</source>
+    </trans-unit>
+    <trans-unit id="folderName">
+      <source xml:lang="en">name of the workspace folder the file is contained in (e.g. myFolder)</source>
+    </trans-unit>
+    <trans-unit id="folderPath">
+      <source xml:lang="en">file path of the workspace folder the file is contained in (e.g. /Users/Development/myFolder)</source>
+    </trans-unit>
+    <trans-unit id="languageSpecificEditorSettings">
+      <source xml:lang="en">Language specific editor settings</source>
+    </trans-unit>
+    <trans-unit id="languageSpecificEditorSettingsDescription">
+      <source xml:lang="en">Override editor settings for language</source>
+    </trans-unit>
+    <trans-unit id="remoteName">
+      <source xml:lang="en">e.g. SSH</source>
+    </trans-unit>
+    <trans-unit id="rootName">
+      <source xml:lang="en">name of the workspace (e.g. myFolder or myWorkspace)</source>
+    </trans-unit>
+    <trans-unit id="rootPath">
+      <source xml:lang="en">file path of the workspace (e.g. /Users/Development/myWorkspace)</source>
+    </trans-unit>
+    <trans-unit id="separator">
+      <source xml:lang="en">a conditional separator (' - ') that only shows when surrounded by variables with values</source>
+    </trans-unit>
+    <trans-unit id="siblingsDescription">
+      <source xml:lang="en">Match files that have siblings with the same name but a different extension.</source>
+    </trans-unit>
+    <trans-unit id="topFolderDescription">
+      <source xml:lang="en">Match a top level folder with a specific name.</source>
+    </trans-unit>
+    <trans-unit id="topFolderLabel">
+      <source xml:lang="en">Folder by Name (Top Level)</source>
+    </trans-unit>
+    <trans-unit id="topFoldersDescription">
+      <source xml:lang="en">Match multiple top level folders.</source>
+    </trans-unit>
+    <trans-unit id="topFoldersLabel">
+      <source xml:lang="en">Folders with Multiple Names (Top Level)</source>
+    </trans-unit>
+    <trans-unit id="trueDescription">
+      <source xml:lang="en">Enable the pattern.</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/configuration-editing/package" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="description">
+      <source xml:lang="en">Provides capabilities (advanced IntelliSense, auto-fixing) in configuration files like settings, launch, and extension recommendation files.</source>
+    </trans-unit>
+    <trans-unit id="displayName">
+      <source xml:lang="en">Configuration Editing</source>
+    </trans-unit>
+</body></file>
+</xliff>

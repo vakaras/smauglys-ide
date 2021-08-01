@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/contrib/notebook/browser/contrib/cellOperations/cellOperations" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="notebookActions.copyCellDown">
+      <source xml:lang="en">Copy Cell Down</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.copyCellUp">
+      <source xml:lang="en">Copy Cell Up</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.joinCellAbove">
+      <source xml:lang="en">Join With Previous Cell</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.joinCellBelow">
+      <source xml:lang="en">Join With Next Cell</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.moveCellDown">
+      <source xml:lang="en">Move Cell Down</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.moveCellUp">
+      <source xml:lang="en">Move Cell Up</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.splitCell">
+      <source xml:lang="en">Split Cell</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/contrib/cellStatusBar/executionStatusBarItemController" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="notebook.cell.status.codeExecuteTip">
+      <source xml:lang="en">Press {0} to execute cell</source>
+    </trans-unit>
+    <trans-unit id="notebook.cell.status.executing">
+      <source xml:lang="en">Executing</source>
+    </trans-unit>
+    <trans-unit id="notebook.cell.status.failed">
+      <source xml:lang="en">Failed</source>
+    </trans-unit>
+    <trans-unit id="notebook.cell.status.markdownExecuteTip">
+      <source xml:lang="en">Press Esc to stop editing</source>
+    </trans-unit>
+    <trans-unit id="notebook.cell.status.pending">
+      <source xml:lang="en">Pending</source>
+    </trans-unit>
+    <trans-unit id="notebook.cell.status.success">
+      <source xml:lang="en">Success</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/contrib/cellStatusBar/statusBarProviders" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="notebook.cell.status.language">
+      <source xml:lang="en">Select Cell Language Mode</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/contrib/clipboard/notebookClipboard" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="notebookActions.copy">
+      <source xml:lang="en">Copy Cell</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.cut">
+      <source xml:lang="en">Cut Cell</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.paste">
+      <source xml:lang="en">Paste Cell</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.pasteAbove">
+      <source xml:lang="en">Paste Cell Above</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/contrib/coreActions" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="changeLanguage">
+      <source xml:lang="en">Change Cell Language</source>
+    </trans-unit>
+    <trans-unit id="clearAllCellsOutputs">
+      <source xml:lang="en">Clear Outputs</source>
+    </trans-unit>
+    <trans-unit id="clearCellOutputs">
+      <source xml:lang="en">Clear Cell Outputs</source>
+    </trans-unit>
+    <trans-unit id="languageDescription">
+      <source xml:lang="en">({0}) - Current Language</source>
+    </trans-unit>
+    <trans-unit id="languageDescriptionConfigured">
+      <source xml:lang="en">({0})</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.cancel">
+      <source xml:lang="en">Stop Cell Execution</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.cancelNotebook">
+      <source xml:lang="en">Stop Execution</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.category">
+      <source xml:lang="en">Notebook</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.centerActiveCell">
+      <source xml:lang="en">Center Active Cell</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.changeCellToCode">
+      <source xml:lang="en">Change Cell to Code</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.changeCellToMarkdown">
+      <source xml:lang="en">Change Cell to Markdown</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.collapseCellInput">
+      <source xml:lang="en">Collapse Cell Input</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.collapseCellOutput">
+      <source xml:lang="en">Collapse Cell Output</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.deleteCell">
+      <source xml:lang="en">Delete Cell</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.editCell">
+      <source xml:lang="en">Edit Cell</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.execute">
+      <source xml:lang="en">Execute Cell</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.executeAbove">
+      <source xml:lang="en">Execute Above Cells</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.executeAndInsertBelow">
+      <source xml:lang="en">Execute Notebook Cell and Insert Below</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.executeAndSelectBelow">
+      <source xml:lang="en">Execute Notebook Cell and Select Below</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.executeBelow">
+      <source xml:lang="en">Execute Cell and Below</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.executeNotebook">
+      <source xml:lang="en">Run All</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.expandCellInput">
+      <source xml:lang="en">Expand Cell Input</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.expandCellOutput">
+      <source xml:lang="en">Expand Cell Output</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.insertCodeCellAbove">
+      <source xml:lang="en">Insert Code Cell Above</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.insertCodeCellAtTop">
+      <source xml:lang="en">Add Code Cell At Top</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.insertCodeCellBelow">
+      <source xml:lang="en">Insert Code Cell Below</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.insertMarkdownCellAbove">
+      <source xml:lang="en">Insert Markdown Cell Above</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.insertMarkdownCellAtTop">
+      <source xml:lang="en">Add Markdown Cell At Top</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.insertMarkdownCellBelow">
+      <source xml:lang="en">Insert Markdown Cell Below</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.menu.insertCode">
+      <source xml:lang="en">$(add) Code</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.menu.insertCode.minimalToolbar">
+      <source xml:lang="en">Add Code</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.menu.insertCode.minimaltoolbar">
+      <source xml:lang="en">Add Code</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.menu.insertCode.ontoolbar">
+      <source xml:lang="en">Code</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.menu.insertCode.tooltip">
+      <source xml:lang="en">Add Code Cell</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.menu.insertMarkdown">
+      <source xml:lang="en">$(add) Markdown</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.menu.insertMarkdown.ontoolbar">
+      <source xml:lang="en">Markdown</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.menu.insertMarkdown.tooltip">
+      <source xml:lang="en">Add Markdown Cell</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.quitEdit">
+      <source xml:lang="en">Stop Editing Cell</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.renderMarkdown">
+      <source xml:lang="en">Render All Markdown Cells</source>
+    </trans-unit>
+    <trans-unit id="notebookMenu.cellTitle">
+      <source xml:lang="en">Notebook Cell</source>
+    </trans-unit>
+    <trans-unit id="notebookMenu.insertCell">
+      <source xml:lang="en">Insert Cell</source>
+    </trans-unit>
+    <trans-unit id="pickLanguageToConfigure">
+      <source xml:lang="en">Select Language Mode</source>
+    </trans-unit>
+    <trans-unit id="workbench.notebook.layout.configure.label">
+      <source xml:lang="en">Customize Notebook Layout</source>
+    </trans-unit>
+    <trans-unit id="workbench.notebook.layout.select.label">
+      <source xml:lang="en">Select between Notebook Layouts</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/contrib/editorStatusBar/editorStatusBar" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="current1">
+      <source xml:lang="en">Currently Selected</source>
+    </trans-unit>
+    <trans-unit id="current2">
+      <source xml:lang="en">{0} - Currently Selected</source>
+    </trans-unit>
+    <trans-unit id="kernel.select.label">
+      <source xml:lang="en">Select Kernel</source>
+    </trans-unit>
+    <trans-unit id="notebook.activeCellStatusName">
+      <source xml:lang="en">Notebook Editor Selections</source>
+    </trans-unit>
+    <trans-unit id="notebook.info">
+      <source xml:lang="en">Notebook Kernel Info</source>
+    </trans-unit>
+    <trans-unit id="notebook.multiActiveCellIndicator">
+      <source xml:lang="en">Cell {0} ({1} selected)</source>
+    </trans-unit>
+    <trans-unit id="notebook.promptKernel.setDefaultTooltip">
+      <source xml:lang="en">Set as default for '{0}' notebooks</source>
+    </trans-unit>
+    <trans-unit id="notebook.select">
+      <source xml:lang="en">Notebook Kernel Selection</source>
+    </trans-unit>
+    <trans-unit id="notebook.singleActiveCellIndicator">
+      <source xml:lang="en">Cell {0} of {1}</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.selectKernel">
+      <source xml:lang="en">Select Notebook Kernel</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.selectKernel.args">
+      <source xml:lang="en">Notebook Kernel Args</source>
+    </trans-unit>
+    <trans-unit id="prompt.placeholder.change">
+      <source xml:lang="en">Change kernel for '{0}'</source>
+    </trans-unit>
+    <trans-unit id="prompt.placeholder.select">
+      <source xml:lang="en">Select kernel for '{0}'</source>
+    </trans-unit>
+    <trans-unit id="tooltop">
+      <source xml:lang="en">{0} (suggestion)</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/contrib/find/findController" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="ariaSearchNoResult">
+      <source xml:lang="en">{0} found for '{1}'</source>
+    </trans-unit>
+    <trans-unit id="ariaSearchNoResultEmpty">
+      <source xml:lang="en">{0} found</source>
+    </trans-unit>
+    <trans-unit id="ariaSearchNoResultWithLineNumNoCurrentMatch">
+      <source xml:lang="en">{0} found for '{1}'</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.findInNotebook">
+      <source xml:lang="en">Find in Notebook</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.hideFind">
+      <source xml:lang="en">Hide Find in Notebook</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/contrib/fold/folding" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="fold.cell">
+      <source xml:lang="en">Fold Cell</source>
+    </trans-unit>
+    <trans-unit id="unfold.cell">
+      <source xml:lang="en">Unfold Cell</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/contrib/format/formatting" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="format.title">
+      <source xml:lang="en">Format Notebook</source>
+    </trans-unit>
+    <trans-unit id="formatCell.label">
+      <source xml:lang="en">Format Cell</source>
+    </trans-unit>
+    <trans-unit id="label">
+      <source xml:lang="en">Format Notebook</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/contrib/gettingStarted/notebookGettingStarted" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="workbench.notebook.layout.gettingStarted.label">
+      <source xml:lang="en">Reset notebook getting started</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/contrib/layout/layoutActions" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="notebook.toggleCellToolbarPosition">
+      <source xml:lang="en">Toggle Cell Toolbar Position</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/contrib/navigation/arrow" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="cursorMoveDown">
+      <source xml:lang="en">Focus Next Cell Editor</source>
+    </trans-unit>
+    <trans-unit id="cursorMoveUp">
+      <source xml:lang="en">Focus Previous Cell Editor</source>
+    </trans-unit>
+    <trans-unit id="focusFirstCell">
+      <source xml:lang="en">Focus First Cell</source>
+    </trans-unit>
+    <trans-unit id="focusLastCell">
+      <source xml:lang="en">Focus Last Cell</source>
+    </trans-unit>
+    <trans-unit id="focusOutput">
+      <source xml:lang="en">Focus In Active Cell Output</source>
+    </trans-unit>
+    <trans-unit id="focusOutputOut">
+      <source xml:lang="en">Focus Out Active Cell Output</source>
+    </trans-unit>
+    <trans-unit id="notebook.navigation.allowNavigateToSurroundingCells">
+      <source xml:lang="en">When enabled cursor can navigate to the next/previous cell when the current cursor in the cell editor is at the first/last line.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/contrib/outline/notebookOutline" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="breadcrumbs.showCodeCells">
+      <source xml:lang="en">When enabled notebook breadcrumbs contain code cells.</source>
+    </trans-unit>
+    <trans-unit id="empty">
+      <source xml:lang="en">empty cell</source>
+    </trans-unit>
+    <trans-unit id="outline.showCodeCells">
+      <source xml:lang="en">When enabled notebook outline shows code cells.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/contrib/profile/notebookProfile" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="setProfileTitle">
+      <source xml:lang="en">Set Profile</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/diff/diffElementOutputs" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="builtinRenderInfo">
+      <source xml:lang="en">built-in</source>
+    </trans-unit>
+    <trans-unit id="curruentActiveMimeType">
+      <source xml:lang="en">Currently Active</source>
+    </trans-unit>
+    <trans-unit id="mimeTypePicker">
+      <source xml:lang="en">Choose a different output mimetype, available mimetypes: {0}</source>
+    </trans-unit>
+    <trans-unit id="promptChooseMimeType.placeHolder">
+      <source xml:lang="en">Select mimetype to render for current output</source>
+    </trans-unit>
+    <trans-unit id="promptChooseMimeTypeInSecure.placeHolder">
+      <source xml:lang="en">Select mimetype to render for current output. Rich mimetypes are available only when the notebook is trusted</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/diff/notebookDiffActions" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="notebook.diff.cell.revertInput">
+      <source xml:lang="en">Revert Input</source>
+    </trans-unit>
+    <trans-unit id="notebook.diff.cell.revertMetadata">
+      <source xml:lang="en">Revert Metadata</source>
+    </trans-unit>
+    <trans-unit id="notebook.diff.cell.revertOutputs">
+      <source xml:lang="en">Revert Outputs</source>
+    </trans-unit>
+    <trans-unit id="notebook.diff.cell.switchOutputRenderingStyleToText">
+      <source xml:lang="en">Switch Output Rendering</source>
+    </trans-unit>
+    <trans-unit id="notebook.diff.ignoreMetadata">
+      <source xml:lang="en">Hide Metadata Differences</source>
+    </trans-unit>
+    <trans-unit id="notebook.diff.ignoreOutputs">
+      <source xml:lang="en">Hide Outputs Differences</source>
+    </trans-unit>
+    <trans-unit id="notebook.diff.showMetadata">
+      <source xml:lang="en">Show Metadata Differences</source>
+    </trans-unit>
+    <trans-unit id="notebook.diff.showOutputs">
+      <source xml:lang="en">Show Outputs Differences</source>
+    </trans-unit>
+    <trans-unit id="notebook.diff.switchToText">
+      <source xml:lang="en">Open Text Diff Editor</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/diff/notebookTextDiffEditor" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="notebookTreeAriaLabel">
+      <source xml:lang="en">Notebook Text Diff</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/extensionPoint" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="contributes.notebook.provider">
+      <source xml:lang="en">Contributes notebook document provider.</source>
+    </trans-unit>
+    <trans-unit id="contributes.notebook.provider.displayName">
+      <source xml:lang="en">Human readable name of the notebook.</source>
+    </trans-unit>
+    <trans-unit id="contributes.notebook.provider.selector">
+      <source xml:lang="en">Set of globs that the notebook is for.</source>
+    </trans-unit>
+    <trans-unit id="contributes.notebook.provider.selector.filenamePattern">
+      <source xml:lang="en">Glob that the notebook is enabled for.</source>
+    </trans-unit>
+    <trans-unit id="contributes.notebook.provider.viewType">
+      <source xml:lang="en">Type of the notebook.</source>
+    </trans-unit>
+    <trans-unit id="contributes.notebook.renderer">
+      <source xml:lang="en">Contributes notebook output renderer provider.</source>
+    </trans-unit>
+    <trans-unit id="contributes.notebook.renderer.displayName">
+      <source xml:lang="en">Human readable name of the notebook output renderer.</source>
+    </trans-unit>
+    <trans-unit id="contributes.notebook.renderer.entrypoint">
+      <source xml:lang="en">File to load in the webview to render the extension.</source>
+    </trans-unit>
+    <trans-unit id="contributes.notebook.renderer.hardDependencies">
+      <source xml:lang="en">List of kernel dependencies the renderer requires. If any of the dependencies are present in the `NotebookKernel.preloads`, the renderer can be used.</source>
+    </trans-unit>
+    <trans-unit id="contributes.notebook.renderer.optionalDependencies">
+      <source xml:lang="en">List of soft kernel dependencies the renderer can make use of. If any of the dependencies are present in the `NotebookKernel.preloads`, the renderer will be preferred over renderers that don't interact with the kernel.</source>
+    </trans-unit>
+    <trans-unit id="contributes.notebook.renderer.requiresMessaging">
+      <source xml:lang="en">Defines how and if the renderer needs to communicate with an extension host, via `createRendererMessaging`. Renderers with stronger messaging requirements may not work in all environments.</source>
+    </trans-unit>
+    <trans-unit id="contributes.notebook.renderer.requiresMessaging.always">
+      <source xml:lang="en">Messaging is required. The renderer will only be used when it's part of an extension that can be run in an extension host.</source>
+    </trans-unit>
+    <trans-unit id="contributes.notebook.renderer.requiresMessaging.never">
+      <source xml:lang="en">The renderer does not require messaging.</source>
+    </trans-unit>
+    <trans-unit id="contributes.notebook.renderer.requiresMessaging.optional">
+      <source xml:lang="en">The renderer is better with messaging available, but it's not requried.</source>
+    </trans-unit>
+    <trans-unit id="contributes.notebook.renderer.viewType">
+      <source xml:lang="en">Unique identifier of the notebook output renderer.</source>
+    </trans-unit>
+    <trans-unit id="contributes.notebook.selector">
+      <source xml:lang="en">Set of globs that the notebook is for.</source>
+    </trans-unit>
+    <trans-unit id="contributes.notebook.selector.provider.excludeFileNamePattern">
+      <source xml:lang="en">Glob that the notebook is disabled for.</source>
+    </trans-unit>
+    <trans-unit id="contributes.priority">
+      <source xml:lang="en">Controls if the custom editor is enabled automatically when the user opens a file. This may be overridden by users using the `workbench.editorAssociations` setting.</source>
+    </trans-unit>
+    <trans-unit id="contributes.priority.default">
+      <source xml:lang="en">The editor is automatically used when the user opens a resource, provided that no other default custom editors are registered for that resource.</source>
+    </trans-unit>
+    <trans-unit id="contributes.priority.option">
+      <source xml:lang="en">The editor is not automatically used when the user opens a resource, but a user can switch to the editor using the `Reopen With` command.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/notebook.contribution" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="insertToolbarLocation.betweenCells">
+      <source xml:lang="en">A toolbar that appears on hover between cells.</source>
+    </trans-unit>
+    <trans-unit id="insertToolbarLocation.both">
+      <source xml:lang="en">Both toolbars.</source>
+    </trans-unit>
+    <trans-unit id="insertToolbarLocation.hidden">
+      <source xml:lang="en">The insert actions don't appear anywhere.</source>
+    </trans-unit>
+    <trans-unit id="insertToolbarLocation.notebookToolbar">
+      <source xml:lang="en">The toolbar at the top of the notebook editor.</source>
+    </trans-unit>
+    <trans-unit id="notebook.cellToolbarLocation.description">
+      <source xml:lang="en">Where the cell toolbar should be shown, or whether it should be hidden.</source>
+    </trans-unit>
+    <trans-unit id="notebook.cellToolbarLocation.viewType">
+      <source xml:lang="en">Configure the cell toolbar position for for specific file types</source>
+    </trans-unit>
+    <trans-unit id="notebook.cellToolbarVisibility.description">
+      <source xml:lang="en">Whether the cell toolbar should appear on hover or click.</source>
+    </trans-unit>
+    <trans-unit id="notebook.compactView.description">
+      <source xml:lang="en">Control whether the notebook editor should be rendered in a compact form. </source>
+    </trans-unit>
+    <trans-unit id="notebook.consolidatedOutputButton.description">
+      <source xml:lang="en">Control whether outputs action should be rendered in the output toolbar.</source>
+    </trans-unit>
+    <trans-unit id="notebook.consolidatedRunButton.description">
+      <source xml:lang="en">Control whether extra actions are shown in a dropdown next to the run button.</source>
+    </trans-unit>
+    <trans-unit id="notebook.diff.enablePreview.description">
+      <source xml:lang="en">Whether to use the enhanced text diff editor for notebook.</source>
+    </trans-unit>
+    <trans-unit id="notebook.displayOrder.description">
+      <source xml:lang="en">Priority list for output mime types</source>
+    </trans-unit>
+    <trans-unit id="notebook.dragAndDrop.description">
+      <source xml:lang="en">Control whether the notebook editor should allow moving cells through drag and drop.</source>
+    </trans-unit>
+    <trans-unit id="notebook.editorOptions.experimentalCustomization">
+      <source xml:lang="en">Settings for code editors used in notebooks. This can be used to customize most editor.* settings.</source>
+    </trans-unit>
+    <trans-unit id="notebook.experimental.useMarkdownRenderer.description">
+      <source xml:lang="en">Enable/disable using the new extensible markdown renderer.</source>
+    </trans-unit>
+    <trans-unit id="notebook.focusIndicator.description">
+      <source xml:lang="en">Control whether to render the focus indicator as a cell border or a highlight bar on the left gutter</source>
+    </trans-unit>
+    <trans-unit id="notebook.globalToolbar.description">
+      <source xml:lang="en">Control whether to render a global toolbar inside the notebook editor.</source>
+    </trans-unit>
+    <trans-unit id="notebook.insertToolbarPosition.description">
+      <source xml:lang="en">Control where the insert cell actions should appear.</source>
+    </trans-unit>
+    <trans-unit id="notebook.showCellStatusbar.description">
+      <source xml:lang="en">Whether the cell status bar should be shown.</source>
+    </trans-unit>
+    <trans-unit id="notebook.showCellStatusbar.hidden.description">
+      <source xml:lang="en">The cell status bar is always hidden.</source>
+    </trans-unit>
+    <trans-unit id="notebook.showCellStatusbar.visible.description">
+      <source xml:lang="en">The cell status bar is always visible.</source>
+    </trans-unit>
+    <trans-unit id="notebook.showCellStatusbar.visibleAfterExecute.description">
+      <source xml:lang="en">The cell status bar is hidden until the cell has executed. Then it becomes visible to show the execution status.</source>
+    </trans-unit>
+    <trans-unit id="notebook.showFoldingControls.description">
+      <source xml:lang="en">Controls when the markdown header folding arrow is shown.</source>
+    </trans-unit>
+    <trans-unit id="notebook.undoRedoPerCell.description">
+      <source xml:lang="en">Whether to use separate undo/redo stack for each cell.</source>
+    </trans-unit>
+    <trans-unit id="notebookConfigurationTitle">
+      <source xml:lang="en">Notebook</source>
+    </trans-unit>
+    <trans-unit id="showFoldingControls.always">
+      <source xml:lang="en">The folding controls are always visible.</source>
+    </trans-unit>
+    <trans-unit id="showFoldingControls.mouseover">
+      <source xml:lang="en">The folding controls are visible only on mouseover.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/notebookEditor" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="fail.noEditor">
+      <source xml:lang="en">Cannot open resource with notebook editor type '{0}', please check if you have the right extension installed or enabled.</source>
+    </trans-unit>
+    <trans-unit id="fail.reOpen">
+      <source xml:lang="en">Reopen file with VS Code standard text editor</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/notebookEditorKernelManager" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="notebookRunTrust">
+      <source xml:lang="en">Executing a notebook cell will run code from this workspace.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/notebookEditorWidget" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="focusedCellBackground">
+      <source xml:lang="en">The background color of a cell when the cell is focused.</source>
+    </trans-unit>
+    <trans-unit id="notebook.cellBorderColor">
+      <source xml:lang="en">The border color for notebook cells.</source>
+    </trans-unit>
+    <trans-unit id="notebook.cellEditorBackground">
+      <source xml:lang="en">Cell editor background color.</source>
+    </trans-unit>
+    <trans-unit id="notebook.cellHoverBackground">
+      <source xml:lang="en">The background color of a cell when the cell is hovered.</source>
+    </trans-unit>
+    <trans-unit id="notebook.cellInsertionIndicator">
+      <source xml:lang="en">The color of the notebook cell insertion indicator.</source>
+    </trans-unit>
+    <trans-unit id="notebook.cellStatusBarItemHoverBackground">
+      <source xml:lang="en">The background color of notebook cell status bar items.</source>
+    </trans-unit>
+    <trans-unit id="notebook.cellToolbarSeparator">
+      <source xml:lang="en">The color of the separator in the cell bottom toolbar</source>
+    </trans-unit>
+    <trans-unit id="notebook.focusedCellBorder">
+      <source xml:lang="en">The color of the cell's borders when the cell is focused.</source>
+    </trans-unit>
+    <trans-unit id="notebook.focusedEditorBorder">
+      <source xml:lang="en">The color of the notebook cell editor border.</source>
+    </trans-unit>
+    <trans-unit id="notebook.inactiveFocusedCellBorder">
+      <source xml:lang="en">The color of the cell's top and bottom border when a cell is focused while the primary focus is outside of the editor.</source>
+    </trans-unit>
+    <trans-unit id="notebook.inactiveSelectedCellBorder">
+      <source xml:lang="en">The color of the cell's borders when multiple cells are selected.</source>
+    </trans-unit>
+    <trans-unit id="notebook.outputContainerBackgroundColor">
+      <source xml:lang="en">The Color of the notebook output container background.</source>
+    </trans-unit>
+    <trans-unit id="notebook.selectedCellBorder">
+      <source xml:lang="en">The color of the cell's top and bottom border when the cell is selected but not focused.</source>
+    </trans-unit>
+    <trans-unit id="notebook.symbolHighlightBackground">
+      <source xml:lang="en">Background color of highlighted cell</source>
+    </trans-unit>
+    <trans-unit id="notebookScrollbarSliderActiveBackground">
+      <source xml:lang="en">Notebook scrollbar slider background color when clicked on.</source>
+    </trans-unit>
+    <trans-unit id="notebookScrollbarSliderBackground">
+      <source xml:lang="en">Notebook scrollbar slider background color.</source>
+    </trans-unit>
+    <trans-unit id="notebookScrollbarSliderHoverBackground">
+      <source xml:lang="en">Notebook scrollbar slider background color when hovering.</source>
+    </trans-unit>
+    <trans-unit id="notebookStatusErrorIcon.foreground">
+      <source xml:lang="en">The error icon color of notebook cells in the cell status bar.</source>
+    </trans-unit>
+    <trans-unit id="notebookStatusRunningIcon.foreground">
+      <source xml:lang="en">The running icon color of notebook cells in the cell status bar.</source>
+    </trans-unit>
+    <trans-unit id="notebookStatusSuccessIcon.foreground">
+      <source xml:lang="en">The error icon color of notebook cells in the cell status bar.</source>
+    </trans-unit>
+    <trans-unit id="notebookTreeAriaLabel">
+      <source xml:lang="en">Notebook</source>
+    </trans-unit>
+    <trans-unit id="selectedCellBackground">
+      <source xml:lang="en">The background color of a cell when the cell is selected.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/notebookIcons" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="clearIcon">
+      <source xml:lang="en">Icon to clear cell outputs in notebook editors.</source>
+    </trans-unit>
+    <trans-unit id="collapsedIcon">
+      <source xml:lang="en">Icon to annotate a collapsed section in notebook editors.</source>
+    </trans-unit>
+    <trans-unit id="configureKernel">
+      <source xml:lang="en">Configure icon in kernel configuration widget in notebook editors.</source>
+    </trans-unit>
+    <trans-unit id="deleteCellIcon">
+      <source xml:lang="en">Icon to delete a cell in notebook editors.</source>
+    </trans-unit>
+    <trans-unit id="editIcon">
+      <source xml:lang="en">Icon to edit a cell in notebook editors.</source>
+    </trans-unit>
+    <trans-unit id="errorStateIcon">
+      <source xml:lang="en">Icon to indicate an error state in notebook editors.</source>
+    </trans-unit>
+    <trans-unit id="executeAboveIcon">
+      <source xml:lang="en">Icon to execute above cells in notebook editors.</source>
+    </trans-unit>
+    <trans-unit id="executeAllIcon">
+      <source xml:lang="en">Icon to execute all cells in notebook editors.</source>
+    </trans-unit>
+    <trans-unit id="executeBelowIcon">
+      <source xml:lang="en">Icon to execute below cells in notebook editors.</source>
+    </trans-unit>
+    <trans-unit id="executeIcon">
+      <source xml:lang="en">Icon to execute in notebook editors.</source>
+    </trans-unit>
+    <trans-unit id="executingStateIcon">
+      <source xml:lang="en">Icon to indicate an executing state in notebook editors.</source>
+    </trans-unit>
+    <trans-unit id="expandedIcon">
+      <source xml:lang="en">Icon to annotate an expanded section in notebook editors.</source>
+    </trans-unit>
+    <trans-unit id="mimetypeIcon">
+      <source xml:lang="en">Icon for a mime type in notebook editors.</source>
+    </trans-unit>
+    <trans-unit id="moveDownIcon">
+      <source xml:lang="en">Icon to move down a cell in notebook editors.</source>
+    </trans-unit>
+    <trans-unit id="moveUpIcon">
+      <source xml:lang="en">Icon to move up a cell in notebook editors.</source>
+    </trans-unit>
+    <trans-unit id="openAsTextIcon">
+      <source xml:lang="en">Icon to open the notebook in a text editor.</source>
+    </trans-unit>
+    <trans-unit id="pendingStateIcon">
+      <source xml:lang="en">Icon to indicate a pending state in notebook editors.</source>
+    </trans-unit>
+    <trans-unit id="renderOutputIcon">
+      <source xml:lang="en">Icon to render output in diff editor.</source>
+    </trans-unit>
+    <trans-unit id="revertIcon">
+      <source xml:lang="en">Icon to revert in notebook editors.</source>
+    </trans-unit>
+    <trans-unit id="selectKernelIcon">
+      <source xml:lang="en">Configure icon to select a kernel in notebook editors.</source>
+    </trans-unit>
+    <trans-unit id="splitCellIcon">
+      <source xml:lang="en">Icon to split a cell in notebook editors.</source>
+    </trans-unit>
+    <trans-unit id="stopEditIcon">
+      <source xml:lang="en">Icon to stop editing a cell in notebook editors.</source>
+    </trans-unit>
+    <trans-unit id="stopIcon">
+      <source xml:lang="en">Icon to stop an execution in notebook editors.</source>
+    </trans-unit>
+    <trans-unit id="successStateIcon">
+      <source xml:lang="en">Icon to indicate a success state in notebook editors.</source>
+    </trans-unit>
+    <trans-unit id="unfoldIcon">
+      <source xml:lang="en">Icon to unfold a cell in notebook editors.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/notebookKernelActionViewItem" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="select">
+      <source xml:lang="en">Select Kernel</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/notebookServiceImpl" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="builtinProviderDisplayName">
+      <source xml:lang="en">Built-in</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/view/output/outputRenderer" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="empty">
+      <source xml:lang="en">Cell has no output</source>
+    </trans-unit>
+    <trans-unit id="noRenderer.1">
+      <source xml:lang="en">No renderer could be found for MIME type: {0}</source>
+    </trans-unit>
+    <trans-unit id="noRenderer.2">
+      <source xml:lang="en">No renderer could be found for output. It has the following MIME types: {0}</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/view/renderers/backLayerWebView" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="notebook.emptyMarkdownPlaceholder">
+      <source xml:lang="en">Empty markdown cell, double click or press enter to edit.</source>
+    </trans-unit>
+    <trans-unit id="notebook.error.rendererNotFound">
+      <source xml:lang="en">No renderer found for '$0' a</source>
+      <note>$0 is a placeholder for the mime type</note>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/view/renderers/cellEditorOptions" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="notebook.lineNumbers">
+      <source xml:lang="en">Controls the display of line numbers in the cell editor.</source>
+    </trans-unit>
+    <trans-unit id="notebook.showLineNumbers">
+      <source xml:lang="en">Show Notebook Line Numbers</source>
+    </trans-unit>
+    <trans-unit id="notebook.toggleLineNumbers">
+      <source xml:lang="en">Toggle Notebook Line Numbers</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.toggleBreakpointMargin">
+      <source xml:lang="en">Toggle Cell Breakpoint Margin</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/view/renderers/cellOutput" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="builtinRenderInfo">
+      <source xml:lang="en">built-in</source>
+    </trans-unit>
+    <trans-unit id="curruentActiveMimeType">
+      <source xml:lang="en">Currently Active</source>
+    </trans-unit>
+    <trans-unit id="pickMimeType">
+      <source xml:lang="en">Choose a different output mimetype</source>
+    </trans-unit>
+    <trans-unit id="promptChooseMimeType.placeHolder">
+      <source xml:lang="en">Select mimetype to render for current output</source>
+    </trans-unit>
+    <trans-unit id="promptChooseMimeTypeInSecure.placeHolder">
+      <source xml:lang="en">Select mimetype to render for current output. Rich mimetypes are available only when the notebook is trusted</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/view/renderers/cellRenderer" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="cellExpandButtonLabel">
+      <source xml:lang="en">Expand</source>
+    </trans-unit>
+    <trans-unit id="notebook.moreRunActionsLabel">
+      <source xml:lang="en">More...</source>
+    </trans-unit>
+    <trans-unit id="runStateExecuting">
+      <source xml:lang="en">Executing</source>
+    </trans-unit>
+    <trans-unit id="runStatePending">
+      <source xml:lang="en">Pending</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/browser/viewModel/markupCellViewModel" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="notebook.emptyMarkdownPlaceholder">
+      <source xml:lang="en">Empty markdown cell, double click or press enter to edit.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/notebook/common/notebookEditorModel" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="notebook.staleSaveError">
+      <source xml:lang="en">The contents of the file has changed on disk. Would you like to open the updated version or overwrite the file with your changes?</source>
+    </trans-unit>
+    <trans-unit id="notebook.staleSaveError.overwrite.">
+      <source xml:lang="en">Overwrite</source>
+    </trans-unit>
+    <trans-unit id="notebook.staleSaveError.revert">
+      <source xml:lang="en">Revert</source>
+    </trans-unit>
+</body></file>
+</xliff>

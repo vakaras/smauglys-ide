@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="extensions/json-language-features/client\dist\node/jsonClient" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="configureLimit">
+      <source xml:lang="en">Use setting '{0}' to configure the limit.</source>
+    </trans-unit>
+    <trans-unit id="goToSetting">
+      <source xml:lang="en">Open Settings</source>
+    </trans-unit>
+    <trans-unit id="json.resolveError">
+      <source xml:lang="en">JSON: Schema Resolution Error</source>
+    </trans-unit>
+    <trans-unit id="json.schemaResolutionDisabledMessage">
+      <source xml:lang="en">Downloading schemas is disabled. Click to configure.</source>
+    </trans-unit>
+    <trans-unit id="json.schemaResolutionErrorMessage">
+      <source xml:lang="en">Unable to resolve schema. Click to retry.</source>
+    </trans-unit>
+    <trans-unit id="jsonserver.name">
+      <source xml:lang="en">JSON Language Server</source>
+    </trans-unit>
+    <trans-unit id="ok">
+      <source xml:lang="en">Ok</source>
+    </trans-unit>
+    <trans-unit id="schemaDownloadDisabled">
+      <source xml:lang="en">Downloading schemas is disabled through setting '{0}'</source>
+    </trans-unit>
+    <trans-unit id="untitled.schema">
+      <source xml:lang="en">Unable to load {0}</source>
+    </trans-unit>
+    <trans-unit id="yes never again">
+      <source xml:lang="en">Don't Show Again</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/json-language-features/package" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="description">
+      <source xml:lang="en">Provides rich language support for JSON files.</source>
+    </trans-unit>
+    <trans-unit id="displayName">
+      <source xml:lang="en">JSON Language Features</source>
+    </trans-unit>
+    <trans-unit id="json.clickToRetry">
+      <source xml:lang="en">Click to retry.</source>
+    </trans-unit>
+    <trans-unit id="json.colorDecorators.enable.deprecationMessage">
+      <source xml:lang="en">The setting `json.colorDecorators.enable` has been deprecated in favor of `editor.colorDecorators`.</source>
+    </trans-unit>
+    <trans-unit id="json.colorDecorators.enable.desc">
+      <source xml:lang="en">Enables or disables color decorators</source>
+    </trans-unit>
+    <trans-unit id="json.enableSchemaDownload.desc">
+      <source xml:lang="en">When enabled, JSON schemas can be fetched from http and https locations.</source>
+    </trans-unit>
+    <trans-unit id="json.format.enable.desc">
+      <source xml:lang="en">Enable/disable default JSON formatter</source>
+    </trans-unit>
+    <trans-unit id="json.maxItemsComputed.desc">
+      <source xml:lang="en">The maximum number of outline symbols and folding regions computed (limited for performance reasons).</source>
+    </trans-unit>
+    <trans-unit id="json.maxItemsExceededInformation.desc">
+      <source xml:lang="en">Show notification when exceeding the maximum number of outline symbols and folding regions.</source>
+    </trans-unit>
+    <trans-unit id="json.schemaResolutionErrorMessage">
+      <source xml:lang="en">Unable to resolve schema.</source>
+    </trans-unit>
+    <trans-unit id="json.schemas.desc">
+      <source xml:lang="en">Associate schemas to JSON files in the current project.</source>
+    </trans-unit>
+    <trans-unit id="json.schemas.fileMatch.desc">
+      <source xml:lang="en">An array of file patterns to match against when resolving JSON files to schemas. `*` can be used as a wildcard. Exclusion patterns can also be defined and start with '!'. A file matches when there is at least one matching pattern and the last matching pattern is not an exclusion pattern.</source>
+    </trans-unit>
+    <trans-unit id="json.schemas.fileMatch.item.desc">
+      <source xml:lang="en">A file pattern that can contain '*' to match against when resolving JSON files to schemas.</source>
+    </trans-unit>
+    <trans-unit id="json.schemas.schema.desc">
+      <source xml:lang="en">The schema definition for the given URL. The schema only needs to be provided to avoid accesses to the schema URL.</source>
+    </trans-unit>
+    <trans-unit id="json.schemas.url.desc">
+      <source xml:lang="en">A URL to a schema or a relative path to a schema in the current directory</source>
+    </trans-unit>
+    <trans-unit id="json.tracing.desc">
+      <source xml:lang="en">Traces the communication between VS Code and the JSON language server.</source>
+    </trans-unit>
+</body></file>
+</xliff>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/services/dialogs/browser/abstractFileDialogService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="allFiles">
+      <source xml:lang="en">All Files</source>
+    </trans-unit>
+    <trans-unit id="cancel">
+      <source xml:lang="en">Cancel</source>
+    </trans-unit>
+    <trans-unit id="dontSave">
+      <source xml:lang="en">Do&amp;&amp;n't Save</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="filterName.workspace">
+      <source xml:lang="en">Workspace</source>
+    </trans-unit>
+    <trans-unit id="noExt">
+      <source xml:lang="en">No Extension</source>
+    </trans-unit>
+    <trans-unit id="openFile.title">
+      <source xml:lang="en">Open File</source>
+    </trans-unit>
+    <trans-unit id="openFileOrFolder.title">
+      <source xml:lang="en">Open File Or Folder</source>
+    </trans-unit>
+    <trans-unit id="openFolder.title">
+      <source xml:lang="en">Open Folder</source>
+    </trans-unit>
+    <trans-unit id="openWorkspace.title">
+      <source xml:lang="en">Open Workspace</source>
+    </trans-unit>
+    <trans-unit id="save">
+      <source xml:lang="en">&amp;&amp;Save</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="saveAll">
+      <source xml:lang="en">&amp;&amp;Save All</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="saveAsTitle">
+      <source xml:lang="en">Save As</source>
+    </trans-unit>
+    <trans-unit id="saveChangesDetail">
+      <source xml:lang="en">Your changes will be lost if you don't save them.</source>
+    </trans-unit>
+    <trans-unit id="saveChangesMessage">
+      <source xml:lang="en">Do you want to save the changes you made to {0}?</source>
+    </trans-unit>
+    <trans-unit id="saveChangesMessages">
+      <source xml:lang="en">Do you want to save the changes to the following {0} files?</source>
+    </trans-unit>
+    <trans-unit id="saveFileAs.title">
+      <source xml:lang="en">Save As</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/dialogs/browser/simpleFileDialog" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="openLocalFile">
+      <source xml:lang="en">Open Local File...</source>
+    </trans-unit>
+    <trans-unit id="openLocalFileFolder">
+      <source xml:lang="en">Open Local...</source>
+    </trans-unit>
+    <trans-unit id="openLocalFolder">
+      <source xml:lang="en">Open Local Folder...</source>
+    </trans-unit>
+    <trans-unit id="remoteFileDialog.badPath">
+      <source xml:lang="en">The path does not exist.</source>
+    </trans-unit>
+    <trans-unit id="remoteFileDialog.cancel">
+      <source xml:lang="en">Cancel</source>
+    </trans-unit>
+    <trans-unit id="remoteFileDialog.invalidPath">
+      <source xml:lang="en">Please enter a valid path.</source>
+    </trans-unit>
+    <trans-unit id="remoteFileDialog.local">
+      <source xml:lang="en">Show Local</source>
+    </trans-unit>
+    <trans-unit id="remoteFileDialog.notConnectedToRemote">
+      <source xml:lang="en">File system provider for {0} is not available.</source>
+    </trans-unit>
+    <trans-unit id="remoteFileDialog.validateBadFilename">
+      <source xml:lang="en">Please enter a valid file name.</source>
+    </trans-unit>
+    <trans-unit id="remoteFileDialog.validateExisting">
+      <source xml:lang="en">{0} already exists. Are you sure you want to overwrite it?</source>
+    </trans-unit>
+    <trans-unit id="remoteFileDialog.validateFileOnly">
+      <source xml:lang="en">Please select a file.</source>
+    </trans-unit>
+    <trans-unit id="remoteFileDialog.validateFolder">
+      <source xml:lang="en">The folder already exists. Please use a new file name.</source>
+    </trans-unit>
+    <trans-unit id="remoteFileDialog.validateFolderOnly">
+      <source xml:lang="en">Please select a folder.</source>
+    </trans-unit>
+    <trans-unit id="remoteFileDialog.validateNonexistentDir">
+      <source xml:lang="en">Please enter a path that exists.</source>
+    </trans-unit>
+    <trans-unit id="remoteFileDialog.windowsDriveLetter">
+      <source xml:lang="en">Please start the path with a drive letter.</source>
+    </trans-unit>
+    <trans-unit id="saveLocalFile">
+      <source xml:lang="en">Save Local File...</source>
+    </trans-unit>
+</body></file>
+</xliff>

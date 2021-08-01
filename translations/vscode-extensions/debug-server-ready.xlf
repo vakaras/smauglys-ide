@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="extensions/debug-server-ready/dist/extension" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="server.ready.nocapture.error">
+      <source xml:lang="en">Format uri ('{0}') uses a substitution placeholder but pattern did not capture anything.</source>
+    </trans-unit>
+    <trans-unit id="server.ready.placeholder.error">
+      <source xml:lang="en">Format uri ('{0}') must contain exactly one substitution placeholder.</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/debug-server-ready/package" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="debug.server.ready.action.debugWithChrome.description">
+      <source xml:lang="en">Start debugging with the 'Debugger for Chrome'.</source>
+    </trans-unit>
+    <trans-unit id="debug.server.ready.action.description">
+      <source xml:lang="en">What to do with the URI when the server is ready.</source>
+    </trans-unit>
+    <trans-unit id="debug.server.ready.action.openExternally.description">
+      <source xml:lang="en">Open URI externally with the default application.</source>
+    </trans-unit>
+    <trans-unit id="debug.server.ready.action.startDebugging.description">
+      <source xml:lang="en">Run another launch configuration.</source>
+    </trans-unit>
+    <trans-unit id="debug.server.ready.debugConfigName.description">
+      <source xml:lang="en">Name of the launch configuration to run.</source>
+    </trans-unit>
+    <trans-unit id="debug.server.ready.pattern.description">
+      <source xml:lang="en">Server is ready if this pattern appears on the debug console. The first capture group must include a URI or a port number.</source>
+    </trans-unit>
+    <trans-unit id="debug.server.ready.serverReadyAction.description">
+      <source xml:lang="en">Act upon a URI when a server program under debugging is ready (indicated by sending output of the form 'listening on port 3000' or 'Now listening on: https://localhost:5001' to the debug console.)</source>
+    </trans-unit>
+    <trans-unit id="debug.server.ready.uriFormat.description">
+      <source xml:lang="en">A format string used when constructing the URI from a port number. The first '%s' is substituted with the port number.</source>
+    </trans-unit>
+    <trans-unit id="debug.server.ready.webRoot.description">
+      <source xml:lang="en">Value passed to the debug configuration for the 'Debugger for Chrome'.</source>
+    </trans-unit>
+    <trans-unit id="description">
+      <source xml:lang="en">Open URI in browser if server under debugging is ready.</source>
+    </trans-unit>
+    <trans-unit id="displayName">
+      <source xml:lang="en">Server Ready Action</source>
+    </trans-unit>
+</body></file>
+</xliff>

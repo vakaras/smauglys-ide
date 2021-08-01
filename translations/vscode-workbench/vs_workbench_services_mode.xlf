@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/services/mode/common/workbenchModeService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="invalid">
+      <source xml:lang="en">Invalid `contributes.{0}`. Expected an array.</source>
+    </trans-unit>
+    <trans-unit id="invalid.empty">
+      <source xml:lang="en">Empty value for `contributes.{0}`</source>
+    </trans-unit>
+    <trans-unit id="opt.aliases">
+      <source xml:lang="en">property `{0}` can be omitted and must be of type `string[]`</source>
+    </trans-unit>
+    <trans-unit id="opt.configuration">
+      <source xml:lang="en">property `{0}` can be omitted and must be of type `string`</source>
+    </trans-unit>
+    <trans-unit id="opt.extensions">
+      <source xml:lang="en">property `{0}` can be omitted and must be of type `string[]`</source>
+    </trans-unit>
+    <trans-unit id="opt.filenames">
+      <source xml:lang="en">property `{0}` can be omitted and must be of type `string[]`</source>
+    </trans-unit>
+    <trans-unit id="opt.firstLine">
+      <source xml:lang="en">property `{0}` can be omitted and must be of type `string`</source>
+    </trans-unit>
+    <trans-unit id="opt.mimetypes">
+      <source xml:lang="en">property `{0}` can be omitted and must be of type `string[]`</source>
+    </trans-unit>
+    <trans-unit id="require.id">
+      <source xml:lang="en">property `{0}` is mandatory and must be of type `string`</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.languages">
+      <source xml:lang="en">Contributes language declarations.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.languages.aliases">
+      <source xml:lang="en">Name aliases for the language.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.languages.configuration">
+      <source xml:lang="en">A relative path to a file containing configuration options for the language.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.languages.extensions">
+      <source xml:lang="en">File extensions associated to the language.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.languages.filenamePatterns">
+      <source xml:lang="en">File name glob patterns associated to the language.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.languages.filenames">
+      <source xml:lang="en">File names associated to the language.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.languages.firstLine">
+      <source xml:lang="en">A regular expression matching the first line of a file of the language.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.languages.id">
+      <source xml:lang="en">ID of the language.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.languages.mimetypes">
+      <source xml:lang="en">Mime types associated to the language.</source>
+    </trans-unit>
+</body></file>
+</xliff>

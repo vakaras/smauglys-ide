@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="extensions/grunt/dist/main" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="execFailed">
+      <source xml:lang="en">Auto detecting Grunt for folder {0} failed with error: {1}</source>
+    </trans-unit>
+    <trans-unit id="gruntShowOutput">
+      <source xml:lang="en">Go to output</source>
+    </trans-unit>
+    <trans-unit id="gruntTaskDetectError">
+      <source xml:lang="en">Problem finding grunt tasks. See the output for more information.</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/grunt/package" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="config.grunt.autoDetect">
+      <source xml:lang="en">Controls enablement of Grunt task detection. Grunt task detection can cause files in any open workspace to be executed.</source>
+    </trans-unit>
+    <trans-unit id="description">
+      <source xml:lang="en">Extension to add Grunt capabilities to VS Code.</source>
+    </trans-unit>
+    <trans-unit id="displayName">
+      <source xml:lang="en">Grunt support for VS Code</source>
+    </trans-unit>
+    <trans-unit id="grunt.taskDefinition.args.description">
+      <source xml:lang="en">Command line arguments to pass to the grunt task</source>
+    </trans-unit>
+    <trans-unit id="grunt.taskDefinition.file.description">
+      <source xml:lang="en">The Grunt file that provides the task. Can be omitted.</source>
+    </trans-unit>
+    <trans-unit id="grunt.taskDefinition.type.description">
+      <source xml:lang="en">The Grunt task to customize.</source>
+    </trans-unit>
+</body></file>
+</xliff>

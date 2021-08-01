@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="extensions/testing-editor-contributions/package" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="action.debug">
+      <source xml:lang="en">Debug</source>
+    </trans-unit>
+    <trans-unit id="action.run">
+      <source xml:lang="en">Run Tests</source>
+    </trans-unit>
+    <trans-unit id="config.enableCodeLens">
+      <source xml:lang="en">Whether CodeLens on test cases and suites should be visible.</source>
+    </trans-unit>
+    <trans-unit id="config.enableProblemDiagnostics">
+      <source xml:lang="en">Whether test failures should be reported in the 'problems' view and show as errors in the editor.</source>
+    </trans-unit>
+    <trans-unit id="description">
+      <source xml:lang="en">Provides the in-editor experience for tests and test results.</source>
+    </trans-unit>
+    <trans-unit id="displayName">
+      <source xml:lang="en">Testing Editor Contributions</source>
+    </trans-unit>
+    <trans-unit id="state.failed">
+      <source xml:lang="en">Failed</source>
+    </trans-unit>
+    <trans-unit id="state.passed">
+      <source xml:lang="en">Passed</source>
+    </trans-unit>
+    <trans-unit id="state.passedWithDuration">
+      <source xml:lang="en">Passed in {0}</source>
+    </trans-unit>
+    <trans-unit id="tooltip.debug">
+      <source xml:lang="en">Debug {0}</source>
+    </trans-unit>
+    <trans-unit id="tooltip.run">
+      <source xml:lang="en">Run {0}</source>
+    </trans-unit>
+    <trans-unit id="tooltip.runState">
+      <source xml:lang="en">{0}/{1} Tests Passed</source>
+    </trans-unit>
+    <trans-unit id="tooltip.runStateWithDuration">
+      <source xml:lang="en">{0}/{1} Tests Passed in {2}</source>
+    </trans-unit>
+</body></file>
+</xliff>

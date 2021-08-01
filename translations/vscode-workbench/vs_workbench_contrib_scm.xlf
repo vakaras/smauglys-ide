@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/contrib/scm/browser/activity" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="scmPendingChangesBadge">
+      <source xml:lang="en">{0} pending changes</source>
+    </trans-unit>
+    <trans-unit id="status.scm">
+      <source xml:lang="en">Source Control</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/scm/browser/dirtydiffDecorator" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="change">
+      <source xml:lang="en">{0} of {1} change</source>
+    </trans-unit>
+    <trans-unit id="changes">
+      <source xml:lang="en">{0} of {1} changes</source>
+    </trans-unit>
+    <trans-unit id="editorGutterAddedBackground">
+      <source xml:lang="en">Editor gutter background color for lines that are added.</source>
+    </trans-unit>
+    <trans-unit id="editorGutterDeletedBackground">
+      <source xml:lang="en">Editor gutter background color for lines that are deleted.</source>
+    </trans-unit>
+    <trans-unit id="editorGutterModifiedBackground">
+      <source xml:lang="en">Editor gutter background color for lines that are modified.</source>
+    </trans-unit>
+    <trans-unit id="label.close">
+      <source xml:lang="en">Close</source>
+    </trans-unit>
+    <trans-unit id="miGotoNextChange">
+      <source xml:lang="en">Next &amp;&amp;Change</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="miGotoPreviousChange">
+      <source xml:lang="en">Previous &amp;&amp;Change</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="minimapGutterAddedBackground">
+      <source xml:lang="en">Minimap gutter background color for lines that are added.</source>
+    </trans-unit>
+    <trans-unit id="minimapGutterDeletedBackground">
+      <source xml:lang="en">Minimap gutter background color for lines that are deleted.</source>
+    </trans-unit>
+    <trans-unit id="minimapGutterModifiedBackground">
+      <source xml:lang="en">Minimap gutter background color for lines that are modified.</source>
+    </trans-unit>
+    <trans-unit id="move to next change">
+      <source xml:lang="en">Move to Next Change</source>
+    </trans-unit>
+    <trans-unit id="move to previous change">
+      <source xml:lang="en">Move to Previous Change</source>
+    </trans-unit>
+    <trans-unit id="overviewRulerAddedForeground">
+      <source xml:lang="en">Overview ruler marker color for added content.</source>
+    </trans-unit>
+    <trans-unit id="overviewRulerDeletedForeground">
+      <source xml:lang="en">Overview ruler marker color for deleted content.</source>
+    </trans-unit>
+    <trans-unit id="overviewRulerModifiedForeground">
+      <source xml:lang="en">Overview ruler marker color for modified content.</source>
+    </trans-unit>
+    <trans-unit id="show next change">
+      <source xml:lang="en">Show Next Change</source>
+    </trans-unit>
+    <trans-unit id="show previous change">
+      <source xml:lang="en">Show Previous Change</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/scm/browser/scm.contribution" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="alwaysShowActions">
+      <source xml:lang="en">Controls whether inline actions are always visible in the Source Control view.</source>
+    </trans-unit>
+    <trans-unit id="alwaysShowRepository">
+      <source xml:lang="en">Controls whether repositories should always be visible in the SCM view.</source>
+    </trans-unit>
+    <trans-unit id="autoReveal">
+      <source xml:lang="en">Controls whether the SCM view should automatically reveal and select files when opening them.</source>
+    </trans-unit>
+    <trans-unit id="diffDecorations">
+      <source xml:lang="en">Controls diff decorations in the editor.</source>
+    </trans-unit>
+    <trans-unit id="diffGutterWidth">
+      <source xml:lang="en">Controls the width(px) of diff decorations in gutter (added &amp; modified).</source>
+    </trans-unit>
+    <trans-unit id="inputFontFamily">
+      <source xml:lang="en">Controls the font for the input message. Use `default` for the workbench user interface font family, `editor` for the `#editor.fontFamily#`'s value, or a custom font family.</source>
+    </trans-unit>
+    <trans-unit id="inputFontSize">
+      <source xml:lang="en">Controls the font size for the input message in pixels.</source>
+    </trans-unit>
+    <trans-unit id="miViewSCM">
+      <source xml:lang="en">S&amp;&amp;CM</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="no open repo">
+      <source xml:lang="en">No source control providers registered.</source>
+    </trans-unit>
+    <trans-unit id="open in terminal">
+      <source xml:lang="en">Open In Terminal</source>
+    </trans-unit>
+    <trans-unit id="providersVisible">
+      <source xml:lang="en">Controls how many repositories are visible in the Source Control Repositories section. Set to `0` to be able to manually resize the view.</source>
+    </trans-unit>
+    <trans-unit id="scm accept">
+      <source xml:lang="en">SCM: Accept Input</source>
+    </trans-unit>
+    <trans-unit id="scm view next commit">
+      <source xml:lang="en">SCM: View Next Commit</source>
+    </trans-unit>
+    <trans-unit id="scm view previous commit">
+      <source xml:lang="en">SCM: View Previous Commit</source>
+    </trans-unit>
+    <trans-unit id="scm.countBadge">
+      <source xml:lang="en">Controls the count badge on the Source Control icon on the Activity Bar.</source>
+    </trans-unit>
+    <trans-unit id="scm.countBadge.all">
+      <source xml:lang="en">Show the sum of all Source Control Provider count badges.</source>
+    </trans-unit>
+    <trans-unit id="scm.countBadge.focused">
+      <source xml:lang="en">Show the count badge of the focused Source Control Provider.</source>
+    </trans-unit>
+    <trans-unit id="scm.countBadge.off">
+      <source xml:lang="en">Disable the Source Control count badge.</source>
+    </trans-unit>
+    <trans-unit id="scm.defaultViewMode">
+      <source xml:lang="en">Controls the default Source Control repository view mode.</source>
+    </trans-unit>
+    <trans-unit id="scm.defaultViewMode.list">
+      <source xml:lang="en">Show the repository changes as a list.</source>
+    </trans-unit>
+    <trans-unit id="scm.defaultViewMode.tree">
+      <source xml:lang="en">Show the repository changes as a tree.</source>
+    </trans-unit>
+    <trans-unit id="scm.diffDecorations.all">
+      <source xml:lang="en">Show the diff decorations in all available locations.</source>
+    </trans-unit>
+    <trans-unit id="scm.diffDecorations.gutter">
+      <source xml:lang="en">Show the diff decorations only in the editor gutter.</source>
+    </trans-unit>
+    <trans-unit id="scm.diffDecorations.minimap">
+      <source xml:lang="en">Show the diff decorations only in the minimap.</source>
+    </trans-unit>
+    <trans-unit id="scm.diffDecorations.none">
+      <source xml:lang="en">Do not show the diff decorations.</source>
+    </trans-unit>
+    <trans-unit id="scm.diffDecorations.overviewRuler">
+      <source xml:lang="en">Show the diff decorations only in the overview ruler.</source>
+    </trans-unit>
+    <trans-unit id="scm.diffDecorationsGutterAction">
+      <source xml:lang="en">Controls the behavior of Source Control diff gutter decorations.</source>
+    </trans-unit>
+    <trans-unit id="scm.diffDecorationsGutterAction.diff">
+      <source xml:lang="en">Show the inline diff peek view on click.</source>
+    </trans-unit>
+    <trans-unit id="scm.diffDecorationsGutterAction.none">
+      <source xml:lang="en">Do nothing.</source>
+    </trans-unit>
+    <trans-unit id="scm.diffDecorationsGutterVisibility">
+      <source xml:lang="en">Controls the visibility of the Source Control diff decorator in the gutter.</source>
+    </trans-unit>
+    <trans-unit id="scm.diffDecorationsGutterVisibility.always">
+      <source xml:lang="en">Show the diff decorator in the gutter at all times.</source>
+    </trans-unit>
+    <trans-unit id="scm.diffDecorationsGutterVisibility.hover">
+      <source xml:lang="en">Show the diff decorator in the gutter only on hover.</source>
+    </trans-unit>
+    <trans-unit id="scm.providerCountBadge">
+      <source xml:lang="en">Controls the count badges on Source Control Provider headers. These headers only appear when there is more than one provider.</source>
+    </trans-unit>
+    <trans-unit id="scm.providerCountBadge.auto">
+      <source xml:lang="en">Only show count badge for Source Control Provider when non-zero.</source>
+    </trans-unit>
+    <trans-unit id="scm.providerCountBadge.hidden">
+      <source xml:lang="en">Hide Source Control Provider count badges.</source>
+    </trans-unit>
+    <trans-unit id="scm.providerCountBadge.visible">
+      <source xml:lang="en">Show Source Control Provider count badges.</source>
+    </trans-unit>
+    <trans-unit id="scmConfigurationTitle">
+      <source xml:lang="en">SCM</source>
+    </trans-unit>
+    <trans-unit id="source control">
+      <source xml:lang="en">Source Control</source>
+    </trans-unit>
+    <trans-unit id="source control repositories">
+      <source xml:lang="en">Source Control Repositories</source>
+    </trans-unit>
+    <trans-unit id="sourceControlViewIcon">
+      <source xml:lang="en">View icon of the Source Control view.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/scm/browser/scmRepositoriesViewPane" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="scm">
+      <source xml:lang="en">Source Control Repositories</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/scm/browser/scmViewPane" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="collapse all">
+      <source xml:lang="en">Collapse All Repositories</source>
+    </trans-unit>
+    <trans-unit id="expand all">
+      <source xml:lang="en">Expand All Repositories</source>
+    </trans-unit>
+    <trans-unit id="input">
+      <source xml:lang="en">Source Control Input</source>
+    </trans-unit>
+    <trans-unit id="repositories">
+      <source xml:lang="en">Repositories</source>
+    </trans-unit>
+    <trans-unit id="scm">
+      <source xml:lang="en">Source Control Management</source>
+    </trans-unit>
+    <trans-unit id="scm.providerBorder">
+      <source xml:lang="en">SCM Provider separator border.</source>
+    </trans-unit>
+    <trans-unit id="setListViewMode">
+      <source xml:lang="en">View as List</source>
+    </trans-unit>
+    <trans-unit id="setTreeViewMode">
+      <source xml:lang="en">View as Tree</source>
+    </trans-unit>
+    <trans-unit id="sortAction">
+      <source xml:lang="en">View &amp; Sort</source>
+    </trans-unit>
+    <trans-unit id="sortByName">
+      <source xml:lang="en">Sort by Name</source>
+    </trans-unit>
+    <trans-unit id="sortByPath">
+      <source xml:lang="en">Sort by Path</source>
+    </trans-unit>
+    <trans-unit id="sortByStatus">
+      <source xml:lang="en">Sort by Status</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/scm/browser/scmViewPaneContainer" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="source control">
+      <source xml:lang="en">Source Control</source>
+    </trans-unit>
+</body></file>
+</xliff>

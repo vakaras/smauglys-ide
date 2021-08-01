@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/services/configuration/common/configurationEditingService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="errorConfigurationFileDirty">
+      <source xml:lang="en">Unable to write into user settings because the file is dirty. Please save the user settings file first and then try again.</source>
+    </trans-unit>
+    <trans-unit id="errorConfigurationFileDirtyFolder">
+      <source xml:lang="en">Unable to write into folder settings because the file is dirty. Please save the '{0}' folder settings file first and then try again.</source>
+    </trans-unit>
+    <trans-unit id="errorConfigurationFileDirtyWorkspace">
+      <source xml:lang="en">Unable to write into workspace settings because the file is dirty. Please save the workspace settings file first and then try again.</source>
+    </trans-unit>
+    <trans-unit id="errorConfigurationFileModifiedSince">
+      <source xml:lang="en">Unable to write into user settings because the content of the file is newer.</source>
+    </trans-unit>
+    <trans-unit id="errorConfigurationFileModifiedSinceFolder">
+      <source xml:lang="en">Unable to write into folder settings because the content of the file is newer.</source>
+    </trans-unit>
+    <trans-unit id="errorConfigurationFileModifiedSinceWorkspace">
+      <source xml:lang="en">Unable to write into workspace settings because the content of the file is newer.</source>
+    </trans-unit>
+    <trans-unit id="errorInvalidConfiguration">
+      <source xml:lang="en">Unable to write into user settings. Please open the user settings to correct errors/warnings in it and try again.</source>
+    </trans-unit>
+    <trans-unit id="errorInvalidConfigurationFolder">
+      <source xml:lang="en">Unable to write into folder settings. Please open the '{0}' folder settings to correct errors/warnings in it and try again.</source>
+    </trans-unit>
+    <trans-unit id="errorInvalidConfigurationWorkspace">
+      <source xml:lang="en">Unable to write into workspace settings. Please open the workspace settings to correct errors/warnings in the file and try again.</source>
+    </trans-unit>
+    <trans-unit id="errorInvalidFolderConfiguration">
+      <source xml:lang="en">Unable to write to Folder Settings because {0} does not support the folder resource scope.</source>
+    </trans-unit>
+    <trans-unit id="errorInvalidFolderTarget">
+      <source xml:lang="en">Unable to write to Folder Settings because no resource is provided.</source>
+    </trans-unit>
+    <trans-unit id="errorInvalidLaunchConfiguration">
+      <source xml:lang="en">Unable to write into the launch configuration file. Please open it to correct errors/warnings in it and try again.</source>
+    </trans-unit>
+    <trans-unit id="errorInvalidRemoteConfiguration">
+      <source xml:lang="en">Unable to write into remote user settings. Please open the remote user settings to correct errors/warnings in it and try again.</source>
+    </trans-unit>
+    <trans-unit id="errorInvalidResourceLanguageConfiguraiton">
+      <source xml:lang="en">Unable to write to Language Settings because {0} is not a resource language setting.</source>
+    </trans-unit>
+    <trans-unit id="errorInvalidTaskConfiguration">
+      <source xml:lang="en">Unable to write into the tasks configuration file. Please open it to correct errors/warnings in it and try again.</source>
+    </trans-unit>
+    <trans-unit id="errorInvalidUserTarget">
+      <source xml:lang="en">Unable to write to User Settings because {0} does not support for global scope.</source>
+    </trans-unit>
+    <trans-unit id="errorInvalidWorkspaceConfigurationApplication">
+      <source xml:lang="en">Unable to write {0} to Workspace Settings. This setting can be written only into User settings.</source>
+    </trans-unit>
+    <trans-unit id="errorInvalidWorkspaceConfigurationMachine">
+      <source xml:lang="en">Unable to write {0} to Workspace Settings. This setting can be written only into User settings.</source>
+    </trans-unit>
+    <trans-unit id="errorInvalidWorkspaceTarget">
+      <source xml:lang="en">Unable to write to Workspace Settings because {0} does not support for workspace scope in a multi folder workspace.</source>
+    </trans-unit>
+    <trans-unit id="errorLaunchConfigurationFileDirty">
+      <source xml:lang="en">Unable to write into launch configuration file because the file is dirty. Please save it first and then try again.</source>
+    </trans-unit>
+    <trans-unit id="errorLaunchConfigurationFileModifiedSince">
+      <source xml:lang="en">Unable to write into launch configuration file because the content of the file is newer.</source>
+    </trans-unit>
+    <trans-unit id="errorNoWorkspaceOpened">
+      <source xml:lang="en">Unable to write to {0} because no workspace is opened. Please open a workspace first and try again.</source>
+    </trans-unit>
+    <trans-unit id="errorRemoteConfigurationFileDirty">
+      <source xml:lang="en">Unable to write into remote user settings because the file is dirty. Please save the remote user settings file first and then try again.</source>
+    </trans-unit>
+    <trans-unit id="errorRemoteConfigurationFileModifiedSince">
+      <source xml:lang="en">Unable to write into remote user settings because the content of the file is newer.</source>
+    </trans-unit>
+    <trans-unit id="errorTasksConfigurationFileDirty">
+      <source xml:lang="en">Unable to write into tasks configuration file because the file is dirty. Please save it first and then try again.</source>
+    </trans-unit>
+    <trans-unit id="errorTasksConfigurationFileModifiedSince">
+      <source xml:lang="en">Unable to write into tasks configuration file because the content of the file is newer.</source>
+    </trans-unit>
+    <trans-unit id="errorUnknownKey">
+      <source xml:lang="en">Unable to write to {0} because {1} is not a registered configuration.</source>
+    </trans-unit>
+    <trans-unit id="folderTarget">
+      <source xml:lang="en">Folder Settings</source>
+    </trans-unit>
+    <trans-unit id="open">
+      <source xml:lang="en">Open Settings</source>
+    </trans-unit>
+    <trans-unit id="openLaunchConfiguration">
+      <source xml:lang="en">Open Launch Configuration</source>
+    </trans-unit>
+    <trans-unit id="openTasksConfiguration">
+      <source xml:lang="en">Open Tasks Configuration</source>
+    </trans-unit>
+    <trans-unit id="remoteUserTarget">
+      <source xml:lang="en">Remote User Settings</source>
+    </trans-unit>
+    <trans-unit id="saveAndRetry">
+      <source xml:lang="en">Save and Retry</source>
+    </trans-unit>
+    <trans-unit id="userTarget">
+      <source xml:lang="en">User Settings</source>
+    </trans-unit>
+    <trans-unit id="workspaceTarget">
+      <source xml:lang="en">Workspace Settings</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/configuration/common/jsonEditingService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="errorFileDirty">
+      <source xml:lang="en">Unable to write into the file because the file is dirty. Please save the file and try again.</source>
+    </trans-unit>
+    <trans-unit id="errorInvalidFile">
+      <source xml:lang="en">Unable to write into the file. Please open the file to correct errors/warnings in the file and try again.</source>
+    </trans-unit>
+</body></file>
+</xliff>

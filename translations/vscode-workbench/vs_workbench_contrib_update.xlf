@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/contrib/update/browser/releaseNotesEditor" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="releaseNotesInputName">
+      <source xml:lang="en">Release Notes: {0}</source>
+    </trans-unit>
+    <trans-unit id="unassigned">
+      <source xml:lang="en">unassigned</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/update/browser/update" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="DownloadingUpdate">
+      <source xml:lang="en">Downloading Update...</source>
+    </trans-unit>
+    <trans-unit id="cancel">
+      <source xml:lang="en">Cancel</source>
+    </trans-unit>
+    <trans-unit id="checkForUpdates">
+      <source xml:lang="en">Check for Updates...</source>
+    </trans-unit>
+    <trans-unit id="checkingForUpdates">
+      <source xml:lang="en">Checking for Updates...</source>
+    </trans-unit>
+    <trans-unit id="download update">
+      <source xml:lang="en">Download Update</source>
+    </trans-unit>
+    <trans-unit id="download update_1">
+      <source xml:lang="en">Download Update (1)</source>
+    </trans-unit>
+    <trans-unit id="downloading">
+      <source xml:lang="en">Downloading...</source>
+    </trans-unit>
+    <trans-unit id="installUpdate">
+      <source xml:lang="en">Install Update</source>
+    </trans-unit>
+    <trans-unit id="installUpdate...">
+      <source xml:lang="en">Install Update... (1)</source>
+    </trans-unit>
+    <trans-unit id="installingUpdate">
+      <source xml:lang="en">Installing Update...</source>
+    </trans-unit>
+    <trans-unit id="later">
+      <source xml:lang="en">Later</source>
+    </trans-unit>
+    <trans-unit id="noUpdatesAvailable">
+      <source xml:lang="en">There are currently no updates available.</source>
+    </trans-unit>
+    <trans-unit id="read the release notes">
+      <source xml:lang="en">Welcome to {0} v{1}! Would you like to read the Release Notes?</source>
+    </trans-unit>
+    <trans-unit id="relaunchDetailInsiders">
+      <source xml:lang="en">Press the reload button to switch to the nightly pre-production version of VSCode.</source>
+    </trans-unit>
+    <trans-unit id="relaunchDetailStable">
+      <source xml:lang="en">Press the reload button to switch to the monthly released stable version of VSCode.</source>
+    </trans-unit>
+    <trans-unit id="relaunchMessage">
+      <source xml:lang="en">Changing the version requires a reload to take effect</source>
+    </trans-unit>
+    <trans-unit id="releaseNotes">
+      <source xml:lang="en">Release Notes</source>
+    </trans-unit>
+    <trans-unit id="reload">
+      <source xml:lang="en">&amp;&amp;Reload</source>
+    </trans-unit>
+    <trans-unit id="restartToUpdate">
+      <source xml:lang="en">Restart to Update (1)</source>
+    </trans-unit>
+    <trans-unit id="selectSyncService.detail">
+      <source xml:lang="en">The Insiders version of VS Code will synchronize your settings, keybindings, extensions, snippets and UI State using separate insiders settings sync service by default.</source>
+    </trans-unit>
+    <trans-unit id="selectSyncService.message">
+      <source xml:lang="en">Choose the settings sync service to use after changing the version</source>
+    </trans-unit>
+    <trans-unit id="showReleaseNotes">
+      <source xml:lang="en">Show Release Notes</source>
+    </trans-unit>
+    <trans-unit id="switchToInsiders">
+      <source xml:lang="en">Switch to Insiders Version...</source>
+    </trans-unit>
+    <trans-unit id="switchToStable">
+      <source xml:lang="en">Switch to Stable Version...</source>
+    </trans-unit>
+    <trans-unit id="thereIsUpdateAvailable">
+      <source xml:lang="en">There is an available update.</source>
+    </trans-unit>
+    <trans-unit id="update service">
+      <source xml:lang="en">Update Service</source>
+    </trans-unit>
+    <trans-unit id="update.noReleaseNotesOnline">
+      <source xml:lang="en">This version of {0} does not have release notes online</source>
+    </trans-unit>
+    <trans-unit id="updateAvailable">
+      <source xml:lang="en">There's an update available: {0} {1}</source>
+    </trans-unit>
+    <trans-unit id="updateAvailableAfterRestart">
+      <source xml:lang="en">Restart {0} to apply the latest update.</source>
+    </trans-unit>
+    <trans-unit id="updateIsReady">
+      <source xml:lang="en">New {0} update available.</source>
+    </trans-unit>
+    <trans-unit id="updateNow">
+      <source xml:lang="en">Update Now</source>
+    </trans-unit>
+    <trans-unit id="updating">
+      <source xml:lang="en">Updating...</source>
+    </trans-unit>
+    <trans-unit id="use insiders">
+      <source xml:lang="en">Insiders</source>
+    </trans-unit>
+    <trans-unit id="use stable">
+      <source xml:lang="en">Stable (current)</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/update/browser/update.contribution" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="miReleaseNotes">
+      <source xml:lang="en">&amp;&amp;Release Notes</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+</body></file>
+</xliff>

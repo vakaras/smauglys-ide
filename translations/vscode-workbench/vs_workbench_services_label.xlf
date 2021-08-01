@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/services/label/common/labelService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="untitledWorkspace">
+      <source xml:lang="en">Untitled (Workspace)</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.resourceLabelFormatters">
+      <source xml:lang="en">Contributes resource label formatting rules.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.resourceLabelFormatters.authority">
+      <source xml:lang="en">URI authority on which to match the formatter on. Simple glob patterns are supported.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.resourceLabelFormatters.formatting">
+      <source xml:lang="en">Rules for formatting uri resource labels.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.resourceLabelFormatters.formatting.workspaceSuffix">
+      <source xml:lang="en">Suffix appended to the workspace label.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.resourceLabelFormatters.label">
+      <source xml:lang="en">Label rules to display. For example: myLabel:/${path}. ${path}, ${scheme} and ${authority} are supported as variables.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.resourceLabelFormatters.scheme">
+      <source xml:lang="en">URI scheme on which to match the formatter on. For example "file". Simple glob patterns are supported.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.resourceLabelFormatters.separator">
+      <source xml:lang="en">Separator to be used in the uri label display. '/' or '' as an example.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.resourceLabelFormatters.stripPathStartingSeparator">
+      <source xml:lang="en">Controls whether `${path}` substitutions should have starting separator characters stripped.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.resourceLabelFormatters.tildify">
+      <source xml:lang="en">Controls if the start of the uri label should be tildified when possible.</source>
+    </trans-unit>
+    <trans-unit id="workspaceName">
+      <source xml:lang="en">{0} (Workspace)</source>
+    </trans-unit>
+    <trans-unit id="workspaceNameVerbose">
+      <source xml:lang="en">{0} (Workspace)</source>
+    </trans-unit>
+</body></file>
+</xliff>

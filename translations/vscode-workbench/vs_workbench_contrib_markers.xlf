@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/contrib/markers/browser/markers" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="totalProblems">
+      <source xml:lang="en">Total {0} Problems</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/markers/browser/markers.contribution" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="clearFiltersText">
+      <source xml:lang="en">Clear filters text</source>
+    </trans-unit>
+    <trans-unit id="collapseAll">
+      <source xml:lang="en">Collapse All</source>
+    </trans-unit>
+    <trans-unit id="copyMarker">
+      <source xml:lang="en">Copy</source>
+    </trans-unit>
+    <trans-unit id="copyMessage">
+      <source xml:lang="en">Copy Message</source>
+    </trans-unit>
+    <trans-unit id="filter">
+      <source xml:lang="en">Filter</source>
+    </trans-unit>
+    <trans-unit id="focusProblemsFilter">
+      <source xml:lang="en">Focus problems filter</source>
+    </trans-unit>
+    <trans-unit id="focusProblemsList">
+      <source xml:lang="en">Focus problems view</source>
+    </trans-unit>
+    <trans-unit id="manyProblems">
+      <source xml:lang="en">10K+</source>
+    </trans-unit>
+    <trans-unit id="markersViewIcon">
+      <source xml:lang="en">View icon of the markers view.</source>
+    </trans-unit>
+    <trans-unit id="miMarker">
+      <source xml:lang="en">&amp;&amp;Problems</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="noProblems">
+      <source xml:lang="en">No Problems</source>
+    </trans-unit>
+    <trans-unit id="problems">
+      <source xml:lang="en">Problems</source>
+    </trans-unit>
+    <trans-unit id="show multiline">
+      <source xml:lang="en">Show message in multiple lines</source>
+    </trans-unit>
+    <trans-unit id="show singleline">
+      <source xml:lang="en">Show message in single line</source>
+    </trans-unit>
+    <trans-unit id="status.problems">
+      <source xml:lang="en">Problems</source>
+    </trans-unit>
+    <trans-unit id="totalErrors">
+      <source xml:lang="en">{0} Errors</source>
+    </trans-unit>
+    <trans-unit id="totalInfos">
+      <source xml:lang="en">{0} Infos</source>
+    </trans-unit>
+    <trans-unit id="totalWarnings">
+      <source xml:lang="en">{0} Warnings</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/markers/browser/markersFileDecorations" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="label">
+      <source xml:lang="en">Problems</source>
+    </trans-unit>
+    <trans-unit id="markers.showOnFile">
+      <source xml:lang="en">Show Errors &amp; Warnings on files and folder.</source>
+    </trans-unit>
+    <trans-unit id="tooltip.1">
+      <source xml:lang="en">1 problem in this file</source>
+    </trans-unit>
+    <trans-unit id="tooltip.N">
+      <source xml:lang="en">{0} problems in this file</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/markers/browser/markersTreeViewer" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="collapsedIcon">
+      <source xml:lang="en">Icon indicating that multiple lines are collapsed in the markers view.</source>
+    </trans-unit>
+    <trans-unit id="expandedIcon">
+      <source xml:lang="en">Icon indicating that multiple lines are shown in the markers view.</source>
+    </trans-unit>
+    <trans-unit id="links.navigate.follow">
+      <source xml:lang="en">Follow link</source>
+    </trans-unit>
+    <trans-unit id="links.navigate.kb.alt">
+      <source xml:lang="en">alt + click</source>
+    </trans-unit>
+    <trans-unit id="links.navigate.kb.alt.mac">
+      <source xml:lang="en">option + click</source>
+    </trans-unit>
+    <trans-unit id="links.navigate.kb.meta">
+      <source xml:lang="en">ctrl + click</source>
+    </trans-unit>
+    <trans-unit id="links.navigate.kb.meta.mac">
+      <source xml:lang="en">cmd + click</source>
+    </trans-unit>
+    <trans-unit id="multi line">
+      <source xml:lang="en">Show message in multiple lines</source>
+    </trans-unit>
+    <trans-unit id="problemsView">
+      <source xml:lang="en">Problems View</source>
+    </trans-unit>
+    <trans-unit id="single line">
+      <source xml:lang="en">Show message in single line</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/markers/browser/markersView" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="No problems filtered">
+      <source xml:lang="en">Showing {0} problems</source>
+    </trans-unit>
+    <trans-unit id="clearFilter">
+      <source xml:lang="en">Clear Filters</source>
+    </trans-unit>
+    <trans-unit id="problems filtered">
+      <source xml:lang="en">Showing {0} of {1} problems</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/markers/browser/markersViewActions" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="filterIcon">
+      <source xml:lang="en">Icon for the filter configuration in the markers view.</source>
+    </trans-unit>
+    <trans-unit id="showing filtered problems">
+      <source xml:lang="en">Showing {0} of {1}</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/markers/browser/messages" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="errors.warnings.show.label">
+      <source xml:lang="en">Show Errors and Warnings</source>
+    </trans-unit>
+    <trans-unit id="markers.panel.action.filter">
+      <source xml:lang="en">Filter Problems</source>
+    </trans-unit>
+    <trans-unit id="markers.panel.action.moreFilters">
+      <source xml:lang="en">More Filters...</source>
+    </trans-unit>
+    <trans-unit id="markers.panel.action.quickfix">
+      <source xml:lang="en">Show fixes</source>
+    </trans-unit>
+    <trans-unit id="markers.panel.at.ln.col.number">
+      <source xml:lang="en">[{0}, {1}]</source>
+    </trans-unit>
+    <trans-unit id="markers.panel.filter.activeFile">
+      <source xml:lang="en">Show Active File Only</source>
+    </trans-unit>
+    <trans-unit id="markers.panel.filter.ariaLabel">
+      <source xml:lang="en">Filter Problems</source>
+    </trans-unit>
+    <trans-unit id="markers.panel.filter.errors">
+      <source xml:lang="en">errors</source>
+    </trans-unit>
+    <trans-unit id="markers.panel.filter.infos">
+      <source xml:lang="en">infos</source>
+    </trans-unit>
+    <trans-unit id="markers.panel.filter.placeholder">
+      <source xml:lang="en">Filter (e.g. text, **/*.ts, !**/node_modules/**)</source>
+    </trans-unit>
+    <trans-unit id="markers.panel.filter.showErrors">
+      <source xml:lang="en">Show Errors</source>
+    </trans-unit>
+    <trans-unit id="markers.panel.filter.showInfos">
+      <source xml:lang="en">Show Infos</source>
+    </trans-unit>
+    <trans-unit id="markers.panel.filter.showWarnings">
+      <source xml:lang="en">Show Warnings</source>
+    </trans-unit>
+    <trans-unit id="markers.panel.filter.useFilesExclude">
+      <source xml:lang="en">Hide Excluded Files</source>
+    </trans-unit>
+    <trans-unit id="markers.panel.filter.warnings">
+      <source xml:lang="en">warnings</source>
+    </trans-unit>
+    <trans-unit id="markers.panel.multiple.errors.label">
+      <source xml:lang="en">{0} Errors</source>
+    </trans-unit>
+    <trans-unit id="markers.panel.multiple.infos.label">
+      <source xml:lang="en">{0} Infos</source>
+    </trans-unit>
+    <trans-unit id="markers.panel.multiple.unknowns.label">
+      <source xml:lang="en">{0} Unknowns</source>
+    </trans-unit>
+    <trans-unit id="markers.panel.multiple.warnings.label">
+      <source xml:lang="en">{0} Warnings</source>
+    </trans-unit>
+    <trans-unit id="markers.panel.no.problems.activeFile.build">
+      <source xml:lang="en">No problems have been detected in the current file.</source>
+    </trans-unit>
+    <trans-unit id="markers.panel.no.problems.build">
+      <source xml:lang="en">No problems have been detected in the workspace.</source>
+    </trans-unit>
+    <trans-unit id="markers.panel.no.problems.filters">
+      <source xml:lang="en">No results found with provided filter criteria.</source>
+    </trans-unit>
+    <trans-unit id="markers.panel.single.error.label">
+      <source xml:lang="en">1 Error</source>
+    </trans-unit>
+    <trans-unit id="markers.panel.single.info.label">
+      <source xml:lang="en">1 Info</source>
+    </trans-unit>
+    <trans-unit id="markers.panel.single.unknown.label">
+      <source xml:lang="en">1 Unknown</source>
+    </trans-unit>
+    <trans-unit id="markers.panel.single.warning.label">
+      <source xml:lang="en">1 Warning</source>
+    </trans-unit>
+    <trans-unit id="markers.panel.title.problems">
+      <source xml:lang="en">Problems</source>
+    </trans-unit>
+    <trans-unit id="problems.panel.configuration.autoreveal">
+      <source xml:lang="en">Controls whether Problems view should automatically reveal files when opening them.</source>
+    </trans-unit>
+    <trans-unit id="problems.panel.configuration.showCurrentInStatus">
+      <source xml:lang="en">When enabled shows the current problem in the status bar.</source>
+    </trans-unit>
+    <trans-unit id="problems.panel.configuration.title">
+      <source xml:lang="en">Problems View</source>
+    </trans-unit>
+    <trans-unit id="problems.tree.aria.label.error.marker">
+      <source xml:lang="en">Error generated by {0}: {1} at line {2} and character {3}.{4}</source>
+    </trans-unit>
+    <trans-unit id="problems.tree.aria.label.error.marker.nosource">
+      <source xml:lang="en">Error: {0} at line {1} and character {2}.{3}</source>
+    </trans-unit>
+    <trans-unit id="problems.tree.aria.label.info.marker">
+      <source xml:lang="en">Info generated by {0}: {1} at line {2} and character {3}.{4}</source>
+    </trans-unit>
+    <trans-unit id="problems.tree.aria.label.info.marker.nosource">
+      <source xml:lang="en">Info: {0} at line {1} and character {2}.{3}</source>
+    </trans-unit>
+    <trans-unit id="problems.tree.aria.label.marker">
+      <source xml:lang="en">Problem generated by {0}: {1} at line {2} and character {3}.{4}</source>
+    </trans-unit>
+    <trans-unit id="problems.tree.aria.label.marker.nosource">
+      <source xml:lang="en">Problem: {0} at line {1} and character {2}.{3}</source>
+    </trans-unit>
+    <trans-unit id="problems.tree.aria.label.marker.relatedInformation">
+      <source xml:lang="en"> This problem has references to {0} locations.</source>
+    </trans-unit>
+    <trans-unit id="problems.tree.aria.label.relatedinfo.message">
+      <source xml:lang="en">{0} at line {1} and character {2} in {3}</source>
+    </trans-unit>
+    <trans-unit id="problems.tree.aria.label.resource">
+      <source xml:lang="en">{0} problems in file {1} of folder {2}</source>
+    </trans-unit>
+    <trans-unit id="problems.tree.aria.label.warning.marker">
+      <source xml:lang="en">Warning generated by {0}: {1} at line {2} and character {3}.{4}</source>
+    </trans-unit>
+    <trans-unit id="problems.tree.aria.label.warning.marker.nosource">
+      <source xml:lang="en">Warning: {0} at line {1} and character {2}.{3}</source>
+    </trans-unit>
+    <trans-unit id="problems.view.focus.label">
+      <source xml:lang="en">Focus Problems (Errors, Warnings, Infos)</source>
+    </trans-unit>
+    <trans-unit id="problems.view.toggle.label">
+      <source xml:lang="en">Toggle Problems (Errors, Warnings, Infos)</source>
+    </trans-unit>
+</body></file>
+</xliff>

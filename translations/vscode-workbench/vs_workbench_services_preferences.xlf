@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/services/preferences/browser/keybindingsEditorInput" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="keybindingsInputName">
+      <source xml:lang="en">Keyboard Shortcuts</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/preferences/browser/keybindingsEditorModel" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="cat.title">
+      <source xml:lang="en">{0}: {1}</source>
+    </trans-unit>
+    <trans-unit id="default">
+      <source xml:lang="en">Default</source>
+    </trans-unit>
+    <trans-unit id="extension">
+      <source xml:lang="en">Extension</source>
+    </trans-unit>
+    <trans-unit id="meta">
+      <source xml:lang="en">meta</source>
+    </trans-unit>
+    <trans-unit id="option">
+      <source xml:lang="en">option</source>
+    </trans-unit>
+    <trans-unit id="user">
+      <source xml:lang="en">User</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/preferences/browser/preferencesService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="defaultKeybindings">
+      <source xml:lang="en">Default Keybindings</source>
+    </trans-unit>
+    <trans-unit id="defaultSettings">
+      <source xml:lang="en">Default Settings</source>
+    </trans-unit>
+    <trans-unit id="emptyKeybindingsHeader">
+      <source xml:lang="en">Place your key bindings in this file to override the defaults</source>
+    </trans-unit>
+    <trans-unit id="fail.createSettings">
+      <source xml:lang="en">Unable to create '{0}' ({1}).</source>
+    </trans-unit>
+    <trans-unit id="folderSettingsName">
+      <source xml:lang="en">{0} (Folder Settings)</source>
+    </trans-unit>
+    <trans-unit id="openFolderFirst">
+      <source xml:lang="en">Open a folder or workspace first to create workspace or folder settings.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/preferences/common/preferences" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="userSettingsTarget">
+      <source xml:lang="en">User Settings</source>
+    </trans-unit>
+    <trans-unit id="workspaceSettingsTarget">
+      <source xml:lang="en">Workspace Settings</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/preferences/common/preferencesEditorInput" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="settingsEditor2InputName">
+      <source xml:lang="en">Settings</source>
+    </trans-unit>
+    <trans-unit id="settingsEditorName">
+      <source xml:lang="en">Default Settings</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/preferences/common/preferencesModels" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="commonlyUsed">
+      <source xml:lang="en">Commonly Used</source>
+    </trans-unit>
+    <trans-unit id="defaultKeybindingsHeader">
+      <source xml:lang="en">Override key bindings by placing them into your key bindings file.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/preferences/common/preferencesValidation" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="invalidTypeError">
+      <source xml:lang="en">Setting has an invalid type, expected {0}. Fix in JSON.</source>
+    </trans-unit>
+    <trans-unit id="validations.colorFormat">
+      <source xml:lang="en">Invalid color format. Use #RGB, #RGBA, #RRGGBB or #RRGGBBAA.</source>
+    </trans-unit>
+    <trans-unit id="validations.exclusiveMax">
+      <source xml:lang="en">Value must be strictly less than {0}.</source>
+    </trans-unit>
+    <trans-unit id="validations.exclusiveMin">
+      <source xml:lang="en">Value must be strictly greater than {0}.</source>
+    </trans-unit>
+    <trans-unit id="validations.expectedInteger">
+      <source xml:lang="en">Value must be an integer.</source>
+    </trans-unit>
+    <trans-unit id="validations.expectedNumeric">
+      <source xml:lang="en">Value must be a number.</source>
+    </trans-unit>
+    <trans-unit id="validations.max">
+      <source xml:lang="en">Value must be less than or equal to {0}.</source>
+    </trans-unit>
+    <trans-unit id="validations.maxLength">
+      <source xml:lang="en">Value must be {0} or fewer characters long.</source>
+    </trans-unit>
+    <trans-unit id="validations.min">
+      <source xml:lang="en">Value must be greater than or equal to {0}.</source>
+    </trans-unit>
+    <trans-unit id="validations.minLength">
+      <source xml:lang="en">Value must be {0} or more characters long.</source>
+    </trans-unit>
+    <trans-unit id="validations.multipleOf">
+      <source xml:lang="en">Value must be a multiple of {0}.</source>
+    </trans-unit>
+    <trans-unit id="validations.regex">
+      <source xml:lang="en">Value must match regex `{0}`.</source>
+    </trans-unit>
+    <trans-unit id="validations.stringArrayItemEnum">
+      <source xml:lang="en">Value {0} is not one of {1}</source>
+    </trans-unit>
+    <trans-unit id="validations.stringArrayItemPattern">
+      <source xml:lang="en">Value {0} must match regex {1}.</source>
+    </trans-unit>
+    <trans-unit id="validations.stringArrayMaxItem">
+      <source xml:lang="en">Array must have at most {0} items</source>
+    </trans-unit>
+    <trans-unit id="validations.stringArrayMinItem">
+      <source xml:lang="en">Array must have at least {0} items</source>
+    </trans-unit>
+    <trans-unit id="validations.stringArrayUniqueItems">
+      <source xml:lang="en">Array has duplicate items</source>
+    </trans-unit>
+    <trans-unit id="validations.uriEmpty">
+      <source xml:lang="en">URI expected.</source>
+    </trans-unit>
+    <trans-unit id="validations.uriMissing">
+      <source xml:lang="en">URI is expected.</source>
+    </trans-unit>
+    <trans-unit id="validations.uriSchemeMissing">
+      <source xml:lang="en">URI with a scheme is expected.</source>
+    </trans-unit>
+</body></file>
+</xliff>

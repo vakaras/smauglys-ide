@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/contrib/themes/browser/themes.contribution" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="defaultProductIconThemeLabel">
+      <source xml:lang="en">Default</source>
+    </trans-unit>
+    <trans-unit id="generateColorTheme.label">
+      <source xml:lang="en">Generate Color Theme From Current Settings</source>
+    </trans-unit>
+    <trans-unit id="installColorThemes">
+      <source xml:lang="en">Install Additional Color Themes...</source>
+    </trans-unit>
+    <trans-unit id="installIconThemes">
+      <source xml:lang="en">Install Additional File Icon Themes...</source>
+    </trans-unit>
+    <trans-unit id="installProductIconThemes">
+      <source xml:lang="en">Install Additional Product Icon Themes...</source>
+    </trans-unit>
+    <trans-unit id="miSelectColorTheme">
+      <source xml:lang="en">&amp;&amp;Color Theme</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="miSelectIconTheme">
+      <source xml:lang="en">File &amp;&amp;Icon Theme</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="miSelectProductIconTheme">
+      <source xml:lang="en">&amp;&amp;Product Icon Theme</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="noIconThemeDesc">
+      <source xml:lang="en">Disable File Icons</source>
+    </trans-unit>
+    <trans-unit id="noIconThemeLabel">
+      <source xml:lang="en">None</source>
+    </trans-unit>
+    <trans-unit id="preferences">
+      <source xml:lang="en">Preferences</source>
+    </trans-unit>
+    <trans-unit id="selectIconTheme.label">
+      <source xml:lang="en">File Icon Theme</source>
+    </trans-unit>
+    <trans-unit id="selectProductIconTheme.label">
+      <source xml:lang="en">Product Icon Theme</source>
+    </trans-unit>
+    <trans-unit id="selectTheme.label">
+      <source xml:lang="en">Color Theme</source>
+    </trans-unit>
+    <trans-unit id="themes.category.dark">
+      <source xml:lang="en">dark themes</source>
+    </trans-unit>
+    <trans-unit id="themes.category.hc">
+      <source xml:lang="en">high contrast themes</source>
+    </trans-unit>
+    <trans-unit id="themes.category.light">
+      <source xml:lang="en">light themes</source>
+    </trans-unit>
+    <trans-unit id="themes.selectIconTheme">
+      <source xml:lang="en">Select File Icon Theme</source>
+    </trans-unit>
+    <trans-unit id="themes.selectIconTheme.label">
+      <source xml:lang="en">File Icon Theme</source>
+    </trans-unit>
+    <trans-unit id="themes.selectProductIconTheme">
+      <source xml:lang="en">Select Product Icon Theme</source>
+    </trans-unit>
+    <trans-unit id="themes.selectProductIconTheme.label">
+      <source xml:lang="en">Product Icon Theme</source>
+    </trans-unit>
+    <trans-unit id="themes.selectTheme">
+      <source xml:lang="en">Select Color Theme (Up/Down Keys to Preview)</source>
+    </trans-unit>
+</body></file>
+</xliff>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/contrib/webview/browser/baseWebviewElement" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="fatalErrorMessage">
+      <source xml:lang="en">Error loading webview: {0}</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/webview/browser/webview.contribution" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="copy">
+      <source xml:lang="en">Copy</source>
+    </trans-unit>
+    <trans-unit id="cut">
+      <source xml:lang="en">Cut</source>
+    </trans-unit>
+    <trans-unit id="paste">
+      <source xml:lang="en">Paste</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/webview/electron-browser/webviewCommands" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="iframeWebviewAlert">
+      <source xml:lang="en">Using standard dev tools to debug iframe based webview</source>
+    </trans-unit>
+    <trans-unit id="openToolsLabel">
+      <source xml:lang="en">Open Webview Developer Tools</source>
+    </trans-unit>
+</body></file>
+</xliff>

@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/contrib/remote/browser/explorerViewItems" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="remote.explorer.switch">
+      <source xml:lang="en">Switch Remote</source>
+    </trans-unit>
+    <trans-unit id="remotes">
+      <source xml:lang="en">Switch Remote</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/remote/browser/remote" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="RemoteHelpInformationExtPoint">
+      <source xml:lang="en">Contributes help information for Remote</source>
+    </trans-unit>
+    <trans-unit id="RemoteHelpInformationExtPoint.documentation">
+      <source xml:lang="en">The url, or a command that returns the url, to your project's documentation page</source>
+    </trans-unit>
+    <trans-unit id="RemoteHelpInformationExtPoint.feedback">
+      <source xml:lang="en">The url, or a command that returns the url, to your project's feedback reporter</source>
+    </trans-unit>
+    <trans-unit id="RemoteHelpInformationExtPoint.getStarted">
+      <source xml:lang="en">The url, or a command that returns the url, to your project's Getting Started page</source>
+    </trans-unit>
+    <trans-unit id="RemoteHelpInformationExtPoint.issues">
+      <source xml:lang="en">The url, or a command that returns the url, to your project's issues list</source>
+    </trans-unit>
+    <trans-unit id="cancel">
+      <source xml:lang="en">Cancel</source>
+    </trans-unit>
+    <trans-unit id="connectionLost">
+      <source xml:lang="en">Connection Lost</source>
+    </trans-unit>
+    <trans-unit id="pickRemoteExtension">
+      <source xml:lang="en">Select url to open</source>
+    </trans-unit>
+    <trans-unit id="reconnectNow">
+      <source xml:lang="en">Reconnect Now</source>
+    </trans-unit>
+    <trans-unit id="reconnectionPermanentFailure">
+      <source xml:lang="en">Cannot reconnect. Please reload the window.</source>
+    </trans-unit>
+    <trans-unit id="reconnectionRunning">
+      <source xml:lang="en">Disconnected. Attempting to reconnect...</source>
+    </trans-unit>
+    <trans-unit id="reconnectionWaitMany">
+      <source xml:lang="en">Attempting to reconnect in {0} seconds...</source>
+    </trans-unit>
+    <trans-unit id="reconnectionWaitOne">
+      <source xml:lang="en">Attempting to reconnect in {0} second...</source>
+    </trans-unit>
+    <trans-unit id="reloadWindow">
+      <source xml:lang="en">Reload Window</source>
+    </trans-unit>
+    <trans-unit id="remote.explorer">
+      <source xml:lang="en">Remote Explorer</source>
+    </trans-unit>
+    <trans-unit id="remote.help">
+      <source xml:lang="en">Help and feedback</source>
+    </trans-unit>
+    <trans-unit id="remote.help.documentation">
+      <source xml:lang="en">Read Documentation</source>
+    </trans-unit>
+    <trans-unit id="remote.help.feedback">
+      <source xml:lang="en">Provide Feedback</source>
+    </trans-unit>
+    <trans-unit id="remote.help.getStarted">
+      <source xml:lang="en">Get Started</source>
+    </trans-unit>
+    <trans-unit id="remote.help.issues">
+      <source xml:lang="en">Review Issues</source>
+    </trans-unit>
+    <trans-unit id="remote.help.report">
+      <source xml:lang="en">Report Issue</source>
+    </trans-unit>
+    <trans-unit id="remotehelp">
+      <source xml:lang="en">Remote Help</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/remote/browser/remoteExplorer" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="1forwardedPort">
+      <source xml:lang="en">1 forwarded port</source>
+    </trans-unit>
+    <trans-unit id="nForwardedPorts">
+      <source xml:lang="en">{0} forwarded ports</source>
+    </trans-unit>
+    <trans-unit id="ports">
+      <source xml:lang="en">Ports</source>
+    </trans-unit>
+    <trans-unit id="remote.forwardedPorts.statusbarTextNone">
+      <source xml:lang="en">No Ports Forwarded</source>
+    </trans-unit>
+    <trans-unit id="remote.forwardedPorts.statusbarTooltip">
+      <source xml:lang="en">Forwarded Ports: {0}</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnelsView.automaticForward">
+      <source xml:lang="en">Your application running on port {0} is available.  </source>
+    </trans-unit>
+    <trans-unit id="remote.tunnelsView.elevationButton">
+      <source xml:lang="en">Use Port {0} as Sudo...</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnelsView.elevationMessage">
+      <source xml:lang="en">You'll need to run as superuser to use port {0} locally.  </source>
+    </trans-unit>
+    <trans-unit id="remote.tunnelsView.notificationLink2">
+      <source xml:lang="en">[See all forwarded ports]({0})</source>
+      <note>[See all forwarded ports]({0}) is a link. Only translate `See all forwarded ports`. Do not change brackets and parentheses or {0}</note>
+    </trans-unit>
+    <trans-unit id="status.forwardedPorts">
+      <source xml:lang="en">Forwarded Ports</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/remote/browser/remoteIcons" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="copyAddressIcon">
+      <source xml:lang="en">Icon for the copy local address action.</source>
+    </trans-unit>
+    <trans-unit id="documentationIcon">
+      <source xml:lang="en">Documentation icon in the remote explorer view.</source>
+    </trans-unit>
+    <trans-unit id="feedbackIcon">
+      <source xml:lang="en">Feedback icon in the remote explorer view.</source>
+    </trans-unit>
+    <trans-unit id="forwardPortIcon">
+      <source xml:lang="en">Icon for the forward action.</source>
+    </trans-unit>
+    <trans-unit id="forwardedPortWithProcessIcon">
+      <source xml:lang="en">Icon for forwarded ports that do have a running process.</source>
+    </trans-unit>
+    <trans-unit id="forwardedPortWithoutProcessIcon">
+      <source xml:lang="en">Icon for forwarded ports that don't have a running process.</source>
+    </trans-unit>
+    <trans-unit id="getStartedIcon">
+      <source xml:lang="en">Getting started icon in the remote explorer view.</source>
+    </trans-unit>
+    <trans-unit id="labelPortIcon">
+      <source xml:lang="en">Icon for the label port action.</source>
+    </trans-unit>
+    <trans-unit id="openBrowserIcon">
+      <source xml:lang="en">Icon for the open browser action.</source>
+    </trans-unit>
+    <trans-unit id="openPreviewIcon">
+      <source xml:lang="en">Icon for the open preview action.</source>
+    </trans-unit>
+    <trans-unit id="portIcon">
+      <source xml:lang="en">Icon representing a remote port.</source>
+    </trans-unit>
+    <trans-unit id="portsViewIcon">
+      <source xml:lang="en">View icon of the remote ports view.</source>
+    </trans-unit>
+    <trans-unit id="privatePortIcon">
+      <source xml:lang="en">Icon representing a private remote port.</source>
+    </trans-unit>
+    <trans-unit id="publicPortIcon">
+      <source xml:lang="en">Icon representing a public remote port.</source>
+    </trans-unit>
+    <trans-unit id="remoteExplorerViewIcon">
+      <source xml:lang="en">View icon of the remote explorer view.</source>
+    </trans-unit>
+    <trans-unit id="reportIssuesIcon">
+      <source xml:lang="en">Report issue icon in the remote explorer view.</source>
+    </trans-unit>
+    <trans-unit id="reviewIssuesIcon">
+      <source xml:lang="en">Review issue icon in the remote explorer view.</source>
+    </trans-unit>
+    <trans-unit id="stopForwardIcon">
+      <source xml:lang="en">Icon for the stop forwarding action.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/remote/browser/remoteIndicator" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="closeRemoteConnection.title">
+      <source xml:lang="en">Close Remote Connection</source>
+    </trans-unit>
+    <trans-unit id="closeVirtualWorkspace.title">
+      <source xml:lang="en">Close Remote Workspace</source>
+    </trans-unit>
+    <trans-unit id="disconnectedFrom">
+      <source xml:lang="en">Disconnected from {0}</source>
+    </trans-unit>
+    <trans-unit id="host.open">
+      <source xml:lang="en">Opening Remote...</source>
+    </trans-unit>
+    <trans-unit id="host.reconnecting">
+      <source xml:lang="en">Reconnecting to {0}...</source>
+    </trans-unit>
+    <trans-unit id="host.tooltip">
+      <source xml:lang="en">Editing on {0}</source>
+      <note>{0} is a remote host name, e.g. Dev Container</note>
+    </trans-unit>
+    <trans-unit id="installRemotes">
+      <source xml:lang="en">Install Additional Remote Extensions...</source>
+    </trans-unit>
+    <trans-unit id="miCloseRemote">
+      <source xml:lang="en">Close Re&amp;&amp;mote Connection</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="noHost.tooltip">
+      <source xml:lang="en">Open a Remote Window</source>
+    </trans-unit>
+    <trans-unit id="reloadWindow">
+      <source xml:lang="en">Reload Window</source>
+    </trans-unit>
+    <trans-unit id="remote.category">
+      <source xml:lang="en">Remote</source>
+    </trans-unit>
+    <trans-unit id="remote.close">
+      <source xml:lang="en">Close Remote Connection</source>
+    </trans-unit>
+    <trans-unit id="remote.install">
+      <source xml:lang="en">Install Remote Development Extensions</source>
+    </trans-unit>
+    <trans-unit id="remote.showMenu">
+      <source xml:lang="en">Show Remote Menu</source>
+    </trans-unit>
+    <trans-unit id="remoteHost">
+      <source xml:lang="en">Remote Host</source>
+    </trans-unit>
+    <trans-unit id="workspace.tooltip">
+      <source xml:lang="en">Editing on {0}</source>
+      <note>{0} is a remote workspace name, e.g. GitHub</note>
+    </trans-unit>
+    <trans-unit id="workspace.tooltip2">
+      <source xml:lang="en">Some [features are not available]({0}) for resources located on a virtual file system.</source>
+      <note>[features are not available]({1}) is a link. Only translate `features are not available`. Do not change brackets and parentheses or {0}</note>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/remote/browser/tunnelView" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="portWithRunningProcess.foreground">
+      <source xml:lang="en">The color of the icon for a port that has an associated running process.</source>
+    </trans-unit>
+    <trans-unit id="portsLink.followLinkAlt">
+      <source xml:lang="en">alt + click</source>
+    </trans-unit>
+    <trans-unit id="portsLink.followLinkAlt.mac">
+      <source xml:lang="en">option + click</source>
+    </trans-unit>
+    <trans-unit id="portsLink.followLinkCmd">
+      <source xml:lang="en">cmd + click</source>
+    </trans-unit>
+    <trans-unit id="portsLink.followLinkCtrl">
+      <source xml:lang="en">ctrl + click</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel">
+      <source xml:lang="en">Ports</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel.changeLocalPort">
+      <source xml:lang="en">Change Local Address Port</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel.changeLocalPortNumber">
+      <source xml:lang="en">The local port {0} is not available. Port number {1} has been used instead</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel.close">
+      <source xml:lang="en">Stop Forwarding Port</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel.closeNoPorts">
+      <source xml:lang="en">No ports currently forwarded. Try running the {0} command</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel.closePlaceholder">
+      <source xml:lang="en">Choose a port to stop forwarding</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel.copyAddressCommandPalette">
+      <source xml:lang="en">Copy Forwarded Port Address</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel.copyAddressInline">
+      <source xml:lang="en">Copy Local Address</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel.copyAddressPlaceholdter">
+      <source xml:lang="en">Choose a forwarded port</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel.forward">
+      <source xml:lang="en">Forward a Port</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel.forwardError">
+      <source xml:lang="en">Unable to forward {0}:{1}. The host may not be available or that remote port may already be forwarded</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel.forwardItem">
+      <source xml:lang="en">Forward Port</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel.forwardPrompt">
+      <source xml:lang="en">Port number or address (eg. 3000 or 10.10.10.10:2000).</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel.label">
+      <source xml:lang="en">Set Port Label</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel.makePrivate">
+      <source xml:lang="en">Make Private</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel.makePublic">
+      <source xml:lang="en">Make Public</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel.open">
+      <source xml:lang="en">Open in Browser</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel.openCommandPalette">
+      <source xml:lang="en">Open Port in Browser</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel.openCommandPaletteNone">
+      <source xml:lang="en">No ports currently forwarded. Open the Ports view to get started.</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel.openCommandPalettePick">
+      <source xml:lang="en">Choose the port to open</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel.openCommandPaletteView">
+      <source xml:lang="en">Open the Ports view...</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel.openPreview">
+      <source xml:lang="en">Preview in Editor</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel.protocolHttp">
+      <source xml:lang="en">HTTP</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel.protocolHttps">
+      <source xml:lang="en">HTTPS</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel.tooltipCandidate">
+      <source xml:lang="en">Remote port {0}:{1} not forwarded. </source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel.tooltipForwarded">
+      <source xml:lang="en">Remote port {0}:{1} forwarded to local address {2}. </source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel.tooltipName">
+      <source xml:lang="en">Port labeled {0}. </source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel.tooltipPrivate">
+      <source xml:lang="en">Only accessible from this machine. </source>
+    </trans-unit>
+    <trans-unit id="remote.tunnel.tooltipPublic">
+      <source xml:lang="en">Accessible publicly. </source>
+    </trans-unit>
+    <trans-unit id="remote.tunnelView.alreadyForwarded">
+      <source xml:lang="en">Port is already forwarded</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnelView.inlineElevationMessage">
+      <source xml:lang="en">May Require Sudo</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnelsView.addPort">
+      <source xml:lang="en">Add Port</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnelsView.changePort">
+      <source xml:lang="en">New local port</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnelsView.input">
+      <source xml:lang="en">Press Enter to confirm or Escape to cancel.</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnelsView.labelPlaceholder">
+      <source xml:lang="en">Port label</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnelsView.portNumberToHigh">
+      <source xml:lang="en">Port number must be ≥ 0 and &lt; {0}.</source>
+    </trans-unit>
+    <trans-unit id="remote.tunnelsView.portNumberValid">
+      <source xml:lang="en">Forwarded port is invalid.</source>
+    </trans-unit>
+    <trans-unit id="tunnel.addressColumn.label">
+      <source xml:lang="en">Local Address</source>
+    </trans-unit>
+    <trans-unit id="tunnel.addressColumn.tooltip">
+      <source xml:lang="en">The address that the forwarded port is available at locally.</source>
+    </trans-unit>
+    <trans-unit id="tunnel.focusContext">
+      <source xml:lang="en">Whether the Ports view has focus.</source>
+    </trans-unit>
+    <trans-unit id="tunnel.forwardedPortsViewEnabled">
+      <source xml:lang="en">Whether the Ports view is enabled.</source>
+    </trans-unit>
+    <trans-unit id="tunnel.iconColumn.notRunning">
+      <source xml:lang="en">No running process.</source>
+    </trans-unit>
+    <trans-unit id="tunnel.iconColumn.running">
+      <source xml:lang="en">Port has running process.</source>
+    </trans-unit>
+    <trans-unit id="tunnel.originColumn.label">
+      <source xml:lang="en">Origin</source>
+    </trans-unit>
+    <trans-unit id="tunnel.originColumn.tooltip">
+      <source xml:lang="en">The source that a forwarded port originates from. Can be an extension, user forwarded, statically forwarded, or automatically forwarded.</source>
+    </trans-unit>
+    <trans-unit id="tunnel.portColumn.label">
+      <source xml:lang="en">Port</source>
+    </trans-unit>
+    <trans-unit id="tunnel.portColumn.tooltip">
+      <source xml:lang="en">The label and remote port number of the forwarded port.</source>
+    </trans-unit>
+    <trans-unit id="tunnel.privacyColumn.label">
+      <source xml:lang="en">Privacy</source>
+    </trans-unit>
+    <trans-unit id="tunnel.privacyColumn.tooltip">
+      <source xml:lang="en">The availability of the forwarded port.</source>
+    </trans-unit>
+    <trans-unit id="tunnel.privacyPrivate">
+      <source xml:lang="en">Private</source>
+    </trans-unit>
+    <trans-unit id="tunnel.privacyPublic">
+      <source xml:lang="en">Public</source>
+    </trans-unit>
+    <trans-unit id="tunnel.processColumn.label">
+      <source xml:lang="en">Running Process</source>
+    </trans-unit>
+    <trans-unit id="tunnel.processColumn.tooltip">
+      <source xml:lang="en">The command line of the process that is using the port.</source>
+    </trans-unit>
+    <trans-unit id="tunnelContext.protocolMenu">
+      <source xml:lang="en">Change Port Protocol</source>
+    </trans-unit>
+    <trans-unit id="tunnelView">
+      <source xml:lang="en">Tunnel View</source>
+    </trans-unit>
+    <trans-unit id="tunnelView.runningProcess.inacessable">
+      <source xml:lang="en">Process information unavailable</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/remote/common/remote.contribution" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="remote">
+      <source xml:lang="en">Remote</source>
+    </trans-unit>
+    <trans-unit id="remote.autoForwardPorts">
+      <source xml:lang="en">When enabled, new running processes are detected and ports that they listen on are automatically forwarded. Disabling this setting will not prevent all ports from being forwarded. Even when disabled, extensions will still be able to cause ports to be forwarded, and opening some URLs will still cause ports to forwarded.</source>
+    </trans-unit>
+    <trans-unit id="remote.autoForwardPortsSource">
+      <source xml:lang="en">Sets the source from which ports are automatically forwarded when `remote.autoForwardPorts` is true. On Windows and Mac remotes, the `process` option has no effect and `output` will be used. Requires a reload to take effect.</source>
+    </trans-unit>
+    <trans-unit id="remote.autoForwardPortsSource.output">
+      <source xml:lang="en">Ports will be automatically forwarded when discovered by reading terminal and debug output. Not all processes that use ports will print to the integrated terminal or debug console, so some ports will be missed. Ports forwarded based on output will not be "un-forwarded" until reload or until the port is closed by the user in the Ports view.</source>
+    </trans-unit>
+    <trans-unit id="remote.autoForwardPortsSource.process">
+      <source xml:lang="en">Ports will be automatically forwarded when discovered by watching for processes that are started and include a port.</source>
+    </trans-unit>
+    <trans-unit id="remote.extensionKind">
+      <source xml:lang="en">Override the kind of an extension. `ui` extensions are installed and run on the local machine while `workspace` extensions are run on the remote. By overriding an extension's default kind using this setting, you specify if that extension should be installed and enabled locally or remotely.</source>
+    </trans-unit>
+    <trans-unit id="remote.localPortHost">
+      <source xml:lang="en">Specifies the local host name that will be used for port forwarding.</source>
+    </trans-unit>
+    <trans-unit id="remote.portsAttributes">
+      <source xml:lang="en">Set properties that are applied when a specific port number is forwarded. For example:
+
+```
+"3000": {
+  "label": "Application"
+},
+"40000-55000": {
+  "onAutoForward": "ignore"
+},
+".+\\/server.js": {
+ "onAutoForward": "openPreview"
+}
+```</source>
+    </trans-unit>
+    <trans-unit id="remote.portsAttributes.defaults">
+      <source xml:lang="en">Set default properties that are applied to all ports that don't get properties from the setting `remote.portsAttributes`. For example:
+
+```
+{
+  "onAutoForward": "ignore"
+}
+```</source>
+    </trans-unit>
+    <trans-unit id="remote.portsAttributes.elevateIfNeeded">
+      <source xml:lang="en">Automatically prompt for elevation (if needed) when this port is forwarded. Elevate is required if the local port is a privileged port.</source>
+    </trans-unit>
+    <trans-unit id="remote.portsAttributes.ignore">
+      <source xml:lang="en">This port will not be automatically forwarded.</source>
+    </trans-unit>
+    <trans-unit id="remote.portsAttributes.label">
+      <source xml:lang="en">Label that will be shown in the UI for this port.</source>
+    </trans-unit>
+    <trans-unit id="remote.portsAttributes.labelDefault">
+      <source xml:lang="en">Application</source>
+    </trans-unit>
+    <trans-unit id="remote.portsAttributes.notify">
+      <source xml:lang="en">Shows a notification when a port is automatically forwarded.</source>
+    </trans-unit>
+    <trans-unit id="remote.portsAttributes.onForward">
+      <source xml:lang="en">Defines the action that occurs when the port is discovered for automatic forwarding</source>
+    </trans-unit>
+    <trans-unit id="remote.portsAttributes.openBrowser">
+      <source xml:lang="en">Opens the browser when the port is automatically forwarded. Depending on your settings, this could open an embedded browser.</source>
+    </trans-unit>
+    <trans-unit id="remote.portsAttributes.openBrowserOnce">
+      <source xml:lang="en">Opens the browser when the port is automatically forwarded, but only the first time the port is forward during a session. Depending on your settings, this could open an embedded browser.</source>
+    </trans-unit>
+    <trans-unit id="remote.portsAttributes.openPreview">
+      <source xml:lang="en">Opens a preview in the same window when the port is automatically forwarded.</source>
+    </trans-unit>
+    <trans-unit id="remote.portsAttributes.patternError">
+      <source xml:lang="en">Must be a port number, range of port numbers, or regular expression.</source>
+    </trans-unit>
+    <trans-unit id="remote.portsAttributes.port">
+      <source xml:lang="en">A port, range of ports (ex. "40000-55000"), or regular expression (ex. ".+\\/server.js").  For a port number or range, the attributes will apply to that port number or range of port numbers. Attributes which use a regular expression will apply to ports whose associated process command line matches the expression.</source>
+    </trans-unit>
+    <trans-unit id="remote.portsAttributes.protocol">
+      <source xml:lang="en">The protocol to use when forwarding this port.</source>
+    </trans-unit>
+    <trans-unit id="remote.portsAttributes.requireLocalPort">
+      <source xml:lang="en">When true, a modal dialog will show if the chosen local port isn't used for forwarding.</source>
+    </trans-unit>
+    <trans-unit id="remote.portsAttributes.silent">
+      <source xml:lang="en">Shows no notification and takes no action when this port is automatically forwarded.</source>
+    </trans-unit>
+    <trans-unit id="remote.restoreForwardedPorts">
+      <source xml:lang="en">Restores the ports you forwarded in a workspace.</source>
+    </trans-unit>
+    <trans-unit id="remoteExtensionLog">
+      <source xml:lang="en">Remote Server</source>
+    </trans-unit>
+    <trans-unit id="ui">
+      <source xml:lang="en">UI extension kind. In a remote window, such extensions are enabled only when available on the local machine.</source>
+    </trans-unit>
+    <trans-unit id="web">
+      <source xml:lang="en">Web worker extension kind. Such an extension can execute in a web worker extension host.</source>
+    </trans-unit>
+    <trans-unit id="workspace">
+      <source xml:lang="en">Workspace extension kind. In a remote window, such extensions are enabled only when available on the remote.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/remote/electron-sandbox/remote.contribution" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="remote">
+      <source xml:lang="en">Remote</source>
+    </trans-unit>
+    <trans-unit id="remote.downloadExtensionsLocally">
+      <source xml:lang="en">When enabled extensions are downloaded locally and installed on remote.</source>
+    </trans-unit>
+</body></file>
+</xliff>

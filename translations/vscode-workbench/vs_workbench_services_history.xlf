@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/services/history/browser/history" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="canNavigateBack">
+      <source xml:lang="en">Whether it is possible to navigate back in editor history</source>
+    </trans-unit>
+    <trans-unit id="canNavigateForward">
+      <source xml:lang="en">Whether it is possible to navigate forward in editor history</source>
+    </trans-unit>
+    <trans-unit id="canNavigateToLastEditLocation">
+      <source xml:lang="en">Whether it is possible to navigate to the last edit location</source>
+    </trans-unit>
+    <trans-unit id="canReopenClosedEditor">
+      <source xml:lang="en">Whether it is possible to reopen the last closed editor</source>
+    </trans-unit>
+</body></file>
+</xliff>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/contrib/watermark/browser/watermark" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="tips.enabled">
+      <source xml:lang="en">When enabled, will show the watermark tips when no editor is open.</source>
+    </trans-unit>
+    <trans-unit id="watermark.findInFiles">
+      <source xml:lang="en">Find in Files</source>
+    </trans-unit>
+    <trans-unit id="watermark.newUntitledFile">
+      <source xml:lang="en">New Untitled File</source>
+    </trans-unit>
+    <trans-unit id="watermark.openFile">
+      <source xml:lang="en">Open File</source>
+    </trans-unit>
+    <trans-unit id="watermark.openFileFolder">
+      <source xml:lang="en">Open File or Folder</source>
+    </trans-unit>
+    <trans-unit id="watermark.openFolder">
+      <source xml:lang="en">Open Folder</source>
+    </trans-unit>
+    <trans-unit id="watermark.openRecent">
+      <source xml:lang="en">Open Recent</source>
+    </trans-unit>
+    <trans-unit id="watermark.quickAccess">
+      <source xml:lang="en">Go to File</source>
+    </trans-unit>
+    <trans-unit id="watermark.showCommands">
+      <source xml:lang="en">Show All Commands</source>
+    </trans-unit>
+    <trans-unit id="watermark.startDebugging">
+      <source xml:lang="en">Start Debugging</source>
+    </trans-unit>
+    <trans-unit id="watermark.toggleTerminal">
+      <source xml:lang="en">Toggle Terminal</source>
+      <note>toggle is a verb here</note>
+    </trans-unit>
+</body></file>
+</xliff>

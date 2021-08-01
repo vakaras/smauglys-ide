@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/contrib/localizations/browser/localizations.contribution" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="activateLanguagePack">
+      <source xml:lang="en">In order to use VS Code in {0}, VS Code needs to restart.</source>
+    </trans-unit>
+    <trans-unit id="changeAndRestart">
+      <source xml:lang="en">Change Language and Restart</source>
+    </trans-unit>
+    <trans-unit id="neverAgain">
+      <source xml:lang="en">Don't Show Again</source>
+    </trans-unit>
+    <trans-unit id="restart">
+      <source xml:lang="en">Restart</source>
+    </trans-unit>
+    <trans-unit id="updateLocale">
+      <source xml:lang="en">Would you like to change VS Code's UI language to {0} and restart?</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.localizations">
+      <source xml:lang="en">Contributes localizations to the editor</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.localizations.languageId">
+      <source xml:lang="en">Id of the language into which the display strings are translated.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.localizations.languageName">
+      <source xml:lang="en">Name of the language in English.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.localizations.languageNameLocalized">
+      <source xml:lang="en">Name of the language in contributed language.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.localizations.translations">
+      <source xml:lang="en">List of translations associated to the language.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.localizations.translations.id">
+      <source xml:lang="en">Id of VS Code or Extension for which this translation is contributed to. Id of VS Code is always `vscode` and of extension should be in format `publisherId.extensionName`.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.localizations.translations.id.pattern">
+      <source xml:lang="en">Id should be `vscode` or in format `publisherId.extensionName` for translating VS code or an extension respectively.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.localizations.translations.path">
+      <source xml:lang="en">A relative path to a file containing translations for the language.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/localizations/browser/localizationsActions" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="chooseDisplayLanguage">
+      <source xml:lang="en">Select Display Language</source>
+    </trans-unit>
+    <trans-unit id="configureLocale">
+      <source xml:lang="en">Configure Display Language</source>
+    </trans-unit>
+    <trans-unit id="installAdditionalLanguages">
+      <source xml:lang="en">Install Additional Languages...</source>
+    </trans-unit>
+    <trans-unit id="relaunchDisplayLanguageDetail">
+      <source xml:lang="en">Press the restart button to restart {0} and change the display language.</source>
+    </trans-unit>
+    <trans-unit id="relaunchDisplayLanguageMessage">
+      <source xml:lang="en">A restart is required for the change in display language to take effect.</source>
+    </trans-unit>
+    <trans-unit id="restart">
+      <source xml:lang="en">&amp;&amp;Restart</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/localizations/browser/minimalTranslations" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="installAndRestart">
+      <source xml:lang="en">Install and Restart</source>
+    </trans-unit>
+    <trans-unit id="installAndRestartMessage">
+      <source xml:lang="en">Install language pack to change the display language to {0}.</source>
+    </trans-unit>
+    <trans-unit id="searchMarketplace">
+      <source xml:lang="en">Search Marketplace</source>
+    </trans-unit>
+    <trans-unit id="showLanguagePackExtensions">
+      <source xml:lang="en">Search language packs in the Marketplace to change the display language to {0}.</source>
+    </trans-unit>
+</body></file>
+</xliff>

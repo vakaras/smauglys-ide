@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/services/remote/common/remoteExplorerService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="remote.localPortMismatch.single">
+      <source xml:lang="en">Local port {0} could not be used for forwarding to remote port {1}.
+
+This usually happens when there is already another process using local port {0}.
+
+Port number {2} has been used instead.</source>
+    </trans-unit>
+    <trans-unit id="tunnel.source.auto">
+      <source xml:lang="en">Auto Forwarded</source>
+    </trans-unit>
+    <trans-unit id="tunnel.source.user">
+      <source xml:lang="en">User Forwarded</source>
+    </trans-unit>
+    <trans-unit id="tunnel.staticallyForwarded">
+      <source xml:lang="en">Statically Forwarded</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/remote/electron-sandbox/remoteAgentServiceImpl" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="connectionError">
+      <source xml:lang="en">Failed to connect to the remote extension host server (Error: {0})</source>
+    </trans-unit>
+</body></file>
+</xliff>

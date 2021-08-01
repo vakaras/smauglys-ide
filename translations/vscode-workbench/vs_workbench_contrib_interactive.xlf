@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/contrib/interactive/browser/interactive.contribution" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="interactive.execute">
+      <source xml:lang="en">Execute Code</source>
+    </trans-unit>
+    <trans-unit id="interactive.history.next">
+      <source xml:lang="en">Next value in history</source>
+    </trans-unit>
+    <trans-unit id="interactive.history.previous">
+      <source xml:lang="en">Previous value in history</source>
+    </trans-unit>
+    <trans-unit id="interactive.open">
+      <source xml:lang="en">Open Interactive Window</source>
+    </trans-unit>
+    <trans-unit id="notebookActions.executeNotebook">
+      <source xml:lang="en">Run All</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/interactive/browser/interactiveEditor" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="interactiveInputPlaceHolder">
+      <source xml:lang="en">Type code here and press {0} to run</source>
+    </trans-unit>
+</body></file>
+</xliff>

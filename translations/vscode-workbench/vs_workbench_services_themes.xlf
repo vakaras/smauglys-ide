@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/services/themes/browser/fileIconThemeData" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="error.cannotparseicontheme">
+      <source xml:lang="en">Problems parsing file icons file: {0}</source>
+    </trans-unit>
+    <trans-unit id="error.invalidformat">
+      <source xml:lang="en">Invalid format for file icons theme file: Object expected.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/themes/browser/productIconThemeData" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="defaultTheme">
+      <source xml:lang="en">Default</source>
+    </trans-unit>
+    <trans-unit id="error.cannotparseicontheme">
+      <source xml:lang="en">Problems parsing product icons file: {0}</source>
+    </trans-unit>
+    <trans-unit id="error.fontId">
+      <source xml:lang="en">Missing or invalid font id '{0}'. Skipping font definition.</source>
+    </trans-unit>
+    <trans-unit id="error.fontStyle">
+      <source xml:lang="en">Invalid font style in font '{0}'. Ignoring setting.</source>
+    </trans-unit>
+    <trans-unit id="error.fontWeight">
+      <source xml:lang="en">Invalid font weight in font '{0}'. Ignoring setting.</source>
+    </trans-unit>
+    <trans-unit id="error.icon.fontCharacter">
+      <source xml:lang="en">Skipping icon definition '{0}'. Unknown fontCharacter.</source>
+    </trans-unit>
+    <trans-unit id="error.icon.fontId">
+      <source xml:lang="en">Skipping icon definition '{0}'. Unknown font.</source>
+    </trans-unit>
+    <trans-unit id="error.invalidformat">
+      <source xml:lang="en">Invalid format for product icons theme file: Object expected.</source>
+    </trans-unit>
+    <trans-unit id="error.missingProperties">
+      <source xml:lang="en">Invalid format for product icons theme file: Must contain iconDefinitions and fonts.</source>
+    </trans-unit>
+    <trans-unit id="error.parseicondefs">
+      <source xml:lang="en">Problems processing product icons definitions in {0}:
+{1}</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/themes/browser/workbenchThemeService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="error.cannotloadtheme">
+      <source xml:lang="en">Unable to load {0}: {1}</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/themes/common/colorExtensionPoint" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="contributes.color">
+      <source xml:lang="en">Contributes extension defined themable colors</source>
+    </trans-unit>
+    <trans-unit id="contributes.color.description">
+      <source xml:lang="en">The description of the themable color</source>
+    </trans-unit>
+    <trans-unit id="contributes.color.id">
+      <source xml:lang="en">The identifier of the themable color</source>
+    </trans-unit>
+    <trans-unit id="contributes.color.id.format">
+      <source xml:lang="en">Identifiers must only contain letters, digits and dots and can not start with a dot</source>
+    </trans-unit>
+    <trans-unit id="contributes.defaults.dark">
+      <source xml:lang="en">The default color for dark themes. Either a color value in hex (#RRGGBB[AA]) or the identifier of a themable color which provides the default.</source>
+    </trans-unit>
+    <trans-unit id="contributes.defaults.highContrast">
+      <source xml:lang="en">The default color for high contrast themes. Either a color value in hex (#RRGGBB[AA]) or the identifier of a themable color which provides the default.</source>
+    </trans-unit>
+    <trans-unit id="contributes.defaults.light">
+      <source xml:lang="en">The default color for light themes. Either a color value in hex (#RRGGBB[AA]) or the identifier of a themable color which provides the default.</source>
+    </trans-unit>
+    <trans-unit id="invalid.colorConfiguration">
+      <source xml:lang="en">'configuration.colors' must be a array</source>
+    </trans-unit>
+    <trans-unit id="invalid.default.colorType">
+      <source xml:lang="en">{0} must be either a color value in hex (#RRGGBB[AA] or #RGB[A]) or the identifier of a themable color which provides the default.</source>
+    </trans-unit>
+    <trans-unit id="invalid.defaults">
+      <source xml:lang="en">'configuration.colors.defaults' must be defined and must contain 'light', 'dark' and 'highContrast'</source>
+    </trans-unit>
+    <trans-unit id="invalid.description">
+      <source xml:lang="en">'configuration.colors.description' must be defined and can not be empty</source>
+    </trans-unit>
+    <trans-unit id="invalid.id">
+      <source xml:lang="en">'configuration.colors.id' must be defined and can not be empty</source>
+    </trans-unit>
+    <trans-unit id="invalid.id.format">
+      <source xml:lang="en">'configuration.colors.id' must only contain letters, digits and dots and can not start with a dot</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/themes/common/colorThemeData" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="error.cannotload">
+      <source xml:lang="en">Problems loading tmTheme file {0}: {1}</source>
+    </trans-unit>
+    <trans-unit id="error.cannotparse">
+      <source xml:lang="en">Problems parsing tmTheme file: {0}</source>
+    </trans-unit>
+    <trans-unit id="error.cannotparsejson">
+      <source xml:lang="en">Problems parsing JSON theme file: {0}</source>
+    </trans-unit>
+    <trans-unit id="error.invalidformat">
+      <source xml:lang="en">Invalid format for JSON theme file: Object expected.</source>
+    </trans-unit>
+    <trans-unit id="error.invalidformat.colors">
+      <source xml:lang="en">Problem parsing color theme file: {0}. Property 'colors' is not of type 'object'.</source>
+      <note>{0} will be replaced by a path. Values in quotes should not be translated.</note>
+    </trans-unit>
+    <trans-unit id="error.invalidformat.semanticTokenColors">
+      <source xml:lang="en">Problem parsing color theme file: {0}. Property 'semanticTokenColors' contains a invalid selector</source>
+      <note>{0} will be replaced by a path. Values in quotes should not be translated.</note>
+    </trans-unit>
+    <trans-unit id="error.invalidformat.tokenColors">
+      <source xml:lang="en">Problem parsing color theme file: {0}. Property 'tokenColors' should be either an array specifying colors or a path to a TextMate theme file</source>
+      <note>{0} will be replaced by a path. Values in quotes should not be translated.</note>
+    </trans-unit>
+    <trans-unit id="error.plist.invalidformat">
+      <source xml:lang="en">Problem parsing tmTheme file: {0}. 'settings' is not array.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/themes/common/colorThemeSchema" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="schema.colors">
+      <source xml:lang="en">Colors for syntax highlighting</source>
+    </trans-unit>
+    <trans-unit id="schema.fontStyle.error">
+      <source xml:lang="en">Font style must be 'italic', 'bold' or 'underline' or a combination or the empty string.</source>
+    </trans-unit>
+    <trans-unit id="schema.properties.name">
+      <source xml:lang="en">Description of the rule.</source>
+    </trans-unit>
+    <trans-unit id="schema.properties.scope">
+      <source xml:lang="en">Scope selector against which this rule matches.</source>
+    </trans-unit>
+    <trans-unit id="schema.semanticTokenColors">
+      <source xml:lang="en">Colors for semantic tokens</source>
+    </trans-unit>
+    <trans-unit id="schema.supportsSemanticHighlighting">
+      <source xml:lang="en">Whether semantic highlighting should be enabled for this theme.</source>
+    </trans-unit>
+    <trans-unit id="schema.token.background.warning">
+      <source xml:lang="en">Token background colors are currently not supported.</source>
+    </trans-unit>
+    <trans-unit id="schema.token.fontStyle">
+      <source xml:lang="en">Font style of the rule: 'italic', 'bold' or 'underline' or a combination. The empty string unsets inherited settings.</source>
+    </trans-unit>
+    <trans-unit id="schema.token.fontStyle.none">
+      <source xml:lang="en">None (clear inherited style)</source>
+    </trans-unit>
+    <trans-unit id="schema.token.foreground">
+      <source xml:lang="en">Foreground color for the token.</source>
+    </trans-unit>
+    <trans-unit id="schema.token.settings">
+      <source xml:lang="en">Colors and styles for the token.</source>
+    </trans-unit>
+    <trans-unit id="schema.tokenColors.path">
+      <source xml:lang="en">Path to a tmTheme file (relative to the current file).</source>
+    </trans-unit>
+    <trans-unit id="schema.workbenchColors">
+      <source xml:lang="en">Colors in the workbench</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/themes/common/fileIconThemeSchema" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="schema.file">
+      <source xml:lang="en">The default file icon, shown for all files that don't match any extension, filename or language id.</source>
+    </trans-unit>
+    <trans-unit id="schema.fileExtension">
+      <source xml:lang="en">The ID of the icon definition for the association.</source>
+    </trans-unit>
+    <trans-unit id="schema.fileExtensions">
+      <source xml:lang="en">Associates file extensions to icons. The object key is the file extension name. The extension name is the last segment of a file name after the last dot (not including the dot). Extensions are compared case insensitive.</source>
+    </trans-unit>
+    <trans-unit id="schema.fileName">
+      <source xml:lang="en">The ID of the icon definition for the association.</source>
+    </trans-unit>
+    <trans-unit id="schema.fileNames">
+      <source xml:lang="en">Associates file names to icons. The object key is the full file name, but not including any path segments. File name can include dots and a possible file extension. No patterns or wildcards are allowed. File name matching is case insensitive.</source>
+    </trans-unit>
+    <trans-unit id="schema.folder">
+      <source xml:lang="en">The folder icon for collapsed folders, and if folderExpanded is not set, also for expanded folders.</source>
+    </trans-unit>
+    <trans-unit id="schema.folderExpanded">
+      <source xml:lang="en">The folder icon for expanded folders. The expanded folder icon is optional. If not set, the icon defined for folder will be shown.</source>
+    </trans-unit>
+    <trans-unit id="schema.folderName">
+      <source xml:lang="en">The ID of the icon definition for the association.</source>
+    </trans-unit>
+    <trans-unit id="schema.folderNameExpanded">
+      <source xml:lang="en">The ID of the icon definition for the association.</source>
+    </trans-unit>
+    <trans-unit id="schema.folderNames">
+      <source xml:lang="en">Associates folder names to icons. The object key is the folder name, not including any path segments. No patterns or wildcards are allowed. Folder name matching is case insensitive.</source>
+    </trans-unit>
+    <trans-unit id="schema.folderNamesExpanded">
+      <source xml:lang="en">Associates folder names to icons for expanded folders. The object key is the folder name, not including any path segments. No patterns or wildcards are allowed. Folder name matching is case insensitive.</source>
+    </trans-unit>
+    <trans-unit id="schema.font-format">
+      <source xml:lang="en">The format of the font.</source>
+    </trans-unit>
+    <trans-unit id="schema.font-path">
+      <source xml:lang="en">The font path, relative to the current file icon theme file.</source>
+    </trans-unit>
+    <trans-unit id="schema.font-size">
+      <source xml:lang="en">The default size of the font. See https://developer.mozilla.org/en-US/docs/Web/CSS/font-size for valid values.</source>
+    </trans-unit>
+    <trans-unit id="schema.font-style">
+      <source xml:lang="en">The style of the font. See https://developer.mozilla.org/en-US/docs/Web/CSS/font-style for valid values.</source>
+    </trans-unit>
+    <trans-unit id="schema.font-weight">
+      <source xml:lang="en">The weight of the font. See https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight for valid values.</source>
+    </trans-unit>
+    <trans-unit id="schema.fontCharacter">
+      <source xml:lang="en">When using a glyph font: The character in the font to use.</source>
+    </trans-unit>
+    <trans-unit id="schema.fontColor">
+      <source xml:lang="en">When using a glyph font: The color to use.</source>
+    </trans-unit>
+    <trans-unit id="schema.fontId">
+      <source xml:lang="en">When using a font: The id of the font. If not set, defaults to the first font definition.</source>
+    </trans-unit>
+    <trans-unit id="schema.fontSize">
+      <source xml:lang="en">When using a font: The font size in percentage to the text font. If not set, defaults to the size in the font definition.</source>
+    </trans-unit>
+    <trans-unit id="schema.fonts">
+      <source xml:lang="en">Fonts that are used in the icon definitions.</source>
+    </trans-unit>
+    <trans-unit id="schema.hidesExplorerArrows">
+      <source xml:lang="en">Configures whether the file explorer's arrows should be hidden when this theme is active.</source>
+    </trans-unit>
+    <trans-unit id="schema.highContrast">
+      <source xml:lang="en">Optional associations for file icons in high contrast color themes.</source>
+    </trans-unit>
+    <trans-unit id="schema.iconDefinition">
+      <source xml:lang="en">An icon definition. The object key is the ID of the definition.</source>
+    </trans-unit>
+    <trans-unit id="schema.iconDefinitions">
+      <source xml:lang="en">Description of all icons that can be used when associating files to icons.</source>
+    </trans-unit>
+    <trans-unit id="schema.iconPath">
+      <source xml:lang="en">When using a SVG or PNG: The path to the image. The path is relative to the icon set file.</source>
+    </trans-unit>
+    <trans-unit id="schema.id">
+      <source xml:lang="en">The ID of the font.</source>
+    </trans-unit>
+    <trans-unit id="schema.id.formatError">
+      <source xml:lang="en">The ID must only contain letter, numbers, underscore and minus.</source>
+    </trans-unit>
+    <trans-unit id="schema.languageId">
+      <source xml:lang="en">The ID of the icon definition for the association.</source>
+    </trans-unit>
+    <trans-unit id="schema.languageIds">
+      <source xml:lang="en">Associates languages to icons. The object key is the language id as defined in the language contribution point.</source>
+    </trans-unit>
+    <trans-unit id="schema.light">
+      <source xml:lang="en">Optional associations for file icons in light color themes.</source>
+    </trans-unit>
+    <trans-unit id="schema.src">
+      <source xml:lang="en">The location of the font.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/themes/common/iconExtensionPoint" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="contributes.icon.default">
+      <source xml:lang="en">The default of the icon. Either a reference to an extisting ThemeIcon or an icon in an icon font.</source>
+    </trans-unit>
+    <trans-unit id="contributes.icon.default.fontCharacter">
+      <source xml:lang="en">The character for the icon in the icon font.</source>
+    </trans-unit>
+    <trans-unit id="contributes.icon.default.fontId">
+      <source xml:lang="en">The id of the icon font that defines the icon.</source>
+    </trans-unit>
+    <trans-unit id="contributes.icon.description">
+      <source xml:lang="en">The description of the themable icon</source>
+    </trans-unit>
+    <trans-unit id="contributes.icon.id">
+      <source xml:lang="en">The identifier of the themable icon</source>
+    </trans-unit>
+    <trans-unit id="contributes.icon.id.format">
+      <source xml:lang="en">Identifiers can only contain letters, digits and minuses and need to consist of at least two segments in the form `component-iconname`.</source>
+    </trans-unit>
+    <trans-unit id="contributes.iconFonts">
+      <source xml:lang="en">Contributes icon fonts to be used by icon contributions.</source>
+    </trans-unit>
+    <trans-unit id="contributes.iconFonts.id">
+      <source xml:lang="en">The ID of the font.</source>
+    </trans-unit>
+    <trans-unit id="contributes.iconFonts.id.formatError">
+      <source xml:lang="en">The ID must only contain letters, numbers, underscore and minus.</source>
+    </trans-unit>
+    <trans-unit id="contributes.iconFonts.src">
+      <source xml:lang="en">The location of the font.</source>
+    </trans-unit>
+    <trans-unit id="contributes.iconFonts.src.format">
+      <source xml:lang="en">The format of the font.</source>
+    </trans-unit>
+    <trans-unit id="contributes.iconFonts.src.path">
+      <source xml:lang="en">The font path, relative to the current extension location.</source>
+    </trans-unit>
+    <trans-unit id="contributes.icons">
+      <source xml:lang="en">Contributes extension defined themable icons</source>
+    </trans-unit>
+    <trans-unit id="invalid.iconFonts.configuration">
+      <source xml:lang="en">'configuration.iconFonts' must be a array</source>
+    </trans-unit>
+    <trans-unit id="invalid.iconFonts.id">
+      <source xml:lang="en">'configuration.iconFonts.id' must be defined and can not be empty</source>
+    </trans-unit>
+    <trans-unit id="invalid.iconFonts.id.format">
+      <source xml:lang="en">'configuration.iconFonts.id'  must only contain letters, numbers, underscore and minus.</source>
+    </trans-unit>
+    <trans-unit id="invalid.iconFonts.proposedAPI">
+      <source xml:lang="en">'configuration.iconFonts is a proposed contribution point and only available when running out of dev or with the following command line switch: --enable-proposed-api {0}</source>
+    </trans-unit>
+    <trans-unit id="invalid.iconFonts.src">
+      <source xml:lang="en">'configuration.iconFonts.src' must be an array with locations of the icon font.</source>
+    </trans-unit>
+    <trans-unit id="invalid.iconFonts.src.item">
+      <source xml:lang="en">Items of 'configuration.iconFonts.src' must be objects with properties 'path' and 'format'</source>
+    </trans-unit>
+    <trans-unit id="invalid.iconFonts.src.path">
+      <source xml:lang="en">Expected `contributes.iconFonts.src.path` ({0}) to be included inside extension's folder ({0}). This might make the extension non-portable.</source>
+    </trans-unit>
+    <trans-unit id="invalid.icons.configuration">
+      <source xml:lang="en">'configuration.icons' must be a array</source>
+    </trans-unit>
+    <trans-unit id="invalid.icons.default">
+      <source xml:lang="en">'configuration.icons.default' must be either a reference to the id of an other theme icon (string) or a icon definition (object) with properties `fontId` and `fontCharacter`.</source>
+    </trans-unit>
+    <trans-unit id="invalid.icons.description">
+      <source xml:lang="en">'configuration.icons.description' must be defined and can not be empty</source>
+    </trans-unit>
+    <trans-unit id="invalid.icons.id">
+      <source xml:lang="en">'configuration.icons.id' must be defined and can not be empty</source>
+    </trans-unit>
+    <trans-unit id="invalid.icons.id.format">
+      <source xml:lang="en">'configuration.icons.id' can only contain letter, digits and minuses and need to consist of at least two segments in the form `component-iconname`.</source>
+    </trans-unit>
+    <trans-unit id="invalid.icons.proposedAPI">
+      <source xml:lang="en">'configuration.icons is a proposed contribution point and only available when running out of dev or with the following command line switch: --enable-proposed-api {0}</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/themes/common/productIconThemeSchema" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="schema.font-format">
+      <source xml:lang="en">The format of the font.</source>
+    </trans-unit>
+    <trans-unit id="schema.font-path">
+      <source xml:lang="en">The font path, relative to the current product icon theme file.</source>
+    </trans-unit>
+    <trans-unit id="schema.font-style">
+      <source xml:lang="en">The style of the font. See https://developer.mozilla.org/en-US/docs/Web/CSS/font-style for valid values.</source>
+    </trans-unit>
+    <trans-unit id="schema.font-weight">
+      <source xml:lang="en">The weight of the font. See https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight for valid values.</source>
+    </trans-unit>
+    <trans-unit id="schema.iconDefinitions">
+      <source xml:lang="en">Association of icon name to a font character.</source>
+    </trans-unit>
+    <trans-unit id="schema.id">
+      <source xml:lang="en">The ID of the font.</source>
+    </trans-unit>
+    <trans-unit id="schema.id.formatError">
+      <source xml:lang="en">The ID must only contain letters, numbers, underscore and minus.</source>
+    </trans-unit>
+    <trans-unit id="schema.src">
+      <source xml:lang="en">The location of the font.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/themes/common/themeConfiguration" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="autoDetectHighContrast">
+      <source xml:lang="en">If enabled, will automatically change to high contrast theme if the OS is using a high contrast theme. The high contrast theme to use is specified by `#{0}#`</source>
+    </trans-unit>
+    <trans-unit id="colorTheme">
+      <source xml:lang="en">Specifies the color theme used in the workbench.</source>
+    </trans-unit>
+    <trans-unit id="colorThemeError">
+      <source xml:lang="en">Theme is unknown or not installed.</source>
+    </trans-unit>
+    <trans-unit id="defaultProductIconThemeDesc">
+      <source xml:lang="en">Default</source>
+    </trans-unit>
+    <trans-unit id="defaultProductIconThemeLabel">
+      <source xml:lang="en">Default</source>
+    </trans-unit>
+    <trans-unit id="detectColorScheme">
+      <source xml:lang="en">If set, automatically switch to the preferred color theme based on the OS appearance. If the OS appearance is dark, the theme specified at `#{0}#` is used, for light `#{1}#`</source>
+    </trans-unit>
+    <trans-unit id="editorColors">
+      <source xml:lang="en">Overrides editor syntax colors and font style from the currently selected color theme.</source>
+    </trans-unit>
+    <trans-unit id="editorColors.comments">
+      <source xml:lang="en">Sets the colors and styles for comments</source>
+    </trans-unit>
+    <trans-unit id="editorColors.experimentalTokenStyling.deprecationMessage">
+      <source xml:lang="en">Use `editor.semanticTokenColorCustomizations` instead.</source>
+    </trans-unit>
+    <trans-unit id="editorColors.experimentalTokenStyling.deprecationMessageMarkdown">
+      <source xml:lang="en">Use `#editor.semanticTokenColorCustomizations#` instead.</source>
+    </trans-unit>
+    <trans-unit id="editorColors.functions">
+      <source xml:lang="en">Sets the colors and styles for functions declarations and references.</source>
+    </trans-unit>
+    <trans-unit id="editorColors.keywords">
+      <source xml:lang="en">Sets the colors and styles for keywords.</source>
+    </trans-unit>
+    <trans-unit id="editorColors.numbers">
+      <source xml:lang="en">Sets the colors and styles for number literals.</source>
+    </trans-unit>
+    <trans-unit id="editorColors.semanticHighlighting">
+      <source xml:lang="en">Whether semantic highlighting should be enabled for this theme.</source>
+    </trans-unit>
+    <trans-unit id="editorColors.semanticHighlighting.deprecationMessage">
+      <source xml:lang="en">Use `enabled` in `editor.semanticTokenColorCustomizations` setting instead.</source>
+    </trans-unit>
+    <trans-unit id="editorColors.semanticHighlighting.deprecationMessageMarkdown">
+      <source xml:lang="en">Use `enabled` in `#editor.semanticTokenColorCustomizations#` setting instead.</source>
+    </trans-unit>
+    <trans-unit id="editorColors.semanticHighlighting.enabled">
+      <source xml:lang="en">Whether semantic highlighting is enabled or disabled for this theme</source>
+    </trans-unit>
+    <trans-unit id="editorColors.semanticHighlighting.rules">
+      <source xml:lang="en">Semantic token styling rules for this theme.</source>
+    </trans-unit>
+    <trans-unit id="editorColors.strings">
+      <source xml:lang="en">Sets the colors and styles for strings literals.</source>
+    </trans-unit>
+    <trans-unit id="editorColors.textMateRules">
+      <source xml:lang="en">Sets colors and styles using textmate theming rules (advanced).</source>
+    </trans-unit>
+    <trans-unit id="editorColors.types">
+      <source xml:lang="en">Sets the colors and styles for type declarations and references.</source>
+    </trans-unit>
+    <trans-unit id="editorColors.variables">
+      <source xml:lang="en">Sets the colors and styles for variables declarations and references.</source>
+    </trans-unit>
+    <trans-unit id="iconTheme">
+      <source xml:lang="en">Specifies the file icon theme used in the workbench or 'null' to not show any file icons.</source>
+    </trans-unit>
+    <trans-unit id="iconThemeError">
+      <source xml:lang="en">File icon theme is unknown or not installed.</source>
+    </trans-unit>
+    <trans-unit id="noIconThemeDesc">
+      <source xml:lang="en">No file icons</source>
+    </trans-unit>
+    <trans-unit id="noIconThemeLabel">
+      <source xml:lang="en">None</source>
+    </trans-unit>
+    <trans-unit id="preferredDarkColorTheme">
+      <source xml:lang="en">Specifies the preferred color theme for dark OS appearance when `#{0}#` is enabled.</source>
+      <note>`#{0}#` will become a link to an other setting. Do not remove backtick or #</note>
+    </trans-unit>
+    <trans-unit id="preferredHCColorTheme">
+      <source xml:lang="en">Specifies the preferred color theme used in high contrast mode when `#{0}#` is enabled.</source>
+      <note>`#{0}#` will become a link to an other setting. Do not remove backtick or #</note>
+    </trans-unit>
+    <trans-unit id="preferredLightColorTheme">
+      <source xml:lang="en">Specifies the preferred color theme for light OS appearance when `#{0}#` is enabled.</source>
+      <note>`#{0}#` will become a link to an other setting. Do not remove backtick or #</note>
+    </trans-unit>
+    <trans-unit id="productIconTheme">
+      <source xml:lang="en">Specifies the product icon theme used.</source>
+    </trans-unit>
+    <trans-unit id="productIconThemeError">
+      <source xml:lang="en">Product icon theme is unknown or not installed.</source>
+    </trans-unit>
+    <trans-unit id="semanticTokenColors">
+      <source xml:lang="en">Overrides editor semantic token color and styles from the currently selected color theme.</source>
+    </trans-unit>
+    <trans-unit id="workbenchColors">
+      <source xml:lang="en">Overrides colors from the currently selected color theme.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/themes/common/themeExtensionPoints" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="invalid.path.1">
+      <source xml:lang="en">Expected `contributes.{0}.path` ({1}) to be included inside extension's folder ({2}). This might make the extension non-portable.</source>
+    </trans-unit>
+    <trans-unit id="reqarray">
+      <source xml:lang="en">Extension point `{0}` must be an array.</source>
+    </trans-unit>
+    <trans-unit id="reqid">
+      <source xml:lang="en">Expected string in `contributes.{0}.id`. Provided value: {1}</source>
+    </trans-unit>
+    <trans-unit id="reqpath">
+      <source xml:lang="en">Expected string in `contributes.{0}.path`. Provided value: {1}</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.iconThemes">
+      <source xml:lang="en">Contributes file icon themes.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.iconThemes.id">
+      <source xml:lang="en">Id of the file icon theme as used in the user settings.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.iconThemes.label">
+      <source xml:lang="en">Label of the file icon theme as shown in the UI.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.iconThemes.path">
+      <source xml:lang="en">Path of the file icon theme definition file. The path is relative to the extension folder and is typically './fileicons/awesome-icon-theme.json'.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.productIconThemes">
+      <source xml:lang="en">Contributes product icon themes.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.productIconThemes.id">
+      <source xml:lang="en">Id of the product icon theme as used in the user settings.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.productIconThemes.label">
+      <source xml:lang="en">Label of the product icon theme as shown in the UI.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.productIconThemes.path">
+      <source xml:lang="en">Path of the product icon theme definition file. The path is relative to the extension folder and is typically './producticons/awesome-product-icon-theme.json'.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.themes">
+      <source xml:lang="en">Contributes textmate color themes.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.themes.id">
+      <source xml:lang="en">Id of the color theme as used in the user settings.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.themes.label">
+      <source xml:lang="en">Label of the color theme as shown in the UI.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.themes.path">
+      <source xml:lang="en">Path of the tmTheme file. The path is relative to the extension folder and is typically './colorthemes/awesome-color-theme.json'.</source>
+    </trans-unit>
+    <trans-unit id="vscode.extension.contributes.themes.uiTheme">
+      <source xml:lang="en">Base theme defining the colors around the editor: 'vs' is the light color theme, 'vs-dark' is the dark color theme. 'hc-black' is the dark high contrast theme.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/themes/common/tokenClassificationExtensionPoint" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="contributes.color.description">
+      <source xml:lang="en">The description of the semantic token type</source>
+    </trans-unit>
+    <trans-unit id="contributes.semanticTokenModifiers">
+      <source xml:lang="en">Contributes semantic token modifiers.</source>
+    </trans-unit>
+    <trans-unit id="contributes.semanticTokenModifiers.description">
+      <source xml:lang="en">The description of the semantic token modifier</source>
+    </trans-unit>
+    <trans-unit id="contributes.semanticTokenModifiers.id">
+      <source xml:lang="en">The identifier of the semantic token modifier</source>
+    </trans-unit>
+    <trans-unit id="contributes.semanticTokenModifiers.id.format">
+      <source xml:lang="en">Identifiers should be in the form letterOrDigit[_-letterOrDigit]*</source>
+    </trans-unit>
+    <trans-unit id="contributes.semanticTokenScopes">
+      <source xml:lang="en">Contributes semantic token scope maps.</source>
+    </trans-unit>
+    <trans-unit id="contributes.semanticTokenScopes.languages">
+      <source xml:lang="en">Lists the languge for which the defaults are.</source>
+    </trans-unit>
+    <trans-unit id="contributes.semanticTokenScopes.scopes">
+      <source xml:lang="en">Maps a semantic token (described by semantic token selector) to one or more textMate scopes used to represent that token.</source>
+    </trans-unit>
+    <trans-unit id="contributes.semanticTokenTypes">
+      <source xml:lang="en">Contributes semantic token types.</source>
+    </trans-unit>
+    <trans-unit id="contributes.semanticTokenTypes.id">
+      <source xml:lang="en">The identifier of the semantic token type</source>
+    </trans-unit>
+    <trans-unit id="contributes.semanticTokenTypes.id.format">
+      <source xml:lang="en">Identifiers should be in the form letterOrDigit[_-letterOrDigit]*</source>
+    </trans-unit>
+    <trans-unit id="contributes.semanticTokenTypes.superType">
+      <source xml:lang="en">The super type of the semantic token type</source>
+    </trans-unit>
+    <trans-unit id="contributes.semanticTokenTypes.superType.format">
+      <source xml:lang="en">Super types should be in the form letterOrDigit[_-letterOrDigit]*</source>
+    </trans-unit>
+    <trans-unit id="invalid.description">
+      <source xml:lang="en">'configuration.{0}.description' must be defined and can not be empty</source>
+    </trans-unit>
+    <trans-unit id="invalid.id">
+      <source xml:lang="en">'configuration.{0}.id' must be defined and can not be empty</source>
+    </trans-unit>
+    <trans-unit id="invalid.id.format">
+      <source xml:lang="en">'configuration.{0}.id' must follow the pattern letterOrDigit[-_letterOrDigit]*</source>
+    </trans-unit>
+    <trans-unit id="invalid.semanticTokenModifierConfiguration">
+      <source xml:lang="en">'configuration.semanticTokenModifier' must be an array</source>
+    </trans-unit>
+    <trans-unit id="invalid.semanticTokenScopes.configuration">
+      <source xml:lang="en">'configuration.semanticTokenScopes' must be an array</source>
+    </trans-unit>
+    <trans-unit id="invalid.semanticTokenScopes.language">
+      <source xml:lang="en">'configuration.semanticTokenScopes.language' must be a string</source>
+    </trans-unit>
+    <trans-unit id="invalid.semanticTokenScopes.scopes">
+      <source xml:lang="en">'configuration.semanticTokenScopes.scopes' must be defined as an object</source>
+    </trans-unit>
+    <trans-unit id="invalid.semanticTokenScopes.scopes.selector">
+      <source xml:lang="en">configuration.semanticTokenScopes.scopes': Problems parsing selector {0}.</source>
+    </trans-unit>
+    <trans-unit id="invalid.semanticTokenScopes.scopes.value">
+      <source xml:lang="en">'configuration.semanticTokenScopes.scopes' values must be an array of strings</source>
+    </trans-unit>
+    <trans-unit id="invalid.semanticTokenTypeConfiguration">
+      <source xml:lang="en">'configuration.semanticTokenType' must be an array</source>
+    </trans-unit>
+    <trans-unit id="invalid.superType.format">
+      <source xml:lang="en">'configuration.{0}.superType' must follow the pattern letterOrDigit[-_letterOrDigit]*</source>
+    </trans-unit>
+</body></file>
+</xliff>

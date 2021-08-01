@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/services/workingCopy/common/fileWorkingCopyManager" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="confirmOverwrite">
+      <source xml:lang="en">'{0}' already exists. Do you want to replace it?</source>
+    </trans-unit>
+    <trans-unit id="irreversible">
+      <source xml:lang="en">A file or folder with the name '{0}' already exists in the folder '{1}'. Replacing it will overwrite its current contents.</source>
+    </trans-unit>
+    <trans-unit id="replaceButtonLabel">
+      <source xml:lang="en">&amp;&amp;Replace</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/workingCopy/common/storedFileWorkingCopy" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="discard">
+      <source xml:lang="en">Discard</source>
+    </trans-unit>
+    <trans-unit id="genericSaveError">
+      <source xml:lang="en">Failed to save '{0}': {1}</source>
+      <note>{0} is the resource that failed to save and {1} the error message</note>
+    </trans-unit>
+    <trans-unit id="overwrite">
+      <source xml:lang="en">Overwrite</source>
+    </trans-unit>
+    <trans-unit id="overwriteElevated">
+      <source xml:lang="en">Overwrite as Admin...</source>
+    </trans-unit>
+    <trans-unit id="overwriteElevatedSudo">
+      <source xml:lang="en">Overwrite as Sudo...</source>
+    </trans-unit>
+    <trans-unit id="permissionDeniedSaveError">
+      <source xml:lang="en">Failed to save '{0}': Insufficient permissions. Select 'Retry as Admin' to retry as administrator.</source>
+    </trans-unit>
+    <trans-unit id="permissionDeniedSaveErrorSudo">
+      <source xml:lang="en">Failed to save '{0}': Insufficient permissions. Select 'Retry as Sudo' to retry as superuser.</source>
+    </trans-unit>
+    <trans-unit id="readonlySaveError">
+      <source xml:lang="en">Failed to save '{0}': File is read-only. Select 'Overwrite' to attempt to make it writeable.</source>
+    </trans-unit>
+    <trans-unit id="readonlySaveErrorAdmin">
+      <source xml:lang="en">Failed to save '{0}': File is read-only. Select 'Overwrite as Admin' to retry as administrator.</source>
+    </trans-unit>
+    <trans-unit id="readonlySaveErrorSudo">
+      <source xml:lang="en">Failed to save '{0}': File is read-only. Select 'Overwrite as Sudo' to retry as superuser.</source>
+    </trans-unit>
+    <trans-unit id="retry">
+      <source xml:lang="en">Retry</source>
+    </trans-unit>
+    <trans-unit id="saveAs">
+      <source xml:lang="en">Save As...</source>
+    </trans-unit>
+    <trans-unit id="saveElevated">
+      <source xml:lang="en">Retry as Admin...</source>
+    </trans-unit>
+    <trans-unit id="saveElevatedSudo">
+      <source xml:lang="en">Retry as Sudo...</source>
+    </trans-unit>
+    <trans-unit id="staleSaveError">
+      <source xml:lang="en">Failed to save '{0}': The content of the file is newer. Do you want to overwrite the file with your changes?</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/services/workingCopy/electron-sandbox/workingCopyBackupTracker" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="backupBeforeShutdownDetail">
+      <source xml:lang="en">Click 'Cancel' to stop waiting and to save or revert dirty editors.</source>
+    </trans-unit>
+    <trans-unit id="backupBeforeShutdownMessage">
+      <source xml:lang="en">Backing up dirty editors is taking longer than expected...</source>
+    </trans-unit>
+    <trans-unit id="backupErrorDetails">
+      <source xml:lang="en">Try saving or reverting the dirty editors first and then try again.</source>
+    </trans-unit>
+    <trans-unit id="backupTrackerBackupFailed">
+      <source xml:lang="en">The following dirty editors could not be saved to the back up location.</source>
+    </trans-unit>
+    <trans-unit id="backupTrackerConfirmFailed">
+      <source xml:lang="en">The following dirty editors could not be saved or reverted.</source>
+    </trans-unit>
+    <trans-unit id="revertBeforeShutdown">
+      <source xml:lang="en">Reverting dirty editors is taking longer than expected...</source>
+    </trans-unit>
+    <trans-unit id="saveBeforeShutdown">
+      <source xml:lang="en">Saving dirty editors is taking longer than expected...</source>
+    </trans-unit>
+</body></file>
+</xliff>

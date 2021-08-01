@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="extensions/github-authentication/dist/common/keychain" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="keychainWriteError">
+      <source xml:lang="en">Writing login information to the keychain failed with error '{0}'.</source>
+    </trans-unit>
+    <trans-unit id="troubleshooting">
+      <source xml:lang="en">Troubleshooting Guide</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/github-authentication/dist/githubServer" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="signingIn">
+      <source xml:lang="en">$(mark-github) Signing in to github.com...</source>
+    </trans-unit>
+    <trans-unit id="signingInEnterprise">
+      <source xml:lang="en">$(mark-github) Signing in to {0}...</source>
+    </trans-unit>
+    <trans-unit id="status.git.signIn.name">
+      <source xml:lang="en">GitHub Sign-in</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/github-authentication/package" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="description">
+      <source xml:lang="en">GitHub Authentication Provider</source>
+    </trans-unit>
+    <trans-unit id="displayName">
+      <source xml:lang="en">GitHub Authentication</source>
+    </trans-unit>
+</body></file>
+</xliff>

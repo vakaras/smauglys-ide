@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="extensions/debug-auto-launch/dist/extension" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="debug.javascript.autoAttach.always.description">
+      <source xml:lang="en">Auto attach to every Node.js process launched in the terminal</source>
+    </trans-unit>
+    <trans-unit id="debug.javascript.autoAttach.always.label">
+      <source xml:lang="en">Always</source>
+    </trans-unit>
+    <trans-unit id="debug.javascript.autoAttach.disabled.description">
+      <source xml:lang="en">Auto attach is disabled and not shown in status bar</source>
+    </trans-unit>
+    <trans-unit id="debug.javascript.autoAttach.disabled.label">
+      <source xml:lang="en">Disabled</source>
+    </trans-unit>
+    <trans-unit id="debug.javascript.autoAttach.onlyWithFlag.description">
+      <source xml:lang="en">Only auto attach when the `--inspect` flag is given</source>
+    </trans-unit>
+    <trans-unit id="debug.javascript.autoAttach.onlyWithFlag.label">
+      <source xml:lang="en">Only With Flag</source>
+    </trans-unit>
+    <trans-unit id="debug.javascript.autoAttach.smart.description">
+      <source xml:lang="en">Auto attach when running scripts that aren't in a node_modules folder</source>
+    </trans-unit>
+    <trans-unit id="debug.javascript.autoAttach.smart.label">
+      <source xml:lang="en">Smart</source>
+    </trans-unit>
+    <trans-unit id="scope.global">
+      <source xml:lang="en">Toggle auto attach on this machine</source>
+    </trans-unit>
+    <trans-unit id="scope.workspace">
+      <source xml:lang="en">Toggle auto attach in this workspace</source>
+    </trans-unit>
+    <trans-unit id="status.name.auto.attach">
+      <source xml:lang="en">Debug Auto Attach</source>
+    </trans-unit>
+    <trans-unit id="status.text.auto.attach.always">
+      <source xml:lang="en">Auto Attach: Always</source>
+    </trans-unit>
+    <trans-unit id="status.text.auto.attach.disabled">
+      <source xml:lang="en">Auto Attach: Disabled</source>
+    </trans-unit>
+    <trans-unit id="status.text.auto.attach.smart">
+      <source xml:lang="en">Auto Attach: Smart</source>
+    </trans-unit>
+    <trans-unit id="status.text.auto.attach.withFlag">
+      <source xml:lang="en">Auto Attach: With Flag</source>
+    </trans-unit>
+    <trans-unit id="status.tooltip.auto.attach">
+      <source xml:lang="en">Automatically attach to node.js processes in debug mode</source>
+    </trans-unit>
+    <trans-unit id="tempDisable.disable">
+      <source xml:lang="en">Temporarily disable auto attach in this session</source>
+    </trans-unit>
+    <trans-unit id="tempDisable.enable">
+      <source xml:lang="en">Re-enable auto attach</source>
+    </trans-unit>
+    <trans-unit id="tempDisable.suffix">
+      <source xml:lang="en">Auto Attach: Disabled</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/debug-auto-launch/package" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="description">
+      <source xml:lang="en">Helper for auto-attach feature when node-debug extensions are not active.</source>
+    </trans-unit>
+    <trans-unit id="displayName">
+      <source xml:lang="en">Node Debug Auto-attach</source>
+    </trans-unit>
+    <trans-unit id="toggle.auto.attach">
+      <source xml:lang="en">Toggle Auto Attach</source>
+    </trans-unit>
+</body></file>
+</xliff>

@@ -1,0 +1,1918 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/platform/actions/browser/menuEntryActionViewItem" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="titleAndKb">
+      <source xml:lang="en">{0} ({1})</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/configuration/common/configurationRegistry" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="config.property.duplicate">
+      <source xml:lang="en">Cannot register '{0}'. This property is already registered.</source>
+    </trans-unit>
+    <trans-unit id="config.property.empty">
+      <source xml:lang="en">Cannot register an empty property</source>
+    </trans-unit>
+    <trans-unit id="config.property.languageDefault">
+      <source xml:lang="en">Cannot register '{0}'. This matches property pattern '\\[.*\\]$' for describing language specific editor settings. Use 'configurationDefaults' contribution.</source>
+    </trans-unit>
+    <trans-unit id="defaultLanguageConfiguration.description">
+      <source xml:lang="en">Configure settings to be overridden for {0} language.</source>
+    </trans-unit>
+    <trans-unit id="defaultLanguageConfigurationOverrides.title">
+      <source xml:lang="en">Default Language Configuration Overrides</source>
+    </trans-unit>
+    <trans-unit id="overrideSettings.defaultDescription">
+      <source xml:lang="en">Configure editor settings to be overridden for a language.</source>
+    </trans-unit>
+    <trans-unit id="overrideSettings.errorMessage">
+      <source xml:lang="en">This setting does not support per-language configuration.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/contextkey/browser/contextKeyService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="getContextKeyInfo">
+      <source xml:lang="en">A command that returns information about context keys</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/contextkey/common/contextkeys" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="inputFocus">
+      <source xml:lang="en">Whether keyboard focus is inside an input box</source>
+    </trans-unit>
+    <trans-unit id="isIOS">
+      <source xml:lang="en">Whether the operating system is IOS</source>
+    </trans-unit>
+    <trans-unit id="isLinux">
+      <source xml:lang="en">Whether the operating system is Linux</source>
+    </trans-unit>
+    <trans-unit id="isMac">
+      <source xml:lang="en">Whether the operating system is macOS</source>
+    </trans-unit>
+    <trans-unit id="isMacNative">
+      <source xml:lang="en">Whether the operating system is macOS on a non-browser platform</source>
+    </trans-unit>
+    <trans-unit id="isWeb">
+      <source xml:lang="en">Whether the platform is a web browser</source>
+    </trans-unit>
+    <trans-unit id="isWindows">
+      <source xml:lang="en">Whether the operating system is Windows</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/dialogs/common/dialogs" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="moreFile">
+      <source xml:lang="en">...1 additional file not shown</source>
+    </trans-unit>
+    <trans-unit id="moreFiles">
+      <source xml:lang="en">...{0} additional files not shown</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/dialogs/electron-main/dialogMainService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="open">
+      <source xml:lang="en">Open</source>
+    </trans-unit>
+    <trans-unit id="openFile">
+      <source xml:lang="en">Open File</source>
+    </trans-unit>
+    <trans-unit id="openFolder">
+      <source xml:lang="en">Open Folder</source>
+    </trans-unit>
+    <trans-unit id="openWorkspace">
+      <source xml:lang="en">&amp;&amp;Open</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="openWorkspaceTitle">
+      <source xml:lang="en">Open Workspace</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/environment/node/argv" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="add">
+      <source xml:lang="en">Add folder(s) to the last active window.</source>
+    </trans-unit>
+    <trans-unit id="category">
+      <source xml:lang="en">Filters installed extensions by provided category, when using --list-extensions.</source>
+    </trans-unit>
+    <trans-unit id="diff">
+      <source xml:lang="en">Compare two files with each other.</source>
+    </trans-unit>
+    <trans-unit id="disableExtension">
+      <source xml:lang="en">Disable an extension.</source>
+    </trans-unit>
+    <trans-unit id="disableExtensions">
+      <source xml:lang="en">Disable all installed extensions.</source>
+    </trans-unit>
+    <trans-unit id="disableGPU">
+      <source xml:lang="en">Disable GPU hardware acceleration.</source>
+    </trans-unit>
+    <trans-unit id="experimentalApis">
+      <source xml:lang="en">Enables proposed API features for extensions. Can receive one or more extension IDs to enable individually.</source>
+    </trans-unit>
+    <trans-unit id="extensionHomePath">
+      <source xml:lang="en">Set the root path for extensions.</source>
+    </trans-unit>
+    <trans-unit id="extensionsManagement">
+      <source xml:lang="en">Extensions Management</source>
+    </trans-unit>
+    <trans-unit id="goto">
+      <source xml:lang="en">Open a file at the path on the specified line and character position.</source>
+    </trans-unit>
+    <trans-unit id="help">
+      <source xml:lang="en">Print usage.</source>
+    </trans-unit>
+    <trans-unit id="inspect-brk-extensions">
+      <source xml:lang="en">Allow debugging and profiling of extensions with the extension host being paused after start. Check the developer tools for the connection URI.</source>
+    </trans-unit>
+    <trans-unit id="inspect-extensions">
+      <source xml:lang="en">Allow debugging and profiling of extensions. Check the developer tools for the connection URI.</source>
+    </trans-unit>
+    <trans-unit id="installExtension">
+      <source xml:lang="en">Installs or updates the extension. The identifier of an extension is always `${publisher}.${name}`. Use `--force` argument to update to latest version. To install a specific version provide `@${version}`. For example: 'vscode.csharp@1.2.3'.</source>
+    </trans-unit>
+    <trans-unit id="listExtensions">
+      <source xml:lang="en">List the installed extensions.</source>
+    </trans-unit>
+    <trans-unit id="locale">
+      <source xml:lang="en">The locale to use (e.g. en-US or zh-TW).</source>
+    </trans-unit>
+    <trans-unit id="log">
+      <source xml:lang="en">Log level to use. Default is 'info'. Allowed values are 'critical', 'error', 'warn', 'info', 'debug', 'trace', 'off'.</source>
+    </trans-unit>
+    <trans-unit id="maxMemory">
+      <source xml:lang="en">Max memory size for a window (in Mbytes).</source>
+    </trans-unit>
+    <trans-unit id="newWindow">
+      <source xml:lang="en">Force to open a new window.</source>
+    </trans-unit>
+    <trans-unit id="options">
+      <source xml:lang="en">options</source>
+    </trans-unit>
+    <trans-unit id="optionsUpperCase">
+      <source xml:lang="en">Options</source>
+    </trans-unit>
+    <trans-unit id="paths">
+      <source xml:lang="en">paths</source>
+    </trans-unit>
+    <trans-unit id="prof-startup">
+      <source xml:lang="en">Run CPU profiler during startup.</source>
+    </trans-unit>
+    <trans-unit id="reuseWindow">
+      <source xml:lang="en">Force to open a file or folder in an already opened window.</source>
+    </trans-unit>
+    <trans-unit id="showVersions">
+      <source xml:lang="en">Show versions of installed extensions, when using --list-extensions.</source>
+    </trans-unit>
+    <trans-unit id="status">
+      <source xml:lang="en">Print process usage and diagnostics information.</source>
+    </trans-unit>
+    <trans-unit id="stdinUnix">
+      <source xml:lang="en">To read from stdin, append '-' (e.g. 'ps aux | grep code | {0} -')</source>
+    </trans-unit>
+    <trans-unit id="stdinWindows">
+      <source xml:lang="en">To read output from another program, append '-' (e.g. 'echo Hello World | {0} -')</source>
+    </trans-unit>
+    <trans-unit id="telemetry">
+      <source xml:lang="en">Shows all telemetry events which VS code collects.</source>
+    </trans-unit>
+    <trans-unit id="troubleshooting">
+      <source xml:lang="en">Troubleshooting</source>
+    </trans-unit>
+    <trans-unit id="turn sync">
+      <source xml:lang="en">Turn sync on or off.</source>
+    </trans-unit>
+    <trans-unit id="uninstallExtension">
+      <source xml:lang="en">Uninstalls an extension.</source>
+    </trans-unit>
+    <trans-unit id="unknownCommit">
+      <source xml:lang="en">Unknown commit</source>
+    </trans-unit>
+    <trans-unit id="unknownVersion">
+      <source xml:lang="en">Unknown version</source>
+    </trans-unit>
+    <trans-unit id="usage">
+      <source xml:lang="en">Usage</source>
+    </trans-unit>
+    <trans-unit id="userDataDir">
+      <source xml:lang="en">Specifies the directory that user data is kept in. Can be used to open multiple distinct instances of Code.</source>
+    </trans-unit>
+    <trans-unit id="verbose">
+      <source xml:lang="en">Print verbose output (implies --wait).</source>
+    </trans-unit>
+    <trans-unit id="version">
+      <source xml:lang="en">Print version.</source>
+    </trans-unit>
+    <trans-unit id="wait">
+      <source xml:lang="en">Wait for the files to be closed before returning.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/environment/node/argvHelper" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="gotoValidation">
+      <source xml:lang="en">Arguments in `--goto` mode should be in the format of `FILE(:LINE(:CHARACTER))`.</source>
+    </trans-unit>
+    <trans-unit id="multipleValues">
+      <source xml:lang="en">Option '{0}' is defined more than once. Using value '{1}.'</source>
+    </trans-unit>
+    <trans-unit id="unknownOption">
+      <source xml:lang="en">Warning: '{0}' is not in the list of known options, but still passed to Electron/Chromium.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/extensionManagement/common/extensionManagement" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="extensions">
+      <source xml:lang="en">Extensions</source>
+    </trans-unit>
+    <trans-unit id="preferences">
+      <source xml:lang="en">Preferences</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/extensionManagement/common/extensionManagementCLIService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="alreadyInstalled">
+      <source xml:lang="en">Extension '{0}' is already installed.</source>
+    </trans-unit>
+    <trans-unit id="alreadyInstalled-checkAndUpdate">
+      <source xml:lang="en">Extension '{0}' v{1} is already installed. Use '--force' option to update to latest version or provide '@&lt;version&gt;' to install a specific version, for example: '{2}@1.2.3'.</source>
+    </trans-unit>
+    <trans-unit id="builtin">
+      <source xml:lang="en">Extension '{0}' is a Built-in extension and cannot be uninstalled</source>
+    </trans-unit>
+    <trans-unit id="cancelInstall">
+      <source xml:lang="en">Cancelled installing extension '{0}'.</source>
+    </trans-unit>
+    <trans-unit id="cancelVsixInstall">
+      <source xml:lang="en">Cancelled installing extension '{0}'.</source>
+    </trans-unit>
+    <trans-unit id="forceDowngrade">
+      <source xml:lang="en">A newer version of extension '{0}' v{1} is already installed. Use '--force' option to downgrade to older version.</source>
+    </trans-unit>
+    <trans-unit id="forceUninstall">
+      <source xml:lang="en">Extension '{0}' is marked as a Built-in extension by user. Please use '--force' option to uninstall it.</source>
+    </trans-unit>
+    <trans-unit id="installation failed">
+      <source xml:lang="en">Failed Installing Extensions: {0}</source>
+    </trans-unit>
+    <trans-unit id="installing">
+      <source xml:lang="en">Installing extension '{0}'...</source>
+    </trans-unit>
+    <trans-unit id="installing builtin ">
+      <source xml:lang="en">Installing builtin extension '{0}'...</source>
+    </trans-unit>
+    <trans-unit id="installing builtin with version">
+      <source xml:lang="en">Installing builtin extension '{0}' v{1}...</source>
+    </trans-unit>
+    <trans-unit id="installing with version">
+      <source xml:lang="en">Installing extension '{0}' v{1}...</source>
+    </trans-unit>
+    <trans-unit id="installingExtensions">
+      <source xml:lang="en">Installing extensions...</source>
+    </trans-unit>
+    <trans-unit id="installingExtensionsOnLocation">
+      <source xml:lang="en">Installing extensions on {0}...</source>
+    </trans-unit>
+    <trans-unit id="listFromLocation">
+      <source xml:lang="en">Extensions installed on {0}:</source>
+    </trans-unit>
+    <trans-unit id="notFound">
+      <source xml:lang="en">Extension '{0}' not found.</source>
+    </trans-unit>
+    <trans-unit id="notInstalled">
+      <source xml:lang="en">Extension '{0}' is not installed.</source>
+    </trans-unit>
+    <trans-unit id="notInstalleddOnLocation">
+      <source xml:lang="en">Extension '{0}' is not installed on {1}.</source>
+    </trans-unit>
+    <trans-unit id="successInstall">
+      <source xml:lang="en">Extension '{0}' v{1} was successfully installed.</source>
+    </trans-unit>
+    <trans-unit id="successUninstall">
+      <source xml:lang="en">Extension '{0}' was successfully uninstalled!</source>
+    </trans-unit>
+    <trans-unit id="successUninstallFromLocation">
+      <source xml:lang="en">Extension '{0}' was successfully uninstalled from {1}!</source>
+    </trans-unit>
+    <trans-unit id="successVsixInstall">
+      <source xml:lang="en">Extension '{0}' was successfully installed.</source>
+    </trans-unit>
+    <trans-unit id="uninstalling">
+      <source xml:lang="en">Uninstalling {0}...</source>
+    </trans-unit>
+    <trans-unit id="updateMessage">
+      <source xml:lang="en">Updating the extension '{0}' to the version {1}</source>
+    </trans-unit>
+    <trans-unit id="useId">
+      <source xml:lang="en">Make sure you use the full extension ID, including the publisher, e.g.: {0}</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/extensionManagement/electron-sandbox/extensionTipsService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="exeRecommended">
+      <source xml:lang="en">You have {0} installed on your system. Do you want to install the recommended extensions for it?</source>
+      <note>Placeholder string is the name of the software that is installed.</note>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/extensionManagement/node/extensionManagementService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="MarketPlaceDisabled">
+      <source xml:lang="en">Marketplace is not enabled</source>
+    </trans-unit>
+    <trans-unit id="Not a Marketplace extension">
+      <source xml:lang="en">Only Marketplace Extensions can be reinstalled</source>
+    </trans-unit>
+    <trans-unit id="exitCode">
+      <source xml:lang="en">Unable to install the extension. Please Exit and Start VS Code before reinstalling.</source>
+    </trans-unit>
+    <trans-unit id="incompatible">
+      <source xml:lang="en">Unable to install extension '{0}' as it is not compatible with VS Code '{1}'.</source>
+    </trans-unit>
+    <trans-unit id="malicious extension">
+      <source xml:lang="en">Can't install extension since it was reported to be problematic.</source>
+    </trans-unit>
+    <trans-unit id="multipleDependentsError">
+      <source xml:lang="en">Cannot uninstall '{0}' extension. '{1}', '{2}' and other extension depend on this.</source>
+    </trans-unit>
+    <trans-unit id="multipleIndirectDependentsError">
+      <source xml:lang="en">Cannot uninstall '{0}' extension. It includes uninstalling '{1}' extension and '{2}', '{3}' and other extensions depend on this.</source>
+    </trans-unit>
+    <trans-unit id="notExists">
+      <source xml:lang="en">Could not find extension</source>
+    </trans-unit>
+    <trans-unit id="notFoundCompatibleDependency">
+      <source xml:lang="en">Unable to install '{0}' extension because it is not compatible with the current version of VS Code (version {1}).</source>
+    </trans-unit>
+    <trans-unit id="notInstalled">
+      <source xml:lang="en">Extension '{0}' is not installed.</source>
+    </trans-unit>
+    <trans-unit id="quitCode">
+      <source xml:lang="en">Unable to install the extension. Please Quit and Start VS Code before reinstalling.</source>
+    </trans-unit>
+    <trans-unit id="removeError">
+      <source xml:lang="en">Error while removing the extension: {0}. Please Quit and Start VS Code before trying again.</source>
+    </trans-unit>
+    <trans-unit id="restartCode">
+      <source xml:lang="en">Please restart VS Code before reinstalling {0}.</source>
+    </trans-unit>
+    <trans-unit id="singleDependentError">
+      <source xml:lang="en">Cannot uninstall '{0}' extension. '{1}' extension depends on this.</source>
+    </trans-unit>
+    <trans-unit id="singleIndirectDependentError">
+      <source xml:lang="en">Cannot uninstall '{0}' extension . It includes uninstalling '{1}' extension and '{2}' extension depends on this.</source>
+    </trans-unit>
+    <trans-unit id="twoDependentsError">
+      <source xml:lang="en">Cannot uninstall '{0}' extension. '{1}' and '{2}' extensions depend on this.</source>
+    </trans-unit>
+    <trans-unit id="twoIndirectDependentsError">
+      <source xml:lang="en">Cannot uninstall '{0}' extension. It includes uninstalling '{1}' extension and '{2}' and '{3}' extensions depend on this.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/extensionManagement/node/extensionManagementUtil" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="invalidManifest">
+      <source xml:lang="en">VSIX invalid: package.json is not a JSON file.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/extensionManagement/node/extensionsScanner" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="cannot read">
+      <source xml:lang="en">Cannot read the extension from {0}</source>
+    </trans-unit>
+    <trans-unit id="errorDeleting">
+      <source xml:lang="en">Unable to delete the existing folder '{0}' while installing the extension '{1}'. Please delete the folder manually and try again</source>
+    </trans-unit>
+    <trans-unit id="invalidManifest">
+      <source xml:lang="en">Extension invalid: package.json is not a JSON file.</source>
+    </trans-unit>
+    <trans-unit id="renameError">
+      <source xml:lang="en">Unknown error while renaming {0} to {1}</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/extensions/common/extensionValidator" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="versionMismatch">
+      <source xml:lang="en">Extension is not compatible with Code {0}. Extension requires: {1}.</source>
+    </trans-unit>
+    <trans-unit id="versionSpecificity1">
+      <source xml:lang="en">Version specified in `engines.vscode` ({0}) is not specific enough. For vscode versions before 1.0.0, please define at a minimum the major and minor desired version. E.g. ^0.10.0, 0.10.x, 0.11.0, etc.</source>
+    </trans-unit>
+    <trans-unit id="versionSpecificity2">
+      <source xml:lang="en">Version specified in `engines.vscode` ({0}) is not specific enough. For vscode versions after 1.0.0, please define at a minimum the major desired version. E.g. ^1.10.0, 1.10.x, 1.x.x, 2.x.x, etc.</source>
+    </trans-unit>
+    <trans-unit id="versionSyntax">
+      <source xml:lang="en">Could not parse `engines.vscode` value {0}. Please use, for example: ^1.22.0, ^1.22.x, etc.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/externalTerminal/node/externalTerminalService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="console.title">
+      <source xml:lang="en">VS Code Console</source>
+    </trans-unit>
+    <trans-unit id="ext.term.app.not.found">
+      <source xml:lang="en">can't find terminal application '{0}'</source>
+    </trans-unit>
+    <trans-unit id="linux.term.failed">
+      <source xml:lang="en">'{0}' failed with exit code {1}</source>
+    </trans-unit>
+    <trans-unit id="mac.terminal.script.failed">
+      <source xml:lang="en">Script '{0}' failed with exit code {1}</source>
+    </trans-unit>
+    <trans-unit id="mac.terminal.type.not.supported">
+      <source xml:lang="en">'{0}' not supported</source>
+    </trans-unit>
+    <trans-unit id="press.any.key">
+      <source xml:lang="en">Press any key to continue...</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/files/common/fileService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="deleteFailedNonEmptyFolder">
+      <source xml:lang="en">Unable to delete non-empty folder '{0}'.</source>
+    </trans-unit>
+    <trans-unit id="deleteFailedNotFound">
+      <source xml:lang="en">Unable to delete non-existing file '{0}'</source>
+    </trans-unit>
+    <trans-unit id="deleteFailedTrashUnsupported">
+      <source xml:lang="en">Unable to delete file '{0}' via trash because provider does not support it.</source>
+    </trans-unit>
+    <trans-unit id="err.read">
+      <source xml:lang="en">Unable to read file '{0}' ({1})</source>
+    </trans-unit>
+    <trans-unit id="err.readonly">
+      <source xml:lang="en">Unable to modify readonly file '{0}'</source>
+    </trans-unit>
+    <trans-unit id="err.write">
+      <source xml:lang="en">Unable to write file '{0}' ({1})</source>
+    </trans-unit>
+    <trans-unit id="fileExists">
+      <source xml:lang="en">Unable to create file '{0}' that already exists when overwrite flag is not set</source>
+    </trans-unit>
+    <trans-unit id="fileIsDirectoryReadError">
+      <source xml:lang="en">Unable to read file '{0}' that is actually a directory</source>
+    </trans-unit>
+    <trans-unit id="fileIsDirectoryWriteError">
+      <source xml:lang="en">Unable to write file '{0}' that is actually a directory</source>
+    </trans-unit>
+    <trans-unit id="fileModifiedError">
+      <source xml:lang="en">File Modified Since</source>
+    </trans-unit>
+    <trans-unit id="fileNotFoundError">
+      <source xml:lang="en">Unable to resolve non-existing file '{0}'</source>
+    </trans-unit>
+    <trans-unit id="fileNotModifiedError">
+      <source xml:lang="en">File not modified since</source>
+    </trans-unit>
+    <trans-unit id="fileTooLargeError">
+      <source xml:lang="en">Unable to read file '{0}' that is too large to open</source>
+    </trans-unit>
+    <trans-unit id="invalidPath">
+      <source xml:lang="en">Unable to resolve filesystem provider with relative file path '{0}'</source>
+    </trans-unit>
+    <trans-unit id="mkdirExistsError">
+      <source xml:lang="en">Unable to create folder '{0}' that already exists but is not a directory</source>
+    </trans-unit>
+    <trans-unit id="noProviderFound">
+      <source xml:lang="en">No file system provider found for resource '{0}'</source>
+    </trans-unit>
+    <trans-unit id="unableToMoveCopyError1">
+      <source xml:lang="en">Unable to copy when source '{0}' is same as target '{1}' with different path case on a case insensitive file system</source>
+    </trans-unit>
+    <trans-unit id="unableToMoveCopyError2">
+      <source xml:lang="en">Unable to move/copy when source '{0}' is parent of target '{1}'.</source>
+    </trans-unit>
+    <trans-unit id="unableToMoveCopyError3">
+      <source xml:lang="en">Unable to move/copy '{0}' because target '{1}' already exists at destination.</source>
+    </trans-unit>
+    <trans-unit id="unableToMoveCopyError4">
+      <source xml:lang="en">Unable to move/copy '{0}' into '{1}' since a file would replace the folder it is contained in.</source>
+    </trans-unit>
+    <trans-unit id="writeFailedUnlockUnsupported">
+      <source xml:lang="en">Unable to unlock file '{0}' because provider does not support it.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/files/common/files" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="sizeB">
+      <source xml:lang="en">{0}B</source>
+    </trans-unit>
+    <trans-unit id="sizeGB">
+      <source xml:lang="en">{0}GB</source>
+    </trans-unit>
+    <trans-unit id="sizeKB">
+      <source xml:lang="en">{0}KB</source>
+    </trans-unit>
+    <trans-unit id="sizeMB">
+      <source xml:lang="en">{0}MB</source>
+    </trans-unit>
+    <trans-unit id="sizeTB">
+      <source xml:lang="en">{0}TB</source>
+    </trans-unit>
+    <trans-unit id="unknownError">
+      <source xml:lang="en">Unknown Error</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/files/common/io" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="fileTooLargeError">
+      <source xml:lang="en">File is too large to open</source>
+    </trans-unit>
+    <trans-unit id="fileTooLargeForHeapError">
+      <source xml:lang="en">To open a file of this size, you need to restart and allow {0} to use more memory</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/files/electron-browser/diskFileSystemProvider" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="binFailed">
+      <source xml:lang="en">Failed to move '{0}' to the recycle bin</source>
+    </trans-unit>
+    <trans-unit id="trashFailed">
+      <source xml:lang="en">Failed to move '{0}' to the trash</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/files/node/diskFileSystemProvider" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="copyError">
+      <source xml:lang="en">Unable to copy '{0}' into '{1}' ({2}).</source>
+    </trans-unit>
+    <trans-unit id="fileCopyErrorExists">
+      <source xml:lang="en">File at target already exists</source>
+    </trans-unit>
+    <trans-unit id="fileCopyErrorPathCase">
+      <source xml:lang="en">'File cannot be copied to same path with different path case</source>
+    </trans-unit>
+    <trans-unit id="fileExists">
+      <source xml:lang="en">File already exists</source>
+    </trans-unit>
+    <trans-unit id="fileNotExists">
+      <source xml:lang="en">File does not exist</source>
+    </trans-unit>
+    <trans-unit id="moveError">
+      <source xml:lang="en">Unable to move '{0}' into '{1}' ({2}).</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/issue/electron-main/issueMainService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="cancel">
+      <source xml:lang="en">&amp;&amp;Cancel</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="confirmCloseIssueReporter">
+      <source xml:lang="en">Your input will not be saved. Are you sure you want to close this window?</source>
+    </trans-unit>
+    <trans-unit id="issueReporter">
+      <source xml:lang="en">Issue Reporter</source>
+    </trans-unit>
+    <trans-unit id="issueReporterWriteToClipboard">
+      <source xml:lang="en">There is too much data to send to GitHub directly. The data will be copied to the clipboard, please paste it into the GitHub issue page that is opened.</source>
+    </trans-unit>
+    <trans-unit id="local">
+      <source xml:lang="en">Local</source>
+    </trans-unit>
+    <trans-unit id="ok">
+      <source xml:lang="en">&amp;&amp;OK</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="processExplorer">
+      <source xml:lang="en">Process Explorer</source>
+    </trans-unit>
+    <trans-unit id="yes">
+      <source xml:lang="en">&amp;&amp;Yes</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/keybinding/common/abstractKeybindingService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="first.chord">
+      <source xml:lang="en">({0}) was pressed. Waiting for second key of chord...</source>
+    </trans-unit>
+    <trans-unit id="missing.chord">
+      <source xml:lang="en">The key combination ({0}, {1}) is not a command.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/list/browser/listService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="automatic keyboard navigation setting">
+      <source xml:lang="en">Controls whether keyboard navigation in lists and trees is automatically triggered simply by typing. If set to `false`, keyboard navigation is only triggered when executing the `list.toggleKeyboardNavigation` command, for which you can assign a keyboard shortcut.</source>
+    </trans-unit>
+    <trans-unit id="expand mode">
+      <source xml:lang="en">Controls how tree folders are expanded when clicking the folder names. Note that some trees and lists might choose to ignore this setting if it is not applicable.</source>
+    </trans-unit>
+    <trans-unit id="horizontalScrolling setting">
+      <source xml:lang="en">Controls whether lists and trees support horizontal scrolling in the workbench. Warning: turning on this setting has a performance implication.</source>
+    </trans-unit>
+    <trans-unit id="keyboardNavigationSettingKey">
+      <source xml:lang="en">Controls the keyboard navigation style for lists and trees in the workbench. Can be simple, highlight and filter.</source>
+    </trans-unit>
+    <trans-unit id="keyboardNavigationSettingKey.filter">
+      <source xml:lang="en">Filter keyboard navigation will filter out and hide all the elements which do not match the keyboard input.</source>
+    </trans-unit>
+    <trans-unit id="keyboardNavigationSettingKey.highlight">
+      <source xml:lang="en">Highlight keyboard navigation highlights elements which match the keyboard input. Further up and down navigation will traverse only the highlighted elements.</source>
+    </trans-unit>
+    <trans-unit id="keyboardNavigationSettingKey.simple">
+      <source xml:lang="en">Simple keyboard navigation focuses elements which match the keyboard input. Matching is done only on prefixes.</source>
+    </trans-unit>
+    <trans-unit id="list smoothScrolling setting">
+      <source xml:lang="en">Controls whether lists and trees have smooth scrolling.</source>
+    </trans-unit>
+    <trans-unit id="multiSelectModifier">
+      <source xml:lang="en">The modifier to be used to add an item in trees and lists to a multi-selection with the mouse (for example in the explorer, open editors and scm view). The 'Open to Side' mouse gestures - if supported - will adapt such that they do not conflict with the multiselect modifier.</source>
+      <note>- `ctrlCmd` refers to a value the setting can take and should not be localized.
+- `Control` and `Command` refer to the modifier keys Ctrl or Cmd on the keyboard and can be localized.</note>
+    </trans-unit>
+    <trans-unit id="multiSelectModifier.alt">
+      <source xml:lang="en">Maps to `Alt` on Windows and Linux and to `Option` on macOS.</source>
+    </trans-unit>
+    <trans-unit id="multiSelectModifier.ctrlCmd">
+      <source xml:lang="en">Maps to `Control` on Windows and Linux and to `Command` on macOS.</source>
+    </trans-unit>
+    <trans-unit id="openModeModifier">
+      <source xml:lang="en">Controls how to open items in trees and lists using the mouse (if supported). Note that some trees and lists might choose to ignore this setting if it is not applicable.</source>
+      <note>`singleClick` and `doubleClick` refers to a value the setting can take and should not be localized.</note>
+    </trans-unit>
+    <trans-unit id="render tree indent guides">
+      <source xml:lang="en">Controls whether the tree should render indent guides.</source>
+    </trans-unit>
+    <trans-unit id="tree indent setting">
+      <source xml:lang="en">Controls tree indentation in pixels.</source>
+    </trans-unit>
+    <trans-unit id="workbenchConfigurationTitle">
+      <source xml:lang="en">Workbench</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/localizations/common/localizedStrings" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="close">
+      <source xml:lang="en">close</source>
+    </trans-unit>
+    <trans-unit id="find">
+      <source xml:lang="en">find</source>
+    </trans-unit>
+    <trans-unit id="open">
+      <source xml:lang="en">open</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/markers/common/markers" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="sev.error">
+      <source xml:lang="en">Error</source>
+    </trans-unit>
+    <trans-unit id="sev.info">
+      <source xml:lang="en">Info</source>
+    </trans-unit>
+    <trans-unit id="sev.warning">
+      <source xml:lang="en">Warning</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/menubar/electron-main/menubar" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="mAbout">
+      <source xml:lang="en">About {0}</source>
+    </trans-unit>
+    <trans-unit id="mBringToFront">
+      <source xml:lang="en">Bring All to Front</source>
+    </trans-unit>
+    <trans-unit id="mEdit">
+      <source xml:lang="en">&amp;&amp;Edit</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="mFile">
+      <source xml:lang="en">&amp;&amp;File</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="mGoto">
+      <source xml:lang="en">&amp;&amp;Go</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="mHelp">
+      <source xml:lang="en">&amp;&amp;Help</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="mHide">
+      <source xml:lang="en">Hide {0}</source>
+    </trans-unit>
+    <trans-unit id="mHideOthers">
+      <source xml:lang="en">Hide Others</source>
+    </trans-unit>
+    <trans-unit id="mMergeAllWindows">
+      <source xml:lang="en">Merge All Windows</source>
+    </trans-unit>
+    <trans-unit id="mMinimize">
+      <source xml:lang="en">Minimize</source>
+    </trans-unit>
+    <trans-unit id="mMoveTabToNewWindow">
+      <source xml:lang="en">Move Tab to New Window</source>
+    </trans-unit>
+    <trans-unit id="mNewTab">
+      <source xml:lang="en">New Tab</source>
+    </trans-unit>
+    <trans-unit id="mRun">
+      <source xml:lang="en">&amp;&amp;Run</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="mSelection">
+      <source xml:lang="en">&amp;&amp;Selection</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="mServices">
+      <source xml:lang="en">Services</source>
+    </trans-unit>
+    <trans-unit id="mShowAll">
+      <source xml:lang="en">Show All</source>
+    </trans-unit>
+    <trans-unit id="mShowNextTab">
+      <source xml:lang="en">Show Next Tab</source>
+    </trans-unit>
+    <trans-unit id="mShowPreviousTab">
+      <source xml:lang="en">Show Previous Tab</source>
+    </trans-unit>
+    <trans-unit id="mTerminal">
+      <source xml:lang="en">&amp;&amp;Terminal</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="mView">
+      <source xml:lang="en">&amp;&amp;View</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="mWindow">
+      <source xml:lang="en">Window</source>
+    </trans-unit>
+    <trans-unit id="mZoom">
+      <source xml:lang="en">Zoom</source>
+    </trans-unit>
+    <trans-unit id="miCheckForUpdates">
+      <source xml:lang="en">Check for &amp;&amp;Updates...</source>
+    </trans-unit>
+    <trans-unit id="miCheckingForUpdates">
+      <source xml:lang="en">Checking for Updates...</source>
+    </trans-unit>
+    <trans-unit id="miDownloadUpdate">
+      <source xml:lang="en">D&amp;&amp;ownload Available Update</source>
+    </trans-unit>
+    <trans-unit id="miDownloadingUpdate">
+      <source xml:lang="en">Downloading Update...</source>
+    </trans-unit>
+    <trans-unit id="miInstallUpdate">
+      <source xml:lang="en">Install &amp;&amp;Update...</source>
+    </trans-unit>
+    <trans-unit id="miInstallingUpdate">
+      <source xml:lang="en">Installing Update...</source>
+    </trans-unit>
+    <trans-unit id="miNewWindow">
+      <source xml:lang="en">New &amp;&amp;Window</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="miPreferences">
+      <source xml:lang="en">&amp;&amp;Preferences</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="miQuit">
+      <source xml:lang="en">Quit {0}</source>
+    </trans-unit>
+    <trans-unit id="miRestartToUpdate">
+      <source xml:lang="en">Restart to &amp;&amp;Update</source>
+    </trans-unit>
+    <trans-unit id="miSwitchWindow">
+      <source xml:lang="en">Switch &amp;&amp;Window...</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/native/electron-main/nativeHostMainService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="cancel">
+      <source xml:lang="en">&amp;&amp;Cancel</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="cantCreateBinFolder">
+      <source xml:lang="en">Unable to install the shell command '{0}'.</source>
+    </trans-unit>
+    <trans-unit id="cantUninstall">
+      <source xml:lang="en">Unable to uninstall the shell command '{0}'.</source>
+    </trans-unit>
+    <trans-unit id="ok">
+      <source xml:lang="en">&amp;&amp;OK</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="sourceMissing">
+      <source xml:lang="en">Unable to find shell script in '{0}'</source>
+    </trans-unit>
+    <trans-unit id="warnEscalation">
+      <source xml:lang="en">{0} will now prompt with 'osascript' for Administrator privileges to install the shell command.</source>
+    </trans-unit>
+    <trans-unit id="warnEscalationUninstall">
+      <source xml:lang="en">{0} will now prompt with 'osascript' for Administrator privileges to uninstall the shell command.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/quickinput/browser/commandsQuickAccess" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="canNotRun">
+      <source xml:lang="en">Command '{0}' resulted in an error ({1})</source>
+    </trans-unit>
+    <trans-unit id="commandPickAriaLabelWithKeybinding">
+      <source xml:lang="en">{0}, {1}</source>
+    </trans-unit>
+    <trans-unit id="morecCommands">
+      <source xml:lang="en">other commands</source>
+    </trans-unit>
+    <trans-unit id="recentlyUsed">
+      <source xml:lang="en">recently used</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/quickinput/browser/helpQuickAccess" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="editorCommands">
+      <source xml:lang="en">editor commands</source>
+    </trans-unit>
+    <trans-unit id="globalCommands">
+      <source xml:lang="en">global commands</source>
+    </trans-unit>
+    <trans-unit id="helpPickAriaLabel">
+      <source xml:lang="en">{0}, {1}</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/request/common/request" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="httpConfigurationTitle">
+      <source xml:lang="en">HTTP</source>
+    </trans-unit>
+    <trans-unit id="proxy">
+      <source xml:lang="en">The proxy setting to use. If not set, will be inherited from the `http_proxy` and `https_proxy` environment variables.</source>
+    </trans-unit>
+    <trans-unit id="proxyAuthorization">
+      <source xml:lang="en">The value to send as the `Proxy-Authorization` header for every network request.</source>
+    </trans-unit>
+    <trans-unit id="proxySupport">
+      <source xml:lang="en">Use the proxy support for extensions.</source>
+    </trans-unit>
+    <trans-unit id="proxySupportFallback">
+      <source xml:lang="en">Enable proxy support for extensions, fall back to request options, when no proxy found.</source>
+    </trans-unit>
+    <trans-unit id="proxySupportOff">
+      <source xml:lang="en">Disable proxy support for extensions.</source>
+    </trans-unit>
+    <trans-unit id="proxySupportOn">
+      <source xml:lang="en">Enable proxy support for extensions.</source>
+    </trans-unit>
+    <trans-unit id="proxySupportOverride">
+      <source xml:lang="en">Enable proxy support for extensions, override request options.</source>
+    </trans-unit>
+    <trans-unit id="strictSSL">
+      <source xml:lang="en">Controls whether the proxy server certificate should be verified against the list of supplied CAs.</source>
+    </trans-unit>
+    <trans-unit id="systemCertificates">
+      <source xml:lang="en">Controls whether CA certificates should be loaded from the OS. (On Windows and macOS, a reload of the window is required after turning this off.)</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/telemetry/common/telemetryService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="telemetry.enableTelemetry">
+      <source xml:lang="en">Enable usage data and errors to be sent to a Microsoft online service.</source>
+    </trans-unit>
+    <trans-unit id="telemetry.enableTelemetryMd">
+      <source xml:lang="en">Enable usage data and errors to be sent to a Microsoft online service. Read our privacy statement [here]({0}).</source>
+    </trans-unit>
+    <trans-unit id="telemetryConfigurationTitle">
+      <source xml:lang="en">Telemetry</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/terminal/common/terminalPlatformConfiguration" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="terminal.integrated.automationShell.linux">
+      <source xml:lang="en">A path that when set will override {0} and ignore {1} values for automation-related terminal usage like tasks and debug.</source>
+      <note>{0} and {1} are the `shell` and `shellArgs` settings keys</note>
+    </trans-unit>
+    <trans-unit id="terminal.integrated.automationShell.osx">
+      <source xml:lang="en">A path that when set will override {0} and ignore {1} values for automation-related terminal usage like tasks and debug.</source>
+      <note>{0} and {1} are the `shell` and `shellArgs` settings keys</note>
+    </trans-unit>
+    <trans-unit id="terminal.integrated.automationShell.windows">
+      <source xml:lang="en">A path that when set will override {0} and ignore {1} values for automation-related terminal usage like tasks and debug.</source>
+      <note>{0} and {1} are the `shell` and `shellArgs` settings keys</note>
+    </trans-unit>
+    <trans-unit id="terminal.integrated.defaultProfile.linux">
+      <source xml:lang="en">The default profile used on Linux. This setting will currently be ignored if either {0} or {1} are set.</source>
+    </trans-unit>
+    <trans-unit id="terminal.integrated.defaultProfile.osx">
+      <source xml:lang="en">The default profile used on macOS. This setting will currently be ignored if either {0} or {1} are set.</source>
+    </trans-unit>
+    <trans-unit id="terminal.integrated.defaultProfile.windows">
+      <source xml:lang="en">The default profile used on Windows. This setting will currently be ignored if either {0} or {1} are set.</source>
+    </trans-unit>
+    <trans-unit id="terminal.integrated.inheritEnv">
+      <source xml:lang="en">Whether new shells should inherit their environment from VS Code which may source a login shell to ensure $PATH and other development variables are initialized. This has no effect on Windows.</source>
+    </trans-unit>
+    <trans-unit id="terminal.integrated.profile.linux">
+      <source xml:lang="en">The Linux profiles to present when creating a new terminal via the terminal dropdown. When set, these will override the default detected profiles. They are comprised of a {0} and optional {1}</source>
+      <note>{0} and {1} are the `path` and optional `args` settings keys</note>
+    </trans-unit>
+    <trans-unit id="terminal.integrated.profile.osx">
+      <source xml:lang="en">The macOS profiles to present when creating a new terminal via the terminal dropdown. When set, these will override the default detected profiles. They are comprised of a {0} and optional {1}</source>
+      <note>{0} and {1} are the `path` and optional `args` settings keys</note>
+    </trans-unit>
+    <trans-unit id="terminal.integrated.profiles.windows">
+      <source xml:lang="en">The Windows profiles to present when creating a new terminal via the terminal dropdown. Set to null to exclude them, use the {0} property to use the default detected configuration. Or, set the {1} and optional {2}</source>
+      <note>{0}, {1}, and {2} are the `source`, `path` and optional `args` settings keys</note>
+    </trans-unit>
+    <trans-unit id="terminal.integrated.shell.linux">
+      <source xml:lang="en">The path of the shell that the terminal uses on Linux. [Read more about configuring the shell](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration).</source>
+    </trans-unit>
+    <trans-unit id="terminal.integrated.shell.linux.deprecation">
+      <source xml:lang="en">This is deprecated, the new recommended way to configure your default shell is by creating a terminal profile in {0} and setting its profile name as the default in {1}. This will currently take priority over the new profiles settings but that will change in the future.</source>
+    </trans-unit>
+    <trans-unit id="terminal.integrated.shell.osx">
+      <source xml:lang="en">The path of the shell that the terminal uses on macOS. [Read more about configuring the shell](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration).</source>
+    </trans-unit>
+    <trans-unit id="terminal.integrated.shell.osx.deprecation">
+      <source xml:lang="en">This is deprecated, the new recommended way to configure your default shell is by creating a terminal profile in {0} and setting its profile name as the default in {1}. This will currently take priority over the new profiles settings but that will change in the future.</source>
+    </trans-unit>
+    <trans-unit id="terminal.integrated.shell.windows">
+      <source xml:lang="en">The path of the shell that the terminal uses on Windows. [Read more about configuring the shell](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration).</source>
+    </trans-unit>
+    <trans-unit id="terminal.integrated.shell.windows.deprecation">
+      <source xml:lang="en">This is deprecated, the new recommended way to configure your default shell is by creating a terminal profile in {0} and setting its profile name as the default in {1}. This will currently take priority over the new profiles settings but that will change in the future.</source>
+    </trans-unit>
+    <trans-unit id="terminal.integrated.shellArgs.linux">
+      <source xml:lang="en">The command line arguments to use when on the Linux terminal. [Read more about configuring the shell](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration).</source>
+    </trans-unit>
+    <trans-unit id="terminal.integrated.shellArgs.osx">
+      <source xml:lang="en">The command line arguments to use when on the macOS terminal. [Read more about configuring the shell](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration).</source>
+    </trans-unit>
+    <trans-unit id="terminal.integrated.shellArgs.windows">
+      <source xml:lang="en">The command line arguments to use when on the Windows terminal. [Read more about configuring the shell](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration).</source>
+    </trans-unit>
+    <trans-unit id="terminal.integrated.shellArgs.windows.string">
+      <source xml:lang="en">The command line arguments in [command-line format](https://msdn.microsoft.com/en-au/08dfcab2-eb6e-49a4-80eb-87d4076c98c6) to use when on the Windows terminal. [Read more about configuring the shell](https://code.visualstudio.com/docs/editor/integrated-terminal#_configuration).</source>
+    </trans-unit>
+    <trans-unit id="terminal.integrated.showLinkHover">
+      <source xml:lang="en">Whether to show hovers for links in the terminal output.</source>
+    </trans-unit>
+    <trans-unit id="terminal.integrated.useWslProfiles">
+      <source xml:lang="en">Controls whether or not WSL distros are shown in the terminal dropdown</source>
+    </trans-unit>
+    <trans-unit id="terminalIntegratedConfigurationTitle">
+      <source xml:lang="en">Integrated Terminal</source>
+    </trans-unit>
+    <trans-unit id="terminalProfile.args">
+      <source xml:lang="en">An optional set of arguments to run the shell executable with.</source>
+    </trans-unit>
+    <trans-unit id="terminalProfile.color">
+      <source xml:lang="en">A theme color ID to associate with this terminal.</source>
+    </trans-unit>
+    <trans-unit id="terminalProfile.env">
+      <source xml:lang="en">An object with environment variables that will be added to the terminal profile process. Set to `null` to delete environment variables from the base environment.</source>
+    </trans-unit>
+    <trans-unit id="terminalProfile.icon">
+      <source xml:lang="en">A codicon ID to associate with this terminal.</source>
+    </trans-unit>
+    <trans-unit id="terminalProfile.overrideName">
+      <source xml:lang="en">Controls whether or not the profile name overrides the auto detected one.</source>
+    </trans-unit>
+    <trans-unit id="terminalProfile.path">
+      <source xml:lang="en">A single path to a shell executable or an array of paths that will be used as fallbacks when one fails.</source>
+    </trans-unit>
+    <trans-unit id="terminalProfile.windowsSource">
+      <source xml:lang="en">A profile source that will auto detect the paths to the shell.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/terminal/node/terminalProcess" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="launchFail.cwdDoesNotExist">
+      <source xml:lang="en">Starting directory (cwd) "{0}" does not exist</source>
+    </trans-unit>
+    <trans-unit id="launchFail.cwdNotDirectory">
+      <source xml:lang="en">Starting directory (cwd) "{0}" is not a directory</source>
+    </trans-unit>
+    <trans-unit id="launchFail.executableDoesNotExist">
+      <source xml:lang="en">Path to shell executable "{0}" does not exist</source>
+    </trans-unit>
+    <trans-unit id="launchFail.executableIsNotFileOrSymlink">
+      <source xml:lang="en">Path to shell executable "{0}" is not a file of a symlink</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/theme/common/colorRegistry" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="activeContrastBorder">
+      <source xml:lang="en">An extra border around active elements to separate them from others for greater contrast.</source>
+    </trans-unit>
+    <trans-unit id="activeLinkForeground">
+      <source xml:lang="en">Color of active links.</source>
+    </trans-unit>
+    <trans-unit id="badgeBackground">
+      <source xml:lang="en">Badge background color. Badges are small information labels, e.g. for search results count.</source>
+    </trans-unit>
+    <trans-unit id="badgeForeground">
+      <source xml:lang="en">Badge foreground color. Badges are small information labels, e.g. for search results count.</source>
+    </trans-unit>
+    <trans-unit id="breadcrumbsBackground">
+      <source xml:lang="en">Background color of breadcrumb items.</source>
+    </trans-unit>
+    <trans-unit id="breadcrumbsFocusForeground">
+      <source xml:lang="en">Color of focused breadcrumb items.</source>
+    </trans-unit>
+    <trans-unit id="breadcrumbsSelectedBackground">
+      <source xml:lang="en">Background color of breadcrumb item picker.</source>
+    </trans-unit>
+    <trans-unit id="breadcrumbsSelectedForegound">
+      <source xml:lang="en">Color of selected breadcrumb items.</source>
+    </trans-unit>
+    <trans-unit id="buttonBackground">
+      <source xml:lang="en">Button background color.</source>
+    </trans-unit>
+    <trans-unit id="buttonBorder">
+      <source xml:lang="en">Button border color.</source>
+    </trans-unit>
+    <trans-unit id="buttonForeground">
+      <source xml:lang="en">Button foreground color.</source>
+    </trans-unit>
+    <trans-unit id="buttonHoverBackground">
+      <source xml:lang="en">Button background color when hovering.</source>
+    </trans-unit>
+    <trans-unit id="buttonSecondaryBackground">
+      <source xml:lang="en">Secondary button background color.</source>
+    </trans-unit>
+    <trans-unit id="buttonSecondaryForeground">
+      <source xml:lang="en">Secondary button foreground color.</source>
+    </trans-unit>
+    <trans-unit id="buttonSecondaryHoverBackground">
+      <source xml:lang="en">Secondary button background color when hovering.</source>
+    </trans-unit>
+    <trans-unit id="chartsBlue">
+      <source xml:lang="en">The blue color used in chart visualizations.</source>
+    </trans-unit>
+    <trans-unit id="chartsForeground">
+      <source xml:lang="en">The foreground color used in charts.</source>
+    </trans-unit>
+    <trans-unit id="chartsGreen">
+      <source xml:lang="en">The green color used in chart visualizations.</source>
+    </trans-unit>
+    <trans-unit id="chartsLines">
+      <source xml:lang="en">The color used for horizontal lines in charts.</source>
+    </trans-unit>
+    <trans-unit id="chartsOrange">
+      <source xml:lang="en">The orange color used in chart visualizations.</source>
+    </trans-unit>
+    <trans-unit id="chartsPurple">
+      <source xml:lang="en">The purple color used in chart visualizations.</source>
+    </trans-unit>
+    <trans-unit id="chartsRed">
+      <source xml:lang="en">The red color used in chart visualizations.</source>
+    </trans-unit>
+    <trans-unit id="chartsYellow">
+      <source xml:lang="en">The yellow color used in chart visualizations.</source>
+    </trans-unit>
+    <trans-unit id="checkbox.background">
+      <source xml:lang="en">Background color of checkbox widget.</source>
+    </trans-unit>
+    <trans-unit id="checkbox.border">
+      <source xml:lang="en">Border color of checkbox widget.</source>
+    </trans-unit>
+    <trans-unit id="checkbox.foreground">
+      <source xml:lang="en">Foreground color of checkbox widget.</source>
+    </trans-unit>
+    <trans-unit id="contrastBorder">
+      <source xml:lang="en">An extra border around elements to separate them from others for greater contrast.</source>
+    </trans-unit>
+    <trans-unit id="descriptionForeground">
+      <source xml:lang="en">Foreground color for description text providing additional information, for example for a label.</source>
+    </trans-unit>
+    <trans-unit id="diffDiagonalFill">
+      <source xml:lang="en">Color of the diff editor's diagonal fill. The diagonal fill is used in side-by-side diff views.</source>
+    </trans-unit>
+    <trans-unit id="diffEditorBorder">
+      <source xml:lang="en">Border color between the two text editors.</source>
+    </trans-unit>
+    <trans-unit id="diffEditorInserted">
+      <source xml:lang="en">Background color for text that got inserted. The color must not be opaque so as not to hide underlying decorations.</source>
+    </trans-unit>
+    <trans-unit id="diffEditorInsertedOutline">
+      <source xml:lang="en">Outline color for the text that got inserted.</source>
+    </trans-unit>
+    <trans-unit id="diffEditorRemoved">
+      <source xml:lang="en">Background color for text that got removed. The color must not be opaque so as not to hide underlying decorations.</source>
+    </trans-unit>
+    <trans-unit id="diffEditorRemovedOutline">
+      <source xml:lang="en">Outline color for text that got removed.</source>
+    </trans-unit>
+    <trans-unit id="dropdownBackground">
+      <source xml:lang="en">Dropdown background.</source>
+    </trans-unit>
+    <trans-unit id="dropdownBorder">
+      <source xml:lang="en">Dropdown border.</source>
+    </trans-unit>
+    <trans-unit id="dropdownForeground">
+      <source xml:lang="en">Dropdown foreground.</source>
+    </trans-unit>
+    <trans-unit id="dropdownListBackground">
+      <source xml:lang="en">Dropdown list background.</source>
+    </trans-unit>
+    <trans-unit id="editorBackground">
+      <source xml:lang="en">Editor background color.</source>
+    </trans-unit>
+    <trans-unit id="editorError.background">
+      <source xml:lang="en">Background color of error text in the editor. The color must not be opaque so as not to hide underlying decorations.</source>
+    </trans-unit>
+    <trans-unit id="editorError.foreground">
+      <source xml:lang="en">Foreground color of error squigglies in the editor.</source>
+    </trans-unit>
+    <trans-unit id="editorFindMatch">
+      <source xml:lang="en">Color of the current search match.</source>
+    </trans-unit>
+    <trans-unit id="editorFindMatchBorder">
+      <source xml:lang="en">Border color of the current search match.</source>
+    </trans-unit>
+    <trans-unit id="editorForeground">
+      <source xml:lang="en">Editor default foreground color.</source>
+    </trans-unit>
+    <trans-unit id="editorHint.foreground">
+      <source xml:lang="en">Foreground color of hint squigglies in the editor.</source>
+    </trans-unit>
+    <trans-unit id="editorInactiveSelection">
+      <source xml:lang="en">Color of the selection in an inactive editor. The color must not be opaque so as not to hide underlying decorations.</source>
+    </trans-unit>
+    <trans-unit id="editorInfo.background">
+      <source xml:lang="en">Background color of info text in the editor. The color must not be opaque so as not to hide underlying decorations.</source>
+    </trans-unit>
+    <trans-unit id="editorInfo.foreground">
+      <source xml:lang="en">Foreground color of info squigglies in the editor.</source>
+    </trans-unit>
+    <trans-unit id="editorInlayHintBackground">
+      <source xml:lang="en">Background color of inline hints</source>
+    </trans-unit>
+    <trans-unit id="editorInlayHintForeground">
+      <source xml:lang="en">Foreground color of inline hints</source>
+    </trans-unit>
+    <trans-unit id="editorLightBulbAutoFixForeground">
+      <source xml:lang="en">The color used for the lightbulb auto fix actions icon.</source>
+    </trans-unit>
+    <trans-unit id="editorLightBulbForeground">
+      <source xml:lang="en">The color used for the lightbulb actions icon.</source>
+    </trans-unit>
+    <trans-unit id="editorSelectionBackground">
+      <source xml:lang="en">Color of the editor selection.</source>
+    </trans-unit>
+    <trans-unit id="editorSelectionForeground">
+      <source xml:lang="en">Color of the selected text for high contrast.</source>
+    </trans-unit>
+    <trans-unit id="editorSelectionHighlight">
+      <source xml:lang="en">Color for regions with the same content as the selection. The color must not be opaque so as not to hide underlying decorations.</source>
+    </trans-unit>
+    <trans-unit id="editorSelectionHighlightBorder">
+      <source xml:lang="en">Border color for regions with the same content as the selection.</source>
+    </trans-unit>
+    <trans-unit id="editorWarning.background">
+      <source xml:lang="en">Background color of warning text in the editor. The color must not be opaque so as not to hide underlying decorations.</source>
+    </trans-unit>
+    <trans-unit id="editorWarning.foreground">
+      <source xml:lang="en">Foreground color of warning squigglies in the editor.</source>
+    </trans-unit>
+    <trans-unit id="editorWidgetBackground">
+      <source xml:lang="en">Background color of editor widgets, such as find/replace.</source>
+    </trans-unit>
+    <trans-unit id="editorWidgetBorder">
+      <source xml:lang="en">Border color of editor widgets. The color is only used if the widget chooses to have a border and if the color is not overridden by a widget.</source>
+    </trans-unit>
+    <trans-unit id="editorWidgetForeground">
+      <source xml:lang="en">Foreground color of editor widgets, such as find/replace.</source>
+    </trans-unit>
+    <trans-unit id="editorWidgetResizeBorder">
+      <source xml:lang="en">Border color of the resize bar of editor widgets. The color is only used if the widget chooses to have a resize border and if the color is not overridden by a widget.</source>
+    </trans-unit>
+    <trans-unit id="errorBorder">
+      <source xml:lang="en">Border color of error boxes in the editor.</source>
+    </trans-unit>
+    <trans-unit id="errorForeground">
+      <source xml:lang="en">Overall foreground color for error messages. This color is only used if not overridden by a component.</source>
+    </trans-unit>
+    <trans-unit id="findMatchHighlight">
+      <source xml:lang="en">Color of the other search matches. The color must not be opaque so as not to hide underlying decorations.</source>
+    </trans-unit>
+    <trans-unit id="findMatchHighlightBorder">
+      <source xml:lang="en">Border color of the other search matches.</source>
+    </trans-unit>
+    <trans-unit id="findRangeHighlight">
+      <source xml:lang="en">Color of the range limiting the search. The color must not be opaque so as not to hide underlying decorations.</source>
+    </trans-unit>
+    <trans-unit id="findRangeHighlightBorder">
+      <source xml:lang="en">Border color of the range limiting the search. The color must not be opaque so as not to hide underlying decorations.</source>
+    </trans-unit>
+    <trans-unit id="focusBorder">
+      <source xml:lang="en">Overall border color for focused elements. This color is only used if not overridden by a component.</source>
+    </trans-unit>
+    <trans-unit id="foreground">
+      <source xml:lang="en">Overall foreground color. This color is only used if not overridden by a component.</source>
+    </trans-unit>
+    <trans-unit id="highlight">
+      <source xml:lang="en">List/Tree foreground color of the match highlights when searching inside the list/tree.</source>
+    </trans-unit>
+    <trans-unit id="hintBorder">
+      <source xml:lang="en">Border color of hint boxes in the editor.</source>
+    </trans-unit>
+    <trans-unit id="hoverBackground">
+      <source xml:lang="en">Background color of the editor hover.</source>
+    </trans-unit>
+    <trans-unit id="hoverBorder">
+      <source xml:lang="en">Border color of the editor hover.</source>
+    </trans-unit>
+    <trans-unit id="hoverForeground">
+      <source xml:lang="en">Foreground color of the editor hover.</source>
+    </trans-unit>
+    <trans-unit id="hoverHighlight">
+      <source xml:lang="en">Highlight below the word for which a hover is shown. The color must not be opaque so as not to hide underlying decorations.</source>
+    </trans-unit>
+    <trans-unit id="iconForeground">
+      <source xml:lang="en">The default color for icons in the workbench.</source>
+    </trans-unit>
+    <trans-unit id="infoBorder">
+      <source xml:lang="en">Border color of info boxes in the editor.</source>
+    </trans-unit>
+    <trans-unit id="inputBoxActiveOptionBorder">
+      <source xml:lang="en">Border color of activated options in input fields.</source>
+    </trans-unit>
+    <trans-unit id="inputBoxBackground">
+      <source xml:lang="en">Input box background.</source>
+    </trans-unit>
+    <trans-unit id="inputBoxBorder">
+      <source xml:lang="en">Input box border.</source>
+    </trans-unit>
+    <trans-unit id="inputBoxForeground">
+      <source xml:lang="en">Input box foreground.</source>
+    </trans-unit>
+    <trans-unit id="inputOption.activeBackground">
+      <source xml:lang="en">Background color of activated options in input fields.</source>
+    </trans-unit>
+    <trans-unit id="inputOption.activeForeground">
+      <source xml:lang="en">Foreground color of activated options in input fields.</source>
+    </trans-unit>
+    <trans-unit id="inputPlaceholderForeground">
+      <source xml:lang="en">Input box foreground color for placeholder text.</source>
+    </trans-unit>
+    <trans-unit id="inputValidationErrorBackground">
+      <source xml:lang="en">Input validation background color for error severity.</source>
+    </trans-unit>
+    <trans-unit id="inputValidationErrorBorder">
+      <source xml:lang="en">Input validation border color for error severity.</source>
+    </trans-unit>
+    <trans-unit id="inputValidationErrorForeground">
+      <source xml:lang="en">Input validation foreground color for error severity.</source>
+    </trans-unit>
+    <trans-unit id="inputValidationInfoBackground">
+      <source xml:lang="en">Input validation background color for information severity.</source>
+    </trans-unit>
+    <trans-unit id="inputValidationInfoBorder">
+      <source xml:lang="en">Input validation border color for information severity.</source>
+    </trans-unit>
+    <trans-unit id="inputValidationInfoForeground">
+      <source xml:lang="en">Input validation foreground color for information severity.</source>
+    </trans-unit>
+    <trans-unit id="inputValidationWarningBackground">
+      <source xml:lang="en">Input validation background color for warning severity.</source>
+    </trans-unit>
+    <trans-unit id="inputValidationWarningBorder">
+      <source xml:lang="en">Input validation border color for warning severity.</source>
+    </trans-unit>
+    <trans-unit id="inputValidationWarningForeground">
+      <source xml:lang="en">Input validation foreground color for warning severity.</source>
+    </trans-unit>
+    <trans-unit id="invalidItemForeground">
+      <source xml:lang="en">List/Tree foreground color for invalid items, for example an unresolved root in explorer.</source>
+    </trans-unit>
+    <trans-unit id="keybindingLabelBackground">
+      <source xml:lang="en">Keybinding label background color. The keybinding label is used to represent a keyboard shortcut.</source>
+    </trans-unit>
+    <trans-unit id="keybindingLabelBorder">
+      <source xml:lang="en">Keybinding label border color. The keybinding label is used to represent a keyboard shortcut.</source>
+    </trans-unit>
+    <trans-unit id="keybindingLabelBottomBorder">
+      <source xml:lang="en">Keybinding label border bottom color. The keybinding label is used to represent a keyboard shortcut.</source>
+    </trans-unit>
+    <trans-unit id="keybindingLabelForeground">
+      <source xml:lang="en">Keybinding label foreground color. The keybinding label is used to represent a keyboard shortcut.</source>
+    </trans-unit>
+    <trans-unit id="listActiveSelectionBackground">
+      <source xml:lang="en">List/Tree background color for the selected item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.</source>
+    </trans-unit>
+    <trans-unit id="listActiveSelectionForeground">
+      <source xml:lang="en">List/Tree foreground color for the selected item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.</source>
+    </trans-unit>
+    <trans-unit id="listActiveSelectionIconForeground">
+      <source xml:lang="en">List/Tree icon foreground color for the selected item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.</source>
+    </trans-unit>
+    <trans-unit id="listDeemphasizedForeground">
+      <source xml:lang="en">List/Tree foreground color for items that are deemphasized. </source>
+    </trans-unit>
+    <trans-unit id="listDropBackground">
+      <source xml:lang="en">List/Tree drag and drop background when moving items around using the mouse.</source>
+    </trans-unit>
+    <trans-unit id="listErrorForeground">
+      <source xml:lang="en">Foreground color of list items containing errors.</source>
+    </trans-unit>
+    <trans-unit id="listFilterMatchHighlight">
+      <source xml:lang="en">Background color of the filtered match.</source>
+    </trans-unit>
+    <trans-unit id="listFilterMatchHighlightBorder">
+      <source xml:lang="en">Border color of the filtered match.</source>
+    </trans-unit>
+    <trans-unit id="listFilterWidgetBackground">
+      <source xml:lang="en">Background color of the type filter widget in lists and trees.</source>
+    </trans-unit>
+    <trans-unit id="listFilterWidgetNoMatchesOutline">
+      <source xml:lang="en">Outline color of the type filter widget in lists and trees, when there are no matches.</source>
+    </trans-unit>
+    <trans-unit id="listFilterWidgetOutline">
+      <source xml:lang="en">Outline color of the type filter widget in lists and trees.</source>
+    </trans-unit>
+    <trans-unit id="listFocusBackground">
+      <source xml:lang="en">List/Tree background color for the focused item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.</source>
+    </trans-unit>
+    <trans-unit id="listFocusForeground">
+      <source xml:lang="en">List/Tree foreground color for the focused item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.</source>
+    </trans-unit>
+    <trans-unit id="listFocusHighlightForeground">
+      <source xml:lang="en">List/Tree foreground color of the match highlights on actively focused items when searching inside the list/tree.</source>
+    </trans-unit>
+    <trans-unit id="listFocusOutline">
+      <source xml:lang="en">List/Tree outline color for the focused item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.</source>
+    </trans-unit>
+    <trans-unit id="listHoverBackground">
+      <source xml:lang="en">List/Tree background when hovering over items using the mouse.</source>
+    </trans-unit>
+    <trans-unit id="listHoverForeground">
+      <source xml:lang="en">List/Tree foreground when hovering over items using the mouse.</source>
+    </trans-unit>
+    <trans-unit id="listInactiveFocusBackground">
+      <source xml:lang="en">List/Tree background color for the focused item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.</source>
+    </trans-unit>
+    <trans-unit id="listInactiveFocusOutline">
+      <source xml:lang="en">List/Tree outline color for the focused item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.</source>
+    </trans-unit>
+    <trans-unit id="listInactiveSelectionBackground">
+      <source xml:lang="en">List/Tree background color for the selected item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.</source>
+    </trans-unit>
+    <trans-unit id="listInactiveSelectionForeground">
+      <source xml:lang="en">List/Tree foreground color for the selected item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.</source>
+    </trans-unit>
+    <trans-unit id="listInactiveSelectionIconForeground">
+      <source xml:lang="en">List/Tree icon foreground color for the selected item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.</source>
+    </trans-unit>
+    <trans-unit id="listWarningForeground">
+      <source xml:lang="en">Foreground color of list items containing warnings.</source>
+    </trans-unit>
+    <trans-unit id="menuBackground">
+      <source xml:lang="en">Background color of menu items.</source>
+    </trans-unit>
+    <trans-unit id="menuBorder">
+      <source xml:lang="en">Border color of menus.</source>
+    </trans-unit>
+    <trans-unit id="menuForeground">
+      <source xml:lang="en">Foreground color of menu items.</source>
+    </trans-unit>
+    <trans-unit id="menuSelectionBackground">
+      <source xml:lang="en">Background color of the selected menu item in menus.</source>
+    </trans-unit>
+    <trans-unit id="menuSelectionBorder">
+      <source xml:lang="en">Border color of the selected menu item in menus.</source>
+    </trans-unit>
+    <trans-unit id="menuSelectionForeground">
+      <source xml:lang="en">Foreground color of the selected menu item in menus.</source>
+    </trans-unit>
+    <trans-unit id="menuSeparatorBackground">
+      <source xml:lang="en">Color of a separator menu item in menus.</source>
+    </trans-unit>
+    <trans-unit id="mergeBorder">
+      <source xml:lang="en">Border color on headers and the splitter in inline merge-conflicts.</source>
+    </trans-unit>
+    <trans-unit id="mergeCommonContentBackground">
+      <source xml:lang="en">Common ancestor content background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations.</source>
+    </trans-unit>
+    <trans-unit id="mergeCommonHeaderBackground">
+      <source xml:lang="en">Common ancestor header background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations.</source>
+    </trans-unit>
+    <trans-unit id="mergeCurrentContentBackground">
+      <source xml:lang="en">Current content background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations.</source>
+    </trans-unit>
+    <trans-unit id="mergeCurrentHeaderBackground">
+      <source xml:lang="en">Current header background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations.</source>
+    </trans-unit>
+    <trans-unit id="mergeIncomingContentBackground">
+      <source xml:lang="en">Incoming content background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations.</source>
+    </trans-unit>
+    <trans-unit id="mergeIncomingHeaderBackground">
+      <source xml:lang="en">Incoming header background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations.</source>
+    </trans-unit>
+    <trans-unit id="minimapBackground">
+      <source xml:lang="en">Minimap background color.</source>
+    </trans-unit>
+    <trans-unit id="minimapError">
+      <source xml:lang="en">Minimap marker color for errors.</source>
+    </trans-unit>
+    <trans-unit id="minimapFindMatchHighlight">
+      <source xml:lang="en">Minimap marker color for find matches.</source>
+    </trans-unit>
+    <trans-unit id="minimapSelectionHighlight">
+      <source xml:lang="en">Minimap marker color for the editor selection.</source>
+    </trans-unit>
+    <trans-unit id="minimapSliderActiveBackground">
+      <source xml:lang="en">Minimap slider background color when clicked on.</source>
+    </trans-unit>
+    <trans-unit id="minimapSliderBackground">
+      <source xml:lang="en">Minimap slider background color.</source>
+    </trans-unit>
+    <trans-unit id="minimapSliderHoverBackground">
+      <source xml:lang="en">Minimap slider background color when hovering.</source>
+    </trans-unit>
+    <trans-unit id="overviewRuleWarning">
+      <source xml:lang="en">Minimap marker color for warnings.</source>
+    </trans-unit>
+    <trans-unit id="overviewRulerCommonContentForeground">
+      <source xml:lang="en">Common ancestor overview ruler foreground for inline merge-conflicts.</source>
+    </trans-unit>
+    <trans-unit id="overviewRulerCurrentContentForeground">
+      <source xml:lang="en">Current overview ruler foreground for inline merge-conflicts.</source>
+    </trans-unit>
+    <trans-unit id="overviewRulerFindMatchForeground">
+      <source xml:lang="en">Overview ruler marker color for find matches. The color must not be opaque so as not to hide underlying decorations.</source>
+    </trans-unit>
+    <trans-unit id="overviewRulerIncomingContentForeground">
+      <source xml:lang="en">Incoming overview ruler foreground for inline merge-conflicts.</source>
+    </trans-unit>
+    <trans-unit id="overviewRulerSelectionHighlightForeground">
+      <source xml:lang="en">Overview ruler marker color for selection highlights. The color must not be opaque so as not to hide underlying decorations.</source>
+    </trans-unit>
+    <trans-unit id="pickerBackground">
+      <source xml:lang="en">Quick picker background color. The quick picker widget is the container for pickers like the command palette.</source>
+    </trans-unit>
+    <trans-unit id="pickerForeground">
+      <source xml:lang="en">Quick picker foreground color. The quick picker widget is the container for pickers like the command palette.</source>
+    </trans-unit>
+    <trans-unit id="pickerGroupBorder">
+      <source xml:lang="en">Quick picker color for grouping borders.</source>
+    </trans-unit>
+    <trans-unit id="pickerGroupForeground">
+      <source xml:lang="en">Quick picker color for grouping labels.</source>
+    </trans-unit>
+    <trans-unit id="pickerTitleBackground">
+      <source xml:lang="en">Quick picker title background color. The quick picker widget is the container for pickers like the command palette.</source>
+    </trans-unit>
+    <trans-unit id="problemsErrorIconForeground">
+      <source xml:lang="en">The color used for the problems error icon.</source>
+    </trans-unit>
+    <trans-unit id="problemsInfoIconForeground">
+      <source xml:lang="en">The color used for the problems info icon.</source>
+    </trans-unit>
+    <trans-unit id="problemsWarningIconForeground">
+      <source xml:lang="en">The color used for the problems warning icon.</source>
+    </trans-unit>
+    <trans-unit id="progressBarBackground">
+      <source xml:lang="en">Background color of the progress bar that can show for long running operations.</source>
+    </trans-unit>
+    <trans-unit id="quickInput.list.focusBackground deprecation">
+      <source xml:lang="en">Please use quickInputList.focusBackground instead</source>
+    </trans-unit>
+    <trans-unit id="quickInput.listFocusBackground">
+      <source xml:lang="en">Quick picker background color for the focused item.</source>
+    </trans-unit>
+    <trans-unit id="quickInput.listFocusForeground">
+      <source xml:lang="en">Quick picker foreground color for the focused item.</source>
+    </trans-unit>
+    <trans-unit id="quickInput.listFocusIconForeground">
+      <source xml:lang="en">Quick picker icon foreground color for the focused item.</source>
+    </trans-unit>
+    <trans-unit id="sashActiveBorder">
+      <source xml:lang="en">Border color of active sashes.</source>
+    </trans-unit>
+    <trans-unit id="scrollbarShadow">
+      <source xml:lang="en">Scrollbar shadow to indicate that the view is scrolled.</source>
+    </trans-unit>
+    <trans-unit id="scrollbarSliderActiveBackground">
+      <source xml:lang="en">Scrollbar slider background color when clicked on.</source>
+    </trans-unit>
+    <trans-unit id="scrollbarSliderBackground">
+      <source xml:lang="en">Scrollbar slider background color.</source>
+    </trans-unit>
+    <trans-unit id="scrollbarSliderHoverBackground">
+      <source xml:lang="en">Scrollbar slider background color when hovering.</source>
+    </trans-unit>
+    <trans-unit id="searchEditor.editorFindMatchBorder">
+      <source xml:lang="en">Border color of the Search Editor query matches.</source>
+    </trans-unit>
+    <trans-unit id="searchEditor.queryMatch">
+      <source xml:lang="en">Color of the Search Editor query matches.</source>
+    </trans-unit>
+    <trans-unit id="selectionBackground">
+      <source xml:lang="en">The background color of text selections in the workbench (e.g. for input fields or text areas). Note that this does not apply to selections within the editor.</source>
+    </trans-unit>
+    <trans-unit id="snippetFinalTabstopHighlightBackground">
+      <source xml:lang="en">Highlight background color of the final tabstop of a snippet.</source>
+    </trans-unit>
+    <trans-unit id="snippetFinalTabstopHighlightBorder">
+      <source xml:lang="en">Highlight border color of the final tabstop of a snippet.</source>
+    </trans-unit>
+    <trans-unit id="snippetTabstopHighlightBackground">
+      <source xml:lang="en">Highlight background color of a snippet tabstop.</source>
+    </trans-unit>
+    <trans-unit id="snippetTabstopHighlightBorder">
+      <source xml:lang="en">Highlight border color of a snippet tabstop.</source>
+    </trans-unit>
+    <trans-unit id="statusBarBackground">
+      <source xml:lang="en">Background color of the editor hover status bar.</source>
+    </trans-unit>
+    <trans-unit id="textBlockQuoteBackground">
+      <source xml:lang="en">Background color for block quotes in text.</source>
+    </trans-unit>
+    <trans-unit id="textBlockQuoteBorder">
+      <source xml:lang="en">Border color for block quotes in text.</source>
+    </trans-unit>
+    <trans-unit id="textCodeBlockBackground">
+      <source xml:lang="en">Background color for code blocks in text.</source>
+    </trans-unit>
+    <trans-unit id="textLinkActiveForeground">
+      <source xml:lang="en">Foreground color for links in text when clicked on and on mouse hover.</source>
+    </trans-unit>
+    <trans-unit id="textLinkForeground">
+      <source xml:lang="en">Foreground color for links in text.</source>
+    </trans-unit>
+    <trans-unit id="textPreformatForeground">
+      <source xml:lang="en">Foreground color for preformatted text segments.</source>
+    </trans-unit>
+    <trans-unit id="textSeparatorForeground">
+      <source xml:lang="en">Color for text separators.</source>
+    </trans-unit>
+    <trans-unit id="toolbarActiveBackground">
+      <source xml:lang="en">Toolbar background when holding the mouse over actions</source>
+    </trans-unit>
+    <trans-unit id="toolbarHoverBackground">
+      <source xml:lang="en">Toolbar background when hovering over actions using the mouse</source>
+    </trans-unit>
+    <trans-unit id="toolbarHoverOutline">
+      <source xml:lang="en">Toolbar outline when hovering over actions using the mouse</source>
+    </trans-unit>
+    <trans-unit id="treeIndentGuidesStroke">
+      <source xml:lang="en">Tree stroke color for the indentation guides.</source>
+    </trans-unit>
+    <trans-unit id="warningBorder">
+      <source xml:lang="en">Border color of warning boxes in the editor.</source>
+    </trans-unit>
+    <trans-unit id="widgetShadow">
+      <source xml:lang="en">Shadow color of widgets such as find/replace inside the editor.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/theme/common/iconRegistry" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="iconDefintion.fontCharacter">
+      <source xml:lang="en">The font character associated with the icon definition.</source>
+    </trans-unit>
+    <trans-unit id="iconDefintion.fontId">
+      <source xml:lang="en">The id of the font to use. If not set, the font that is defined first is used.</source>
+    </trans-unit>
+    <trans-unit id="nextChangeIcon">
+      <source xml:lang="en">Icon for goto next editor location.</source>
+    </trans-unit>
+    <trans-unit id="previousChangeIcon">
+      <source xml:lang="en">Icon for goto previous editor location.</source>
+    </trans-unit>
+    <trans-unit id="widgetClose">
+      <source xml:lang="en">Icon for the close action in widgets.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/theme/common/tokenClassificationRegistry" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="abstract">
+      <source xml:lang="en">Style to use for symbols that are abstract.</source>
+    </trans-unit>
+    <trans-unit id="async">
+      <source xml:lang="en">Style to use for symbols that are async.</source>
+    </trans-unit>
+    <trans-unit id="class">
+      <source xml:lang="en">Style for classes.</source>
+    </trans-unit>
+    <trans-unit id="comment">
+      <source xml:lang="en">Style for comments.</source>
+    </trans-unit>
+    <trans-unit id="declaration">
+      <source xml:lang="en">Style for all symbol declarations.</source>
+    </trans-unit>
+    <trans-unit id="deprecated">
+      <source xml:lang="en">Style to use for symbols that are deprecated.</source>
+    </trans-unit>
+    <trans-unit id="documentation">
+      <source xml:lang="en">Style to use for references in documentation.</source>
+    </trans-unit>
+    <trans-unit id="enum">
+      <source xml:lang="en">Style for enums.</source>
+    </trans-unit>
+    <trans-unit id="enumMember">
+      <source xml:lang="en">Style for enum members.</source>
+    </trans-unit>
+    <trans-unit id="event">
+      <source xml:lang="en">Style for events.</source>
+    </trans-unit>
+    <trans-unit id="function">
+      <source xml:lang="en">Style for functions</source>
+    </trans-unit>
+    <trans-unit id="interface">
+      <source xml:lang="en">Style for interfaces.</source>
+    </trans-unit>
+    <trans-unit id="keyword">
+      <source xml:lang="en">Style for keywords.</source>
+    </trans-unit>
+    <trans-unit id="labels">
+      <source xml:lang="en">Style for labels. </source>
+    </trans-unit>
+    <trans-unit id="macro">
+      <source xml:lang="en">Style for macros.</source>
+    </trans-unit>
+    <trans-unit id="member">
+      <source xml:lang="en">Style for member functions</source>
+    </trans-unit>
+    <trans-unit id="method">
+      <source xml:lang="en">Style for method (member functions)</source>
+    </trans-unit>
+    <trans-unit id="modification">
+      <source xml:lang="en">Style to use for write accesses.</source>
+    </trans-unit>
+    <trans-unit id="namespace">
+      <source xml:lang="en">Style for namespaces.</source>
+    </trans-unit>
+    <trans-unit id="number">
+      <source xml:lang="en">Style for numbers.</source>
+    </trans-unit>
+    <trans-unit id="operator">
+      <source xml:lang="en">Style for operators.</source>
+    </trans-unit>
+    <trans-unit id="parameter">
+      <source xml:lang="en">Style for parameters.</source>
+    </trans-unit>
+    <trans-unit id="property">
+      <source xml:lang="en">Style for properties.</source>
+    </trans-unit>
+    <trans-unit id="readonly">
+      <source xml:lang="en">Style to use for symbols that are readonly.</source>
+    </trans-unit>
+    <trans-unit id="regexp">
+      <source xml:lang="en">Style for expressions.</source>
+    </trans-unit>
+    <trans-unit id="schema.fontStyle.error">
+      <source xml:lang="en">Font style must be 'italic', 'bold' or 'underline' or a combination. The empty string unsets all styles.</source>
+    </trans-unit>
+    <trans-unit id="schema.token.background.warning">
+      <source xml:lang="en">Token background colors are currently not supported.</source>
+    </trans-unit>
+    <trans-unit id="schema.token.bold">
+      <source xml:lang="en">Sets or unsets the font style to bold. Note, the presence of 'fontStyle' overrides this setting.</source>
+    </trans-unit>
+    <trans-unit id="schema.token.fontStyle">
+      <source xml:lang="en">Sets the all font styles of the rule: 'italic', 'bold' or 'underline' or a combination. All styles that are not listed are unset. The empty string unsets all styles.</source>
+    </trans-unit>
+    <trans-unit id="schema.token.fontStyle.none">
+      <source xml:lang="en">None (clear inherited style)</source>
+    </trans-unit>
+    <trans-unit id="schema.token.foreground">
+      <source xml:lang="en">Foreground color for the token.</source>
+    </trans-unit>
+    <trans-unit id="schema.token.italic">
+      <source xml:lang="en">Sets or unsets the font style to italic. Note, the presence of 'fontStyle' overrides this setting.</source>
+    </trans-unit>
+    <trans-unit id="schema.token.settings">
+      <source xml:lang="en">Colors and styles for the token.</source>
+    </trans-unit>
+    <trans-unit id="schema.token.underline">
+      <source xml:lang="en">Sets or unsets the font style to underline. Note, the presence of 'fontStyle' overrides this setting.</source>
+    </trans-unit>
+    <trans-unit id="static">
+      <source xml:lang="en">Style to use for symbols that are static.</source>
+    </trans-unit>
+    <trans-unit id="string">
+      <source xml:lang="en">Style for strings.</source>
+    </trans-unit>
+    <trans-unit id="struct">
+      <source xml:lang="en">Style for structs.</source>
+    </trans-unit>
+    <trans-unit id="type">
+      <source xml:lang="en">Style for types.</source>
+    </trans-unit>
+    <trans-unit id="typeParameter">
+      <source xml:lang="en">Style for type parameters.</source>
+    </trans-unit>
+    <trans-unit id="variable">
+      <source xml:lang="en">Style for variables.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/undoRedo/common/undoRedoService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="cancel">
+      <source xml:lang="en">Cancel</source>
+    </trans-unit>
+    <trans-unit id="cannotResourceRedoDueToInProgressUndoRedo">
+      <source xml:lang="en">Could not redo '{0}' because there is already an undo or redo operation running.</source>
+      <note>{0} is a label for an operation.</note>
+    </trans-unit>
+    <trans-unit id="cannotResourceUndoDueToInProgressUndoRedo">
+      <source xml:lang="en">Could not undo '{0}' because there is already an undo or redo operation running.</source>
+      <note>{0} is a label for an operation.</note>
+    </trans-unit>
+    <trans-unit id="cannotWorkspaceRedo">
+      <source xml:lang="en">Could not redo '{0}' across all files. {1}</source>
+      <note>{0} is a label for an operation. {1} is another message.</note>
+    </trans-unit>
+    <trans-unit id="cannotWorkspaceRedoDueToChanges">
+      <source xml:lang="en">Could not redo '{0}' across all files because changes were made to {1}</source>
+      <note>{0} is a label for an operation. {1} is a list of filenames.</note>
+    </trans-unit>
+    <trans-unit id="cannotWorkspaceRedoDueToInMeantimeUndoRedo">
+      <source xml:lang="en">Could not redo '{0}' across all files because an undo or redo operation occurred in the meantime</source>
+      <note>{0} is a label for an operation. {1} is a list of filenames.</note>
+    </trans-unit>
+    <trans-unit id="cannotWorkspaceRedoDueToInProgressUndoRedo">
+      <source xml:lang="en">Could not redo '{0}' across all files because there is already an undo or redo operation running on {1}</source>
+      <note>{0} is a label for an operation. {1} is a list of filenames.</note>
+    </trans-unit>
+    <trans-unit id="cannotWorkspaceUndo">
+      <source xml:lang="en">Could not undo '{0}' across all files. {1}</source>
+      <note>{0} is a label for an operation. {1} is another message.</note>
+    </trans-unit>
+    <trans-unit id="cannotWorkspaceUndoDueToChanges">
+      <source xml:lang="en">Could not undo '{0}' across all files because changes were made to {1}</source>
+      <note>{0} is a label for an operation. {1} is a list of filenames.</note>
+    </trans-unit>
+    <trans-unit id="cannotWorkspaceUndoDueToInMeantimeUndoRedo">
+      <source xml:lang="en">Could not undo '{0}' across all files because an undo or redo operation occurred in the meantime</source>
+      <note>{0} is a label for an operation. {1} is a list of filenames.</note>
+    </trans-unit>
+    <trans-unit id="cannotWorkspaceUndoDueToInProgressUndoRedo">
+      <source xml:lang="en">Could not undo '{0}' across all files because there is already an undo or redo operation running on {1}</source>
+      <note>{0} is a label for an operation. {1} is a list of filenames.</note>
+    </trans-unit>
+    <trans-unit id="confirmDifferentSource">
+      <source xml:lang="en">Would you like to undo '{0}'?</source>
+    </trans-unit>
+    <trans-unit id="confirmDifferentSource.yes">
+      <source xml:lang="en">Yes</source>
+    </trans-unit>
+    <trans-unit id="confirmWorkspace">
+      <source xml:lang="en">Would you like to undo '{0}' across all files?</source>
+    </trans-unit>
+    <trans-unit id="externalRemoval">
+      <source xml:lang="en">The following files have been closed and modified on disk: {0}.</source>
+      <note>{0} is a list of filenames</note>
+    </trans-unit>
+    <trans-unit id="noParallelUniverses">
+      <source xml:lang="en">The following files have been modified in an incompatible way: {0}.</source>
+      <note>{0} is a list of filenames</note>
+    </trans-unit>
+    <trans-unit id="nok">
+      <source xml:lang="en">Undo this File</source>
+    </trans-unit>
+    <trans-unit id="ok">
+      <source xml:lang="en">Undo in {0} Files</source>
+      <note>{0} denotes a number that is &gt; 1</note>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/update/common/update.config.contribution" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="default">
+      <source xml:lang="en">Enable automatic update checks. Code will check for updates automatically and periodically.</source>
+    </trans-unit>
+    <trans-unit id="deprecated">
+      <source xml:lang="en">This setting is deprecated, please use '{0}' instead.</source>
+    </trans-unit>
+    <trans-unit id="enableWindowsBackgroundUpdates">
+      <source xml:lang="en">Enable to download and install new VS Code versions in the background on Windows.</source>
+    </trans-unit>
+    <trans-unit id="enableWindowsBackgroundUpdatesTitle">
+      <source xml:lang="en">Enable Background Updates on Windows</source>
+    </trans-unit>
+    <trans-unit id="manual">
+      <source xml:lang="en">Disable automatic background update checks. Updates will be available if you manually check for updates.</source>
+    </trans-unit>
+    <trans-unit id="none">
+      <source xml:lang="en">Disable updates.</source>
+    </trans-unit>
+    <trans-unit id="showReleaseNotes">
+      <source xml:lang="en">Show Release Notes after an update. The Release Notes are fetched from a Microsoft online service.</source>
+    </trans-unit>
+    <trans-unit id="start">
+      <source xml:lang="en">Check for updates only on startup. Disable automatic background update checks.</source>
+    </trans-unit>
+    <trans-unit id="updateConfigurationTitle">
+      <source xml:lang="en">Update</source>
+    </trans-unit>
+    <trans-unit id="updateMode">
+      <source xml:lang="en">Configure whether you receive automatic updates. Requires a restart after change. The updates are fetched from a Microsoft online service.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/userDataSync/common/abstractSynchronizer" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="incompatible">
+      <source xml:lang="en">Cannot sync {0} as its local version {1} is not compatible with its remote version {2}</source>
+      <note>This is an error while syncing a resource that its local version is not compatible with its remote version.</note>
+    </trans-unit>
+    <trans-unit id="incompatible sync data">
+      <source xml:lang="en">Cannot parse sync data as it is not compatible with the current version.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/userDataSync/common/keybindingsSync" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="errorInvalidSettings">
+      <source xml:lang="en">Unable to sync keybindings because the content in the file is not valid. Please open the file and correct it.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/userDataSync/common/settingsSync" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="errorInvalidSettings">
+      <source xml:lang="en">Unable to sync settings as there are errors/warning in settings file.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/userDataSync/common/userDataAutoSyncService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="default service changed">
+      <source xml:lang="en">Cannot sync because default service has changed</source>
+    </trans-unit>
+    <trans-unit id="service changed">
+      <source xml:lang="en">Cannot sync because sync service has changed</source>
+    </trans-unit>
+    <trans-unit id="session expired">
+      <source xml:lang="en">Cannot sync because current session is expired</source>
+    </trans-unit>
+    <trans-unit id="turned off">
+      <source xml:lang="en">Cannot sync because syncing is turned off in the cloud</source>
+    </trans-unit>
+    <trans-unit id="turned off machine">
+      <source xml:lang="en">Cannot sync because syncing is turned off on this machine from another machine.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/userDataSync/common/userDataSync" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="app.extension.identifier.errorMessage">
+      <source xml:lang="en">Expected format '${publisher}.${name}'. Example: 'vscode.csharp'.</source>
+    </trans-unit>
+    <trans-unit id="settings sync">
+      <source xml:lang="en">Settings Sync</source>
+    </trans-unit>
+    <trans-unit id="settingsSync.ignoredExtensions">
+      <source xml:lang="en">List of extensions to be ignored while synchronizing. The identifier of an extension is always `${publisher}.${name}`. For example: `vscode.csharp`.</source>
+    </trans-unit>
+    <trans-unit id="settingsSync.ignoredSettings">
+      <source xml:lang="en">Configure settings to be ignored while synchronizing.</source>
+    </trans-unit>
+    <trans-unit id="settingsSync.keybindingsPerPlatform">
+      <source xml:lang="en">Synchronize keybindings for each platform.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/userDataSync/common/userDataSyncMachines" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="error incompatible">
+      <source xml:lang="en">Cannot read machines data as the current version is incompatible. Please update {0} and try again.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/windows/electron-main/window" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="appCrashed">
+      <source xml:lang="en">The window has crashed</source>
+    </trans-unit>
+    <trans-unit id="appCrashedDetail">
+      <source xml:lang="en">We are sorry for the inconvenience. You can reopen the window to continue where you left off.</source>
+    </trans-unit>
+    <trans-unit id="appCrashedDetails">
+      <source xml:lang="en">The window has crashed (reason: '{0}', code: '{1}')</source>
+    </trans-unit>
+    <trans-unit id="appStalled">
+      <source xml:lang="en">The window is not responding</source>
+    </trans-unit>
+    <trans-unit id="appStalledDetail">
+      <source xml:lang="en">You can reopen or close the window or keep waiting.</source>
+    </trans-unit>
+    <trans-unit id="close">
+      <source xml:lang="en">&amp;&amp;Close</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="hiddenMenuBar">
+      <source xml:lang="en">You can still access the menu bar by pressing the Alt-key.</source>
+    </trans-unit>
+    <trans-unit id="reopen">
+      <source xml:lang="en">&amp;&amp;Reopen</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="wait">
+      <source xml:lang="en">&amp;&amp;Keep Waiting</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/windows/electron-main/windowsMainService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="ok">
+      <source xml:lang="en">&amp;&amp;OK</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="pathNotExistDetail">
+      <source xml:lang="en">The path '{0}' does not exist on this computer.</source>
+    </trans-unit>
+    <trans-unit id="pathNotExistTitle">
+      <source xml:lang="en">Path does not exist</source>
+    </trans-unit>
+    <trans-unit id="uriInvalidDetail">
+      <source xml:lang="en">The URI '{0}' is not valid and can not be opened.</source>
+    </trans-unit>
+    <trans-unit id="uriInvalidTitle">
+      <source xml:lang="en">URI can not be opened</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/workspace/common/workspaceTrust" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="trusted">
+      <source xml:lang="en">Trusted</source>
+    </trans-unit>
+    <trans-unit id="untrusted">
+      <source xml:lang="en">Restricted Mode</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/workspaces/common/workspaces" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="codeWorkspace">
+      <source xml:lang="en">Code Workspace</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/workspaces/electron-main/workspacesHistoryMainService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="newWindow">
+      <source xml:lang="en">New Window</source>
+    </trans-unit>
+    <trans-unit id="newWindowDesc">
+      <source xml:lang="en">Opens a new window</source>
+    </trans-unit>
+    <trans-unit id="recentFolders">
+      <source xml:lang="en">Recent Folders</source>
+    </trans-unit>
+    <trans-unit id="recentFoldersAndWorkspaces">
+      <source xml:lang="en">Recent Folders &amp; Workspaces</source>
+    </trans-unit>
+    <trans-unit id="untitledWorkspace">
+      <source xml:lang="en">Untitled (Workspace)</source>
+    </trans-unit>
+    <trans-unit id="workspaceName">
+      <source xml:lang="en">{0} (Workspace)</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/platform/workspaces/electron-main/workspacesManagementMainService" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="ok">
+      <source xml:lang="en">&amp;&amp;OK</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="workspaceOpenedDetail">
+      <source xml:lang="en">The workspace is already opened in another window. Please close that window first and then try again.</source>
+    </trans-unit>
+    <trans-unit id="workspaceOpenedMessage">
+      <source xml:lang="en">Unable to save workspace '{0}'</source>
+    </trans-unit>
+</body></file>
+</xliff>

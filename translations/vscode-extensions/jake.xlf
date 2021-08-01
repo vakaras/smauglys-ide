@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="extensions/jake/dist/main" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="execFailed">
+      <source xml:lang="en">Auto detecting Jake for folder {0} failed with error: {1}</source>
+    </trans-unit>
+    <trans-unit id="jakeShowOutput">
+      <source xml:lang="en">Go to output</source>
+    </trans-unit>
+    <trans-unit id="jakeTaskDetectError">
+      <source xml:lang="en">Problem finding jake tasks. See the output for more information.</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/jake/package" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="config.jake.autoDetect">
+      <source xml:lang="en">Controls enablement of Jake task detection. Jake task detection can cause files in any open workspace to be executed.</source>
+    </trans-unit>
+    <trans-unit id="description">
+      <source xml:lang="en">Extension to add Jake capabilities to VS Code.</source>
+    </trans-unit>
+    <trans-unit id="displayName">
+      <source xml:lang="en">Jake support for VS Code</source>
+    </trans-unit>
+    <trans-unit id="jake.taskDefinition.file.description">
+      <source xml:lang="en">The Jake file that provides the task. Can be omitted.</source>
+    </trans-unit>
+    <trans-unit id="jake.taskDefinition.type.description">
+      <source xml:lang="en">The Jake task to customize.</source>
+    </trans-unit>
+</body></file>
+</xliff>

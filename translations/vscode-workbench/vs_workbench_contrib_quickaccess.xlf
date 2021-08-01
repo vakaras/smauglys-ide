@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="src/vs/workbench/contrib/quickaccess/browser/commandsQuickAccess" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="clearCommandHistory">
+      <source xml:lang="en">Clear Command History</source>
+    </trans-unit>
+    <trans-unit id="commandWithCategory">
+      <source xml:lang="en">{0}: {1}</source>
+    </trans-unit>
+    <trans-unit id="configure keybinding">
+      <source xml:lang="en">Configure Keybinding</source>
+    </trans-unit>
+    <trans-unit id="noCommandResults">
+      <source xml:lang="en">No matching commands</source>
+    </trans-unit>
+    <trans-unit id="showTriggerActions">
+      <source xml:lang="en">Show All Commands</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/quickaccess/browser/quickAccess.contribution" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="commandPalette">
+      <source xml:lang="en">Command Palette...</source>
+    </trans-unit>
+    <trans-unit id="commandsQuickAccess">
+      <source xml:lang="en">Show and Run Commands</source>
+    </trans-unit>
+    <trans-unit id="commandsQuickAccessPlaceholder">
+      <source xml:lang="en">Type the name of a command to run.</source>
+    </trans-unit>
+    <trans-unit id="helpQuickAccess">
+      <source xml:lang="en">Show all Quick Access Providers</source>
+    </trans-unit>
+    <trans-unit id="helpQuickAccessPlaceholder">
+      <source xml:lang="en">Type '{0}' to get help on the actions you can take from here.</source>
+    </trans-unit>
+    <trans-unit id="miCommandPalette">
+      <source xml:lang="en">&amp;&amp;Command Palette...</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="miGotoLine">
+      <source xml:lang="en">Go to &amp;&amp;Line/Column...</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="miGotoSymbolInEditor">
+      <source xml:lang="en">Go to &amp;&amp;Symbol in Editor...</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="miOpenView">
+      <source xml:lang="en">&amp;&amp;Open View...</source>
+      <note>&amp;&amp; denotes a mnemonic</note>
+    </trans-unit>
+    <trans-unit id="viewQuickAccess">
+      <source xml:lang="en">Open View</source>
+    </trans-unit>
+    <trans-unit id="viewQuickAccessPlaceholder">
+      <source xml:lang="en">Type the name of a view, output channel or terminal to open.</source>
+    </trans-unit>
+</body></file>
+  <file original="src/vs/workbench/contrib/quickaccess/browser/viewQuickAccess" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="channels">
+      <source xml:lang="en">Output</source>
+    </trans-unit>
+    <trans-unit id="logChannel">
+      <source xml:lang="en">Log ({0})</source>
+    </trans-unit>
+    <trans-unit id="noViewResults">
+      <source xml:lang="en">No matching views</source>
+    </trans-unit>
+    <trans-unit id="openView">
+      <source xml:lang="en">Open View</source>
+    </trans-unit>
+    <trans-unit id="panels">
+      <source xml:lang="en">Panel</source>
+    </trans-unit>
+    <trans-unit id="quickOpenView">
+      <source xml:lang="en">Quick Open View</source>
+    </trans-unit>
+    <trans-unit id="terminalTitle">
+      <source xml:lang="en">{0}: {1}</source>
+    </trans-unit>
+    <trans-unit id="terminals">
+      <source xml:lang="en">Terminal</source>
+    </trans-unit>
+    <trans-unit id="views">
+      <source xml:lang="en">Side Bar</source>
+    </trans-unit>
+</body></file>
+</xliff>

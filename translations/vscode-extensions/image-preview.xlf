@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="extensions/image-preview/dist/binarySizeStatusBarEntry" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="sizeB">
+      <source xml:lang="en">{0}B</source>
+    </trans-unit>
+    <trans-unit id="sizeGB">
+      <source xml:lang="en">{0}GB</source>
+    </trans-unit>
+    <trans-unit id="sizeKB">
+      <source xml:lang="en">{0}KB</source>
+    </trans-unit>
+    <trans-unit id="sizeMB">
+      <source xml:lang="en">{0}MB</source>
+    </trans-unit>
+    <trans-unit id="sizeStatusBar.name">
+      <source xml:lang="en">Image Binary Size</source>
+    </trans-unit>
+    <trans-unit id="sizeTB">
+      <source xml:lang="en">{0}TB</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/image-preview/dist/preview" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="preview.imageLoadError">
+      <source xml:lang="en">An error occurred while loading the image.</source>
+    </trans-unit>
+    <trans-unit id="preview.imageLoadErrorLink">
+      <source xml:lang="en">Open file using VS Code's standard text/binary editor?</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/image-preview/dist/sizeStatusBarEntry" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="sizeStatusBar.name">
+      <source xml:lang="en">Image Size</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/image-preview/dist/zoomStatusBarEntry" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="zoomStatusBar.name">
+      <source xml:lang="en">Image Zoom</source>
+    </trans-unit>
+    <trans-unit id="zoomStatusBar.placeholder">
+      <source xml:lang="en">Select zoom level</source>
+    </trans-unit>
+    <trans-unit id="zoomStatusBar.wholeImageLabel">
+      <source xml:lang="en">Whole Image</source>
+    </trans-unit>
+</body></file>
+  <file original="extensions/image-preview/package" source-language="en" datatype="plaintext"><body>
+    <trans-unit id="command.zoomIn">
+      <source xml:lang="en">Zoom in</source>
+    </trans-unit>
+    <trans-unit id="command.zoomOut">
+      <source xml:lang="en">Zoom out</source>
+    </trans-unit>
+    <trans-unit id="customEditors.displayName">
+      <source xml:lang="en">Image Preview</source>
+    </trans-unit>
+    <trans-unit id="description">
+      <source xml:lang="en">Provides VS Code's built-in image preview</source>
+    </trans-unit>
+    <trans-unit id="displayName">
+      <source xml:lang="en">Image Preview</source>
+    </trans-unit>
+</body></file>
+</xliff>
