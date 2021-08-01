@@ -22,6 +22,12 @@ if [[ "$SHOULD_BUILD" == "yes" ]]; then
   yarn gulp vscode-translations-export
   tar -czvf ../basic-i18n-strings.tar.gz ../vscode-translations-export
 
+  cp -r ../translations vscode-translations-import
+  yarn gulp vscode-translations-import
+
+  git clone https://github.com/microsoft/vscode-loc.git ../vscode-loc
+  npm run update-localization-extension lt-LT
+
   if [[ "$OS_NAME" == "osx" ]]; then
     yarn gulp "vscode-darwin-${VSCODE_ARCH}-min-ci"
   elif [[ "$OS_NAME" == "windows" ]]; then
