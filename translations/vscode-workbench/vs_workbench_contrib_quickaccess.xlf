@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/quickaccess/browser/commandsQuickAccess" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/quickaccess/browser/commandsQuickAccess" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="clearCommandHistory">
       <source xml:lang="en">Clear Command History</source>
     </trans-unit>
@@ -17,7 +17,7 @@
       <source xml:lang="en">Show All Commands</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/quickaccess/browser/quickAccess.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/quickaccess/browser/quickAccess.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="commandPalette">
       <source xml:lang="en">Command Palette...</source>
     </trans-unit>
@@ -56,7 +56,7 @@
       <source xml:lang="en">Type the name of a view, output channel or terminal to open.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/quickaccess/browser/viewQuickAccess" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/quickaccess/browser/viewQuickAccess" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="channels">
       <source xml:lang="en">Output</source>
     </trans-unit>

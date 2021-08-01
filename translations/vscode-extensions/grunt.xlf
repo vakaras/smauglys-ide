@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="extensions/grunt/dist/main" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/grunt/dist/main" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="execFailed">
       <source xml:lang="en">Auto detecting Grunt for folder {0} failed with error: {1}</source>
     </trans-unit>
@@ -11,7 +11,7 @@
       <source xml:lang="en">Problem finding grunt tasks. See the output for more information.</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/grunt/package" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/grunt/package" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="config.grunt.autoDetect">
       <source xml:lang="en">Controls enablement of Grunt task detection. Grunt task detection can cause files in any open workspace to be executed.</source>
     </trans-unit>

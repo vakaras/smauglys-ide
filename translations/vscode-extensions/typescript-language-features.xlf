@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="extensions/typescript-language-features/dist/languageFeatures/codeLens/baseCodeLensProvider" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/typescript-language-features/dist/languageFeatures/codeLens/baseCodeLensProvider" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="referenceErrorLabel">
       <source xml:lang="en">Could not determine references</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/typescript-language-features/dist/languageFeatures/codeLens/implementationsCodeLens" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/typescript-language-features/dist/languageFeatures/codeLens/implementationsCodeLens" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="manyImplementationLabel">
       <source xml:lang="en">{0} implementations</source>
     </trans-unit>
@@ -13,7 +13,7 @@
       <source xml:lang="en">1 implementation</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/typescript-language-features/dist/languageFeatures/codeLens/referencesCodeLens" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/typescript-language-features/dist/languageFeatures/codeLens/referencesCodeLens" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="manyReferenceLabel">
       <source xml:lang="en">{0} references</source>
     </trans-unit>
@@ -21,7 +21,7 @@
       <source xml:lang="en">1 reference</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/typescript-language-features/dist/languageFeatures/completions" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/typescript-language-features/dist/languageFeatures/completions" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="acquiringTypingsDetail">
       <source xml:lang="en">Acquiring typings definitions for IntelliSense.</source>
       <note>Typings refers to the *.d.ts typings files that power our IntelliSense. It should not be localized</note>
@@ -37,7 +37,7 @@
       <source xml:lang="en">Select code action to apply</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/typescript-language-features/dist/languageFeatures/directiveCommentCompletions" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/typescript-language-features/dist/languageFeatures/directiveCommentCompletions" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="ts-check">
       <source xml:lang="en">Enables semantic checking in a JavaScript file. Must be at the top of a file.</source>
     </trans-unit>
@@ -51,7 +51,7 @@
       <source xml:lang="en">Disables semantic checking in a JavaScript file. Must be at the top of a file.</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/typescript-language-features/dist/languageFeatures/fileReferences" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/typescript-language-features/dist/languageFeatures/fileReferences" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="error.noResource">
       <source xml:lang="en">Find file references failed. No resource provided.</source>
     </trans-unit>
@@ -68,7 +68,7 @@
       <source xml:lang="en">Finding file references</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/typescript-language-features/dist/languageFeatures/fixAll" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/typescript-language-features/dist/languageFeatures/fixAll" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="autoFix.label">
       <source xml:lang="en">Fix All</source>
     </trans-unit>
@@ -79,12 +79,12 @@
       <source xml:lang="en">Remove all unused code</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/typescript-language-features/dist/languageFeatures/jsDocCompletions" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/typescript-language-features/dist/languageFeatures/jsDocCompletions" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="typescript.jsDocCompletionItem.documentation">
       <source xml:lang="en">JSDoc comment</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/typescript-language-features/dist/languageFeatures/organizeImports" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/typescript-language-features/dist/languageFeatures/organizeImports" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="organizeImportsAction.title">
       <source xml:lang="en">Organize Imports</source>
     </trans-unit>
@@ -92,12 +92,12 @@
       <source xml:lang="en">Sort Imports</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/typescript-language-features/dist/languageFeatures/quickFix" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/typescript-language-features/dist/languageFeatures/quickFix" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="fixAllInFileLabel">
       <source xml:lang="en">{0} (Fix all in file)</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/typescript-language-features/dist/languageFeatures/refactor" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/typescript-language-features/dist/languageFeatures/refactor" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="extractConstant.disabled.reason">
       <source xml:lang="en">The current selection cannot be extracted</source>
     </trans-unit>
@@ -117,12 +117,12 @@
       <source xml:lang="en">Could not apply refactoring</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/typescript-language-features/dist/languageFeatures/rename" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/typescript-language-features/dist/languageFeatures/rename" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="fileRenameFail">
       <source xml:lang="en">An error occurred while renaming file</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/typescript-language-features/dist/languageFeatures/updatePathsOnRename" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/typescript-language-features/dist/languageFeatures/updatePathsOnRename" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="accept.title">
       <source xml:lang="en">Yes</source>
     </trans-unit>
@@ -151,7 +151,7 @@
       <source xml:lang="en">Checking for update of JS/TS imports</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/typescript-language-features/dist/task/taskProvider" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/typescript-language-features/dist/task/taskProvider" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="badTsConfig">
       <source xml:lang="en">TypeScript Task in tasks.json contains "\\". TypeScript tasks tsconfig must use "/"</source>
     </trans-unit>
@@ -162,12 +162,12 @@
       <source xml:lang="en">build - {0}</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/typescript-language-features/dist/tsServer/serverProcess.electron" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/typescript-language-features/dist/tsServer/serverProcess.electron" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="noServerFound">
       <source xml:lang="en">The path {0} doesn't point to a valid tsserver install. Falling back to bundled TypeScript version.</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/typescript-language-features/dist/tsServer/versionManager" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/typescript-language-features/dist/tsServer/versionManager" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="allow">
       <source xml:lang="en">Allow</source>
     </trans-unit>
@@ -193,7 +193,7 @@
       <source xml:lang="en">Use Workspace Version</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/typescript-language-features/dist/tsServer/versionStatus" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/typescript-language-features/dist/tsServer/versionStatus" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="projectInfo.name">
       <source xml:lang="en">TypeScript: Project Info</source>
     </trans-unit>
@@ -219,7 +219,7 @@
       <source xml:lang="en">Select TypeScript Version...</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/typescript-language-features/dist/typescriptServiceClient" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/typescript-language-features/dist/typescriptServiceClient" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="noServerFound">
       <source xml:lang="en">The path {0} doesn't point to a valid tsserver install. Falling back to bundled TypeScript version.</source>
     </trans-unit>
@@ -254,12 +254,12 @@
       <source xml:lang="en">TS Server has not started logging.</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/typescript-language-features/dist/utils/api" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/typescript-language-features/dist/utils/api" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="invalidVersion">
       <source xml:lang="en">invalid version</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/typescript-language-features/dist/utils/largeProjectStatus" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/typescript-language-features/dist/utils/largeProjectStatus" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="hintExclude">
       <source xml:lang="en">To enable project-wide JavaScript/TypeScript language features, exclude folders with many files, like: {0}</source>
     </trans-unit>
@@ -276,12 +276,12 @@
       <source xml:lang="en">TypeScript: Configure Excludes</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/typescript-language-features/dist/utils/logger" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/typescript-language-features/dist/utils/logger" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="channelName">
       <source xml:lang="en">TypeScript</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/typescript-language-features/dist/utils/tsconfig" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/typescript-language-features/dist/utils/tsconfig" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="typescript.configureJsconfigQuickPick">
       <source xml:lang="en">Configure jsconfig.json</source>
     </trans-unit>
@@ -304,7 +304,7 @@
       <source xml:lang="en">Could not determine TypeScript or JavaScript project. Unsupported file type</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/typescript-language-features/dist/utils/typingsStatus" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/typescript-language-features/dist/utils/typingsStatus" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="installingPackages">
       <source xml:lang="en">Fetching data for better TypeScript IntelliSense</source>
     </trans-unit>
@@ -315,7 +315,7 @@
       <source xml:lang="en">Could not install typings files for JavaScript language features. Please ensure that NPM is installed or configure 'typescript.npm' in your user settings. Click [here]({0}) to learn more.</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/typescript-language-features/package" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/typescript-language-features/package" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="codeActions.refactor.extract.constant.description">
       <source xml:lang="en">Extract expression to constant.</source>
     </trans-unit>

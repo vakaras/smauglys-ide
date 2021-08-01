@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/externalUriOpener/common/configuration" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/externalUriOpener/common/configuration" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="externalUriOpeners">
       <source xml:lang="en">Configure the opener to use for external URIs (http, https).</source>
     </trans-unit>
@@ -9,11 +9,11 @@
     </trans-unit>
     <trans-unit id="externalUriOpeners.uri">
       <source xml:lang="en">Map URI pattern to an opener id.
-Example patterns: 
+Example patterns:
 {0}</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/externalUriOpener/common/externalUriOpenerService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/externalUriOpener/common/externalUriOpenerService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="selectOpenerConfigureTitle">
       <source xml:lang="en">Configure default opener...</source>
     </trans-unit>

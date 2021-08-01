@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/services/themes/browser/fileIconThemeData" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/themes/browser/fileIconThemeData" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="error.cannotparseicontheme">
       <source xml:lang="en">Problems parsing file icons file: {0}</source>
     </trans-unit>
@@ -8,7 +8,7 @@
       <source xml:lang="en">Invalid format for file icons theme file: Object expected.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/themes/browser/productIconThemeData" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/themes/browser/productIconThemeData" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="defaultTheme">
       <source xml:lang="en">Default</source>
     </trans-unit>
@@ -41,12 +41,12 @@
 {1}</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/themes/browser/workbenchThemeService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/themes/browser/workbenchThemeService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="error.cannotloadtheme">
       <source xml:lang="en">Unable to load {0}: {1}</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/themes/common/colorExtensionPoint" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/themes/common/colorExtensionPoint" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="contributes.color">
       <source xml:lang="en">Contributes extension defined themable colors</source>
     </trans-unit>
@@ -87,7 +87,7 @@
       <source xml:lang="en">'configuration.colors.id' must only contain letters, digits and dots and can not start with a dot</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/themes/common/colorThemeData" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/themes/common/colorThemeData" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="error.cannotload">
       <source xml:lang="en">Problems loading tmTheme file {0}: {1}</source>
     </trans-unit>
@@ -116,7 +116,7 @@
       <source xml:lang="en">Problem parsing tmTheme file: {0}. 'settings' is not array.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/themes/common/colorThemeSchema" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/themes/common/colorThemeSchema" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="schema.colors">
       <source xml:lang="en">Colors for syntax highlighting</source>
     </trans-unit>
@@ -157,7 +157,7 @@
       <source xml:lang="en">Colors in the workbench</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/themes/common/fileIconThemeSchema" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/themes/common/fileIconThemeSchema" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="schema.file">
       <source xml:lang="en">The default file icon, shown for all files that don't match any extension, filename or language id.</source>
     </trans-unit>
@@ -255,7 +255,7 @@
       <source xml:lang="en">The location of the font.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/themes/common/iconExtensionPoint" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/themes/common/iconExtensionPoint" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="contributes.icon.default">
       <source xml:lang="en">The default of the icon. Either a reference to an extisting ThemeIcon or an icon in an icon font.</source>
     </trans-unit>
@@ -335,7 +335,7 @@
       <source xml:lang="en">'configuration.icons is a proposed contribution point and only available when running out of dev or with the following command line switch: --enable-proposed-api {0}</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/themes/common/productIconThemeSchema" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/themes/common/productIconThemeSchema" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="schema.font-format">
       <source xml:lang="en">The format of the font.</source>
     </trans-unit>
@@ -361,7 +361,7 @@
       <source xml:lang="en">The location of the font.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/themes/common/themeConfiguration" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/themes/common/themeConfiguration" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="autoDetectHighContrast">
       <source xml:lang="en">If enabled, will automatically change to high contrast theme if the OS is using a high contrast theme. The high contrast theme to use is specified by `#{0}#`</source>
     </trans-unit>
@@ -465,7 +465,7 @@
       <source xml:lang="en">Overrides colors from the currently selected color theme.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/themes/common/themeExtensionPoints" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/themes/common/themeExtensionPoints" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="invalid.path.1">
       <source xml:lang="en">Expected `contributes.{0}.path` ({1}) to be included inside extension's folder ({2}). This might make the extension non-portable.</source>
     </trans-unit>
@@ -518,7 +518,7 @@
       <source xml:lang="en">Base theme defining the colors around the editor: 'vs' is the light color theme, 'vs-dark' is the dark color theme. 'hc-black' is the dark high contrast theme.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/themes/common/tokenClassificationExtensionPoint" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/themes/common/tokenClassificationExtensionPoint" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="contributes.color.description">
       <source xml:lang="en">The description of the semantic token type</source>
     </trans-unit>

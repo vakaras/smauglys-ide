@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/scm/browser/activity" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/scm/browser/activity" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="scmPendingChangesBadge">
       <source xml:lang="en">{0} pending changes</source>
     </trans-unit>
@@ -8,7 +8,7 @@
       <source xml:lang="en">Source Control</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/scm/browser/dirtydiffDecorator" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/scm/browser/dirtydiffDecorator" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="change">
       <source xml:lang="en">{0} of {1} change</source>
     </trans-unit>
@@ -66,7 +66,7 @@
       <source xml:lang="en">Show Previous Change</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/scm/browser/scm.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/scm/browser/scm.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="alwaysShowActions">
       <source xml:lang="en">Controls whether inline actions are always visible in the Source Control view.</source>
     </trans-unit>
@@ -189,12 +189,12 @@
       <source xml:lang="en">View icon of the Source Control view.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/scm/browser/scmRepositoriesViewPane" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/scm/browser/scmRepositoriesViewPane" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="scm">
       <source xml:lang="en">Source Control Repositories</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/scm/browser/scmViewPane" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/scm/browser/scmViewPane" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="collapse all">
       <source xml:lang="en">Collapse All Repositories</source>
     </trans-unit>
@@ -232,7 +232,7 @@
       <source xml:lang="en">Sort by Status</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/scm/browser/scmViewPaneContainer" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/scm/browser/scmViewPaneContainer" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="source control">
       <source xml:lang="en">Source Control</source>
     </trans-unit>

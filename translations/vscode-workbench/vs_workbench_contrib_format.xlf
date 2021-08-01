@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/format/browser/formatActionsMultiple" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/format/browser/formatActionsMultiple" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cancel">
       <source xml:lang="en">Cancel</source>
     </trans-unit>
@@ -44,7 +44,7 @@
       <source xml:lang="en">Select a default formatter for '{0}' files</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/format/browser/formatActionsNone" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/format/browser/formatActionsNone" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cancel">
       <source xml:lang="en">Cancel</source>
     </trans-unit>
@@ -61,7 +61,7 @@
       <source xml:lang="en">This file cannot be formatted because it is too large</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/format/browser/formatModified" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/format/browser/formatModified" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="formatChanges">
       <source xml:lang="en">Format Modified Lines</source>
     </trans-unit>

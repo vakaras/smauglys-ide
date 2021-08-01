@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/services/notification/common/notificationService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/notification/common/notificationService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="neverShowAgain">
       <source xml:lang="en">Don't Show Again</source>
     </trans-unit>

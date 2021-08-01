@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/remote/browser/explorerViewItems" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/remote/browser/explorerViewItems" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="remote.explorer.switch">
       <source xml:lang="en">Switch Remote</source>
     </trans-unit>
@@ -8,7 +8,7 @@
       <source xml:lang="en">Switch Remote</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/remote/browser/remote" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/remote/browser/remote" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="RemoteHelpInformationExtPoint">
       <source xml:lang="en">Contributes help information for Remote</source>
     </trans-unit>
@@ -76,7 +76,7 @@
       <source xml:lang="en">Remote Help</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/remote/browser/remoteExplorer" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/remote/browser/remoteExplorer" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="1forwardedPort">
       <source xml:lang="en">1 forwarded port</source>
     </trans-unit>
@@ -109,7 +109,7 @@
       <source xml:lang="en">Forwarded Ports</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/remote/browser/remoteIcons" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/remote/browser/remoteIcons" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="copyAddressIcon">
       <source xml:lang="en">Icon for the copy local address action.</source>
     </trans-unit>
@@ -165,7 +165,7 @@
       <source xml:lang="en">Icon for the stop forwarding action.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/remote/browser/remoteIndicator" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/remote/browser/remoteIndicator" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="closeRemoteConnection.title">
       <source xml:lang="en">Close Remote Connection</source>
     </trans-unit>
@@ -222,7 +222,7 @@
       <note>[features are not available]({1}) is a link. Only translate `features are not available`. Do not change brackets and parentheses or {0}</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/remote/browser/tunnelView" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/remote/browser/tunnelView" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="portWithRunningProcess.foreground">
       <source xml:lang="en">The color of the icon for a port that has an associated running process.</source>
     </trans-unit>
@@ -407,7 +407,7 @@
       <source xml:lang="en">Process information unavailable</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/remote/common/remote.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/remote/common/remote.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="remote">
       <source xml:lang="en">Remote</source>
     </trans-unit>
@@ -511,7 +511,7 @@
       <source xml:lang="en">Workspace extension kind. In a remote window, such extensions are enabled only when available on the remote.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/remote/electron-sandbox/remote.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/remote/electron-sandbox/remote.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="remote">
       <source xml:lang="en">Remote</source>
     </trans-unit>

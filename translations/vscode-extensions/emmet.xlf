@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="extensions/emmet/dist\node/abbreviationActions" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/emmet/dist\node/abbreviationActions" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="wrapWithAbbreviationPrompt">
       <source xml:lang="en">Enter Abbreviation</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/emmet/package" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/emmet/package" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="command.balanceIn">
       <source xml:lang="en">Balance (inward)</source>
     </trans-unit>

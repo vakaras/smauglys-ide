@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/sash/browser/sash.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/sash/browser/sash.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="sashHoverDelay">
       <source xml:lang="en">Controls the hover feedback delay in milliseconds of the dragging area in between views/editors.</source>
     </trans-unit>

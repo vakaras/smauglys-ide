@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/services/workspaces/browser/abstractWorkspaceEditingService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/workspaces/browser/abstractWorkspaceEditingService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="errorInvalidTaskConfiguration">
       <source xml:lang="en">Unable to write into workspace configuration file. Please open the file to correct errors/warnings in it and try again.</source>
     </trans-unit>
@@ -17,12 +17,12 @@
       <source xml:lang="en">Save Workspace</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/workspaces/browser/workspaceTrustEditorInput" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/workspaces/browser/workspaceTrustEditorInput" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="workspaceTrustEditorInputName">
       <source xml:lang="en">Workspace Trust</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/workspaces/common/workspaceTrust" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/workspaces/common/workspaceTrust" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="workspaceTrustEnabledCtx">
       <source xml:lang="en">Whether the workspace trust feature is enabled.</source>
     </trans-unit>
@@ -30,7 +30,7 @@
       <source xml:lang="en">Whether the current workspace has been trusted by the user.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/workspaces/electron-sandbox/workspaceEditingService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/workspaces/electron-sandbox/workspaceEditingService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cancel">
       <source xml:lang="en">Cancel</source>
     </trans-unit>

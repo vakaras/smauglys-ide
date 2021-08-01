@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/snippets/browser/configureSnippets" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/snippets/browser/configureSnippets" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="bad_name1">
       <source xml:lang="en">Invalid file name</source>
     </trans-unit>
@@ -54,7 +54,7 @@
       <source xml:lang="en">User Snippets</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/snippets/browser/insertSnippet" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/snippets/browser/insertSnippet" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="disableSnippet">
       <source xml:lang="en">Hide from IntelliSense</source>
     </trans-unit>
@@ -80,7 +80,7 @@
       <source xml:lang="en">Insert Snippet</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/snippets/browser/snippetCompletionProvider" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/snippets/browser/snippetCompletionProvider" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="detail.snippet">
       <source xml:lang="en">{0} ({1})</source>
     </trans-unit>
@@ -88,7 +88,7 @@
       <source xml:lang="en">{0}, {1}</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/snippets/browser/snippets.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/snippets/browser/snippets.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="snippetSchema.json">
       <source xml:lang="en">User snippet configuration</source>
     </trans-unit>
@@ -108,7 +108,7 @@
       <source xml:lang="en">A list of language names to which this snippet applies, e.g. 'typescript,javascript'.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/snippets/browser/snippetsFile" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/snippets/browser/snippetsFile" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="source.userSnippet">
       <source xml:lang="en">User Snippet</source>
     </trans-unit>
@@ -119,7 +119,7 @@
       <source xml:lang="en">Workspace Snippet</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/snippets/browser/snippetsService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/snippets/browser/snippetsService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="badFile">
       <source xml:lang="en">The snippet file "{0}" could not be read.</source>
     </trans-unit>

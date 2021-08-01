@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/services/textMate/browser/abstractTextMateService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/textMate/browser/abstractTextMateService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="alreadyDebugging">
       <source xml:lang="en">Already Logging.</source>
     </trans-unit>
@@ -35,12 +35,12 @@
       <source xml:lang="en">Stop</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/textMate/common/TMGrammarFactory" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/textMate/common/TMGrammarFactory" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="no-tm-grammar">
       <source xml:lang="en">No TM Grammar registered for this language.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/textMate/common/TMGrammars" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/textMate/common/TMGrammars" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="vscode.extension.contributes.grammars">
       <source xml:lang="en">Contributes textmate tokenizers.</source>
     </trans-unit>

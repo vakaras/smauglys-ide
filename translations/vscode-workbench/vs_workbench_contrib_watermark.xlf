@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/watermark/browser/watermark" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/watermark/browser/watermark" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="tips.enabled">
       <source xml:lang="en">When enabled, will show the watermark tips when no editor is open.</source>
     </trans-unit>

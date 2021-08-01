@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/callHierarchy/browser/callHierarchy.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/callHierarchy/browser/callHierarchy.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="callHierarchyDirection">
       <source xml:lang="en">Whether call hierarchy shows incoming or outgoing calls</source>
     </trans-unit>
@@ -38,7 +38,7 @@
       <source xml:lang="en">Refocus Call Hierarchy</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/callHierarchy/browser/callHierarchyPeek" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/callHierarchy/browser/callHierarchyPeek" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="callFrom">
       <source xml:lang="en">Calls from '{0}'</source>
     </trans-unit>
@@ -55,7 +55,7 @@
       <source xml:lang="en">Loading...</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/callHierarchy/browser/callHierarchyTree" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/callHierarchy/browser/callHierarchyTree" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="from">
       <source xml:lang="en">calls from {0}</source>
     </trans-unit>

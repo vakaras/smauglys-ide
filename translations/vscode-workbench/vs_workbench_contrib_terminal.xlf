@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/terminal/browser/environmentVariableInfo" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/terminal/browser/environmentVariableInfo" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="extensionEnvironmentContributionChanges">
       <source xml:lang="en">Extensions want to make the following changes to the terminal's environment:</source>
     </trans-unit>
@@ -14,7 +14,7 @@
       <source xml:lang="en">Relaunch terminal</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/terminal/browser/links/terminalLink" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/terminal/browser/links/terminalLink" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="focusFolder">
       <source xml:lang="en">Focus folder in explorer</source>
     </trans-unit>
@@ -25,7 +25,7 @@
       <source xml:lang="en">Open folder in new window</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/terminal/browser/links/terminalLinkManager" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/terminal/browser/links/terminalLinkManager" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="followForwardedLink">
       <source xml:lang="en">Follow link using forwarded port</source>
     </trans-unit>
@@ -48,12 +48,12 @@
       <source xml:lang="en">ctrl + click</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/terminal/browser/links/terminalWordLinkProvider" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/terminal/browser/links/terminalWordLinkProvider" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="searchWorkspace">
       <source xml:lang="en">Search workspace</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/terminal/browser/remoteTerminalService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/terminal/browser/remoteTerminalService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="nonResponsivePtyHost">
       <source xml:lang="en">The connection to the terminal's pty host process is unresponsive, the terminals may stop working.</source>
     </trans-unit>
@@ -61,7 +61,7 @@
       <source xml:lang="en">Restart pty host</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/terminal/browser/terminal.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/terminal/browser/terminal.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="miToggleIntegratedTerminal">
       <source xml:lang="en">&amp;&amp;Terminal</source>
       <note>&amp;&amp; denotes a mnemonic</note>
@@ -76,7 +76,7 @@
       <source xml:lang="en">Terminal</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/terminal/browser/terminalActions" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/terminal/browser/terminalActions" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="emptyTerminalNameError">
       <source xml:lang="en">A name must be provided.</source>
     </trans-unit>
@@ -288,7 +288,7 @@
       <source xml:lang="en">Toggle Find Using Whole Word</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/terminal/browser/terminalConfigHelper" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/terminal/browser/terminalConfigHelper" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="install">
       <source xml:lang="en">Install</source>
     </trans-unit>
@@ -296,12 +296,12 @@
       <source xml:lang="en">The '{0}' extension is recommended for opening a terminal in WSL.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/terminal/browser/terminalDecorationsProvider" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/terminal/browser/terminalDecorationsProvider" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="label">
       <source xml:lang="en">Terminal</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/terminal/browser/terminalEditor" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/terminal/browser/terminalEditor" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="defaultTerminalProfile">
       <source xml:lang="en">{0} (Default)</source>
     </trans-unit>
@@ -309,7 +309,7 @@
       <source xml:lang="en">New Terminal</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/terminal/browser/terminalIcons" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/terminal/browser/terminalIcons" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="configureTerminalProfileIcon">
       <source xml:lang="en">Icon for creating a new terminal profile.</source>
     </trans-unit>
@@ -326,7 +326,7 @@
       <source xml:lang="en">View icon of the terminal view.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/terminal/browser/terminalInstance" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/terminal/browser/terminalInstance" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="bellStatus">
       <source xml:lang="en">Bell</source>
     </trans-unit>
@@ -394,7 +394,7 @@
       <source xml:lang="en">Yes</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/terminal/browser/terminalMenus" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/terminal/browser/terminalMenus" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="miNewTerminal">
       <source xml:lang="en">&amp;&amp;New Terminal</source>
       <note>&amp;&amp; denotes a mnemonic</note>
@@ -457,12 +457,12 @@
       <source xml:lang="en">Switch Terminal</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/terminal/browser/terminalProcessManager" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/terminal/browser/terminalProcessManager" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="ptyHostRelaunch">
       <source xml:lang="en">Restarting the terminal because the connection to the shell process was lost...</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/terminal/browser/terminalQuickAccess" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/terminal/browser/terminalQuickAccess" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="renameTerminal">
       <source xml:lang="en">Rename Terminal</source>
     </trans-unit>
@@ -473,7 +473,7 @@
       <source xml:lang="en">Create New Terminal</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/terminal/browser/terminalService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/terminal/browser/terminalService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="createQuickLaunchProfile">
       <source xml:lang="en">Configure Terminal Profile</source>
     </trans-unit>
@@ -511,7 +511,7 @@
       <source xml:lang="en">There is an active terminal session, do you want to kill it?</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/terminal/browser/terminalTabbedView" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/terminal/browser/terminalTabbedView" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="hideTabs">
       <source xml:lang="en">Hide Tabs</source>
     </trans-unit>
@@ -522,7 +522,7 @@
       <source xml:lang="en">Move Tabs Right</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/terminal/browser/terminalTabsList" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/terminal/browser/terminalTabsList" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="splitTerminalAriaLabel">
       <source xml:lang="en">Terminal {0} {1}, split {2} of {3}</source>
       <note>The terminal's ID
@@ -542,7 +542,7 @@ The terminal's title</note>
       <source xml:lang="en">Type terminal name. Press Enter to confirm or Escape to cancel.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/terminal/browser/terminalView" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/terminal/browser/terminalView" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="defaultTerminalProfile">
       <source xml:lang="en">{0} (Default)</source>
     </trans-unit>
@@ -562,7 +562,7 @@ The terminal's title</note>
       <source xml:lang="en">Open Terminals.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/terminal/common/terminal" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/terminal/common/terminal" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="isSplitTerminalContextKey">
       <source xml:lang="en">Whether or not the focused tab's terminal is a split terminal</source>
     </trans-unit>
@@ -621,7 +621,7 @@ The terminal's title</note>
       <source xml:lang="en">Title for this type of terminal.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/terminal/common/terminalColorRegistry" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/terminal/common/terminalColorRegistry" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="terminal.ansiColor">
       <source xml:lang="en">'{0}' ANSI color in the terminal.</source>
     </trans-unit>
@@ -647,7 +647,7 @@ The terminal's title</note>
       <source xml:lang="en">The foreground color of the terminal cursor.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/terminal/common/terminalConfiguration" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/terminal/common/terminalConfiguration" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="openDefaultSettingsJson">
       <source xml:lang="en">open the default settings JSON</source>
     </trans-unit>
@@ -953,7 +953,7 @@ Default Skipped Commands:
       <source xml:lang="en">The title is set by the _process_ via an escape sequence, this is useful if your shell dynamically sets the title.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/terminal/common/terminalStrings" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/terminal/common/terminalStrings" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="killTerminal">
       <source xml:lang="en">Kill Terminal</source>
     </trans-unit>
@@ -991,7 +991,7 @@ Default Skipped Commands:
       <source xml:lang="en">Rename...</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/terminal/electron-sandbox/localTerminalService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/terminal/electron-sandbox/localTerminalService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="nonResponsivePtyHost">
       <source xml:lang="en">The connection to the terminal's pty host process is unresponsive, the terminals may stop working.</source>
     </trans-unit>
@@ -999,7 +999,7 @@ Default Skipped Commands:
       <source xml:lang="en">Restart pty host</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/terminal/electron-sandbox/terminalRemote" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/terminal/electron-sandbox/terminalRemote" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="workbench.action.terminal.newLocal">
       <source xml:lang="en">Create New Integrated Terminal (Local)</source>
     </trans-unit>

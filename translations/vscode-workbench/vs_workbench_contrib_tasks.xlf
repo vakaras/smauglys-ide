@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/tasks/browser/abstractTaskService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/tasks/browser/abstractTaskService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="ConfigureTaskRunnerAction.label">
       <source xml:lang="en">Configure Task</source>
     </trans-unit>
@@ -242,7 +242,7 @@ The task will be ignored.
       <source xml:lang="en">Tasks</source>
     </trans-unit>
     <trans-unit id="tasksJsonComment">
-      <source xml:lang="en">	// See https://go.microsoft.com/fwlink/?LinkId=733558 
+      <source xml:lang="en">	// See https://go.microsoft.com/fwlink/?LinkId=733558
 	// for the documentation about the tasks.json format</source>
     </trans-unit>
     <trans-unit id="terminateTask">
@@ -253,7 +253,7 @@ The task will be ignored.
 </source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/tasks/browser/runAutomaticTasks" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/tasks/browser/runAutomaticTasks" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="allow">
       <source xml:lang="en">Allow and run</source>
     </trans-unit>
@@ -279,7 +279,7 @@ The task will be ignored.
       <source xml:lang="en">Manage Automatic Tasks in Folder</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/tasks/browser/task.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/tasks/browser/task.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="BuildAction.label">
       <source xml:lang="en">Run Build Task</source>
     </trans-unit>
@@ -411,7 +411,7 @@ The task will be ignored.
       <source xml:lang="en">Open Workspace Tasks</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/tasks/browser/taskQuickPick" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/tasks/browser/taskQuickPick" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="TaskQuickPick.changeSettingDetails">
       <source xml:lang="en">Task detection for {0} tasks causes files in any workspace you open to be run as code. Enabling {0} task detection is a user setting and will apply to any workspace you open. Do you want to enable {0} task detection for all workspaces?</source>
     </trans-unit>
@@ -464,7 +464,7 @@ The task will be ignored.
       <source xml:lang="en">All {0} tasks</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/tasks/browser/taskTerminalStatus" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/tasks/browser/taskTerminalStatus" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="taskTerminalStatus.active">
       <source xml:lang="en">Task is running</source>
     </trans-unit>
@@ -481,7 +481,7 @@ The task will be ignored.
       <source xml:lang="en">Task succeeded and waiting...</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/tasks/browser/tasksQuickAccess" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/tasks/browser/tasksQuickAccess" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="TaskService.pickRunTask">
       <source xml:lang="en">Select the task to run</source>
     </trans-unit>
@@ -489,7 +489,7 @@ The task will be ignored.
       <source xml:lang="en">No matching tasks</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/tasks/browser/terminalTaskSystem" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/tasks/browser/terminalTaskSystem" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="TerminalTaskSystem">
       <source xml:lang="en">Can't execute a shell command on an UNC drive using cmd.exe.</source>
     </trans-unit>
@@ -518,7 +518,7 @@ The task will be ignored.
       <source xml:lang="en">Problem matcher {0} can't be resolved. The matcher will be ignored</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/tasks/common/jsonSchemaCommon" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/tasks/common/jsonSchemaCommon" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="JsonSchema.args">
       <source xml:lang="en">Additional arguments passed to the command.</source>
     </trans-unit>
@@ -619,7 +619,7 @@ The task will be ignored.
       <source xml:lang="en">Deprecated. Use isBackground instead.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/tasks/common/jsonSchema_v1" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/tasks/common/jsonSchema_v1" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="JsonSchema._runner">
       <source xml:lang="en">The runner has graduated. Use the official runner property</source>
     </trans-unit>
@@ -645,7 +645,7 @@ The task will be ignored.
       <source xml:lang="en">Windows specific command configuration</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/tasks/common/jsonSchema_v2" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/tasks/common/jsonSchema_v2" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="JsonSchema.args.quotedString.value">
       <source xml:lang="en">The actual argument value</source>
     </trans-unit>
@@ -860,7 +860,7 @@ The task will be ignored.
       <source xml:lang="en">Windows specific command configuration</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/tasks/common/problemMatcher" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/tasks/common/problemMatcher" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="LegacyProblemMatcherSchema.watchedBegin">
       <source xml:lang="en">A regular expression signaling that a watched tasks begins executing triggered through file watching.</source>
     </trans-unit>
@@ -1074,7 +1074,7 @@ The task will be ignored.
       <source xml:lang="en">Microsoft compiler problems</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/tasks/common/taskConfiguration" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/tasks/common/taskConfiguration" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="ConfigurationParser.inValidArg">
       <source xml:lang="en">Error: command argument must either be a string or a quoted string. Provided value is:
 {0}</source>
@@ -1142,7 +1142,7 @@ The task will be ignored.
 </source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/tasks/common/taskDefinitionRegistry" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/tasks/common/taskDefinitionRegistry" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="TaskDefinition.description">
       <source xml:lang="en">The actual task type. Please note that types starting with a '$' are reserved for internal usage.</source>
     </trans-unit>
@@ -1159,7 +1159,7 @@ The task will be ignored.
       <source xml:lang="en">The task type configuration is missing the required 'taskType' property</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/tasks/common/taskService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/tasks/common/taskService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="tasks.customExecutionSupported">
       <source xml:lang="en">Whether CustomExecution tasks are supported. Consider using in the when clause of a 'taskDefinition' contribution.</source>
     </trans-unit>
@@ -1170,7 +1170,7 @@ The task will be ignored.
       <source xml:lang="en">Whether ShellExecution tasks are supported. Consider using in the when clause of a 'taskDefinition' contribution.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/tasks/common/taskTemplates" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/tasks/common/taskTemplates" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="Maven">
       <source xml:lang="en">Executes common maven commands</source>
     </trans-unit>
@@ -1184,7 +1184,7 @@ The task will be ignored.
       <source xml:lang="en">Executes the build target</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/tasks/common/tasks" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/tasks/common/tasks" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="TaskDefinition.missingRequiredProperty">
       <source xml:lang="en">Error: the task identifier '{0}' is missing the required property '{1}'. The task identifier will be ignored.</source>
     </trans-unit>
@@ -1195,7 +1195,7 @@ The task will be ignored.
       <source xml:lang="en">Tasks</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/tasks/electron-sandbox/taskService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/tasks/electron-sandbox/taskService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="TaskSystem.exitAnyways">
       <source xml:lang="en">&amp;&amp;Exit Anyways</source>
       <note>&amp;&amp; denotes a mnemonic</note>

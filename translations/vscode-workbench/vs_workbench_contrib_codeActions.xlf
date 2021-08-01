@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/codeActions/common/codeActionsContribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/codeActions/common/codeActionsContribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="codeActionsOnSave">
       <source xml:lang="en">Code action kinds to be run on save.</source>
     </trans-unit>
@@ -11,7 +11,7 @@
       <source xml:lang="en">Controls whether '{0}' actions should be run on file save.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/codeActions/common/codeActionsExtensionPoint" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/codeActions/common/codeActionsExtensionPoint" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="contributes.codeActions">
       <source xml:lang="en">Configure which editor to use for a resource.</source>
     </trans-unit>
@@ -28,7 +28,7 @@
       <source xml:lang="en">Label for the code action used in the UI.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/codeActions/common/documentationExtensionPoint" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/codeActions/common/documentationExtensionPoint" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="contributes.documentation">
       <source xml:lang="en">Contributed documentation.</source>
     </trans-unit>

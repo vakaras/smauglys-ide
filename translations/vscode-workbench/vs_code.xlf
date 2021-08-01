@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/code/electron-main/app" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/code/electron-main/app" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cancel">
       <source xml:lang="en">&amp;&amp;No</source>
       <note>&amp;&amp; denotes a mnemonic</note>
@@ -27,7 +27,7 @@
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/code/electron-main/main" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/code/electron-main/main" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="close">
       <source xml:lang="en">&amp;&amp;Close</source>
       <note>&amp;&amp; denotes a mnemonic</note>
@@ -55,7 +55,7 @@ Please make sure the following directories are writeable:
 {1}</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/code/electron-sandbox/issue/issueReporterMain" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/code/electron-sandbox/issue/issueReporterMain" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="bugDescription">
       <source xml:lang="en">Share the steps needed to reliably reproduce the problem. Please include actual and expected results. We support GitHub-flavored Markdown. You will be able to edit your issue and add screenshots when we preview it on GitHub.</source>
     </trans-unit>
@@ -135,7 +135,7 @@ Please make sure the following directories are writeable:
       <source xml:lang="en">Visual Studio Code</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/code/electron-sandbox/issue/issueReporterPage" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/code/electron-sandbox/issue/issueReporterPage" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="chooseExtension">
       <source xml:lang="en">Extension</source>
     </trans-unit>
@@ -205,7 +205,7 @@ Please make sure the following directories are writeable:
       <source xml:lang="en">The title is too long.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/code/electron-sandbox/processExplorer/processExplorerMain" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/code/electron-sandbox/processExplorer/processExplorerMain" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="copy">
       <source xml:lang="en">Copy</source>
     </trans-unit>

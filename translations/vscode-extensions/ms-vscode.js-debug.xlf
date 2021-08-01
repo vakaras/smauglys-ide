@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="extensions/ms-vscode.js-debug//src/adapter/breakpoints/userDefinedBreakpoint" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/adapter/breakpoints/userDefinedBreakpoint" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="breakpoint.provisionalBreakpoint">
       <source xml:lang="en">Unbound breakpoint</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/adapter/console/queryObjectsMessage" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/adapter/console/queryObjectsMessage" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="queryObject.couldNotQuery">
       <source xml:lang="en">Could not query the provided object</source>
     </trans-unit>
@@ -16,12 +16,12 @@
       <source xml:lang="en">Only objects can be queried</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/adapter/console/textualMessage" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/adapter/console/textualMessage" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="console.assert">
       <source xml:lang="en">Assertion failed</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/adapter/customBreakpoints" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/adapter/customBreakpoints" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="breakpoint.animationFrameFired">
       <source xml:lang="en">Animation Frame Fired</source>
     </trans-unit>
@@ -86,7 +86,7 @@
       <source xml:lang="en">WebGL Warning Fired</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/adapter/debugAdapter" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/adapter/debugAdapter" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="breakpoint.caughtExceptions">
       <source xml:lang="en">Caught Exceptions</source>
     </trans-unit>
@@ -112,7 +112,7 @@
       <source xml:lang="en">Variable not found</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/adapter/profiling/basicCpuProfiler" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/adapter/profiling/basicCpuProfiler" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="profile.cpu.description">
       <source xml:lang="en">Generates a .cpuprofile file you can open in the Chrome devtools</source>
     </trans-unit>
@@ -120,7 +120,7 @@
       <source xml:lang="en">CPU Profile</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/adapter/profiling/heapDumpProfiler" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/adapter/profiling/heapDumpProfiler" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="profile.heap.description">
       <source xml:lang="en">Generates a .heapsnapshot file you can open in the Chrome devtools</source>
     </trans-unit>
@@ -128,12 +128,12 @@
       <source xml:lang="en">Heap Snapshot</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/adapter/sources" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/adapter/sources" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="source.skipFiles">
       <source xml:lang="en">Skipped by skipFiles</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/adapter/stackTrace" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/adapter/stackTrace" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="scope.block">
       <source xml:lang="en">Block</source>
     </trans-unit>
@@ -171,7 +171,7 @@
       <source xml:lang="en">Skipped by smartStep</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/adapter/threads" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/adapter/threads" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="error.evaluateDidFail">
       <source xml:lang="en">Unable to evaluate</source>
     </trans-unit>
@@ -245,7 +245,7 @@
       <source xml:lang="en">WARNING: Processing source-maps of {0} took longer than {1} ms so we continued execution without waiting for all the breakpoints for the script to be set.</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/adapter/variables" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/adapter/variables" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="error.customValueDescriptionGeneratorFailed">
       <source xml:lang="en">{0} (couldn't describe: {1})</source>
     </trans-unit>
@@ -268,12 +268,12 @@
       <source xml:lang="en">Variable not found</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/binder" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/binder" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="breakpoint.provisionalBreakpoint">
       <source xml:lang="en">Unbound breakpoint</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/dap/errors" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/dap/errors" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="NVM_HOME.not.found.message">
       <source xml:lang="en">Attribute 'runtimeVersion' requires Node.js version manager 'nvm-windows' or 'nvs'.</source>
     </trans-unit>
@@ -329,12 +329,12 @@
       <source xml:lang="en">Could not read source map for {0}: {1}</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/debugServer" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/debugServer" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="breakpoint.provisionalBreakpoint">
       <source xml:lang="en">Unbound breakpoint</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/targets/browser/browserAttacher" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/targets/browser/browserAttacher" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="attach.cannotConnect">
       <source xml:lang="en">Cannot connect to the target at {0}: {1}</source>
     </trans-unit>
@@ -342,13 +342,13 @@
       <source xml:lang="en">Select a tab</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/targets/node/nodeAttacher" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/targets/node/nodeAttacher" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="node.attach.restart.message">
       <source xml:lang="en">Lost connection to debugee, reconnecting in {0}ms
 </source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/targets/node/nodeBinaryProvider" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/targets/node/nodeBinaryProvider" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="outOfDate">
       <source xml:lang="en">{0} Would you like to try debugging anyway?</source>
     </trans-unit>
@@ -368,17 +368,17 @@
       <source xml:lang="en">Yes</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/ui/autoAttach" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/ui/autoAttach" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="details">
       <source xml:lang="en">Details</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/ui/companionBrowserLaunch" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/ui/companionBrowserLaunch" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cannotDebugInBrowser">
       <source xml:lang="en">We can't launch a browser in debug mode from here. Open this workspace in VS Code on your desktop to enable debugging.</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/ui/configuration/chromiumDebugConfigurationProvider" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/ui/configuration/chromiumDebugConfigurationProvider" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cancel">
       <source xml:lang="en">Cancel</source>
     </trans-unit>
@@ -398,12 +398,12 @@
       <source xml:lang="en">the configured userDataDir</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/ui/configuration/edgeDebugConfigurationProvider" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/ui/configuration/edgeDebugConfigurationProvider" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="chrome.launch.name">
       <source xml:lang="en">Launch Edge against localhost</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/ui/configuration/nodeDebugConfigurationProvider" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/ui/configuration/nodeDebugConfigurationProvider" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="debug.terminal.label">
       <source xml:lang="en">JavaScript Debug Terminal</source>
     </trans-unit>
@@ -414,7 +414,7 @@
       <source xml:lang="en">Run Script: {0}</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/ui/configuration/nodeDebugConfigurationResolver" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/ui/configuration/nodeDebugConfigurationResolver" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="mern.starter.explanation">
       <source xml:lang="en">Launch configuration for '{0}' project created.</source>
     </trans-unit>
@@ -431,7 +431,7 @@
       <source xml:lang="en">Cannot find a program to debug</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/ui/debugLinkUI" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/ui/debugLinkUI" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="debugLink.invalidUrl">
       <source xml:lang="en">The URL provided is invalid</source>
     </trans-unit>
@@ -448,7 +448,7 @@
       <source xml:lang="en">Yes</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/ui/debugNpmScript" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/ui/debugNpmScript" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="debug.npm.noScripts">
       <source xml:lang="en">No npm scripts found in your package.json</source>
     </trans-unit>
@@ -462,12 +462,12 @@
       <source xml:lang="en">Could not read {0}: {1}</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/ui/debugTerminalUI" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/ui/debugTerminalUI" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="terminal.cwdpick">
       <source xml:lang="en">Select current working directory for new terminal</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/ui/diagnosticsUI" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/ui/diagnosticsUI" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="inspectSessionEnded">
       <source xml:lang="en">It looks like your debug session has already ended. Try debugging again, then run the "Debug: Diagnose Breakpoint Problems" command.</source>
     </trans-unit>
@@ -484,7 +484,7 @@
       <source xml:lang="en">Yes</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/ui/disableSourceMapUI" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/ui/disableSourceMapUI" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="always">
       <source xml:lang="en">Always</source>
     </trans-unit>
@@ -498,12 +498,12 @@
       <source xml:lang="en">Yes</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/ui/edgeDevToolOpener" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/ui/edgeDevToolOpener" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="selectEdgeToolSession">
       <source xml:lang="en">Select the page where you want to open the devtools</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/ui/linkedBreakpointLocationUI" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/ui/linkedBreakpointLocationUI" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="ignore">
       <source xml:lang="en">Ignore</source>
     </trans-unit>
@@ -511,7 +511,7 @@
       <source xml:lang="en">Read More</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/ui/longPredictionUI" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/ui/longPredictionUI" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="longPredictionWarning.disable">
       <source xml:lang="en">Don't show again</source>
     </trans-unit>
@@ -525,7 +525,7 @@
       <source xml:lang="en">Open launch.json</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/ui/prettyPrint" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/ui/prettyPrint" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="never">
       <source xml:lang="en">Never</source>
     </trans-unit>
@@ -536,7 +536,7 @@
       <source xml:lang="en">Yes</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/ui/processPicker" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/ui/processPicker" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cannot.enable.debug.mode.error">
       <source xml:lang="en">Attach to process: cannot enable debug mode for process '{0}' ({1}).</source>
     </trans-unit>
@@ -556,7 +556,7 @@
       <source xml:lang="en">Process picker failed ({0})</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/ui/profiling/breakpointTerminationCondition" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/ui/profiling/breakpointTerminationCondition" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="breakpointTerminationWarnConfirm">
       <source xml:lang="en">Got it!</source>
     </trans-unit>
@@ -570,7 +570,7 @@
       <source xml:lang="en">Pick Breakpoint</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/ui/profiling/durationTerminationCondition" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/ui/profiling/durationTerminationCondition" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="profile.termination.duration.description">
       <source xml:lang="en">Run for a specific amount of time</source>
     </trans-unit>
@@ -590,7 +590,7 @@
       <source xml:lang="en">Profile duration in seconds, e.g "5"</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/ui/profiling/manualTerminationCondition" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/ui/profiling/manualTerminationCondition" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="profile.termination.duration.description">
       <source xml:lang="en">Run until manually stopped</source>
     </trans-unit>
@@ -598,7 +598,7 @@
       <source xml:lang="en">Manual</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/ui/profiling/uiProfileManager" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/ui/profiling/uiProfileManager" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="no">
       <source xml:lang="en">No</source>
     </trans-unit>
@@ -627,7 +627,7 @@
       <source xml:lang="en">Yes</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/ui/profiling/uiProfileSession" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/ui/profiling/uiProfileSession" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="profile.saving">
       <source xml:lang="en">Saving</source>
     </trans-unit>
@@ -638,7 +638,7 @@
       <source xml:lang="en">Stopping profile...</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/ui/terminalLinkHandler" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/ui/terminalLinkHandler" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cantOpenChromeOnWeb">
       <source xml:lang="en">We can't launch a browser in debug mode from here. If you want to debug this webpage, open this workspace from VS Code on your desktop.</source>
     </trans-unit>
@@ -646,12 +646,12 @@
       <source xml:lang="en">Debug URL</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug//src/vsDebugServer" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug//src/vsDebugServer" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="session.rootSessionName">
       <source xml:lang="en">JavaScript debug adapter</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.js-debug/package" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.js-debug/package" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="add.browser.breakpoint">
       <source xml:lang="en">Add Browser Breakpoint</source>
     </trans-unit>

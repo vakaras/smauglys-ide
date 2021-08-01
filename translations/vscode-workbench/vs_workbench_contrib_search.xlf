@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/search/browser/anythingQuickAccess" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/search/browser/anythingQuickAccess" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="closeEditor">
       <source xml:lang="en">Remove from Recently Opened</source>
     </trans-unit>
@@ -28,7 +28,7 @@
       <source xml:lang="en">recently opened</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/search/browser/patternInputWidget" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/search/browser/patternInputWidget" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="defaultLabel">
       <source xml:lang="en">input</source>
     </trans-unit>
@@ -39,12 +39,12 @@
       <source xml:lang="en">Use Exclude Settings and Ignore Files</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/search/browser/replaceService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/search/browser/replaceService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="fileReplaceChanges">
       <source xml:lang="en">{0} ↔ {1} (Replace Preview)</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/search/browser/search.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/search/browser/search.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="CancelSearchAction.label">
       <source xml:lang="en">Cancel Search</source>
     </trans-unit>
@@ -282,7 +282,7 @@
       <source xml:lang="en">Deprecated. Consider "search.usePCRE2" for advanced regex feature support.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/search/browser/searchActions" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/search/browser/searchActions" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="FocusNextSearchResult.label">
       <source xml:lang="en">Focus Next Search Result</source>
     </trans-unit>
@@ -305,7 +305,7 @@
       <source xml:lang="en">Toggle Search on Type</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/search/browser/searchIcons" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/search/browser/searchIcons" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="searchClearIcon">
       <source xml:lang="en">Icon for clear results in the search view.</source>
     </trans-unit>
@@ -349,7 +349,7 @@
       <source xml:lang="en">View icon of the search view.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/search/browser/searchMessage" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/search/browser/searchMessage" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="unable to open">
       <source xml:lang="en">Unable to open unknown link: {0}</source>
     </trans-unit>
@@ -357,7 +357,7 @@
       <source xml:lang="en">Unable to open command link from untrusted source: {0}</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/search/browser/searchResultsView" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/search/browser/searchResultsView" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="fileMatchAriaLabel">
       <source xml:lang="en">{0} matches in file {1} of folder {2}, Search result</source>
     </trans-unit>
@@ -398,7 +398,7 @@
       <source xml:lang="en">Found '{0}' at column {1} in line '{2}'</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/search/browser/searchView" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/search/browser/searchView" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="ariaSearchResultsClearStatus">
       <source xml:lang="en">The search results have been cleared</source>
     </trans-unit>
@@ -565,7 +565,7 @@
       <source xml:lang="en">exclude settings and ignore files are disabled</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/search/browser/searchWidget" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/search/browser/searchWidget" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="label.Replace">
       <source xml:lang="en">Replace: Type replace term and press Enter to preview</source>
     </trans-unit>
@@ -591,7 +591,7 @@
       <source xml:lang="en">Toggle Context Lines</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/search/browser/symbolsQuickAccess" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/search/browser/symbolsQuickAccess" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="noSymbolResults">
       <source xml:lang="en">No matching workspace symbols</source>
     </trans-unit>
@@ -602,7 +602,7 @@
       <source xml:lang="en">Open to the Side</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/search/common/queryBuilder" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/search/common/queryBuilder" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="search.noWorkspaceWithName">
       <source xml:lang="en">Workspace folder does not exist: {0}</source>
     </trans-unit>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="extensions/debug-auto-launch/dist/extension" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/debug-auto-launch/dist/extension" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="debug.javascript.autoAttach.always.description">
       <source xml:lang="en">Auto attach to every Node.js process launched in the terminal</source>
     </trans-unit>
@@ -59,7 +59,7 @@
       <source xml:lang="en">Auto Attach: Disabled</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/debug-auto-launch/package" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/debug-auto-launch/package" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="description">
       <source xml:lang="en">Helper for auto-attach feature when node-debug extensions are not active.</source>
     </trans-unit>

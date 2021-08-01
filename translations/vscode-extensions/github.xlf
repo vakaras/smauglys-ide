@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="extensions/github/dist/publish" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/github/dist/publish" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="ignore">
       <source xml:lang="en">Select which files should be included in the repository.</source>
     </trans-unit>
@@ -26,7 +26,7 @@
       <source xml:lang="en">Uploading files</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/github/dist/pushErrorHandler" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/github/dist/pushErrorHandler" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="create a fork">
       <source xml:lang="en">Create Fork</source>
     </trans-unit>
@@ -64,7 +64,7 @@
       <source xml:lang="en">Open PR</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/github/package" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/github/package" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="config.gitAuthentication">
       <source xml:lang="en">Controls whether to enable automatic GitHub authentication for git commands within VS Code.</source>
     </trans-unit>

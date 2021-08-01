@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/services/remote/common/remoteExplorerService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/remote/common/remoteExplorerService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="remote.localPortMismatch.single">
       <source xml:lang="en">Local port {0} could not be used for forwarding to remote port {1}.
 
@@ -18,7 +18,7 @@ Port number {2} has been used instead.</source>
       <source xml:lang="en">Statically Forwarded</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/remote/electron-sandbox/remoteAgentServiceImpl" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/remote/electron-sandbox/remoteAgentServiceImpl" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="connectionError">
       <source xml:lang="en">Failed to connect to the remote extension host server (Error: {0})</source>
     </trans-unit>

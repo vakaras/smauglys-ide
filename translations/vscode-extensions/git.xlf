@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="extensions/git/dist/askpass-main" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/git/dist/askpass-main" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="missOrInvalid">
       <source xml:lang="en">Missing or invalid credentials.</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/git/dist/autofetch" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/git/dist/autofetch" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="no">
       <source xml:lang="en">No</source>
     </trans-unit>
@@ -19,7 +19,7 @@
       <source xml:lang="en">Yes</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/git/dist/commands" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/git/dist/commands" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="HEAD not available">
       <source xml:lang="en">HEAD version of '{0}' is not available.</source>
     </trans-unit>
@@ -516,7 +516,7 @@ These files will be FOREVER LOST.</source>
       <source xml:lang="en">Yes, Don't Show Again</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/git/dist/main" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/git/dist/main" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="downloadgit">
       <source xml:lang="en">Download Git</source>
     </trans-unit>
@@ -542,7 +542,7 @@ These files will be FOREVER LOST.</source>
       <source xml:lang="en">Using git {0} from {1}</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/git/dist/model" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/git/dist/model" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="no repositories">
       <source xml:lang="en">There are no available repositories</source>
     </trans-unit>
@@ -556,7 +556,7 @@ These files will be FOREVER LOST.</source>
       <source xml:lang="en">The '{0}' repository has {1} submodules which won't be opened automatically. You can still open each one individually by opening a file within.</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/git/dist/remoteSource" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/git/dist/remoteSource" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="branch name">
       <source xml:lang="en">Branch name</source>
     </trans-unit>
@@ -585,7 +585,7 @@ These files will be FOREVER LOST.</source>
       <source xml:lang="en">URL</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/git/dist/repository" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/git/dist/repository" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="add known">
       <source xml:lang="en">Would you like to add '{0}' to .gitignore?</source>
     </trans-unit>
@@ -737,7 +737,7 @@ These files will be FOREVER LOST.</source>
       <source xml:lang="en">Yes</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/git/dist/statusbar" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/git/dist/statusbar" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="checkout">
       <source xml:lang="en">Checkout branch/tag...</source>
     </trans-unit>
@@ -757,7 +757,7 @@ These files will be FOREVER LOST.</source>
       <source xml:lang="en">Synchronizing Changes...</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/git/dist/timelineProvider" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/git/dist/timelineProvider" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="git.index">
       <source xml:lang="en">Index</source>
     </trans-unit>
@@ -783,7 +783,7 @@ These files will be FOREVER LOST.</source>
       <source xml:lang="en">Working Tree</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/git/package" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/git/package" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="colors.added">
       <source xml:lang="en">Color for added resources.</source>
     </trans-unit>

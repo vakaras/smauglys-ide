@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/services/extensions/browser/extensionUrlHandler" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/extensions/browser/extensionUrlHandler" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="Installing">
       <source xml:lang="en">Installing Extension '{0}'...</source>
     </trans-unit>
@@ -47,12 +47,12 @@
       <source xml:lang="en">Don't ask again for this extension.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/extensions/browser/webWorkerExtensionHost" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/extensions/browser/webWorkerExtensionHost" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="name">
       <source xml:lang="en">Worker Extension Host</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/extensions/common/abstractExtensionService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/extensions/common/abstractExtensionService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="extensionTestError">
       <source xml:lang="en">No extension host found that can launch the test runner at {0}.</source>
     </trans-unit>
@@ -60,12 +60,12 @@
       <source xml:lang="en">The following extensions contain dependency loops and have been disabled: {0}</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/extensions/common/extensionHostManager" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/extensions/common/extensionHostManager" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="measureExtHostLatency">
       <source xml:lang="en">Measure Extension Host Latency</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/extensions/common/extensionsRegistry" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/extensions/common/extensionsRegistry" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="extensionKind">
       <source xml:lang="en">Define the kind of an extension. `ui` extensions are installed and run on the local machine while `workspace` extensions run on the remote.</source>
     </trans-unit>
@@ -268,7 +268,7 @@
       <source xml:lang="en">Workspace extension kind. In a remote window, such extensions are enabled only when available on the remote.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/extensions/common/extensionsUtil" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/extensions/common/extensionsUtil" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="extensionUnderDevelopment">
       <source xml:lang="en">Loading development extension at {0}</source>
     </trans-unit>
@@ -276,12 +276,12 @@
       <source xml:lang="en">Overwriting extension {0} with {1}.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/extensions/common/remoteExtensionHost" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/extensions/common/remoteExtensionHost" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="remote extension host Log">
       <source xml:lang="en">Remote Extension Host</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/extensions/electron-browser/cachedExtensionScanner" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/extensions/electron-browser/cachedExtensionScanner" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="extensionCache.invalid">
       <source xml:lang="en">Extensions have been modified on disk. Please reload the window.</source>
     </trans-unit>
@@ -289,7 +289,7 @@
       <source xml:lang="en">Reload Window</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/extensions/electron-browser/extensionService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/extensions/electron-browser/extensionService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="devTools">
       <source xml:lang="en">Open Developer Tools</source>
     </trans-unit>
@@ -332,7 +332,7 @@ Do you want to install the extension?</source>
       <source xml:lang="en">Restart Extension Host</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/extensions/electron-browser/localProcessExtensionHost" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/extensions/electron-browser/localProcessExtensionHost" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="extension host Log">
       <source xml:lang="en">Extension Host</source>
     </trans-unit>
@@ -349,7 +349,7 @@ Do you want to install the extension?</source>
       <source xml:lang="en">Reload Window</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/extensions/node/extensionPoints" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/extensions/node/extensionPoints" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="extensionDescription.activationEvents1">
       <source xml:lang="en">property `{0}` can be omitted or must be of type `string[]`</source>
     </trans-unit>

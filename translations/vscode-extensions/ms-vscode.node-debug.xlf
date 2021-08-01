@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="extensions/ms-vscode.node-debug/dist/node/extension/autoAttach" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.node-debug/dist/node/extension/autoAttach" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="process.with.pid.label">
       <source xml:lang="en">Auto attached ({0})</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.node-debug/dist/node/extension/cluster" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.node-debug/dist/node/extension/cluster" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="child.process.with.pid.label">
       <source xml:lang="en">Child process {0}</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.node-debug/dist/node/extension/configurationProvider" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.node-debug/dist/node/extension/configurationProvider" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="NVM_DIR.not.found.message">
       <source xml:lang="en">Attribute 'runtimeVersion' requires Node.js version manager 'nvm' or 'nvs'.</source>
     </trans-unit>
@@ -46,7 +46,7 @@
       <source xml:lang="en">Attribute 'useWSL' is deprecated. Please use the 'Remote WSL' extension instead. Click [here]({0}) to learn more.</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.node-debug/dist/node/extension/processPicker" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.node-debug/dist/node/extension/processPicker" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cannot.enable.debug.mode.error">
       <source xml:lang="en">Attach to process: cannot enable debug mode for process '{0}' ({1}).</source>
     </trans-unit>
@@ -75,7 +75,7 @@
       <source xml:lang="en">Process picker failed ({0})</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.node-debug/dist/node/extension/protocolDetection" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.node-debug/dist/node/extension/protocolDetection" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="protocol.switch.legacy.detected">
       <source xml:lang="en">Debugging with legacy protocol because it was detected.</source>
     </trans-unit>
@@ -86,7 +86,7 @@
       <source xml:lang="en">Debugging with inspector protocol because Node.js version could not be determined ({0})</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.node-debug/dist/node/nodeDebug" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.node-debug/dist/node/nodeDebug" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="VSND2001">
       <source xml:lang="en">Cannot find runtime '{0}' on PATH. Make sure to have '{0}' installed.</source>
     </trans-unit>
@@ -274,7 +274,7 @@
       <source xml:lang="en">Breakpoint ignored because generated code not found (source map problem?).</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.node-debug/dist/node/nodeV8Protocol" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.node-debug/dist/node/nodeV8Protocol" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="not.connected">
       <source xml:lang="en">not connected to runtime</source>
     </trans-unit>
@@ -285,7 +285,7 @@
       <source xml:lang="en">cancelled because Node.js is unresponsive</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.node-debug/package" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.node-debug/package" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="attach.node.process">
       <source xml:lang="en">Attach to Node Process (legacy)</source>
     </trans-unit>

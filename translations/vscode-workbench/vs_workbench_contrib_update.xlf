@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/update/browser/releaseNotesEditor" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/update/browser/releaseNotesEditor" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="releaseNotesInputName">
       <source xml:lang="en">Release Notes: {0}</source>
     </trans-unit>
@@ -8,7 +8,7 @@
       <source xml:lang="en">unassigned</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/update/browser/update" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/update/browser/update" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="DownloadingUpdate">
       <source xml:lang="en">Downloading Update...</source>
     </trans-unit>
@@ -112,7 +112,7 @@
       <source xml:lang="en">Stable (current)</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/update/browser/update.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/update/browser/update.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="miReleaseNotes">
       <source xml:lang="en">&amp;&amp;Release Notes</source>
       <note>&amp;&amp; denotes a mnemonic</note>

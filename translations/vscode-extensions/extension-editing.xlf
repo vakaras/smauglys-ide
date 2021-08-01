@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="extensions/extension-editing/dist/extensionLinter" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/extension-editing/dist/extensionLinter" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="dataUrlsNotValid">
       <source xml:lang="en">Data URLs are not a valid image source.</source>
     </trans-unit>
@@ -23,7 +23,7 @@
       <source xml:lang="en">SVGs are not a valid image source.</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/extension-editing/dist/packageDocumentHelper" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/extension-editing/dist/packageDocumentHelper" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="languageSpecificEditorSettings">
       <source xml:lang="en">Language specific editor settings</source>
     </trans-unit>
@@ -31,7 +31,7 @@
       <source xml:lang="en">Override editor settings for language</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/extension-editing/package" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/extension-editing/package" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="description">
       <source xml:lang="en">Provides linting capabilities for authoring extensions.</source>
     </trans-unit>

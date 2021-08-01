@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/services/mode/common/workbenchModeService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/mode/common/workbenchModeService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="invalid">
       <source xml:lang="en">Invalid `contributes.{0}`. Expected an array.</source>
     </trans-unit>

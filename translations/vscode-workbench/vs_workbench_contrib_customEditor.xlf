@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/customEditor/common/contributedCustomEditors" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/customEditor/common/contributedCustomEditors" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="builtinProviderDisplayName">
       <source xml:lang="en">Built-in</source>
     </trans-unit>
@@ -8,12 +8,12 @@
       <source xml:lang="en">Text Editor</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/customEditor/common/customEditor" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/customEditor/common/customEditor" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="context.customEditor">
       <source xml:lang="en">The viewType of the currently active custom editor.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/customEditor/common/extensionPoint" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/customEditor/common/extensionPoint" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="contributes.customEditors">
       <source xml:lang="en">Contributed custom editors.</source>
     </trans-unit>

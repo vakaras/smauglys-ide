@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/performance/browser/performance.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/performance/browser/performance.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="show.label">
       <source xml:lang="en">Startup Performance</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/performance/browser/perfviewEditor" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/performance/browser/perfviewEditor" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="name">
       <source xml:lang="en">Startup Performance</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/performance/electron-sandbox/startupProfiler" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/performance/electron-sandbox/startupProfiler" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="prof.detail">
       <source xml:lang="en">Please create an issue and manually attach the following files:
 {0}</source>

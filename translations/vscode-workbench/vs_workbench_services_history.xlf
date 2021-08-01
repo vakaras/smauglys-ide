@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/services/history/browser/history" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/history/browser/history" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="canNavigateBack">
       <source xml:lang="en">Whether it is possible to navigate back in editor history</source>
     </trans-unit>

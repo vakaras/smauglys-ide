@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/services/authentication/browser/authenticationService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/authentication/browser/authenticationService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="accessRequest">
       <source xml:lang="en">Grant access to {0} for {1}... (1)</source>
       <note>The placeholder {0} will be replaced with an authentication provider''s label. {1} will be replaced with an extension name. (1) is to indicate that this menu item contributes to a badge count</note>

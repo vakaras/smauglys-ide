@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/base/browser/ui/actionbar/actionViewItems" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/base/browser/ui/actionbar/actionViewItems" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="titleLabel">
       <source xml:lang="en">{0} ({1})</source>
       <note>action title
 action keybinding</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/base/browser/ui/dialog/dialog" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/base/browser/ui/dialog/dialog" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="dialogClose">
       <source xml:lang="en">Close Dialog</source>
     </trans-unit>
@@ -27,12 +27,12 @@ action keybinding</note>
       <source xml:lang="en">OK</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/base/browser/ui/findinput/findInput" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/base/browser/ui/findinput/findInput" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="defaultLabel">
       <source xml:lang="en">input</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/base/browser/ui/findinput/findInputCheckboxes" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/base/browser/ui/findinput/findInputCheckboxes" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="caseDescription">
       <source xml:lang="en">Match Case</source>
     </trans-unit>
@@ -43,7 +43,7 @@ action keybinding</note>
       <source xml:lang="en">Match Whole Word</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/base/browser/ui/findinput/replaceInput" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/base/browser/ui/findinput/replaceInput" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="defaultLabel">
       <source xml:lang="en">input</source>
     </trans-unit>
@@ -51,12 +51,12 @@ action keybinding</note>
       <source xml:lang="en">Preserve Case</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/base/browser/ui/iconLabel/iconLabelHover" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/base/browser/ui/iconLabel/iconLabelHover" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="iconLabel.loading">
       <source xml:lang="en">Loading...</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/base/browser/ui/inputbox/inputBox" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/base/browser/ui/inputbox/inputBox" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="alertErrorMessage">
       <source xml:lang="en">Error: {0}</source>
     </trans-unit>
@@ -67,19 +67,19 @@ action keybinding</note>
       <source xml:lang="en">Warning: {0}</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/base/browser/ui/keybindingLabel/keybindingLabel" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/base/browser/ui/keybindingLabel/keybindingLabel" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="unbound">
       <source xml:lang="en">Unbound</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/base/browser/ui/menu/menu" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/base/browser/ui/menu/menu" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="titleLabel">
       <source xml:lang="en">{0} ({1})</source>
       <note>action title
 action keybinding</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/base/browser/ui/menu/menubar" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/base/browser/ui/menu/menubar" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="mAppMenu">
       <source xml:lang="en">Application Menu</source>
     </trans-unit>
@@ -87,23 +87,23 @@ action keybinding</note>
       <source xml:lang="en">More</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/base/browser/ui/selectBox/selectBoxCustom" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/base/browser/ui/selectBox/selectBoxCustom" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="selectBox">
       <source xml:lang="en">Select Box</source>
       <note>Behave like native select dropdown element.</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/base/browser/ui/splitview/paneview" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/base/browser/ui/splitview/paneview" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="viewSection">
       <source xml:lang="en">{0} Section</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/base/browser/ui/toolbar/toolbar" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/base/browser/ui/toolbar/toolbar" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="moreActions">
       <source xml:lang="en">More Actions...</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/base/browser/ui/tree/abstractTree" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/base/browser/ui/tree/abstractTree" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="clear">
       <source xml:lang="en">Clear</source>
     </trans-unit>
@@ -120,17 +120,17 @@ action keybinding</note>
       <source xml:lang="en">Matched {0} out of {1} elements</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/base/browser/ui/tree/treeDefaults" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/base/browser/ui/tree/treeDefaults" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="collapse all">
       <source xml:lang="en">Collapse All</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/base/common/actions" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/base/common/actions" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="submenu.empty">
       <source xml:lang="en">(empty)</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/base/common/date" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/base/common/date" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="date.fromNow.days.plural">
       <source xml:lang="en">{0} days</source>
     </trans-unit>
@@ -222,7 +222,7 @@ action keybinding</note>
       <source xml:lang="en">{0} yr ago</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/base/common/errorMessage" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/base/common/errorMessage" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="error.defaultMessage">
       <source xml:lang="en">An unknown error occurred. Please consult the log for more details.</source>
     </trans-unit>
@@ -236,7 +236,7 @@ action keybinding</note>
       <source xml:lang="en">{0}: {1}</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/base/common/jsonErrorMessages" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/base/common/jsonErrorMessages" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="error.closeBraceExpected">
       <source xml:lang="en">Closing brace expected</source>
     </trans-unit>
@@ -265,7 +265,7 @@ action keybinding</note>
       <source xml:lang="en">Value expected</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/base/common/keybindingLabels" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/base/common/keybindingLabels" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="altKey">
       <source xml:lang="en">Alt</source>
       <note>This is the short form for the Alt key on the keyboard</note>
@@ -311,12 +311,12 @@ action keybinding</note>
       <note>This is the long form for the Windows key on the keyboard</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/base/node/processes" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/base/node/processes" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="TaskRunner.UNC">
       <source xml:lang="en">Can't execute a shell command on a UNC drive.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/base/node/zip" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/base/node/zip" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="incompleteExtract">
       <source xml:lang="en">Incomplete. Found {0} of {1} entries</source>
     </trans-unit>
@@ -327,7 +327,7 @@ action keybinding</note>
       <source xml:lang="en">{0} not found inside zip.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/base/parts/quickinput/browser/quickInput" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/base/parts/quickinput/browser/quickInput" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="custom">
       <source xml:lang="en">Custom</source>
     </trans-unit>
@@ -361,7 +361,7 @@ action keybinding</note>
       <source xml:lang="en">Type to narrow down results.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/base/parts/quickinput/browser/quickInputList" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/base/parts/quickinput/browser/quickInputList" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="quickInput">
       <source xml:lang="en">Quick Input</source>
     </trans-unit>

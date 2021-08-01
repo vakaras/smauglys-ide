@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/editor/contrib/anchorSelect/anchorSelect" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/anchorSelect/anchorSelect" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="anchorSet">
       <source xml:lang="en">Anchor set at {0}:{1}</source>
     </trans-unit>
@@ -20,7 +20,7 @@
       <source xml:lang="en">Set Selection Anchor</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/bracketMatching/bracketMatching" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/bracketMatching/bracketMatching" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="miGoToBracket">
       <source xml:lang="en">Go to &amp;&amp;Bracket</source>
       <note>&amp;&amp; denotes a mnemonic</note>
@@ -35,7 +35,7 @@
       <source xml:lang="en">Select to Bracket</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/caretOperations/caretOperations" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/caretOperations/caretOperations" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="caret.moveLeft">
       <source xml:lang="en">Move Selected Text Left</source>
     </trans-unit>
@@ -43,12 +43,12 @@
       <source xml:lang="en">Move Selected Text Right</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/caretOperations/transpose" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/caretOperations/transpose" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="transposeLetters.label">
       <source xml:lang="en">Transpose Letters</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/clipboard/clipboard" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/clipboard/clipboard" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="actions.clipboard.copyLabel">
       <source xml:lang="en">Copy</source>
     </trans-unit>
@@ -77,7 +77,7 @@
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/codeAction/codeActionCommands" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/codeAction/codeActionCommands" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="applyCodeActionFailed">
       <source xml:lang="en">An unknown error occurred while applying the code action</source>
     </trans-unit>
@@ -166,7 +166,7 @@
       <source xml:lang="en">Source Action...</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/codeAction/lightBulbWidget" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/codeAction/lightBulbWidget" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="prefferedQuickFixWithKb">
       <source xml:lang="en">Show Fixes. Preferred Fix Available ({0})</source>
     </trans-unit>
@@ -177,12 +177,12 @@
       <source xml:lang="en">Show Fixes ({0})</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/codelens/codelensController" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/codelens/codelensController" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="showLensOnLine">
       <source xml:lang="en">Show CodeLens Commands For Current Line</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/comment/comment" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/comment/comment" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="comment.block">
       <source xml:lang="en">Toggle Block Comment</source>
     </trans-unit>
@@ -204,12 +204,12 @@
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/contextmenu/contextmenu" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/contextmenu/contextmenu" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="action.showContextMenu.label">
       <source xml:lang="en">Show Editor Context Menu</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/cursorUndo/cursorUndo" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/cursorUndo/cursorUndo" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cursor.redo">
       <source xml:lang="en">Cursor Redo</source>
     </trans-unit>
@@ -217,7 +217,7 @@
       <source xml:lang="en">Cursor Undo</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/find/findController" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/find/findController" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="findNextMatchAction">
       <source xml:lang="en">Find Next</source>
     </trans-unit>
@@ -248,7 +248,7 @@
       <source xml:lang="en">Replace</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/find/findWidget" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/find/findWidget" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="ariaSearchNoResult">
       <source xml:lang="en">{0} found for '{1}'</source>
     </trans-unit>
@@ -328,7 +328,7 @@
       <source xml:lang="en">Only the first {0} results are highlighted, but all find operations work on the entire text.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/folding/folding" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/folding/folding" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="editorGutter.foldingControlForeground">
       <source xml:lang="en">Color of the folding control in the editor gutter.</source>
     </trans-unit>
@@ -375,7 +375,7 @@
       <source xml:lang="en">Unfold All Regions</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/folding/foldingDecorations" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/folding/foldingDecorations" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="foldingCollapsedIcon">
       <source xml:lang="en">Icon for collapsed ranges in the editor glyph margin.</source>
     </trans-unit>
@@ -383,7 +383,7 @@
       <source xml:lang="en">Icon for expanded ranges in the editor glyph margin.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/fontZoom/fontZoom" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/fontZoom/fontZoom" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="EditorFontZoomIn.label">
       <source xml:lang="en">Editor Font Zoom In</source>
     </trans-unit>
@@ -394,7 +394,7 @@
       <source xml:lang="en">Editor Font Zoom Reset</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/format/format" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/format/format" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="hint11">
       <source xml:lang="en">Made 1 formatting edit on line {0}</source>
     </trans-unit>
@@ -408,7 +408,7 @@
       <source xml:lang="en">Made {0} formatting edits between lines {1} and {2}</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/format/formatActions" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/format/formatActions" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="formatDocument.label">
       <source xml:lang="en">Format Document</source>
     </trans-unit>
@@ -416,7 +416,7 @@
       <source xml:lang="en">Format Selection</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/gotoError/gotoError" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/gotoError/gotoError" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="markerAction.next.label">
       <source xml:lang="en">Go to Next Problem (Error, Warning, Info)</source>
     </trans-unit>
@@ -444,7 +444,7 @@
       <source xml:lang="en">Icon for goto previous marker.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/gotoError/gotoErrorWidget" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/gotoError/gotoErrorWidget" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="Error">
       <source xml:lang="en">Error</source>
     </trans-unit>
@@ -479,7 +479,7 @@
       <source xml:lang="en">{0} of {1} problems</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/gotoSymbol/goToCommands" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/gotoSymbol/goToCommands" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="actions.goToDecl.label">
       <source xml:lang="en">Go to Definition</source>
     </trans-unit>
@@ -591,12 +591,12 @@
       <source xml:lang="en">Type Definitions</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/gotoSymbol/link/goToDefinitionAtPosition" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/gotoSymbol/link/goToDefinitionAtPosition" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="multipleResults">
       <source xml:lang="en">Click to show {0} definitions.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/gotoSymbol/peek/referencesController" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/gotoSymbol/peek/referencesController" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="labelLoading">
       <source xml:lang="en">Loading...</source>
     </trans-unit>
@@ -607,7 +607,7 @@
       <source xml:lang="en">Whether reference peek is visible, like 'Peek References' or 'Peek Definition'</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/gotoSymbol/peek/referencesTree" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/gotoSymbol/peek/referencesTree" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="referenceCount">
       <source xml:lang="en">{0} reference</source>
     </trans-unit>
@@ -618,7 +618,7 @@
       <source xml:lang="en">References</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/gotoSymbol/peek/referencesWidget" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/gotoSymbol/peek/referencesWidget" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="missingPreviewMessage">
       <source xml:lang="en">no preview available</source>
     </trans-unit>
@@ -629,7 +629,7 @@
       <source xml:lang="en">References</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/gotoSymbol/referencesModel" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/gotoSymbol/referencesModel" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="aria.fileReferences.1">
       <source xml:lang="en">1 symbol in {0}, full path {1}</source>
     </trans-unit>
@@ -656,7 +656,7 @@
       <source xml:lang="en">Found {0} symbols in {1} files</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/gotoSymbol/symbolNavigation" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/gotoSymbol/symbolNavigation" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="hasSymbols">
       <source xml:lang="en">Whether there are symbol locations that can be navigated via keyboard-only.</source>
     </trans-unit>
@@ -667,7 +667,7 @@
       <source xml:lang="en">Symbol {0} of {1}, {2} for next</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/hover/hover" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/hover/hover" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="showDefinitionPreviewHover">
       <source xml:lang="en">Show Definition Preview Hover</source>
       <note>Label for action that will trigger the showing of definition preview hover in the editor.
@@ -679,7 +679,7 @@ This allows for users to show the definition preview hover without using the mou
 This allows for users to show the hover without using the mouse.</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/hover/markdownHoverParticipant" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/hover/markdownHoverParticipant" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="modesContentHover.loading">
       <source xml:lang="en">Loading...</source>
     </trans-unit>
@@ -687,7 +687,7 @@ This allows for users to show the hover without using the mouse.</note>
       <source xml:lang="en">Tokenization is skipped for long lines for performance reasons. This can be configured via `editor.maxTokenizationLineLength`.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/hover/markerHoverParticipant" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/hover/markerHoverParticipant" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="checkingForQuickFixes">
       <source xml:lang="en">Checking for quick fixes...</source>
     </trans-unit>
@@ -701,7 +701,7 @@ This allows for users to show the hover without using the mouse.</note>
       <source xml:lang="en">View Problem</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/inPlaceReplace/inPlaceReplace" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/inPlaceReplace/inPlaceReplace" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="InPlaceReplaceAction.next.label">
       <source xml:lang="en">Replace with Next Value</source>
     </trans-unit>
@@ -709,7 +709,7 @@ This allows for users to show the hover without using the mouse.</note>
       <source xml:lang="en">Replace with Previous Value</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/indentation/indentation" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/indentation/indentation" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="configuredTabSize">
       <source xml:lang="en">Configured Tab Size</source>
     </trans-unit>
@@ -739,7 +739,7 @@ This allows for users to show the hover without using the mouse.</note>
       <note>Tab corresponds to the tab key</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/inlineCompletions/ghostTextController" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/inlineCompletions/ghostTextController" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="action.inlineSuggest.showNext">
       <source xml:lang="en">Show Next Inline Suggestion</source>
     </trans-unit>
@@ -756,7 +756,7 @@ This allows for users to show the hover without using the mouse.</note>
       <source xml:lang="en">Whether an inline suggestion is visible</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/inlineCompletions/inlineCompletionsHoverParticipant" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/inlineCompletions/inlineCompletionsHoverParticipant" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="acceptInlineSuggestion">
       <source xml:lang="en">Accept</source>
     </trans-unit>
@@ -767,7 +767,7 @@ This allows for users to show the hover without using the mouse.</note>
       <source xml:lang="en">Previous</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/linesOperations/linesOperations" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/linesOperations/linesOperations" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="duplicateSelection">
       <source xml:lang="en">Duplicate Selection</source>
     </trans-unit>
@@ -852,7 +852,7 @@ This allows for users to show the hover without using the mouse.</note>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/linkedEditing/linkedEditing" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/linkedEditing/linkedEditing" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="editorLinkedEditingBackground">
       <source xml:lang="en">Background color when the editor auto renames on type.</source>
     </trans-unit>
@@ -860,7 +860,7 @@ This allows for users to show the hover without using the mouse.</note>
       <source xml:lang="en">Start Linked Editing</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/links/links" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/links/links" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="invalid.url">
       <source xml:lang="en">Failed to open this link because it is not well-formed: {0}</source>
     </trans-unit>
@@ -892,7 +892,7 @@ This allows for users to show the hover without using the mouse.</note>
       <source xml:lang="en">Execute command {0}</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/message/messageController" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/message/messageController" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="editor.readonly">
       <source xml:lang="en">Cannot edit in read-only editor</source>
     </trans-unit>
@@ -900,7 +900,7 @@ This allows for users to show the hover without using the mouse.</note>
       <source xml:lang="en">Whether the editor is currently showing an inline message</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/multicursor/multicursor" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/multicursor/multicursor" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="addSelectionToNextFindMatch">
       <source xml:lang="en">Add Selection To Next Find Match</source>
     </trans-unit>
@@ -965,12 +965,12 @@ This allows for users to show the hover without using the mouse.</note>
       <source xml:lang="en">Select All Occurrences of Find Match</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/parameterHints/parameterHints" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/parameterHints/parameterHints" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="parameterHints.trigger.label">
       <source xml:lang="en">Trigger Parameter Hints</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/parameterHints/parameterHintsWidget" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/parameterHints/parameterHintsWidget" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="hint">
       <source xml:lang="en">{0}, hint</source>
     </trans-unit>
@@ -981,7 +981,7 @@ This allows for users to show the hover without using the mouse.</note>
       <source xml:lang="en">Icon for show previous parameter hint.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/peekView/peekView" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/peekView/peekView" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="inReferenceSearchEditor">
       <source xml:lang="en">Whether the current code editor is embedded inside peek</source>
     </trans-unit>
@@ -1031,7 +1031,7 @@ This allows for users to show the hover without using the mouse.</note>
       <source xml:lang="en">Color of the peek view title info.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/quickAccess/gotoLineQuickAccess" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/quickAccess/gotoLineQuickAccess" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cannotRunGotoLine">
       <source xml:lang="en">Open a text editor first to go to a line.</source>
     </trans-unit>
@@ -1048,7 +1048,7 @@ This allows for users to show the hover without using the mouse.</note>
       <source xml:lang="en">Current Line: {0}, Character: {1}. Type a line number between 1 and {2} to navigate to.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/quickAccess/gotoSymbolQuickAccess" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/quickAccess/gotoSymbolQuickAccess" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="_constructor">
       <source xml:lang="en">constructors ({0})</source>
     </trans-unit>
@@ -1146,7 +1146,7 @@ This allows for users to show the hover without using the mouse.</note>
       <source xml:lang="en">variables ({0})</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/rename/rename" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/rename/rename" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="aria">
       <source xml:lang="en">Successfully renamed '{0}' to '{1}'. Summary: {2}</source>
     </trans-unit>
@@ -1175,7 +1175,7 @@ This allows for users to show the hover without using the mouse.</note>
       <source xml:lang="en">An unknown error occurred while resolving rename location</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/rename/renameInputField" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/rename/renameInputField" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="label">
       <source xml:lang="en">{0} to Rename, {1} to Preview</source>
       <note>placeholders are keybindings, e.g "F2 to Rename, Shift+F2 to Preview"</note>
@@ -1187,7 +1187,7 @@ This allows for users to show the hover without using the mouse.</note>
       <source xml:lang="en">Whether the rename input widget is visible</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/smartSelect/smartSelect" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/smartSelect/smartSelect" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="miSmartSelectGrow">
       <source xml:lang="en">&amp;&amp;Expand Selection</source>
       <note>&amp;&amp; denotes a mnemonic</note>
@@ -1203,7 +1203,7 @@ This allows for users to show the hover without using the mouse.</note>
       <source xml:lang="en">Shrink Selection</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/snippet/snippetController2" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/snippet/snippetController2" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="hasNextTabstop">
       <source xml:lang="en">Whether there is a next tab stop when in snippet mode</source>
     </trans-unit>
@@ -1214,7 +1214,7 @@ This allows for users to show the hover without using the mouse.</note>
       <source xml:lang="en">Whether the editor in current in snippet mode</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/snippet/snippetVariables" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/snippet/snippetVariables" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="April">
       <source xml:lang="en">April</source>
     </trans-unit>
@@ -1330,7 +1330,7 @@ This allows for users to show the hover without using the mouse.</note>
       <source xml:lang="en">Wed</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/suggest/suggest" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/suggest/suggest" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="acceptSuggestionOnEnter">
       <source xml:lang="en">Whether suggestions are inserted when pressing Enter</source>
     </trans-unit>
@@ -1356,7 +1356,7 @@ This allows for users to show the hover without using the mouse.</note>
       <source xml:lang="en">Whether inserting the current suggestion yields in a change or has everything already been typed</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/suggest/suggestController" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/suggest/suggestController" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="accept.insert">
       <source xml:lang="en">Insert</source>
     </trans-unit>
@@ -1379,7 +1379,7 @@ This allows for users to show the hover without using the mouse.</note>
       <source xml:lang="en">Trigger Suggest</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/suggest/suggestWidget" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/suggest/suggestWidget" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="ariaCurrenttSuggestionReadDetails">
       <source xml:lang="en">{0}, docs: {1}</source>
     </trans-unit>
@@ -1417,7 +1417,7 @@ This allows for users to show the hover without using the mouse.</note>
       <source xml:lang="en">No suggestions.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/suggest/suggestWidgetDetails" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/suggest/suggestWidgetDetails" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="details.close">
       <source xml:lang="en">Close</source>
     </trans-unit>
@@ -1425,7 +1425,7 @@ This allows for users to show the hover without using the mouse.</note>
       <source xml:lang="en">Loading...</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/suggest/suggestWidgetRenderer" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/suggest/suggestWidgetRenderer" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="readMore">
       <source xml:lang="en">Read More</source>
     </trans-unit>
@@ -1433,12 +1433,12 @@ This allows for users to show the hover without using the mouse.</note>
       <source xml:lang="en">Icon for more information in the suggest widget.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/suggest/suggestWidgetStatus" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/suggest/suggestWidgetStatus" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="ddd">
       <source xml:lang="en">{0} ({1})</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/symbolIcons/symbolIcons" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/symbolIcons/symbolIcons" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="symbolIcon.arrayForeground">
       <source xml:lang="en">The foreground color for array symbols. These symbols appear in the outline, breadcrumb, and suggest widget.</source>
     </trans-unit>
@@ -1539,7 +1539,7 @@ This allows for users to show the hover without using the mouse.</note>
       <source xml:lang="en">The foreground color for variable symbols. These symbols appear in the outline, breadcrumb, and suggest widget.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/toggleTabFocusMode/toggleTabFocusMode" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/toggleTabFocusMode/toggleTabFocusMode" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="toggle.tabMovesFocus">
       <source xml:lang="en">Toggle Tab Key Moves Focus</source>
       <note>Turn on/off use of tab key for moving focus around VS Code</note>
@@ -1551,12 +1551,12 @@ This allows for users to show the hover without using the mouse.</note>
       <source xml:lang="en">Pressing Tab will now move focus to the next focusable element</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/tokenization/tokenization" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/tokenization/tokenization" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="forceRetokenize">
       <source xml:lang="en">Developer: Force Retokenize</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/unusualLineTerminators/unusualLineTerminators" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/unusualLineTerminators/unusualLineTerminators" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="unusualLineTerminators.detail">
       <source xml:lang="en">The file '{0}' contains one or more unusual line terminator characters, like Line Separator (LS) or Paragraph Separator (PS).
 
@@ -1575,7 +1575,7 @@ It is recommended to remove them from the file. This can be configured via `edit
       <source xml:lang="en">Unusual Line Terminators</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/wordHighlighter/wordHighlighter" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/wordHighlighter/wordHighlighter" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="overviewRulerWordHighlightForeground">
       <source xml:lang="en">Overview ruler marker color for symbol highlights. The color must not be opaque so as not to hide underlying decorations.</source>
     </trans-unit>
@@ -1604,7 +1604,7 @@ It is recommended to remove them from the file. This can be configured via `edit
       <source xml:lang="en">Border color of a symbol during write-access, like writing to a variable.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/contrib/wordOperations/wordOperations" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/contrib/wordOperations/wordOperations" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="deleteInsideWord">
       <source xml:lang="en">Delete Word</source>
     </trans-unit>

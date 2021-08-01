@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/timeline/browser/timeline.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/timeline/browser/timeline.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="files.openTimeline">
       <source xml:lang="en">Open Timeline</source>
     </trans-unit>
@@ -23,7 +23,7 @@
       <source xml:lang="en">View icon of the timeline view.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/timeline/browser/timelinePane" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/timeline/browser/timelinePane" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="refresh">
       <source xml:lang="en">Refresh</source>
     </trans-unit>

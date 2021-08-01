@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="extensions/json-language-features/client\dist\node/jsonClient" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/json-language-features/client\dist\node/jsonClient" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="configureLimit">
       <source xml:lang="en">Use setting '{0}' to configure the limit.</source>
     </trans-unit>
@@ -32,7 +32,7 @@
       <source xml:lang="en">Don't Show Again</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/json-language-features/package" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/json-language-features/package" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="description">
       <source xml:lang="en">Provides rich language support for JSON files.</source>
     </trans-unit>

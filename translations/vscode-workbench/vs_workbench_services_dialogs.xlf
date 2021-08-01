@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/services/dialogs/browser/abstractFileDialogService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/dialogs/browser/abstractFileDialogService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="allFiles">
       <source xml:lang="en">All Files</source>
     </trans-unit>
@@ -53,7 +53,7 @@
       <source xml:lang="en">Save As</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/dialogs/browser/simpleFileDialog" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/dialogs/browser/simpleFileDialog" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="openLocalFile">
       <source xml:lang="en">Open Local File...</source>
     </trans-unit>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="extensions/simple-browser/dist/extension" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/simple-browser/dist/extension" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="openTitle">
       <source xml:lang="en">Open in simple browser</source>
     </trans-unit>
@@ -11,7 +11,7 @@
       <source xml:lang="en">Enter url to visit</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/simple-browser/dist/simpleBrowserView" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/simple-browser/dist/simpleBrowserView" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="control.back.title">
       <source xml:lang="en">Back</source>
     </trans-unit>
@@ -31,7 +31,7 @@
       <source xml:lang="en">Simple Browser</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/simple-browser/package" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/simple-browser/package" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="configuration.focusLockIndicator.enabled.description">
       <source xml:lang="en">Enable/disable the floating indicator that shows when focused in the simple browser.</source>
     </trans-unit>

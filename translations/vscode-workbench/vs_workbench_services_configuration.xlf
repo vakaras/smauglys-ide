@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/services/configuration/common/configurationEditingService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/configuration/common/configurationEditingService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="errorConfigurationFileDirty">
       <source xml:lang="en">Unable to write into user settings because the file is dirty. Please save the user settings file first and then try again.</source>
     </trans-unit>
@@ -107,7 +107,7 @@
       <source xml:lang="en">Workspace Settings</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/configuration/common/jsonEditingService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/configuration/common/jsonEditingService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="errorFileDirty">
       <source xml:lang="en">Unable to write into the file because the file is dirty. Please save the file and try again.</source>
     </trans-unit>

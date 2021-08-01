@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="extensions/html-language-features/client\dist\node/htmlClient" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/html-language-features/client\dist\node/htmlClient" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="configureButton">
       <source xml:lang="en">Configure</source>
     </trans-unit>
@@ -20,7 +20,7 @@
       <source xml:lang="en">VS Code now has built-in support for auto-renaming tags. Do you want to enable it?</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/html-language-features/package" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/html-language-features/package" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="description">
       <source xml:lang="en">Provides rich language support for HTML and Handlebar files</source>
     </trans-unit>

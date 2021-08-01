@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/comments/browser/commentGlyphWidget" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/comments/browser/commentGlyphWidget" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="editorGutterCommentRangeForeground">
       <source xml:lang="en">Editor gutter decoration color for commenting ranges.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/comments/browser/commentNode" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/comments/browser/commentNode" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="commentAddReactionDefaultError">
       <source xml:lang="en">Deleting the comment reaction failed</source>
     </trans-unit>
@@ -28,7 +28,7 @@
       <source xml:lang="en">Toggling the comment reaction failed: {0}.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/comments/browser/commentThreadWidget" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/comments/browser/commentThreadWidget" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="collapseIcon">
       <source xml:lang="en">Icon to collapse a review comment.</source>
     </trans-unit>
@@ -45,7 +45,7 @@
       <source xml:lang="en">Start discussion</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/comments/browser/comments.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/comments/browser/comments.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="commentsConfigurationTitle">
       <source xml:lang="en">Comments</source>
     </trans-unit>
@@ -53,7 +53,7 @@
       <source xml:lang="en">Controls when the comments panel should open.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/comments/browser/commentsEditorContribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/comments/browser/commentsEditorContribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="nextCommentThreadAction">
       <source xml:lang="en">Go to Next Comment Thread</source>
     </trans-unit>
@@ -61,7 +61,7 @@
       <source xml:lang="en">Select Comment Provider</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/comments/browser/commentsTreeViewer" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/comments/browser/commentsTreeViewer" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="image">
       <source xml:lang="en">Image</source>
     </trans-unit>
@@ -69,7 +69,7 @@
       <source xml:lang="en">Image: {0}</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/comments/browser/commentsView" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/comments/browser/commentsView" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="collapseAll">
       <source xml:lang="en">Collapse All</source>
     </trans-unit>
@@ -83,12 +83,12 @@
       <source xml:lang="en">Comments for current workspace</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/comments/browser/reactionsAction" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/comments/browser/reactionsAction" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="pickReactions">
       <source xml:lang="en">Pick Reactions...</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/comments/common/commentModel" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/comments/common/commentModel" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="noComments">
       <source xml:lang="en">There are no comments in this workspace yet.</source>
     </trans-unit>

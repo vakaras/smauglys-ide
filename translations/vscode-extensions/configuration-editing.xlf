@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="extensions/configuration-editing/dist/configurationEditingMain" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/configuration-editing/dist/configurationEditingMain" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cwd">
       <source xml:lang="en">The task runner's current working directory on startup</source>
     </trans-unit>
@@ -41,12 +41,12 @@
       <source xml:lang="en">The name of the folder opened in VS Code without any slashes (/)</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/configuration-editing/dist/extensionsProposals" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/configuration-editing/dist/extensionsProposals" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="exampleExtension">
       <source xml:lang="en">Example</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/configuration-editing/dist/settingsDocumentHelper" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/configuration-editing/dist/settingsDocumentHelper" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="activeEditor">
       <source xml:lang="en">Use the language of the currently active text editor if any</source>
     </trans-unit>
@@ -156,7 +156,7 @@
       <source xml:lang="en">Enable the pattern.</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/configuration-editing/package" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/configuration-editing/package" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="description">
       <source xml:lang="en">Provides capabilities (advanced IntelliSense, auto-fixing) in configuration files like settings, launch, and extension recommendation files.</source>
     </trans-unit>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/interactive/browser/interactive.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/interactive/browser/interactive.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="interactive.execute">
       <source xml:lang="en">Execute Code</source>
     </trans-unit>
@@ -17,7 +17,7 @@
       <source xml:lang="en">Run All</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/interactive/browser/interactiveEditor" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/interactive/browser/interactiveEditor" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="interactiveInputPlaceHolder">
       <source xml:lang="en">Type code here and press {0} to run</source>
     </trans-unit>

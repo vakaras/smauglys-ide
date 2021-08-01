@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/searchEditor/browser/searchEditor" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/searchEditor/browser/searchEditor" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="label.excludes">
       <source xml:lang="en">Search Exclude Patterns</source>
     </trans-unit>
@@ -29,7 +29,7 @@
       <source xml:lang="en">Search editor text input box border.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/searchEditor/browser/searchEditor.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/searchEditor/browser/searchEditor.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="promptOpenWith.searchEditor.displayName">
       <source xml:lang="en">Search Editor</source>
     </trans-unit>
@@ -85,7 +85,7 @@
       <source xml:lang="en">Delete File Results</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/searchEditor/browser/searchEditorInput" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/searchEditor/browser/searchEditorInput" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="searchTitle">
       <source xml:lang="en">Search</source>
     </trans-unit>
@@ -93,7 +93,7 @@
       <source xml:lang="en">Search: {0}</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/searchEditor/browser/searchEditorSerialization" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/searchEditor/browser/searchEditorSerialization" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="invalidQueryStringError">
       <source xml:lang="en">All backslashes in Query string must be escaped (\\)</source>
     </trans-unit>

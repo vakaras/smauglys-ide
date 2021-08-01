@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/files/browser/editors/binaryFileEditor" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/files/browser/editors/binaryFileEditor" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="binaryFileEditor">
       <source xml:lang="en">Binary File Viewer</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/files/browser/editors/textFileEditor" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/files/browser/editors/textFileEditor" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="createFile">
       <source xml:lang="en">Create File</source>
     </trans-unit>
@@ -16,7 +16,7 @@
       <source xml:lang="en">Text File Editor</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/files/browser/editors/textFileSaveErrorHandler" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/files/browser/editors/textFileSaveErrorHandler" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="compareChanges">
       <source xml:lang="en">Compare</source>
     </trans-unit>
@@ -79,7 +79,7 @@
       <source xml:lang="en">Use the actions in the editor tool bar to either undo your changes or overwrite the content of the file with your changes.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/files/browser/explorerViewlet" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/files/browser/explorerViewlet" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="explore">
       <source xml:lang="en">Explorer</source>
     </trans-unit>
@@ -112,7 +112,7 @@
       <note>Please do not translate the word "commmand", it is part of our internal syntax which must not change</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/files/browser/fileActions" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/files/browser/fileActions" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="binFailed">
       <source xml:lang="en">Failed to delete using the Recycle Bin. Do you want to permanently delete instead?</source>
     </trans-unit>
@@ -346,7 +346,7 @@
       <source xml:lang="en">Upload...</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/files/browser/fileActions.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/files/browser/fileActions.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="acceptLocalChanges">
       <source xml:lang="en">Use your changes and overwrite file contents</source>
     </trans-unit>
@@ -483,7 +483,7 @@
       <source xml:lang="en">Workspaces</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/files/browser/fileCommands" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/files/browser/fileCommands" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="discard">
       <source xml:lang="en">Discard</source>
     </trans-unit>
@@ -519,7 +519,7 @@
       <source xml:lang="en">Save without Formatting</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/files/browser/fileImportExport" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/files/browser/fileImportExport" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="addFolder">
       <source xml:lang="en">&amp;&amp;Add Folder to Workspace</source>
     </trans-unit>
@@ -612,7 +612,7 @@
       <source xml:lang="en">Uploading</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/files/browser/files.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/files/browser/files.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="askUser">
       <source xml:lang="en">Will refuse to save and ask for resolving the save conflict manually.</source>
     </trans-unit>
@@ -828,12 +828,12 @@
       <source xml:lang="en">Configure glob patterns of file paths to exclude from file watching. Patterns must match on absolute paths, i.e. prefix with `**/` or the full path to match properly and suffix with `/**` to match files within a path (for example `**/build/output/**` or `/Users/name/workspaces/project/build/output/**`). Changing this setting requires a restart. When you experience Code consuming lots of CPU time on startup, you can exclude large folders to reduce the initial load.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/files/browser/views/emptyView" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/files/browser/views/emptyView" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="noWorkspace">
       <source xml:lang="en">No Folder Opened</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/files/browser/views/explorerDecorationsProvider" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/files/browser/views/explorerDecorationsProvider" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="canNotResolve">
       <source xml:lang="en">Unable to resolve workspace folder</source>
     </trans-unit>
@@ -847,7 +847,7 @@
       <source xml:lang="en">Unknown File Type</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/files/browser/views/explorerView" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/files/browser/views/explorerView" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="collapseExplorerFolders">
       <source xml:lang="en">Collapse Folders in Explorer</source>
     </trans-unit>
@@ -864,7 +864,7 @@
       <source xml:lang="en">Refresh Explorer</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/files/browser/views/explorerViewer" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/files/browser/views/explorerViewer" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="confirmMove">
       <source xml:lang="en">Are you sure you want to move '{0}' into '{1}'?</source>
     </trans-unit>
@@ -903,7 +903,7 @@
       <source xml:lang="en">Files Explorer</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/files/browser/views/openEditorsView" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/files/browser/views/openEditorsView" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="dirtyCounter">
       <source xml:lang="en">{0} unsaved</source>
     </trans-unit>
@@ -922,7 +922,7 @@
       <note>Open is an adjective</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/files/common/dirtyFilesIndicator" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/files/common/dirtyFilesIndicator" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="dirtyFile">
       <source xml:lang="en">1 unsaved file</source>
     </trans-unit>
@@ -930,7 +930,7 @@
       <source xml:lang="en">{0} unsaved files</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/files/common/files" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/files/common/files" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="explorerResourceCut">
       <source xml:lang="en">True when an item in the EXPLORER has been cut for cut and paste.</source>
     </trans-unit>
@@ -971,7 +971,7 @@
       <source xml:lang="en">True when the OPEN EDITORS view is visible.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/files/common/workspaceWatcher" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/files/common/workspaceWatcher" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="enospcError">
       <source xml:lang="en">Unable to watch for file changes in this large workspace folder. Please follow the instructions link to resolve this issue.</source>
     </trans-unit>
@@ -985,7 +985,7 @@
       <source xml:lang="en">The Microsoft .NET Framework 4.5 is required. Please follow the link to install it.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/files/electron-sandbox/fileActions.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/files/electron-sandbox/fileActions.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="filesCategory">
       <source xml:lang="en">File</source>
     </trans-unit>
@@ -999,12 +999,12 @@
       <source xml:lang="en">Reveal in File Explorer</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/files/electron-sandbox/files.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/files/electron-sandbox/files.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="textFileEditor">
       <source xml:lang="en">Text File Editor</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/files/electron-sandbox/textFileEditor" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/files/electron-sandbox/textFileEditor" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="configureMemoryLimit">
       <source xml:lang="en">Configure Memory Limit</source>
     </trans-unit>

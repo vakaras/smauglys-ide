@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="extensions/clojure/package" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/clojure/package" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="description">
       <source xml:lang="en">Provides syntax highlighting and bracket matching in Clojure files.</source>
     </trans-unit>

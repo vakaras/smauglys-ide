@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/debug/browser/breakpointEditorContribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/breakpointEditorContribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="addBreakpoint">
       <source xml:lang="en">Add Breakpoint</source>
     </trans-unit>
@@ -104,7 +104,7 @@
       <source xml:lang="en">Remove {0}</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/breakpointWidget" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/breakpointWidget" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="breakpointType">
       <source xml:lang="en">Breakpoint Type</source>
     </trans-unit>
@@ -127,7 +127,7 @@
       <source xml:lang="en">Log Message</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/breakpointsView" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/breakpointsView" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="access">
       <source xml:lang="en">Access</source>
     </trans-unit>
@@ -265,7 +265,7 @@
       <source xml:lang="en">Write</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/callStackEditorContribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/callStackEditorContribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="focusedStackFrameLineHighlight">
       <source xml:lang="en">Background color for the highlight of line at focused stack frame position.</source>
     </trans-unit>
@@ -273,7 +273,7 @@
       <source xml:lang="en">Background color for the highlight of line at the top stack frame position.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/callStackView" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/callStackView" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="callStackAriaLabel">
       <source xml:lang="en">Debug Call Stack</source>
       <note>Debug is a noun in this context, not a verb.</note>
@@ -326,7 +326,7 @@
       <note>Placeholders stand for the thread name and the thread state.For example "Thread 1" and "Stopped</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/debug.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/debug.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="SetNextStatement">
       <source xml:lang="en">Set Next Statement</source>
     </trans-unit>
@@ -583,7 +583,7 @@
       <source xml:lang="en">Watch</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/debugActionViewItems" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/debugActionViewItems" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="addConfigTo">
       <source xml:lang="en">Add Config ({0})...</source>
     </trans-unit>
@@ -600,7 +600,7 @@
       <source xml:lang="en">No Configurations</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/debugAdapterManager" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/debugAdapterManager" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="CouldNotFindLanguage">
       <source xml:lang="en">You don't have an extension for debugging {0}. Should we find a {0} extension in the Marketplace?</source>
     </trans-unit>
@@ -635,7 +635,7 @@
       <source xml:lang="en">Select environment</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/debugColors" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/debugColors" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="debugIcon.continueForeground">
       <source xml:lang="en">Debug toolbar icon for continue.</source>
     </trans-unit>
@@ -673,7 +673,7 @@
       <source xml:lang="en">Debug toolbar border color.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/debugCommands" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/debugCommands" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="addInlineBreakpoint">
       <source xml:lang="en">Add Inline Breakpoint</source>
     </trans-unit>
@@ -729,7 +729,7 @@
       <source xml:lang="en">Stop</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/debugConfigurationManager" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/debugConfigurationManager" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="DebugConfig.failed">
       <source xml:lang="en">Unable to create 'launch.json' file inside the '.vscode' folder ({0}).</source>
     </trans-unit>
@@ -746,7 +746,7 @@
       <source xml:lang="en">workspace</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/debugEditorActions" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/debugEditorActions" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="addToWatch">
       <source xml:lang="en">Add to Watch</source>
     </trans-unit>
@@ -794,7 +794,7 @@
       <source xml:lang="en">Debug: Toggle Breakpoint</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/debugEditorContribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/debugEditorContribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="addConfiguration">
       <source xml:lang="en">Add Configuration...</source>
     </trans-unit>
@@ -805,7 +805,7 @@
       <source xml:lang="en">Color for the debug inline value text.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/debugHover" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/debugHover" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="quickTip">
       <source xml:lang="en">Hold {0} key to switch to editor language hover</source>
       <note>"switch to editor language hover" means to show the programming language hover widget instead of the debug hover</note>
@@ -818,7 +818,7 @@
       <note>Do not translate placeholders. Placeholders are name and value of a variable.</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/debugIcons" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/debugIcons" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="breakpointsActivate">
       <source xml:lang="en">Icon for the activate action in the breakpoints view.</source>
     </trans-unit>
@@ -973,7 +973,7 @@
       <source xml:lang="en">View icon of the watch view.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/debugQuickAccess" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/debugQuickAccess" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="addConfigTo">
       <source xml:lang="en">Add Config ({0})...</source>
     </trans-unit>
@@ -998,7 +998,7 @@
       <note>Placeholder stands for the provider label. For example "NodeJS".</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/debugService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/debugService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="1activeSession">
       <source xml:lang="en">1 active session</source>
     </trans-unit>
@@ -1067,7 +1067,7 @@
       <source xml:lang="en">Running executes build tasks and program code from your workspace.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/debugSession" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/debugSession" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="debuggingStarted">
       <source xml:lang="en">Debugging started.</source>
     </trans-unit>
@@ -1081,7 +1081,7 @@
       <source xml:lang="en">Session is not ready for breakpoints</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/debugStatus" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/debugStatus" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="debugTarget">
       <source xml:lang="en">Debug: {0}</source>
     </trans-unit>
@@ -1092,7 +1092,7 @@
       <source xml:lang="en">Debug</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/debugTaskRunner" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/debugTaskRunner" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="DebugTaskNotFound">
       <source xml:lang="en">Could not find the specified task.</source>
     </trans-unit>
@@ -1139,7 +1139,7 @@
       <source xml:lang="en">The task '{0}' cannot be tracked. Make sure to have a problem matcher defined.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/debugToolBar" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/debugToolBar" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="reverseContinue">
       <source xml:lang="en">Reverse</source>
     </trans-unit>
@@ -1147,7 +1147,7 @@
       <source xml:lang="en">Step Back</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/debugViewlet" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/debugViewlet" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="debugPanel">
       <source xml:lang="en">Debug Console</source>
     </trans-unit>
@@ -1163,7 +1163,7 @@
       <source xml:lang="en">Start Additional Session</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/exceptionWidget" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/exceptionWidget" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="close">
       <source xml:lang="en">Close</source>
     </trans-unit>
@@ -1180,7 +1180,7 @@
       <source xml:lang="en">Exception has occurred: {0}</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/linkDetector" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/linkDetector" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="fileLink">
       <source xml:lang="en">Ctrl + click to {0}</source>
     </trans-unit>
@@ -1194,7 +1194,7 @@
       <source xml:lang="en">follow link</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/loadedScriptsView" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/loadedScriptsView" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="loadedScriptsAriaLabel">
       <source xml:lang="en">Debug Loaded Scripts</source>
       <note>Debug is a noun in this context, not a verb.</note>
@@ -1215,7 +1215,7 @@
       <source xml:lang="en">{0}, loaded script, debug</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/rawDebugSession" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/rawDebugSession" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="canNotStart">
       <source xml:lang="en">The debugger needs to open a new tab or window for the debuggee but the browser prevented this. You must give permission to continue.</source>
     </trans-unit>
@@ -1235,7 +1235,7 @@
       <source xml:lang="en">No debug adapter, can not start debug session.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/repl" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/repl" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="actions.repl.acceptInput">
       <source xml:lang="en">REPL Accept Input</source>
       <note>Apply input from the debug console input box</note>
@@ -1281,12 +1281,12 @@
       <note>Text in the brackets after e.g. is not localizable</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/replFilter" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/replFilter" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="showing filtered repl lines">
       <source xml:lang="en">Showing {0} of {1}</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/replViewer" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/replViewer" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="debugConsole">
       <source xml:lang="en">Debug Console</source>
     </trans-unit>
@@ -1304,7 +1304,7 @@
       <source xml:lang="en">Variable {0}, value {1}</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/statusbarColorProvider" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/statusbarColorProvider" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="statusBarDebuggingBackground">
       <source xml:lang="en">Status bar background color when a program is being debugged. The status bar is shown in the bottom of the window</source>
     </trans-unit>
@@ -1315,7 +1315,7 @@
       <source xml:lang="en">Status bar foreground color when a program is being debugged. The status bar is shown in the bottom of the window</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/variablesView" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/variablesView" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="collapse">
       <source xml:lang="en">Collapse All</source>
     </trans-unit>
@@ -1333,7 +1333,7 @@
       <source xml:lang="en">Debug Variables</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/watchExpressionsView" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/watchExpressionsView" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="addWatchExpression">
       <source xml:lang="en">Add Expression</source>
     </trans-unit>
@@ -1360,7 +1360,7 @@
       <source xml:lang="en">{0}, value {1}</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/browser/welcomeView" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/browser/welcomeView" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="customizeRunAndDebug">
       <source xml:lang="en">To customize Run and Debug [create a launch.json file](command:{0}).</source>
       <note>Please do not translate the word "commmand", it is part of our internal syntax which must not change</note>
@@ -1385,12 +1385,12 @@
       <note>Please do not translate the word "commmand", it is part of our internal syntax which must not change</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/common/abstractDebugAdapter" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/common/abstractDebugAdapter" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="timeout">
       <source xml:lang="en">Timeout after {0} ms for '{1}'</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/common/debug" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/common/debug" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="breakWhenValueChangesSupported">
       <source xml:lang="en">True when the focused session supports to break when value changes.</source>
     </trans-unit>
@@ -1521,7 +1521,7 @@
       <source xml:lang="en">Represents the item type of the focused element in the WATCH view. For example: 'expression', 'variable'</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/common/debugContentProvider" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/common/debugContentProvider" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="canNotResolveSource">
       <source xml:lang="en">Could not load source '{0}'.</source>
     </trans-unit>
@@ -1532,7 +1532,7 @@
       <source xml:lang="en">Unable to resolve the resource without a debug session</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/common/debugModel" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/common/debugModel" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="breakpointDirtydHover">
       <source xml:lang="en">Unverified breakpoint. File is modified, please restart debug session.</source>
     </trans-unit>
@@ -1557,7 +1557,7 @@
       <source xml:lang="en">Please start a debug session to evaluate expressions</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/common/debugSchemas" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/common/debugSchemas" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="app.launch.json.compound.folder">
       <source xml:lang="en">Name of folder in which the compound is located.</source>
     </trans-unit>
@@ -1661,12 +1661,12 @@
       <source xml:lang="en">Runtime used for Windows.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/common/debugSource" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/common/debugSource" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="unknownSource">
       <source xml:lang="en">Unknown Source</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/common/debugger" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/common/debugger" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cannot.find.da">
       <source xml:lang="en">Cannot find debug adapter for type '{0}'.</source>
     </trans-unit>
@@ -1701,7 +1701,7 @@
       <source xml:lang="en">"node2" is no longer supported, use "node" instead and set the "protocol" attribute to "inspector".</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/common/replModel" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/common/replModel" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="consoleCleared">
       <source xml:lang="en">Console was cleared</source>
     </trans-unit>
@@ -1709,7 +1709,7 @@
       <source xml:lang="en">Only primitive values are shown for this object.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/debug/node/debugAdapter" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/debug/node/debugAdapter" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="debugAdapterBinNotFound">
       <source xml:lang="en">Debug adapter executable '{0}' does not exist.</source>
     </trans-unit>

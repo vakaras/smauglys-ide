@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/services/extensionManagement/browser/extensionBisect" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/extensionManagement/browser/extensionBisect" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="bisect">
       <source xml:lang="en">Extension Bisect is active and has disabled {0} extensions. Check if you can still reproduce the problem and proceed by selecting from these options.</source>
     </trans-unit>
@@ -59,7 +59,7 @@
       <source xml:lang="en">Stop Extension Bisect</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/extensionManagement/browser/extensionEnablementService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/extensionManagement/browser/extensionEnablementService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="Reload">
       <source xml:lang="en">Reload and Enable Extensions</source>
     </trans-unit>
@@ -79,7 +79,7 @@
       <source xml:lang="en">No workspace.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/extensionManagement/common/extensionManagementService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/extensionManagement/common/extensionManagementService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="Manifest is not found">
       <source xml:lang="en">Installing Extension {0} failed: Manifest is not found.</source>
     </trans-unit>
@@ -129,12 +129,12 @@
       <source xml:lang="en">Cannot uninstall extension '{0}'. Extensions '{1}' and '{2}' depend on this.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/extensionManagement/common/webExtensionsScannerService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/extensionManagement/common/webExtensionsScannerService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="not a web extension">
       <source xml:lang="en">Cannot add '{0}' because this extension is not a web extension.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/extensionManagement/electron-sandbox/extensionManagementServerService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/extensionManagement/electron-sandbox/extensionManagementServerService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="local">
       <source xml:lang="en">Local</source>
     </trans-unit>
@@ -142,7 +142,7 @@
       <source xml:lang="en">Remote</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/extensionManagement/electron-sandbox/remoteExtensionManagementService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/extensionManagement/electron-sandbox/remoteExtensionManagementService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="incompatible">
       <source xml:lang="en">Unable to install extension '{0}' as it is not compatible with VS Code '{1}'.</source>
     </trans-unit>

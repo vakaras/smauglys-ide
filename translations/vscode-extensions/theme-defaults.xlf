@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="extensions/theme-defaults/package" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/theme-defaults/package" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="darkColorThemeLabel">
       <source xml:lang="en">Dark (Visual Studio)</source>
     </trans-unit>

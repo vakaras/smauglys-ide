@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/services/keybinding/browser/keybindingService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/keybinding/browser/keybindingService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="dispatch">
       <source xml:lang="en">Controls the dispatching logic for key presses to use either `code` (recommended) or `keyCode`.</source>
     </trans-unit>
@@ -62,7 +62,7 @@
       <source xml:lang="en">Windows specific key or key sequence.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/keybinding/common/keybindingEditing" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/keybinding/common/keybindingEditing" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="emptyKeybindingsHeader">
       <source xml:lang="en">Place your key bindings in this file to override the defaults</source>
     </trans-unit>

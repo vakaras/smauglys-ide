@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="extensions/ms-vscode.node-debug2/node_modules\vscode-chrome-debug-core\out/src/chrome/breakpoints" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.node-debug2/node_modules\vscode-chrome-debug-core\out/src/chrome/breakpoints" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="bp.fail.noscript">
       <source xml:lang="en">Can't find script for breakpoint request</source>
     </trans-unit>
@@ -20,7 +20,7 @@
       <source xml:lang="en">Breakpoint ignored because generated code not found (source map problem?).</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.node-debug2/node_modules\vscode-chrome-debug-core\out/src/chrome/chromeDebugAdapter" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.node-debug2/node_modules\vscode-chrome-debug-core\out/src/chrome/chromeDebugAdapter" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="exceptions.all">
       <source xml:lang="en">All Exceptions</source>
     </trans-unit>
@@ -31,7 +31,7 @@
       <source xml:lang="en">Uncaught Exceptions</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.node-debug2/node_modules\vscode-chrome-debug-core\out/src/chrome/chromeTargetDiscoveryStrategy" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.node-debug2/node_modules\vscode-chrome-debug-core\out/src/chrome/chromeTargetDiscoveryStrategy" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="attach.cannotConnect">
       <source xml:lang="en">Cannot connect to the target: {0}</source>
     </trans-unit>
@@ -51,7 +51,7 @@
       <source xml:lang="en">Got a response from the target app, but no target pages found</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.node-debug2/node_modules\vscode-chrome-debug-core\out/src/chrome/stackFrames" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.node-debug2/node_modules\vscode-chrome-debug-core\out/src/chrome/stackFrames" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="scope.exception">
       <source xml:lang="en">Exception</source>
     </trans-unit>
@@ -59,7 +59,7 @@
       <source xml:lang="en">(skipped by '{0}')</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.node-debug2/node_modules\vscode-chrome-debug-core\out/src/chrome/stoppedEvent" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.node-debug2/node_modules\vscode-chrome-debug-core\out/src/chrome/stoppedEvent" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="reason.description.breakpoint">
       <source xml:lang="en">Paused on breakpoint</source>
     </trans-unit>
@@ -91,7 +91,7 @@
       <source xml:lang="en">Paused on user request</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.node-debug2/node_modules\vscode-chrome-debug-core\out/src/errors" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.node-debug2/node_modules\vscode-chrome-debug-core\out/src/errors" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="VSND2010">
       <source xml:lang="en">Cannot connect to runtime process, timeout after {0} ms - (reason: {1}).</source>
     </trans-unit>
@@ -129,17 +129,17 @@
       <source xml:lang="en">Could not retrieve content.</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.node-debug2/node_modules\vscode-chrome-debug-core\out/src/transformers/baseSourceMapTransformer" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.node-debug2/node_modules\vscode-chrome-debug-core\out/src/transformers/baseSourceMapTransformer" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="origin.inlined.source.map">
       <source xml:lang="en">read-only inlined content from source map</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.node-debug2/node_modules\vscode-chrome-debug-core\out/src/transformers/remotePathTransformer" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.node-debug2/node_modules\vscode-chrome-debug-core\out/src/transformers/remotePathTransformer" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="localRootAndRemoteRoot">
       <source xml:lang="en">Both localRoot and remoteRoot must be specified.</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.node-debug2/out/src/errors" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.node-debug2/out/src/errors" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="VSND2001">
       <source xml:lang="en">Cannot find runtime '{0}' on PATH. Is '{0}' installed?</source>
     </trans-unit>
@@ -168,7 +168,7 @@
       <source xml:lang="en">Cannot debug extension ({0}).</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.node-debug2/out/src/nodeDebugAdapter" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.node-debug2/out/src/nodeDebugAdapter" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="VSND2001">
       <source xml:lang="en">Cannot find runtime '{0}' on PATH. Make sure to have '{0}' installed.</source>
     </trans-unit>
@@ -197,7 +197,7 @@
       <source xml:lang="en">Program path uses differently cased character as file on disk; this might result in breakpoints not being hit.</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/ms-vscode.node-debug2/package" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/ms-vscode.node-debug2/package" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="extension.description">
       <source xml:lang="en">Node.js debugging support</source>
     </trans-unit>

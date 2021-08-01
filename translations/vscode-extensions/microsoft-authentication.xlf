@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="extensions/microsoft-authentication/dist/AADHelper" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/microsoft-authentication/dist/AADHelper" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="signOut">
       <source xml:lang="en">You have been signed out because reading stored authentication information failed.</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/microsoft-authentication/dist/keychain" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/microsoft-authentication/dist/keychain" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="keychainWriteError">
       <source xml:lang="en">Writing login information to the keychain failed with error '{0}'.</source>
     </trans-unit>
@@ -13,7 +13,7 @@
       <source xml:lang="en">Troubleshooting Guide</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/microsoft-authentication/package" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/microsoft-authentication/package" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="description">
       <source xml:lang="en">Microsoft authentication provider</source>
     </trans-unit>

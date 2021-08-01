@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/testing/browser/icons" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/testing/browser/icons" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="autoRunIcon">
       <source xml:lang="en">Icon for the 'Autorun' toggle in the testing view.</source>
     </trans-unit>
@@ -50,7 +50,7 @@
       <source xml:lang="en">Icon shown for tests that are in an unset state.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/testing/browser/testExplorerActions" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/testing/browser/testExplorerActions" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="debug test">
       <source xml:lang="en">Debug Test</source>
     </trans-unit>
@@ -154,7 +154,7 @@
       <source xml:lang="en">Unhide Test</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/testing/browser/testing.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/testing/browser/testing.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="miViewTesting">
       <source xml:lang="en">T&amp;&amp;esting</source>
       <note>&amp;&amp; denotes a mnemonic</note>
@@ -173,7 +173,7 @@
       <source xml:lang="en">Test Explorer</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/testing/browser/testingDecorations" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/testing/browser/testingDecorations" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="debug all test">
       <source xml:lang="en">Debug All Tests</source>
     </trans-unit>
@@ -202,7 +202,7 @@
       <source xml:lang="en">Click to run tests, right click for more options</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/testing/browser/testingExplorerFilter" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/testing/browser/testingExplorerFilter" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="filter">
       <source xml:lang="en">Filter</source>
     </trans-unit>
@@ -231,7 +231,7 @@
       <source xml:lang="en">Show Only Failed Tests</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/testing/browser/testingExplorerView" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/testing/browser/testingExplorerView" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="testExplorer">
       <source xml:lang="en">Test Explorer</source>
     </trans-unit>
@@ -250,7 +250,7 @@
       <source xml:lang="en">No tests were found in this file.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/testing/browser/testingOutputPeek" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/testing/browser/testingOutputPeek" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="close">
       <source xml:lang="en">Close</source>
     </trans-unit>
@@ -285,7 +285,7 @@
       <source xml:lang="en">Test Result Messages</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/testing/browser/testingOutputTerminalService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/testing/browser/testingOutputTerminalService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="runFinished">
       <source xml:lang="en">Test run finished at {0}</source>
     </trans-unit>
@@ -304,7 +304,7 @@ No tests have been run, yet.
       <source xml:lang="en">Test Output at {0}</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/testing/browser/testingProgressUiService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/testing/browser/testingProgressUiService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="testProgress.completed">
       <source xml:lang="en">{0}/{1} tests passed ({2}%)</source>
     </trans-unit>
@@ -321,12 +321,12 @@ No tests have been run, yet.
       <source xml:lang="en">Running tests, {0}/{1} tests passed ({2}%, {3} skipped)</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/testing/browser/testingViewPaneContainer" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/testing/browser/testingViewPaneContainer" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="testing">
       <source xml:lang="en">Testing</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/testing/browser/theme" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/testing/browser/theme" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="testing.iconErrored">
       <source xml:lang="en">Color for the 'Errored' icon in the test explorer.</source>
     </trans-unit>
@@ -376,7 +376,7 @@ No tests have been run, yet.
       <source xml:lang="en">Color for 'run' icons in the editor.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/testing/common/configuration" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/testing/common/configuration" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="testConfigurationTitle">
       <source xml:lang="en">Testing</source>
     </trans-unit>
@@ -420,7 +420,7 @@ No tests have been run, yet.
       <source xml:lang="en">Controls whether the running test should be followed in the test explorer view</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/testing/common/constants" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/testing/common/constants" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="testState.errored">
       <source xml:lang="en">Errored</source>
     </trans-unit>
@@ -447,12 +447,12 @@ No tests have been run, yet.
       <note>label then the unit tests state, for example "Addition Tests (Running)"</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/testing/common/testResult" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/testing/common/testResult" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="runFinished">
       <source xml:lang="en">Test run at {0}</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/testing/common/testServiceImpl" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/testing/common/testServiceImpl" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="testError">
       <source xml:lang="en">An error occurred attempting to run tests: {0}</source>
     </trans-unit>
@@ -460,7 +460,7 @@ No tests have been run, yet.
       <source xml:lang="en">Running tests may execute code in your workspace.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/testing/common/testingContextKeys" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/testing/common/testingContextKeys" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="testing.peekItemType">
       <source xml:lang="en">Type of the item in the output peek view. Either a "test", "message", "task", or "result".</source>
     </trans-unit>

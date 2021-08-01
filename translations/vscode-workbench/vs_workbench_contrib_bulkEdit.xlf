@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/bulkEdit/browser/bulkEditService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/bulkEdit/browser/bulkEditService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="areYouSureQuiteBulkEdit">
       <source xml:lang="en">Are you sure you want to {0}? '{1}' is in progress.</source>
     </trans-unit>
@@ -35,7 +35,7 @@
       <source xml:lang="en">Workspace Edit</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/bulkEdit/browser/preview/bulkEdit.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/bulkEdit/browser/preview/bulkEdit.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="Discard">
       <source xml:lang="en">Discard Refactoring</source>
     </trans-unit>
@@ -73,7 +73,7 @@
       <source xml:lang="en">Toggle Change</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/bulkEdit/browser/preview/bulkEditPane" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/bulkEdit/browser/preview/bulkEditPane" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="conflict.1">
       <source xml:lang="en">Cannot apply refactoring because '{0}' has changed in the meantime.</source>
     </trans-unit>
@@ -99,12 +99,12 @@
       <source xml:lang="en">rename</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/bulkEdit/browser/preview/bulkEditPreview" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/bulkEdit/browser/preview/bulkEditPreview" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="default">
       <source xml:lang="en">Other</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/bulkEdit/browser/preview/bulkEditTree" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/bulkEdit/browser/preview/bulkEditTree" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="aria.create">
       <source xml:lang="en">Creating {0}</source>
     </trans-unit>

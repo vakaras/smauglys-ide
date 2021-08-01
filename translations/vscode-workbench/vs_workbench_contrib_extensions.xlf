@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/extensions/browser/abstractRuntimeExtensionsEditor" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/browser/abstractRuntimeExtensionsEditor" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="disable">
       <source xml:lang="en">Disable</source>
     </trans-unit>
@@ -51,22 +51,22 @@
 {1} will be an extension identifier</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/browser/configBasedRecommendations" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/browser/configBasedRecommendations" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="exeBasedRecommendation">
       <source xml:lang="en">This extension is recommended because of the current workspace configuration</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/browser/dynamicWorkspaceRecommendations" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/browser/dynamicWorkspaceRecommendations" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="dynamicWorkspaceRecommendation">
       <source xml:lang="en">This extension may interest you because it's popular among users of the {0} repository.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/browser/exeBasedRecommendations" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/browser/exeBasedRecommendations" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="exeBasedRecommendation">
       <source xml:lang="en">This extension is recommended because you have {0} installed.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/browser/extensionEditor" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/browser/extensionEditor" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="JSON Validation">
       <source xml:lang="en">JSON Validation ({0})</source>
     </trans-unit>
@@ -317,7 +317,7 @@
       <source xml:lang="en">Views ({0})</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/browser/extensionRecommendationNotificationService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/browser/extensionRecommendationNotificationService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="ignoreAll">
       <source xml:lang="en">Yes, Ignore All</source>
     </trans-unit>
@@ -343,7 +343,7 @@
       <source xml:lang="en">Do you want to install the recommended extensions for this repository?</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/browser/extensions.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/browser/extensions.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="InstallFromVSIX">
       <source xml:lang="en">Install from VSIX...</source>
     </trans-unit>
@@ -703,7 +703,7 @@
       <source xml:lang="en">Workspace Unsupported</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/browser/extensionsActions" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/browser/extensionsActions" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="Install in other server to enable">
       <source xml:lang="en">Install the extension on '{0}' to enable.</source>
     </trans-unit>
@@ -1084,17 +1084,17 @@
       <source xml:lang="en">This extension is enabled for this workspace by the user.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/browser/extensionsActivationProgress" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/browser/extensionsActivationProgress" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="activation">
       <source xml:lang="en">Activating Extensions...</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/browser/extensionsCompletionItemsProvider" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/browser/extensionsCompletionItemsProvider" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="exampleExtension">
       <source xml:lang="en">Example</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/browser/extensionsDependencyChecker" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/browser/extensionsDependencyChecker" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="auto install missing deps">
       <source xml:lang="en">Install Missing Dependencies</source>
     </trans-unit>
@@ -1111,7 +1111,7 @@
       <source xml:lang="en">Reload Window</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/browser/extensionsIcons" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/browser/extensionsIcons" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="clearSearchResultsIcon">
       <source xml:lang="en">Icon for the 'Clear Search Result' action in the extensions view.</source>
     </trans-unit>
@@ -1170,7 +1170,7 @@
       <source xml:lang="en">Icon shown with a warning message in the extensions editor.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/browser/extensionsList" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/browser/extensionsList" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="onDemandDefaultText">
       <source xml:lang="en">Some features require a trusted workspace.</source>
     </trans-unit>
@@ -1178,7 +1178,7 @@
       <source xml:lang="en">A trusted workspace is required to enable this extension.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/browser/extensionsQuickAccess" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/browser/extensionsQuickAccess" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="install">
       <source xml:lang="en">Press Enter to install extension '{0}'.</source>
     </trans-unit>
@@ -1192,7 +1192,7 @@
       <source xml:lang="en">Type an extension name to install or search.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/browser/extensionsViewer" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/browser/extensionsViewer" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="Unknown Extension">
       <source xml:lang="en">Unknown Extension:</source>
     </trans-unit>
@@ -1206,7 +1206,7 @@
       <source xml:lang="en">Extensions</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/browser/extensionsViewlet" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/browser/extensionsViewlet" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="builtInThemesExtensions">
       <source xml:lang="en">Themes</source>
     </trans-unit>
@@ -1308,7 +1308,7 @@
       <source xml:lang="en">Workspace Unsupported</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/browser/extensionsViews" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/browser/extensionsViews" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="error">
       <source xml:lang="en">Error while loading extensions. {0}</source>
     </trans-unit>
@@ -1334,7 +1334,7 @@
       <source xml:lang="en">Marketplace returned 'ECONNREFUSED'. Please check the 'http.proxy' setting.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/browser/extensionsWidgets" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/browser/extensionsWidgets" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="extensionIconStarForeground">
       <source xml:lang="en">The icon color for extension ratings.</source>
     </trans-unit>
@@ -1354,7 +1354,7 @@
       <source xml:lang="en">This extension is ignored during sync.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/browser/extensionsWorkbenchService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/browser/extensionsWorkbenchService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="Manifest is not found">
       <source xml:lang="en">Manifest is not found</source>
     </trans-unit>
@@ -1386,7 +1386,7 @@
       <source xml:lang="en">Uninstalling extension....</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/browser/fileBasedRecommendations" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/browser/fileBasedRecommendations" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="dontShowAgainExtension">
       <source xml:lang="en">Don't Show Again for '.{0}' files</source>
     </trans-unit>
@@ -1403,12 +1403,12 @@
       <source xml:lang="en">The Marketplace has extensions that can help with '.{0}' files</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/browser/workspaceRecommendations" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/browser/workspaceRecommendations" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="workspaceRecommendation">
       <source xml:lang="en">This extension is recommended by users of the current workspace.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/common/extensionsFileTemplate" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/common/extensionsFileTemplate" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="app.extension.identifier.errorMessage">
       <source xml:lang="en">Expected format '${publisher}.${name}'. Example: 'vscode.csharp'.</source>
     </trans-unit>
@@ -1422,12 +1422,12 @@
       <source xml:lang="en">List of extensions recommended by VS Code that should not be recommended for users of this workspace. The identifier of an extension is always '${publisher}.${name}'. For example: 'vscode.csharp'.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/common/extensionsInput" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/common/extensionsInput" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="extensionsInputName">
       <source xml:lang="en">Extension: {0}</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/common/extensionsUtils" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/common/extensionsUtils" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="disableOtherKeymapsConfirmation">
       <source xml:lang="en">Disable other keymaps ({0}) to avoid conflicts between keybindings?</source>
     </trans-unit>
@@ -1438,12 +1438,12 @@
       <source xml:lang="en">Yes</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/common/runtimeExtensionsInput" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/common/runtimeExtensionsInput" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="extensionsInputName">
       <source xml:lang="en">Running Extensions</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/electron-browser/extensionProfileService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/electron-browser/extensionProfileService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cancel">
       <source xml:lang="en">&amp;&amp;Cancel</source>
     </trans-unit>
@@ -1469,7 +1469,7 @@
       <source xml:lang="en">Extension Profiler</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/electron-browser/extensionsAutoProfiler" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/electron-browser/extensionsAutoProfiler" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="show">
       <source xml:lang="en">Show Extensions</source>
     </trans-unit>
@@ -1477,7 +1477,7 @@
       <source xml:lang="en">The extension '{0}' took a very long time to complete its last operation and it has prevented other extensions from running.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/electron-sandbox/debugExtensionHostAction" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/electron-sandbox/debugExtensionHostAction" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cancel">
       <source xml:lang="en">&amp;&amp;Cancel</source>
     </trans-unit>
@@ -1497,17 +1497,17 @@
       <source xml:lang="en">&amp;&amp;Restart</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/electron-sandbox/extensions.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/electron-sandbox/extensions.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="runtimeExtension">
       <source xml:lang="en">Running Extensions</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/electron-sandbox/extensionsActions" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/electron-sandbox/extensionsActions" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="openExtensionsFolder">
       <source xml:lang="en">Open Extensions Folder</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/electron-sandbox/extensionsSlowActions" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/electron-sandbox/extensionsSlowActions" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="attach.msg">
       <source xml:lang="en">This is a reminder to make sure that you have not forgotten to attach '{0}' to the issue you have just created.</source>
     </trans-unit>
@@ -1527,12 +1527,12 @@
       <source xml:lang="en">Show Issues</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/electron-sandbox/reportExtensionIssueAction" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/electron-sandbox/reportExtensionIssueAction" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="reportExtensionIssue">
       <source xml:lang="en">Report Issue</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/extensions/electron-sandbox/runtimeExtensionsEditor" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/extensions/electron-sandbox/runtimeExtensionsEditor" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="extensionHostProfileStart">
       <source xml:lang="en">Start Extension Host Profile</source>
     </trans-unit>

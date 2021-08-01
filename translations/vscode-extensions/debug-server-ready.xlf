@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="extensions/debug-server-ready/dist/extension" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/debug-server-ready/dist/extension" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="server.ready.nocapture.error">
       <source xml:lang="en">Format uri ('{0}') uses a substitution placeholder but pattern did not capture anything.</source>
     </trans-unit>
@@ -8,7 +8,7 @@
       <source xml:lang="en">Format uri ('{0}') must contain exactly one substitution placeholder.</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/debug-server-ready/package" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/debug-server-ready/package" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="debug.server.ready.action.debugWithChrome.description">
       <source xml:lang="en">Start debugging with the 'Debugger for Chrome'.</source>
     </trans-unit>

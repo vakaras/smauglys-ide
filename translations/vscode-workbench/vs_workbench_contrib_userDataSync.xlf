@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/userDataSync/browser/userDataSync" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/userDataSync/browser/userDataSync" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="Sync accept merges">
       <source xml:lang="en">{0}: {1}</source>
     </trans-unit>
@@ -260,7 +260,7 @@
       <source xml:lang="en">Clear Data in Cloud...</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/userDataSync/browser/userDataSync.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/userDataSync/browser/userDataSync.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="operationId">
       <source xml:lang="en">Operation Id: {0}</source>
     </trans-unit>
@@ -268,7 +268,7 @@
       <source xml:lang="en">Turned off syncing settings on this device because it is making too many requests.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/userDataSync/browser/userDataSyncMergesView" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/userDataSync/browser/userDataSyncMergesView" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="accept local">
       <source xml:lang="en">Accept Local</source>
     </trans-unit>
@@ -342,7 +342,7 @@
       <note>This is an action title to show the changes between local and remote version of resources</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/userDataSync/browser/userDataSyncViews" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/userDataSync/browser/userDataSyncViews" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="confirm replace">
       <source xml:lang="en">Would you like to replace your current {0} with selected?</source>
       <note>A confirmation message to replace current user data (settings, extensions, keybindings, snippets) with selected version</note>
@@ -418,7 +418,7 @@
       <source xml:lang="en">Turn off Settings Sync</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/userDataSync/electron-sandbox/userDataSync.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/userDataSync/electron-sandbox/userDataSync.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="Open Backup folder">
       <source xml:lang="en">Open Local Backups Folder</source>
     </trans-unit>

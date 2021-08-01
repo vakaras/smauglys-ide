@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/services/textfile/browser/textFileService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/textfile/browser/textFileService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="confirmOverwrite">
       <source xml:lang="en">'{0}' already exists. Do you want to replace it?</source>
     </trans-unit>
@@ -15,13 +15,13 @@
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/textfile/common/textFileEditorModelManager" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/textfile/common/textFileEditorModelManager" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="genericSaveError">
       <source xml:lang="en">Failed to save '{0}': {1}</source>
       <note>{0} is the resource that failed to save and {1} the error message</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/textfile/common/textFileSaveParticipant" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/textfile/common/textFileSaveParticipant" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="saveParticipants">
       <source xml:lang="en">Saving '{0}'</source>
     </trans-unit>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="extensions/merge-conflict/dist/codelensProvider" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/merge-conflict/dist/codelensProvider" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="acceptBothChanges">
       <source xml:lang="en">Accept Both Changes</source>
     </trans-unit>
@@ -14,7 +14,7 @@
       <source xml:lang="en">Compare Changes</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/merge-conflict/dist/commandHandler" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/merge-conflict/dist/commandHandler" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="compareChangesTitle">
       <source xml:lang="en">{0}: Current Changes ⟷ Incoming Changes</source>
     </trans-unit>
@@ -34,7 +34,7 @@
       <source xml:lang="en">No other merge conflicts within this file</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/merge-conflict/dist/mergeDecorator" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/merge-conflict/dist/mergeDecorator" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="currentChange">
       <source xml:lang="en">(Current Change)</source>
     </trans-unit>
@@ -42,7 +42,7 @@
       <source xml:lang="en">(Incoming Change)</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/merge-conflict/package" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/merge-conflict/package" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="command.accept.all-both">
       <source xml:lang="en">Accept All Both</source>
     </trans-unit>

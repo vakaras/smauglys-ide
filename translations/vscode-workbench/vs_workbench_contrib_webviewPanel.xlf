@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/webviewPanel/browser/webviewCommands" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/webviewPanel/browser/webviewCommands" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="editor.action.webvieweditor.findNext">
       <source xml:lang="en">Find next</source>
     </trans-unit>
@@ -17,7 +17,7 @@
       <source xml:lang="en">Reload Webviews</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/webviewPanel/browser/webviewPanel.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/webviewPanel/browser/webviewPanel.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="webview.editor.label">
       <source xml:lang="en">webview editor</source>
     </trans-unit>

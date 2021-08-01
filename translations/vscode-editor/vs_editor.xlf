@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/editor/browser/controller/coreCommands" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/browser/controller/coreCommands" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="removedCursor">
       <source xml:lang="en">Removed secondary cursors</source>
     </trans-unit>
@@ -8,7 +8,7 @@
       <source xml:lang="en">Stick to the end even when going to longer lines</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/browser/controller/textAreaHandler" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/browser/controller/textAreaHandler" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="accessibilityOffAriaLabel">
       <source xml:lang="en">The editor is not accessible at this time. Press {0} for options.</source>
     </trans-unit>
@@ -16,12 +16,12 @@
       <source xml:lang="en">editor</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/browser/core/keybindingCancellation" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/browser/core/keybindingCancellation" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cancellableOperation">
       <source xml:lang="en">Whether the editor runs a cancellable operation, e.g. like 'Peek References'</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/browser/editorExtensions" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/browser/editorExtensions" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="miRedo">
       <source xml:lang="en">&amp;&amp;Redo</source>
       <note>&amp;&amp; denotes a mnemonic</note>
@@ -44,12 +44,12 @@
       <source xml:lang="en">Undo</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/browser/widget/codeEditorWidget" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/browser/widget/codeEditorWidget" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cursors.maximum">
       <source xml:lang="en">The number of cursors has been limited to {0}.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/browser/widget/diffEditorWidget" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/browser/widget/diffEditorWidget" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="diff.tooLarge">
       <source xml:lang="en">Cannot compare files because one file is too large.</source>
     </trans-unit>
@@ -60,7 +60,7 @@
       <source xml:lang="en">Line decoration for removals in the diff editor.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/browser/widget/diffReview" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/browser/widget/diffReview" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="blankLine">
       <source xml:lang="en">blank</source>
     </trans-unit>
@@ -114,7 +114,7 @@ Variables 3 and 5 will be "no lines changed", "1 line changed" or "X lines chang
       <note>The placeholders are contents of the line and should not be translated.</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/browser/widget/inlineDiffMargin" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/browser/widget/inlineDiffMargin" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="diff.clipboard.copyDeletedLineContent.label">
       <source xml:lang="en">Copy deleted line ({0})</source>
     </trans-unit>
@@ -128,7 +128,7 @@ Variables 3 and 5 will be "no lines changed", "1 line changed" or "X lines chang
       <source xml:lang="en">Revert this change</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/common/config/commonEditorConfig" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/common/config/commonEditorConfig" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="codeLens">
       <source xml:lang="en">Controls whether the editor shows CodeLens.</source>
     </trans-unit>
@@ -205,7 +205,7 @@ Variables 3 and 5 will be "no lines changed", "1 line changed" or "X lines chang
       <source xml:lang="en">Lines will wrap at the viewport width.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/common/config/editorOptions" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/common/config/editorOptions" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="acceptSuggestionOnCommitCharacter">
       <source xml:lang="en">Controls whether suggestions should be accepted on commit characters. For example, in JavaScript, the semi-colon (`;`) can be a commit character that accepts a suggestion and types that character.</source>
     </trans-unit>
@@ -600,7 +600,7 @@ Variables 3 and 5 will be "no lines changed", "1 line changed" or "X lines chang
       <source xml:lang="en">Controls the letter spacing in pixels.</source>
     </trans-unit>
     <trans-unit id="lineHeight">
-      <source xml:lang="en">Controls the line height. 
+      <source xml:lang="en">Controls the line height.
  - Use 0 to automatically compute the line height from the font size.
  - Values between 0 and 8 will be used as a multiplier with the font size.
  - Values greater than or equal to 8 will be used as effective values.</source>
@@ -1014,7 +1014,7 @@ Variables 3 and 5 will be "no lines changed", "1 line changed" or "X lines chang
       <source xml:lang="en">Assumes that all characters are of the same width. This is a fast algorithm that works correctly for monospace fonts and certain scripts (like Latin characters) where glyphs are of equal width.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/common/editorContextKeys" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/common/editorContextKeys" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="editorColumnSelection">
       <source xml:lang="en">Whether `editor.columnSelection` is enabled</source>
     </trans-unit>
@@ -1106,17 +1106,17 @@ Variables 3 and 5 will be "no lines changed", "1 line changed" or "X lines chang
       <source xml:lang="en">Whether an editor or a rich text input has focus (cursor is blinking)</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/common/model/editStack" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/common/model/editStack" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="edit">
       <source xml:lang="en">Typing</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/common/modes/modesRegistry" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/common/modes/modesRegistry" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="plainText.alias">
       <source xml:lang="en">Plain Text</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/common/standaloneStrings" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/common/standaloneStrings" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="accessibilityHelpMessage">
       <source xml:lang="en">Press Alt+F1 for Accessibility Options.</source>
     </trans-unit>
@@ -1220,7 +1220,7 @@ Variables 3 and 5 will be "no lines changed", "1 line changed" or "X lines chang
       <source xml:lang="en">Toggle High Contrast Theme</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/editor/common/view/editorColorRegistry" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/editor/common/view/editorColorRegistry" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="caret">
       <source xml:lang="en">Color of the editor cursor.</source>
     </trans-unit>

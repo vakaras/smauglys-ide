@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/services/userDataSync/browser/userDataSyncWorkbenchService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/userDataSync/browser/userDataSyncWorkbenchService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cancel">
       <source xml:lang="en">Cancel</source>
     </trans-unit>
@@ -90,7 +90,7 @@ Would you like to merge or replace with your data in the cloud?</source>
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/userDataSync/common/userDataSync" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/userDataSync/common/userDataSync" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="extensions">
       <source xml:lang="en">Extensions</source>
     </trans-unit>

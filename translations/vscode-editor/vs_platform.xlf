@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/platform/actions/browser/menuEntryActionViewItem" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/actions/browser/menuEntryActionViewItem" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="titleAndKb">
       <source xml:lang="en">{0} ({1})</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/configuration/common/configurationRegistry" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/configuration/common/configurationRegistry" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="config.property.duplicate">
       <source xml:lang="en">Cannot register '{0}'. This property is already registered.</source>
     </trans-unit>
@@ -28,12 +28,12 @@
       <source xml:lang="en">This setting does not support per-language configuration.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/contextkey/browser/contextKeyService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/contextkey/browser/contextKeyService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="getContextKeyInfo">
       <source xml:lang="en">A command that returns information about context keys</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/contextkey/common/contextkeys" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/contextkey/common/contextkeys" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="inputFocus">
       <source xml:lang="en">Whether keyboard focus is inside an input box</source>
     </trans-unit>
@@ -56,7 +56,7 @@
       <source xml:lang="en">Whether the operating system is Windows</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/dialogs/common/dialogs" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/dialogs/common/dialogs" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="moreFile">
       <source xml:lang="en">...1 additional file not shown</source>
     </trans-unit>
@@ -64,7 +64,7 @@
       <source xml:lang="en">...{0} additional files not shown</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/dialogs/electron-main/dialogMainService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/dialogs/electron-main/dialogMainService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="open">
       <source xml:lang="en">Open</source>
     </trans-unit>
@@ -82,7 +82,7 @@
       <source xml:lang="en">Open Workspace</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/environment/node/argv" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/environment/node/argv" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="add">
       <source xml:lang="en">Add folder(s) to the last active window.</source>
     </trans-unit>
@@ -201,7 +201,7 @@
       <source xml:lang="en">Wait for the files to be closed before returning.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/environment/node/argvHelper" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/environment/node/argvHelper" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="gotoValidation">
       <source xml:lang="en">Arguments in `--goto` mode should be in the format of `FILE(:LINE(:CHARACTER))`.</source>
     </trans-unit>
@@ -212,7 +212,7 @@
       <source xml:lang="en">Warning: '{0}' is not in the list of known options, but still passed to Electron/Chromium.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/extensionManagement/common/extensionManagement" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/extensionManagement/common/extensionManagement" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="extensions">
       <source xml:lang="en">Extensions</source>
     </trans-unit>
@@ -220,7 +220,7 @@
       <source xml:lang="en">Preferences</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/extensionManagement/common/extensionManagementCLIService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/extensionManagement/common/extensionManagementCLIService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="alreadyInstalled">
       <source xml:lang="en">Extension '{0}' is already installed.</source>
     </trans-unit>
@@ -297,13 +297,13 @@
       <source xml:lang="en">Make sure you use the full extension ID, including the publisher, e.g.: {0}</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/extensionManagement/electron-sandbox/extensionTipsService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/extensionManagement/electron-sandbox/extensionTipsService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="exeRecommended">
       <source xml:lang="en">You have {0} installed on your system. Do you want to install the recommended extensions for it?</source>
       <note>Placeholder string is the name of the software that is installed.</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/extensionManagement/node/extensionManagementService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/extensionManagement/node/extensionManagementService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="MarketPlaceDisabled">
       <source xml:lang="en">Marketplace is not enabled</source>
     </trans-unit>
@@ -356,12 +356,12 @@
       <source xml:lang="en">Cannot uninstall '{0}' extension. It includes uninstalling '{1}' extension and '{2}' and '{3}' extensions depend on this.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/extensionManagement/node/extensionManagementUtil" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/extensionManagement/node/extensionManagementUtil" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="invalidManifest">
       <source xml:lang="en">VSIX invalid: package.json is not a JSON file.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/extensionManagement/node/extensionsScanner" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/extensionManagement/node/extensionsScanner" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cannot read">
       <source xml:lang="en">Cannot read the extension from {0}</source>
     </trans-unit>
@@ -375,7 +375,7 @@
       <source xml:lang="en">Unknown error while renaming {0} to {1}</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/extensions/common/extensionValidator" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/extensions/common/extensionValidator" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="versionMismatch">
       <source xml:lang="en">Extension is not compatible with Code {0}. Extension requires: {1}.</source>
     </trans-unit>
@@ -389,7 +389,7 @@
       <source xml:lang="en">Could not parse `engines.vscode` value {0}. Please use, for example: ^1.22.0, ^1.22.x, etc.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/externalTerminal/node/externalTerminalService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/externalTerminal/node/externalTerminalService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="console.title">
       <source xml:lang="en">VS Code Console</source>
     </trans-unit>
@@ -409,7 +409,7 @@
       <source xml:lang="en">Press any key to continue...</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/files/common/fileService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/files/common/fileService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="deleteFailedNonEmptyFolder">
       <source xml:lang="en">Unable to delete non-empty folder '{0}'.</source>
     </trans-unit>
@@ -474,7 +474,7 @@
       <source xml:lang="en">Unable to unlock file '{0}' because provider does not support it.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/files/common/files" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/files/common/files" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="sizeB">
       <source xml:lang="en">{0}B</source>
     </trans-unit>
@@ -494,7 +494,7 @@
       <source xml:lang="en">Unknown Error</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/files/common/io" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/files/common/io" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="fileTooLargeError">
       <source xml:lang="en">File is too large to open</source>
     </trans-unit>
@@ -502,7 +502,7 @@
       <source xml:lang="en">To open a file of this size, you need to restart and allow {0} to use more memory</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/files/electron-browser/diskFileSystemProvider" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/files/electron-browser/diskFileSystemProvider" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="binFailed">
       <source xml:lang="en">Failed to move '{0}' to the recycle bin</source>
     </trans-unit>
@@ -510,7 +510,7 @@
       <source xml:lang="en">Failed to move '{0}' to the trash</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/files/node/diskFileSystemProvider" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/files/node/diskFileSystemProvider" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="copyError">
       <source xml:lang="en">Unable to copy '{0}' into '{1}' ({2}).</source>
     </trans-unit>
@@ -530,7 +530,7 @@
       <source xml:lang="en">Unable to move '{0}' into '{1}' ({2}).</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/issue/electron-main/issueMainService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/issue/electron-main/issueMainService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cancel">
       <source xml:lang="en">&amp;&amp;Cancel</source>
       <note>&amp;&amp; denotes a mnemonic</note>
@@ -559,7 +559,7 @@
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/keybinding/common/abstractKeybindingService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/keybinding/common/abstractKeybindingService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="first.chord">
       <source xml:lang="en">({0}) was pressed. Waiting for second key of chord...</source>
     </trans-unit>
@@ -567,7 +567,7 @@
       <source xml:lang="en">The key combination ({0}, {1}) is not a command.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/list/browser/listService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/list/browser/listService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="automatic keyboard navigation setting">
       <source xml:lang="en">Controls whether keyboard navigation in lists and trees is automatically triggered simply by typing. If set to `false`, keyboard navigation is only triggered when executing the `list.toggleKeyboardNavigation` command, for which you can assign a keyboard shortcut.</source>
     </trans-unit>
@@ -617,7 +617,7 @@
       <source xml:lang="en">Workbench</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/localizations/common/localizedStrings" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/localizations/common/localizedStrings" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="close">
       <source xml:lang="en">close</source>
     </trans-unit>
@@ -628,7 +628,7 @@
       <source xml:lang="en">open</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/markers/common/markers" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/markers/common/markers" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="sev.error">
       <source xml:lang="en">Error</source>
     </trans-unit>
@@ -639,7 +639,7 @@
       <source xml:lang="en">Warning</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/menubar/electron-main/menubar" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/menubar/electron-main/menubar" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="mAbout">
       <source xml:lang="en">About {0}</source>
     </trans-unit>
@@ -751,7 +751,7 @@
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/native/electron-main/nativeHostMainService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/native/electron-main/nativeHostMainService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cancel">
       <source xml:lang="en">&amp;&amp;Cancel</source>
       <note>&amp;&amp; denotes a mnemonic</note>
@@ -776,7 +776,7 @@
       <source xml:lang="en">{0} will now prompt with 'osascript' for Administrator privileges to uninstall the shell command.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/quickinput/browser/commandsQuickAccess" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/quickinput/browser/commandsQuickAccess" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="canNotRun">
       <source xml:lang="en">Command '{0}' resulted in an error ({1})</source>
     </trans-unit>
@@ -790,7 +790,7 @@
       <source xml:lang="en">recently used</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/quickinput/browser/helpQuickAccess" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/quickinput/browser/helpQuickAccess" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="editorCommands">
       <source xml:lang="en">editor commands</source>
     </trans-unit>
@@ -801,7 +801,7 @@
       <source xml:lang="en">{0}, {1}</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/request/common/request" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/request/common/request" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="httpConfigurationTitle">
       <source xml:lang="en">HTTP</source>
     </trans-unit>
@@ -833,7 +833,7 @@
       <source xml:lang="en">Controls whether CA certificates should be loaded from the OS. (On Windows and macOS, a reload of the window is required after turning this off.)</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/telemetry/common/telemetryService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/telemetry/common/telemetryService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="telemetry.enableTelemetry">
       <source xml:lang="en">Enable usage data and errors to be sent to a Microsoft online service.</source>
     </trans-unit>
@@ -844,7 +844,7 @@
       <source xml:lang="en">Telemetry</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/terminal/common/terminalPlatformConfiguration" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/terminal/common/terminalPlatformConfiguration" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="terminal.integrated.automationShell.linux">
       <source xml:lang="en">A path that when set will override {0} and ignore {1} values for automation-related terminal usage like tasks and debug.</source>
       <note>{0} and {1} are the `shell` and `shellArgs` settings keys</note>
@@ -942,7 +942,7 @@
       <source xml:lang="en">A profile source that will auto detect the paths to the shell.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/terminal/node/terminalProcess" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/terminal/node/terminalProcess" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="launchFail.cwdDoesNotExist">
       <source xml:lang="en">Starting directory (cwd) "{0}" does not exist</source>
     </trans-unit>
@@ -956,7 +956,7 @@
       <source xml:lang="en">Path to shell executable "{0}" is not a file of a symlink</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/theme/common/colorRegistry" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/theme/common/colorRegistry" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="activeContrastBorder">
       <source xml:lang="en">An extra border around active elements to separate them from others for greater contrast.</source>
     </trans-unit>
@@ -1522,7 +1522,7 @@
       <source xml:lang="en">Shadow color of widgets such as find/replace inside the editor.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/theme/common/iconRegistry" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/theme/common/iconRegistry" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="iconDefintion.fontCharacter">
       <source xml:lang="en">The font character associated with the icon definition.</source>
     </trans-unit>
@@ -1539,7 +1539,7 @@
       <source xml:lang="en">Icon for the close action in widgets.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/theme/common/tokenClassificationRegistry" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/theme/common/tokenClassificationRegistry" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="abstract">
       <source xml:lang="en">Style to use for symbols that are abstract.</source>
     </trans-unit>
@@ -1661,7 +1661,7 @@
       <source xml:lang="en">Style for variables.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/undoRedo/common/undoRedoService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/undoRedo/common/undoRedoService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cancel">
       <source xml:lang="en">Cancel</source>
     </trans-unit>
@@ -1730,7 +1730,7 @@
       <note>{0} denotes a number that is &gt; 1</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/update/common/update.config.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/update/common/update.config.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="default">
       <source xml:lang="en">Enable automatic update checks. Code will check for updates automatically and periodically.</source>
     </trans-unit>
@@ -1762,7 +1762,7 @@
       <source xml:lang="en">Configure whether you receive automatic updates. Requires a restart after change. The updates are fetched from a Microsoft online service.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/userDataSync/common/abstractSynchronizer" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/userDataSync/common/abstractSynchronizer" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="incompatible">
       <source xml:lang="en">Cannot sync {0} as its local version {1} is not compatible with its remote version {2}</source>
       <note>This is an error while syncing a resource that its local version is not compatible with its remote version.</note>
@@ -1771,17 +1771,17 @@
       <source xml:lang="en">Cannot parse sync data as it is not compatible with the current version.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/userDataSync/common/keybindingsSync" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/userDataSync/common/keybindingsSync" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="errorInvalidSettings">
       <source xml:lang="en">Unable to sync keybindings because the content in the file is not valid. Please open the file and correct it.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/userDataSync/common/settingsSync" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/userDataSync/common/settingsSync" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="errorInvalidSettings">
       <source xml:lang="en">Unable to sync settings as there are errors/warning in settings file.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/userDataSync/common/userDataAutoSyncService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/userDataSync/common/userDataAutoSyncService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="default service changed">
       <source xml:lang="en">Cannot sync because default service has changed</source>
     </trans-unit>
@@ -1798,7 +1798,7 @@
       <source xml:lang="en">Cannot sync because syncing is turned off on this machine from another machine.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/userDataSync/common/userDataSync" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/userDataSync/common/userDataSync" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="app.extension.identifier.errorMessage">
       <source xml:lang="en">Expected format '${publisher}.${name}'. Example: 'vscode.csharp'.</source>
     </trans-unit>
@@ -1815,12 +1815,12 @@
       <source xml:lang="en">Synchronize keybindings for each platform.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/userDataSync/common/userDataSyncMachines" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/userDataSync/common/userDataSyncMachines" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="error incompatible">
       <source xml:lang="en">Cannot read machines data as the current version is incompatible. Please update {0} and try again.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/windows/electron-main/window" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/windows/electron-main/window" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="appCrashed">
       <source xml:lang="en">The window has crashed</source>
     </trans-unit>
@@ -1852,7 +1852,7 @@
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/windows/electron-main/windowsMainService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/windows/electron-main/windowsMainService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="ok">
       <source xml:lang="en">&amp;&amp;OK</source>
       <note>&amp;&amp; denotes a mnemonic</note>
@@ -1870,7 +1870,7 @@
       <source xml:lang="en">URI can not be opened</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/workspace/common/workspaceTrust" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/workspace/common/workspaceTrust" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="trusted">
       <source xml:lang="en">Trusted</source>
     </trans-unit>
@@ -1878,12 +1878,12 @@
       <source xml:lang="en">Restricted Mode</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/workspaces/common/workspaces" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/workspaces/common/workspaces" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="codeWorkspace">
       <source xml:lang="en">Code Workspace</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/workspaces/electron-main/workspacesHistoryMainService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/workspaces/electron-main/workspacesHistoryMainService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="newWindow">
       <source xml:lang="en">New Window</source>
     </trans-unit>
@@ -1903,7 +1903,7 @@
       <source xml:lang="en">{0} (Workspace)</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/platform/workspaces/electron-main/workspacesManagementMainService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/platform/workspaces/electron-main/workspacesManagementMainService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="ok">
       <source xml:lang="en">&amp;&amp;OK</source>
       <note>&amp;&amp; denotes a mnemonic</note>

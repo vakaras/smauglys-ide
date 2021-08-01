@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/preferences/browser/keybindingWidgets" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/preferences/browser/keybindingWidgets" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="defineKeybinding.chordsTo">
       <source xml:lang="en">chord to</source>
     </trans-unit>
@@ -14,7 +14,7 @@
       <source xml:lang="en">1 existing command has this keybinding</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/preferences/browser/keybindingsEditor" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/preferences/browser/keybindingsEditor" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="SearchKeybindings.FullTextSearchPlaceholder">
       <source xml:lang="en">Type to search in keybindings</source>
     </trans-unit>
@@ -112,7 +112,7 @@
       <source xml:lang="en">Type when context. Press Enter to confirm or Escape to cancel.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/preferences/browser/keybindingsEditorContribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/preferences/browser/keybindingsEditorContribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="defineKeybinding.kbLayoutErrorMessage">
       <source xml:lang="en">You won't be able to produce this key combination under your current keyboard layout.</source>
     </trans-unit>
@@ -130,7 +130,7 @@ The placeholder will contain a keyboard combination e.g. Ctrl+Shift+/</note>
       <source xml:lang="en">Define Keybinding</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/preferences/browser/preferences.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/preferences/browser/preferences.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="Keyboard Shortcuts">
       <source xml:lang="en">Keyboard Shortcuts</source>
     </trans-unit>
@@ -255,7 +255,7 @@ The placeholder will contain a keyboard combination e.g. Ctrl+Shift+/</note>
       <source xml:lang="en">Show User Keybindings</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/preferences/browser/preferencesActions" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/preferences/browser/preferencesActions" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="configureLanguageBasedSettings">
       <source xml:lang="en">Configure Language Specific Settings...</source>
     </trans-unit>
@@ -266,7 +266,7 @@ The placeholder will contain a keyboard combination e.g. Ctrl+Shift+/</note>
       <source xml:lang="en">Select Language</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/preferences/browser/preferencesEditor" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/preferences/browser/preferencesEditor" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="SearchSettingsWidget.AriaLabel">
       <source xml:lang="en">Search settings</source>
     </trans-unit>
@@ -316,7 +316,7 @@ The placeholder will contain a keyboard combination e.g. Ctrl+Shift+/</note>
       <source xml:lang="en">Total {0} Settings</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/preferences/browser/preferencesIcons" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/preferences/browser/preferencesIcons" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="keybindingsAddIcon">
       <source xml:lang="en">Icon for the add action in the keybinding UI.</source>
     </trans-unit>
@@ -360,7 +360,7 @@ The placeholder will contain a keyboard combination e.g. Ctrl+Shift+/</note>
       <source xml:lang="en">Icon for the folder dropdown button in the split JSON Settings editor.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/preferences/browser/preferencesRenderers" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/preferences/browser/preferencesRenderers" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="copyDefaultValue">
       <source xml:lang="en">Copy to Settings</source>
     </trans-unit>
@@ -404,7 +404,7 @@ The placeholder will contain a keyboard combination e.g. Ctrl+Shift+/</note>
       <source xml:lang="en">This setting can only be applied in a trusted workspace.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/preferences/browser/preferencesWidgets" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/preferences/browser/preferencesWidgets" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="defaultSettings">
       <source xml:lang="en">Place your settings in the right hand side editor to override.</source>
     </trans-unit>
@@ -427,7 +427,7 @@ The placeholder will contain a keyboard combination e.g. Ctrl+Shift+/</note>
       <source xml:lang="en">Workspace</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/preferences/browser/settingsEditor2" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/preferences/browser/settingsEditor2" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="SearchSettings.AriaLabel">
       <source xml:lang="en">Search settings</source>
     </trans-unit>
@@ -459,7 +459,7 @@ The placeholder will contain a keyboard combination e.g. Ctrl+Shift+/</note>
       <source xml:lang="en">Turn on Settings Sync</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/preferences/browser/settingsLayout" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/preferences/browser/settingsLayout" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="appearance">
       <source xml:lang="en">Appearance</source>
     </trans-unit>
@@ -587,7 +587,7 @@ The placeholder will contain a keyboard combination e.g. Ctrl+Shift+/</note>
       <source xml:lang="en">Zen Mode</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/preferences/browser/settingsTree" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/preferences/browser/settingsTree" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="alsoConfiguredIn">
       <source xml:lang="en">Also modified in</source>
     </trans-unit>
@@ -643,7 +643,7 @@ The placeholder will contain a keyboard combination e.g. Ctrl+Shift+/</note>
       <source xml:lang="en">Validation Error.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/preferences/browser/settingsTreeModels" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/preferences/browser/settingsTreeModels" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="remote">
       <source xml:lang="en">Remote</source>
     </trans-unit>
@@ -654,7 +654,7 @@ The placeholder will contain a keyboard combination e.g. Ctrl+Shift+/</note>
       <source xml:lang="en">Workspace</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/preferences/browser/settingsWidgets" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/preferences/browser/settingsWidgets" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="addItem">
       <source xml:lang="en">Add Item</source>
     </trans-unit>
@@ -776,7 +776,7 @@ The placeholder will contain a keyboard combination e.g. Ctrl+Shift+/</note>
       <source xml:lang="en">Settings editor text input box foreground.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/preferences/browser/tocTree" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/preferences/browser/tocTree" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="groupRowAriaLabel">
       <source xml:lang="en">{0}, group</source>
     </trans-unit>
@@ -785,7 +785,7 @@ The placeholder will contain a keyboard combination e.g. Ctrl+Shift+/</note>
       <note>A label for the table of contents for the full settings list</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/preferences/common/preferencesContribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/preferences/common/preferencesContribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="enableNaturalLanguageSettingsSearch">
       <source xml:lang="en">Controls whether to enable the natural language search mode for settings. The natural language search is provided by a Microsoft online service.</source>
     </trans-unit>

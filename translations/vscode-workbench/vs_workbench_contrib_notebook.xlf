@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/notebook/browser/contrib/cellOperations/cellOperations" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/contrib/cellOperations/cellOperations" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="notebookActions.copyCellDown">
       <source xml:lang="en">Copy Cell Down</source>
     </trans-unit>
@@ -23,7 +23,7 @@
       <source xml:lang="en">Split Cell</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/contrib/cellStatusBar/executionStatusBarItemController" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/contrib/cellStatusBar/executionStatusBarItemController" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="notebook.cell.status.codeExecuteTip">
       <source xml:lang="en">Press {0} to execute cell</source>
     </trans-unit>
@@ -43,12 +43,12 @@
       <source xml:lang="en">Success</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/contrib/cellStatusBar/statusBarProviders" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/contrib/cellStatusBar/statusBarProviders" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="notebook.cell.status.language">
       <source xml:lang="en">Select Cell Language Mode</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/contrib/clipboard/notebookClipboard" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/contrib/clipboard/notebookClipboard" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="notebookActions.copy">
       <source xml:lang="en">Copy Cell</source>
     </trans-unit>
@@ -62,7 +62,7 @@
       <source xml:lang="en">Paste Cell Above</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/contrib/coreActions" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/contrib/coreActions" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="changeLanguage">
       <source xml:lang="en">Change Cell Language</source>
     </trans-unit>
@@ -196,7 +196,7 @@
       <source xml:lang="en">Select between Notebook Layouts</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/contrib/editorStatusBar/editorStatusBar" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/contrib/editorStatusBar/editorStatusBar" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="current1">
       <source xml:lang="en">Currently Selected</source>
     </trans-unit>
@@ -240,7 +240,7 @@
       <source xml:lang="en">{0} (suggestion)</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/contrib/find/findController" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/contrib/find/findController" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="ariaSearchNoResult">
       <source xml:lang="en">{0} found for '{1}'</source>
     </trans-unit>
@@ -257,7 +257,7 @@
       <source xml:lang="en">Hide Find in Notebook</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/contrib/fold/folding" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/contrib/fold/folding" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="fold.cell">
       <source xml:lang="en">Fold Cell</source>
     </trans-unit>
@@ -265,7 +265,7 @@
       <source xml:lang="en">Unfold Cell</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/contrib/format/formatting" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/contrib/format/formatting" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="format.title">
       <source xml:lang="en">Format Notebook</source>
     </trans-unit>
@@ -276,17 +276,17 @@
       <source xml:lang="en">Format Notebook</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/contrib/gettingStarted/notebookGettingStarted" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/contrib/gettingStarted/notebookGettingStarted" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="workbench.notebook.layout.gettingStarted.label">
       <source xml:lang="en">Reset notebook getting started</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/contrib/layout/layoutActions" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/contrib/layout/layoutActions" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="notebook.toggleCellToolbarPosition">
       <source xml:lang="en">Toggle Cell Toolbar Position</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/contrib/navigation/arrow" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/contrib/navigation/arrow" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cursorMoveDown">
       <source xml:lang="en">Focus Next Cell Editor</source>
     </trans-unit>
@@ -309,7 +309,7 @@
       <source xml:lang="en">When enabled cursor can navigate to the next/previous cell when the current cursor in the cell editor is at the first/last line.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/contrib/outline/notebookOutline" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/contrib/outline/notebookOutline" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="breadcrumbs.showCodeCells">
       <source xml:lang="en">When enabled notebook breadcrumbs contain code cells.</source>
     </trans-unit>
@@ -320,12 +320,12 @@
       <source xml:lang="en">When enabled notebook outline shows code cells.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/contrib/profile/notebookProfile" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/contrib/profile/notebookProfile" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="setProfileTitle">
       <source xml:lang="en">Set Profile</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/diff/diffElementOutputs" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/diff/diffElementOutputs" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="builtinRenderInfo">
       <source xml:lang="en">built-in</source>
     </trans-unit>
@@ -342,7 +342,7 @@
       <source xml:lang="en">Select mimetype to render for current output. Rich mimetypes are available only when the notebook is trusted</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/diff/notebookDiffActions" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/diff/notebookDiffActions" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="notebook.diff.cell.revertInput">
       <source xml:lang="en">Revert Input</source>
     </trans-unit>
@@ -371,12 +371,12 @@
       <source xml:lang="en">Open Text Diff Editor</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/diff/notebookTextDiffEditor" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/diff/notebookTextDiffEditor" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="notebookTreeAriaLabel">
       <source xml:lang="en">Notebook Text Diff</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/extensionPoint" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/extensionPoint" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="contributes.notebook.provider">
       <source xml:lang="en">Contributes notebook document provider.</source>
     </trans-unit>
@@ -438,7 +438,7 @@
       <source xml:lang="en">The editor is not automatically used when the user opens a resource, but a user can switch to the editor using the `Reopen With` command.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/notebook.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/notebook.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="insertToolbarLocation.betweenCells">
       <source xml:lang="en">A toolbar that appears on hover between cells.</source>
     </trans-unit>
@@ -521,7 +521,7 @@
       <source xml:lang="en">The folding controls are visible only on mouseover.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/notebookEditor" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/notebookEditor" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="fail.noEditor">
       <source xml:lang="en">Cannot open resource with notebook editor type '{0}', please check if you have the right extension installed or enabled.</source>
     </trans-unit>
@@ -529,12 +529,12 @@
       <source xml:lang="en">Reopen file with VS Code standard text editor</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/notebookEditorKernelManager" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/notebookEditorKernelManager" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="notebookRunTrust">
       <source xml:lang="en">Executing a notebook cell will run code from this workspace.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/notebookEditorWidget" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/notebookEditorWidget" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="focusedCellBackground">
       <source xml:lang="en">The background color of a cell when the cell is focused.</source>
     </trans-unit>
@@ -602,7 +602,7 @@
       <source xml:lang="en">The background color of a cell when the cell is selected.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/notebookIcons" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/notebookIcons" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="clearIcon">
       <source xml:lang="en">Icon to clear cell outputs in notebook editors.</source>
     </trans-unit>
@@ -679,17 +679,17 @@
       <source xml:lang="en">Icon to unfold a cell in notebook editors.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/notebookKernelActionViewItem" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/notebookKernelActionViewItem" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="select">
       <source xml:lang="en">Select Kernel</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/notebookServiceImpl" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/notebookServiceImpl" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="builtinProviderDisplayName">
       <source xml:lang="en">Built-in</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/view/output/outputRenderer" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/view/output/outputRenderer" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="empty">
       <source xml:lang="en">Cell has no output</source>
     </trans-unit>
@@ -700,7 +700,7 @@
       <source xml:lang="en">No renderer could be found for output. It has the following MIME types: {0}</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/view/renderers/backLayerWebView" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/view/renderers/backLayerWebView" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="notebook.emptyMarkdownPlaceholder">
       <source xml:lang="en">Empty markdown cell, double click or press enter to edit.</source>
     </trans-unit>
@@ -709,7 +709,7 @@
       <note>$0 is a placeholder for the mime type</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/view/renderers/cellEditorOptions" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/view/renderers/cellEditorOptions" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="notebook.lineNumbers">
       <source xml:lang="en">Controls the display of line numbers in the cell editor.</source>
     </trans-unit>
@@ -723,7 +723,7 @@
       <source xml:lang="en">Toggle Cell Breakpoint Margin</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/view/renderers/cellOutput" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/view/renderers/cellOutput" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="builtinRenderInfo">
       <source xml:lang="en">built-in</source>
     </trans-unit>
@@ -740,7 +740,7 @@
       <source xml:lang="en">Select mimetype to render for current output. Rich mimetypes are available only when the notebook is trusted</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/view/renderers/cellRenderer" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/view/renderers/cellRenderer" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cellExpandButtonLabel">
       <source xml:lang="en">Expand</source>
     </trans-unit>
@@ -754,12 +754,12 @@
       <source xml:lang="en">Pending</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/browser/viewModel/markupCellViewModel" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/browser/viewModel/markupCellViewModel" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="notebook.emptyMarkdownPlaceholder">
       <source xml:lang="en">Empty markdown cell, double click or press enter to edit.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/notebook/common/notebookEditorModel" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/notebook/common/notebookEditorModel" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="notebook.staleSaveError">
       <source xml:lang="en">The contents of the file has changed on disk. Would you like to open the updated version or overwrite the file with your changes?</source>
     </trans-unit>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/surveys/browser/ces.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/surveys/browser/ces.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cesSurveyQuestion">
       <source xml:lang="en">Got a moment to help the VS Code team? Please tell us about your experience with VS Code so far.</source>
     </trans-unit>
@@ -11,7 +11,7 @@
       <source xml:lang="en">Remind Me later</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/surveys/browser/languageSurveys.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/surveys/browser/languageSurveys.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="helpUs">
       <source xml:lang="en">Help us improve our support for {0}</source>
     </trans-unit>
@@ -25,7 +25,7 @@
       <source xml:lang="en">Take Short Survey</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/surveys/browser/nps.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/surveys/browser/nps.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="neverAgain">
       <source xml:lang="en">Don't Show Again</source>
     </trans-unit>

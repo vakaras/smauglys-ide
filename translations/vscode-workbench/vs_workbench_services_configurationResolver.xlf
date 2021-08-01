@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/services/configurationResolver/browser/configurationResolverService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/configurationResolver/browser/configurationResolverService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="commandVariable.noStringType">
       <source xml:lang="en">Cannot substitute command variable '{0}' because command did not return a result of type string.</source>
     </trans-unit>
@@ -23,7 +23,7 @@
       <source xml:lang="en">Input variable '{0}' can only be of type 'promptString', 'pickString', or 'command'.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/configurationResolver/common/configurationResolverSchema" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/configurationResolver/common/configurationResolverSchema" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="JsonSchema.input.command.args">
       <source xml:lang="en">Optional arguments passed to the command.</source>
     </trans-unit>
@@ -67,12 +67,12 @@
       <source xml:lang="en">User inputs. Used for defining user input prompts, such as free string input or a choice from several options.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/configurationResolver/common/configurationResolverUtils" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/configurationResolver/common/configurationResolverUtils" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="deprecatedVariables">
       <source xml:lang="en">'env.', 'config.' and 'command.' are deprecated, use 'env:', 'config:' and 'command:' instead.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/configurationResolver/common/variableResolver" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/configurationResolver/common/variableResolver" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="canNotFindFolder">
       <source xml:lang="en">Variable {0} can not be resolved. No such folder '{1}'.</source>
     </trans-unit>

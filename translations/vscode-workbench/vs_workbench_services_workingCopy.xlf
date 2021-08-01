@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/services/workingCopy/common/fileWorkingCopyManager" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/workingCopy/common/fileWorkingCopyManager" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="confirmOverwrite">
       <source xml:lang="en">'{0}' already exists. Do you want to replace it?</source>
     </trans-unit>
@@ -12,7 +12,7 @@
       <note>&amp;&amp; denotes a mnemonic</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/workingCopy/common/storedFileWorkingCopy" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/workingCopy/common/storedFileWorkingCopy" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="discard">
       <source xml:lang="en">Discard</source>
     </trans-unit>
@@ -60,7 +60,7 @@
       <source xml:lang="en">Failed to save '{0}': The content of the file is newer. Do you want to overwrite the file with your changes?</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/workingCopy/electron-sandbox/workingCopyBackupTracker" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/workingCopy/electron-sandbox/workingCopyBackupTracker" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="backupBeforeShutdownDetail">
       <source xml:lang="en">Click 'Cancel' to stop waiting and to save or revert dirty editors.</source>
     </trans-unit>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/services/editor/browser/editorOverrideService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/editor/browser/editorOverrideService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="editorOverride.configureDefault">
       <source xml:lang="en">Configure Default</source>
     </trans-unit>
@@ -29,7 +29,7 @@
       <source xml:lang="en">Select editor for '{0}'</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/services/editor/common/editorOverrideService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/services/editor/common/editorOverrideService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="editor.editorAssociations">
       <source xml:lang="en">Configure glob patterns to editors (e.g. `"*.hex": "hexEditor.hexEdit"`). These have precedence over the default behavior.</source>
     </trans-unit>

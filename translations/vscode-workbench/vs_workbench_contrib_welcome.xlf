@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/welcome/common/viewsWelcomeContribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/welcome/common/viewsWelcomeContribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="ViewsWelcomeExtensionPoint.proposedAPI">
       <source xml:lang="en">The viewsWelcome contribution in '{0}' requires 'enableProposedApi' to be enabled.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/welcome/common/viewsWelcomeExtensionPoint" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/welcome/common/viewsWelcomeExtensionPoint" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="contributes.viewsWelcome">
       <source xml:lang="en">Contributed views welcome content. Welcome content will be rendered in tree based views whenever they have no meaningful content to display, ie. the File Explorer when no folder is open. Such content is useful as in-product documentation to drive users to use certain features before they are available. A good example would be a `Clone Repository` button in the File Explorer welcome view.</source>
     </trans-unit>
@@ -28,7 +28,7 @@
       <source xml:lang="en">Condition when the welcome content should be displayed.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/welcome/gettingStarted/browser/gettingStarted" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/welcome/gettingStarted/browser/gettingStarted" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="allDone">
       <source xml:lang="en">Mark Done</source>
     </trans-unit>
@@ -91,7 +91,7 @@
       <source xml:lang="en">Show welcome page on startup</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/welcome/gettingStarted/browser/gettingStarted.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/welcome/gettingStarted/browser/gettingStarted.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="Welcome">
       <source xml:lang="en">Welcome</source>
     </trans-unit>
@@ -138,7 +138,7 @@
       <source xml:lang="en">When enabled, an extension's walkthrough will open upon install the extension. Walkthroughs are the items contributed the the 'Getting Started' section of the welcome page</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/welcome/gettingStarted/browser/gettingStartedExtensionPoint" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/welcome/gettingStarted/browser/gettingStartedExtensionPoint" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="pathDeprecated">
       <source xml:lang="en">Deprecated. Please use `image` or `markdown` instead</source>
     </trans-unit>
@@ -257,7 +257,7 @@
       <source xml:lang="en">Context key expression to control the visibility of this walkthrough.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/welcome/gettingStarted/browser/gettingStartedIcons" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/welcome/gettingStarted/browser/gettingStartedIcons" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="gettingStartedChecked">
       <source xml:lang="en">Used to represent walkthrough steps which have been completed</source>
     </trans-unit>
@@ -265,12 +265,12 @@
       <source xml:lang="en">Used to represent walkthrough steps which have not been completed</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/welcome/gettingStarted/browser/gettingStartedInput" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/welcome/gettingStarted/browser/gettingStartedInput" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="welcome">
       <source xml:lang="en">Welcome</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/welcome/gettingStarted/browser/gettingStartedService" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/welcome/gettingStarted/browser/gettingStartedService" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="builtinProviderDisplayName">
       <source xml:lang="en">Built-in</source>
     </trans-unit>
@@ -299,7 +299,7 @@
       <source xml:lang="en">The platform of the current workspace, which in remote contexts may be different from the platform of the UI</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/welcome/gettingStarted/common/gettingStartedContent" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/welcome/gettingStarted/common/gettingStartedContent" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="browseLangExts">
       <source xml:lang="en">Browse Language Extensions</source>
     </trans-unit>
@@ -555,7 +555,7 @@ Opening a file/folder will prompt to grant trust. You can always {1} later.</sou
       <source xml:lang="en">Workspace Trust</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/welcome/gettingStarted/common/media/example_markdown_media" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/welcome/gettingStarted/common/media/example_markdown_media" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="HighContrast">
       <source xml:lang="en">High Contrast</source>
     </trans-unit>
@@ -569,7 +569,7 @@ Opening a file/folder will prompt to grant trust. You can always {1} later.</sou
       <source xml:lang="en">See More Themes...</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/welcome/gettingStarted/common/media/notebookProfile" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/welcome/gettingStarted/common/media/notebookProfile" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="colab">
       <source xml:lang="en">Colab</source>
     </trans-unit>
@@ -580,7 +580,7 @@ Opening a file/folder will prompt to grant trust. You can always {1} later.</sou
       <source xml:lang="en">Jupyter</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/welcome/overlay/browser/welcomeOverlay" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/welcome/overlay/browser/welcomeOverlay" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="hideWelcomeOverlay">
       <source xml:lang="en">Hide Interface Overview</source>
     </trans-unit>
@@ -615,7 +615,7 @@ Opening a file/folder will prompt to grant trust. You can always {1} later.</sou
       <source xml:lang="en">Toggle integrated terminal</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/welcome/page/browser/vs_code_welcome_page" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/welcome/page/browser/vs_code_welcome_page" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="welcomePage.colorTheme">
       <source xml:lang="en">Color theme</source>
     </trans-unit>
@@ -726,7 +726,7 @@ Opening a file/folder will prompt to grant trust. You can always {1} later.</sou
       <source xml:lang="en">Visual Studio Code</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/welcome/page/browser/welcomePage" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/welcome/page/browser/welcomePage" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="details">
       <source xml:lang="en">Details</source>
     </trans-unit>
@@ -812,7 +812,7 @@ Opening a file/folder will prompt to grant trust. You can always {1} later.</sou
       <source xml:lang="en">The window will reload after installing the {0} keyboard shortcuts.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/welcome/page/browser/welcomePage.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/welcome/page/browser/welcomePage.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="workbench.startupEditor">
       <source xml:lang="en">Controls which editor is shown at startup, if none are restored from the previous session.</source>
     </trans-unit>
@@ -837,7 +837,7 @@ Opening a file/folder will prompt to grant trust. You can always {1} later.</sou
       <note>This is the description for a setting. Values surrounded by single quotes are not to be translated.</note>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/welcome/page/browser/welcomePageColors" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/welcome/page/browser/welcomePageColors" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="welcomePage.background">
       <source xml:lang="en">Background color for the Welcome page.</source>
     </trans-unit>
@@ -863,7 +863,7 @@ Opening a file/folder will prompt to grant trust. You can always {1} later.</sou
       <source xml:lang="en">Shadow color for the Welcome page walkthrough category buttons.</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/welcome/telemetryOptOut/browser/telemetryOptOut" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/welcome/telemetryOptOut/browser/telemetryOptOut" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="telemetryOptOut.OptIn">
       <source xml:lang="en">Yes, glad to help</source>
     </trans-unit>
@@ -883,7 +883,7 @@ Opening a file/folder will prompt to grant trust. You can always {1} later.</sou
       <source xml:lang="en">Read More</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/welcome/walkThrough/browser/editor/editorWalkThrough" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/welcome/walkThrough/browser/editor/editorWalkThrough" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="editorWalkThrough">
       <source xml:lang="en">Interactive Playground</source>
     </trans-unit>
@@ -891,7 +891,7 @@ Opening a file/folder will prompt to grant trust. You can always {1} later.</sou
       <source xml:lang="en">Interactive Playground</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/welcome/walkThrough/browser/walkThrough.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/welcome/walkThrough/browser/walkThrough.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="miInteractivePlayground">
       <source xml:lang="en">I&amp;&amp;nteractive Playground</source>
       <note>&amp;&amp; denotes a mnemonic</note>
@@ -900,7 +900,7 @@ Opening a file/folder will prompt to grant trust. You can always {1} later.</sou
       <source xml:lang="en">Interactive Playground</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/welcome/walkThrough/browser/walkThroughPart" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/welcome/walkThrough/browser/walkThroughPart" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="walkThrough.embeddedEditorBackground">
       <source xml:lang="en">Background color for the embedded editors on the Interactive Playground.</source>
     </trans-unit>

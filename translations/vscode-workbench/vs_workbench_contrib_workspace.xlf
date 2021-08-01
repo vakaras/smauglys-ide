@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/workspace/browser/workspace.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/workspace/browser/workspace.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="addWorkspaceFolderDetail">
       <source xml:lang="en">You are adding files to a trusted workspace that are not currently trusted. Do you trust the authors of these new files?</source>
     </trans-unit>
@@ -212,7 +212,7 @@ Some [features are disabled]({0}) because this [workspace is not trusted]({1}).<
       <source xml:lang="en">Yes</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/workspace/browser/workspaceTrustEditor" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/workspace/browser/workspaceTrustEditor" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="addButton">
       <source xml:lang="en">Add Folder</source>
     </trans-unit>

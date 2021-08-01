@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="src/vs/workbench/contrib/externalTerminal/browser/externalTerminal.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/externalTerminal/browser/externalTerminal.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="scopedConsoleAction">
       <source xml:lang="en">Open in Terminal</source>
     </trans-unit>
@@ -14,7 +14,7 @@
       <source xml:lang="en">Open in Windows Terminal</source>
     </trans-unit>
 </body></file>
-  <file original="src/vs/workbench/contrib/externalTerminal/electron-sandbox/externalTerminal.contribution" source-language="en" datatype="plaintext"><body>
+  <file original="src/vs/workbench/contrib/externalTerminal/electron-sandbox/externalTerminal.contribution" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="explorer.openInTerminalKind">
       <source xml:lang="en">Customizes what kind of terminal to launch.</source>
     </trans-unit>

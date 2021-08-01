@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file original="extensions/css-language-features/client\dist\node/cssClient" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/css-language-features/client\dist\node/cssClient" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="cssserver.name">
       <source xml:lang="en">CSS Language Server</source>
     </trans-unit>
@@ -11,7 +11,7 @@
       <source xml:lang="en">Folding Region Start</source>
     </trans-unit>
 </body></file>
-  <file original="extensions/css-language-features/package" source-language="en" datatype="plaintext"><body>
+  <file original="extensions/css-language-features/package" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="css.colorDecorators.enable.deprecationMessage">
       <source xml:lang="en">The setting `css.colorDecorators.enable` has been deprecated in favor of `editor.colorDecorators`.</source>
     </trans-unit>
