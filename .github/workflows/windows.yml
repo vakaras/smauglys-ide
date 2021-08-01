@@ -98,7 +98,7 @@ jobs:
           files: |
             ./*.sha256
             ./SmauglysSetup*.exe
-            ./vscode-translations-export.zip
+            ./vscode-translations-export.tar.gz
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
