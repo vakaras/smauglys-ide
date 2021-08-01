@@ -1,0 +1,47 @@
+From 9943c88d0970a5dac1e3a66714b39308ed5cf404 Mon Sep 17 00:00:00 2001
+From: Vytautas Astrauskas <vastrauskas@gmail.com>
+Date: Sun, 1 Aug 2021 21:14:38 +0200
+Subject: [PATCH] delete
+
+---
+ build/gulpfile.vscode.js | 24 ++++++++++++------------
+ 1 file changed, 12 insertions(+), 12 deletions(-)
+
+diff --git a/build/gulpfile.vscode.js b/build/gulpfile.vscode.js
+index a6e043f122c..818edc5a7ff 100644
+--- a/build/gulpfile.vscode.js
++++ b/build/gulpfile.vscode.js
+@@ -391,18 +391,18 @@ BUILD_TARGETS.forEach(buildTarget => {
+ });
+ 
+ const innoSetupConfig = {
+-	'zh-cn': { codePage: 'CP936', defaultInfo: { name: 'Simplified Chinese', id: '$0804', } },
+-	'zh-tw': { codePage: 'CP950', defaultInfo: { name: 'Traditional Chinese', id: '$0404' } },
+-	'ko': { codePage: 'CP949', defaultInfo: { name: 'Korean', id: '$0412' } },
+-	'ja': { codePage: 'CP932' },
+-	'de': { codePage: 'CP1252' },
+-	'fr': { codePage: 'CP1252' },
+-	'es': { codePage: 'CP1252' },
+-	'ru': { codePage: 'CP1251' },
+-	'it': { codePage: 'CP1252' },
+-	'pt-br': { codePage: 'CP1252' },
+-	'hu': { codePage: 'CP1250' },
+-	'tr': { codePage: 'CP1254' }
++	// 'zh-cn': { codePage: 'CP936', defaultInfo: { name: 'Simplified Chinese', id: '$0804', } },
++	// 'zh-tw': { codePage: 'CP950', defaultInfo: { name: 'Traditional Chinese', id: '$0404' } },
++	// 'ko': { codePage: 'CP949', defaultInfo: { name: 'Korean', id: '$0412' } },
++	// 'ja': { codePage: 'CP932' },
++	// 'de': { codePage: 'CP1252' },
++	// 'fr': { codePage: 'CP1252' },
++	// 'es': { codePage: 'CP1252' },
++	// 'ru': { codePage: 'CP1251' },
++	// 'it': { codePage: 'CP1252' },
++	// 'pt-br': { codePage: 'CP1252' },
++	// 'hu': { codePage: 'CP1250' },
++	// 'tr': { codePage: 'CP1254' }
+ };
+ 
+ // Transifex Localizations
+-- 
+2.25.1
+
