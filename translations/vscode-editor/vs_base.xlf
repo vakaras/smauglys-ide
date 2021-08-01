@@ -10,34 +10,43 @@ action keybinding</note>
   <file original="src/vs/base/browser/ui/dialog/dialog" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="dialogClose">
       <source xml:lang="en">Close Dialog</source>
+      <target state="translated">Uždaryti dialogą</target>
     </trans-unit>
     <trans-unit id="dialogErrorMessage">
       <source xml:lang="en">Error</source>
+      <target state="translated">Klaida</target>
     </trans-unit>
     <trans-unit id="dialogInfoMessage">
       <source xml:lang="en">Info</source>
+      <target state="translated">Informacija</target>
     </trans-unit>
     <trans-unit id="dialogPendingMessage">
       <source xml:lang="en">In Progress</source>
+      <target state="translated">Vykdoma</target>
     </trans-unit>
     <trans-unit id="dialogWarningMessage">
       <source xml:lang="en">Warning</source>
+      <target state="translated">Įspėjimas</target>
     </trans-unit>
     <trans-unit id="ok">
       <source xml:lang="en">OK</source>
+      <target state="translated">Gerai</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/base/browser/ui/findinput/findInput" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="defaultLabel">
       <source xml:lang="en">input</source>
+      <target state="translated">Įvesties</target>
     </trans-unit>
 </body></file>
   <file original="src/vs/base/browser/ui/findinput/findInputCheckboxes" source-language="en" target-language="lt-LT" datatype="plaintext"><body>
     <trans-unit id="caseDescription">
       <source xml:lang="en">Match Case</source>
+      <target state="translated">Sugretinti atvejį</target>
     </trans-unit>
     <trans-unit id="regexDescription">
       <source xml:lang="en">Use Regular Expression</source>
+      <target state="translated">Naudoti reguliariąją išraišką</target>
     </trans-unit>
     <trans-unit id="wordsDescription">
       <source xml:lang="en">Match Whole Word</source>
