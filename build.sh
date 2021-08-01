@@ -20,7 +20,7 @@ if [[ "$SHOULD_BUILD" == "yes" ]]; then
   yarn gulp minify-vscode
 
   yarn gulp vscode-translations-export
-  tar -czvf ../vscode-translations-export.tar.gz ../vscode-translations-export
+  tar -czvf ../basic-i18n-strings.tar.gz ../vscode-translations-export
 
   if [[ "$OS_NAME" == "osx" ]]; then
     yarn gulp "vscode-darwin-${VSCODE_ARCH}-min-ci"
