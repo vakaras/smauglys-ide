@@ -25,10 +25,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        vscode_arch:
-          - x64
-          - ia32
-          - arm64
+        vscode_arch: [x64, ia32]
 
     steps:
       - uses: actions/checkout@v3
@@ -48,9 +45,9 @@ jobs:
 
       - name: Clone VSCode repo
         run: ./get_repo.sh
-
-      - name: Check PR or cron
-        run: ./check_cron_or_pr.sh
+        shell: bash
+        env:
+          MS_TAG: 1.59.1
 
       - name: Check existing VSCodium tags/releases
         env:
@@ -85,37 +82,21 @@ jobs:
         run: ./build.sh
         if: env.SHOULD_BUILD == 'yes'
 
-      - name: Prepare artifacts
-        run: ./prepare_artifacts.sh
+      - name: Move/rename build artifacts
+        run: |
+          mv vscode\\.build\\win32-${VSCODE_ARCH}\\system-setup\\VSCodeSetup.exe SmauglysSetup-${VSCODE_ARCH}-${LATEST_MS_TAG}.exe
+          mv vscode\\.build\\win32-${VSCODE_ARCH}\\user-setup\\VSCodeSetup.exe SmauglysUserSetup-${VSCODE_ARCH}-${LATEST_MS_TAG}.exe
+          mv vscode\\.build\\win32-${VSCODE_ARCH}\\archive\\VSCode-win32-${VSCODE_ARCH}.zip Smauglys-win32-${VSCODE_ARCH}-${LATEST_MS_TAG}.zip
+        shell: bash
         if: env.SHOULD_BUILD == 'yes' && env.SHOULD_DEPLOY == 'yes'
 
       - name: Release
+        uses: softprops/action-gh-release@v1
+        if: env.SHOULD_BUILD == 'yes' && env.SHOULD_DEPLOY == 'yes'
+        with:
+          tag_name: ${{ env.LATEST_MS_TAG }}
+          files: |
+            ./*.sha256
+            ./SmauglysSetup*.exe
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: ./release.sh
-        if: env.SHOULD_BUILD == 'yes' && env.SHOULD_DEPLOY == 'yes'
-
-      - name: Update versions repo
-        if: env.SHOULD_BUILD == 'yes' && env.SHOULD_DEPLOY == 'yes'
-        run: ./update_version.sh
-        env:
-          GITHUB_TOKEN: ${{ secrets.STRONGER_GITHUB_TOKEN }}
-          GITHUB_USERNAME: ${{ github.repository_owner }}
-
-      # - name: Set MS_TAG as job output for release-winget job
-      #   if: env.SHOULD_BUILD == 'yes' && env.SHOULD_DEPLOY == 'yes'
-      #   run: echo "::set-output name=tagname::${{ env.MS_TAG }}"
-
-  # release-winget:
-  #   name: Release to WinGet
-  #   needs: windows
-  #   if: env.SHOULD_BUILD == 'yes' && env.SHOULD_DEPLOY == 'yes'
-  #   runs-on: windows-latest # action can only be run on windows
-  #   steps:
-  #     - name: Release to WinGet
-  #       uses: vedantmgoyal2009/winget-releaser@latest
-  #       with:
-  #         identifier: VSCodium.VSCodium
-  #         release-tag: ${{ needs.windows.outputs.tagname }}
-  #         installers-regex: '\.exe$' # only .exe files
-  #         token: ${{ secrets.STRONGER_GITHUB_TOKEN }}
