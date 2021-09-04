@@ -42,6 +42,8 @@ jobs:
       - name: Clone VSCode repo
         run: ./get_repo.sh
         shell: bash
+        env:
+          MS_TAG: 1.59.1
 
       - name: Check existing VSCodium tags/releases
         env:
