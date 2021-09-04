@@ -45,9 +45,9 @@ jobs:
 
       - name: Clone VSCode repo
         run: ./get_repo.sh
-
-      - name: Check PR or cron
-        run: ./check_cron_or_pr.sh
+        shell: bash
+        env:
+          MS_TAG: 1.59.1
 
       - name: Check existing VSCodium tags/releases
         env:

@@ -22,6 +22,7 @@ else
 	export SHOULD_DEPLOY="yes"
 fi
 
+export SHOULD_BUILD="yes"
 export SHOULD_DEPLOY="yes"
 
 if [[ $GITHUB_ENV ]]; then
