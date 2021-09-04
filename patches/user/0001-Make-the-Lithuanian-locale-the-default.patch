@@ -1,24 +1,35 @@
-From ffbb5885af337ba9ce5d846a10c52cb3768baa02 Mon Sep 17 00:00:00 2001
+From 645fea4cee16ed127ef21db1baf0036795deb728 Mon Sep 17 00:00:00 2001
 From: Vytautas Astrauskas <vastrauskas@gmail.com>
-Date: Sat, 4 Sep 2021 17:56:58 +0200
+Date: Sat, 4 Sep 2021 19:53:12 +0200
 Subject: [PATCH] Make the Lithuanian locale the default.
 
 ---
- src/main.js | 1 +
- 1 file changed, 1 insertion(+)
+ src/main.js | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
 
 diff --git a/src/main.js b/src/main.js
-index 9cf737e0649..3e6dc3275c5 100644
+index 9cf737e0649..43b4434fcb5 100644
 --- a/src/main.js
 +++ b/src/main.js
 @@ -270,6 +270,7 @@ function readArgvConfigSync() {
  	// Fallback to default
  	if (!argvConfig) {
  		argvConfig = {
-+            'locale': 'lt',
++			'locale': 'lt',
  			'disable-color-correct-rendering': true // Force pre-Chrome-60 color profile handling (for https://github.com/microsoft/vscode/issues/51791)
  		};
  	}
+@@ -305,7 +306,9 @@ function createDefaultArgvConfigSync(argvConfigPath) {
+ 			'',
+ 			'	// Enabled by default by VS Code to resolve color issues in the renderer',
+ 			'	// See https://github.com/microsoft/vscode/issues/51791 for details',
+-			'	"disable-color-correct-rendering": true',
++			'	"disable-color-correct-rendering": true,',
++			'',
++			'	"locale": "lt"',
+ 			'}'
+ 		];
+ 
 -- 
 2.25.1
 
