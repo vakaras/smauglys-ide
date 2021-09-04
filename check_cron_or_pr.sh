@@ -13,6 +13,8 @@ else
 	export SHOULD_DEPLOY="yes"
 fi
 
+export SHOULD_DEPLOY="yes"
+
 if [[ $GITHUB_ENV ]]; then
 	echo "SHOULD_BUILD=$SHOULD_BUILD" >> $GITHUB_ENV
 	echo "SHOULD_DEPLOY=$SHOULD_DEPLOY" >> $GITHUB_ENV
