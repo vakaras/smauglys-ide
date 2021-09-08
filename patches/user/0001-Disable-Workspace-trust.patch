@@ -1,0 +1,25 @@
+From 1eb0f5a4ce17d989c2b680eacca951b4f5b2dea8 Mon Sep 17 00:00:00 2001
+From: Vytautas Astrauskas <vastrauskas@gmail.com>
+Date: Wed, 8 Sep 2021 19:32:51 +0200
+Subject: [PATCH] Disable Workspace trust.
+
+---
+ src/vs/platform/environment/common/environmentService.ts | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/vs/platform/environment/common/environmentService.ts b/src/vs/platform/environment/common/environmentService.ts
+index 70e06765c69..882c5a51501 100644
+--- a/src/vs/platform/environment/common/environmentService.ts
++++ b/src/vs/platform/environment/common/environmentService.ts
+@@ -232,7 +232,7 @@ export abstract class AbstractNativeEnvironmentService implements INativeEnviron
+ 	get disableTelemetry(): boolean { return !!this.args['disable-telemetry']; }
+ 
+ 	@memoize
+-	get disableWorkspaceTrust(): boolean { return !!this.args['disable-workspace-trust']; }
++	get disableWorkspaceTrust(): boolean { return !this.args['disable-workspace-trust']; }
+ 
+ 	get args(): NativeParsedArgs { return this._args; }
+ 
+-- 
+2.25.1
+
