@@ -34,17 +34,17 @@ if [[ "${OS_NAME}" == "osx" ]]; then
 elif [[ "${OS_NAME}" == "windows" ]]; then
   if [[ "${SHOULD_BUILD_ZIP}" != "no" ]]; then
     echo "Moving ZIP"
-    mv "vscode\\.build\\win32-${VSCODE_ARCH}\\archive\\VSCode-win32-${VSCODE_ARCH}.zip" "artifacts\\VSCodium-win32-${VSCODE_ARCH}-${MS_TAG}.zip"
+    mv "vscode\\.build\\win32-${VSCODE_ARCH}\\archive\\VSCode-win32-${VSCODE_ARCH}.zip" "artifacts\\Smauglys-win32-${VSCODE_ARCH}-${MS_TAG}.zip"
   fi
 
   if [[ "${SHOULD_BUILD_EXE_SYS}" != "no" ]]; then
     echo "Moving System EXE"
-    mv "vscode\\.build\\win32-${VSCODE_ARCH}\\system-setup\\VSCodeSetup.exe" "artifacts\\VSCodiumSetup-${VSCODE_ARCH}-${MS_TAG}.exe"
+    mv "vscode\\.build\\win32-${VSCODE_ARCH}\\system-setup\\VSCodeSetup.exe" "artifacts\\SmauglysSetup-${VSCODE_ARCH}-${MS_TAG}.exe"
   fi
 
   if [[ "${SHOULD_BUILD_EXE_USR}" != "no" ]]; then
     echo "Moving User EXE"
-    mv "vscode\\.build\\win32-${VSCODE_ARCH}\\user-setup\\VSCodeSetup.exe" "artifacts\\VSCodiumUserSetup-${VSCODE_ARCH}-${MS_TAG}.exe"
+    mv "vscode\\.build\\win32-${VSCODE_ARCH}\\user-setup\\VSCodeSetup.exe" "artifacts\\SmauglysUserSetup-${VSCODE_ARCH}-${MS_TAG}.exe"
   fi
 
   if [[ "${VSCODE_ARCH}" == "ia32" || "${VSCODE_ARCH}" == "x64" ]]; then
