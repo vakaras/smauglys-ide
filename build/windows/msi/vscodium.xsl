@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xsl:stylesheet version="1.0" 
+<xsl:stylesheet version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:wi="http://schemas.microsoft.com/wix/2006/wi">
 
   <xsl:strip-space elements="*"/>
- 
+
   <xsl:template match="@*|node()">
     <xsl:copy>
       <xsl:apply-templates select="@*|node()" />
     </xsl:copy>
   </xsl:template>
 
-  <xsl:key name="vId1ToReplace" match="wi:Component[wi:File[contains(@Source,'VSCodium.exe')]]" use="@Id"/>
+  <xsl:key name="vId1ToReplace" match="wi:Component[wi:File[contains(@Source,'Smauglys.exe')]]" use="@Id"/>
   <xsl:template match="node()[key('vId1ToReplace', @Id)]">
     <xsl:copy>
-      <xsl:attribute name="Id">VSCODIUM.EXE</xsl:attribute>
+      <xsl:attribute name="Id">SMAUGLYS.EXE</xsl:attribute>
       <xsl:copy-of select="@*[name()!='Id']"/>
       <xsl:apply-templates />
     </xsl:copy>
   </xsl:template>
-  <xsl:template match="wi:Component/wi:File[contains(@Source,'VSCodium.exe')]">
+  <xsl:template match="wi:Component/wi:File[contains(@Source,'Smauglys.exe')]">
      <xsl:copy>
-        <xsl:attribute name="Id">VSCODIUM.EXE</xsl:attribute>
+        <xsl:attribute name="Id">SMAUGLYS.EXE</xsl:attribute>
         <xsl:copy-of select="@*[name()!='Id']"/>
         <xsl:apply-templates />
      </xsl:copy>
