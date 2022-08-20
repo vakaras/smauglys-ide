@@ -21,8 +21,8 @@ else
     exit 1
   fi
 fi
-export LATEST_MS_COMMIT=3866c3553be8b268c8a7f8c0482c0c0177aa8bfa
-export LATEST_MS_TAG=1.59.1
+export LATEST_MS_COMMIT=6d9b74a70ca9c7733b29f0456fd8195364076dda
+export LATEST_MS_TAG=1.70.1
 echo "Got the latest MS tag: ${LATEST_MS_TAG} version: ${LATEST_MS_COMMIT}"
 
 if [ "$INSIDER" == "1" ]; then
